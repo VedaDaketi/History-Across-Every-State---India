@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Protest+Strike&display=swap" rel="stylesheet">
+    <style>
+        .custom-dropdown-menu {
+            width: 1000px; 
+            max-height: 310px;
+            overflow-y: auto; 
+        }
+        .navbar-nav .nav-link {
+            font-size: 20px;
+        }
+        .navbar-nav .nav-item {
+            margin-right: 30px;
+        }
+        .ind-1947{
+            height: 450px;
+        }
+        .image img{
+            padding-top:25px;
+            height: 100%;
+            width : 100%;
+        }
+        .title h1{
+            padding-top:30px;
+            padding-bottom: 30px;
+            font-family: 'Protest Strike', sans-serif;
+            font-size: 60px;
+        }
+        .para h3{
+            font-family: 'Protest Strike', sans-serif;
+            padding-bottom: 10px;
+        }
+        .para p{
+            text-align: justify;
+            font-size: large;         
+        }
+        .custom-row{
+            align-items: start;
+        }
+    </style>
+    <title></title>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="img/Logo.png" alt="Logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="introduction.html">Intro</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link active dropdown-toggle"  id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            States
+                        </a>
+                        <ul class="dropdown-menu custom-dropdown-menu" aria-labelledby="navbarDropdown">
+                            <div class="row">
+                                <div class="col">
+                                    <li><a class="dropdown-item" href="Andhra Pradesh.html">Andhra Pradesh</a></li>
+                                    <li><a class="dropdown-item" href="Arunachal Pradesh.html">Arunachal Pradesh</a></li>
+                                    <li><a class="dropdown-item" href="Assam.html">Assam</a></li>
+                                    <li><a class="dropdown-item" href="Bihar.html">Bihar</a></li>
+                                    <li><a class="dropdown-item" href="Chhattisgrah.html">Chhattisgarh</a></li>
+                                    <li><a class="dropdown-item" href="Goa.html">Goa</a></li>
+                                    <li><a class="dropdown-item" href="Gujarat.html">Gujarat</a></li>
+                                    <li><a class="dropdown-item" href="Haryana.html">Haryana</a></li>
+                                    <li><a class="dropdown-item" href="Himachal Pradesh.html">Himachal Pradesh</a></li>
+                                </div>
+                                <div class="col">
+                                    <li><a class="dropdown-item" href="Jharkhand.html">Jharkhand</a></li>
+                                    <li><a class="dropdown-item" href="Karnataka.html">Karnataka</a></li>
+                                    <li><a class="dropdown-item" href="Kerala.html">Kerala</a></li>
+                                    <li><a class="dropdown-item" href="Madhya Pradesh.html">Madhya Pradesh</a></li>
+                                    <li><a class="dropdown-item" href="Maharashtra.Html">Maharashtra</a></li>
+                                    <li><a class="dropdown-item" href="Manipur.html">Manipur</a></li>
+                                    <li><a class="dropdown-item" href="Meghalaya.html">Meghalaya</a></li>
+                                    <li><a class="dropdown-item" href="Mizoram.html">Mizoram</a></li>
+                                    <li><a class="dropdown-item" href="Nagaland.html">Nagaland</a></li>
+                                </div>
+                                <div class="col">
+                                    <li><a class="dropdown-item" href="Orissa.html">Odisha</a></li>
+                                    <li><a class="dropdown-item" href="Punjab.html">Punjab</a></li>
+                                    <li><a class="dropdown-item" href="Rajasthan.html">Rajasthan</a></li>
+                                    <li><a class="dropdown-item" href="Sikkim.html">Sikkim</a></li>
+                                    <li><a class="dropdown-item" href="Tamil Nadu.html">Tamil Nadu</a></li>
+                                    <li><a class="dropdown-item" href="Telangana.html">Telangana</a></li>
+                                    <li><a class="dropdown-item" href="Tripura.html">Tripura</a></li>
+                                    <li><a class="dropdown-item" href="Uttar Pradesh.html">Uttar Pradesh</a></li>
+                                    <li><a class="dropdown-item" href="Uttarakhand.html">Uttarakhand</a></li>
+                                </div>
+                                <div class="col">
+                                    <li><a class="dropdown-item" href="West Bengal.html">West Bengal</a></li>
+                                    <li><a class="dropdown-item" href="">Andaman and Nicobar Islands</a></li>
+                                    <li><a class="dropdown-item" href="Chandigrah.html">Chandigarh</a></li>
+                                    <li><a class="dropdown-item" href="">Dadra and Nagar Haveli and Daman and Diu</a></li>
+                                    <li><a class="dropdown-item" href="Delhi.html">Delhi</a></li>
+                                    <li><a class="dropdown-item" href="Jammu and Kashmir.html">Jammu & Kashmir</a></li>
+                                    <li><a class="dropdown-item" href="Ladakh.html">Ladakh</a></li>
+                                    <li><a class="dropdown-item" href="Lakshadweep.html">Lakshadweep</a></li>
+                                    <li><a class="dropdown-item" href="Puducherry.html">Puducherry</a></li>
+                                </div>
+                            </div>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="row title">
+            <h1>Formation of Rajasthan</h1>
+        </div>
+        <div class="row custom-row">
+            <div class="col-sm-9 para">
+                    <p>
+                        At the time of Independence, the current state of Rajasthan was almost wholly contained in the Rajputana Agency, a political office of the British Indian Empire. It consisted of twenty-two princely states and estates. Less than twenty-two months later, all twenty-two of them had assimilated into the largest state in India—Rajasthan. It was done in a step-by-step manner.
+                   
+                    </p>
+            </div>
+            <div class="col-sm-3">
+                <div class="image">
+                    <img src="" alt="">
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="row custom-row">
+            <div class="col-sm-8 para">
+                <h3>Step 1: Matsya Union (March 1948—May 1949)
+                </h3>
+                <p>
+                    The States Ministry believed that the four princely states of Alwar, Bharatpur, Dholpur and Karauli, clustered together in the eastern edge of Rajputana, had ‘natural, racial and economic affinities’with each other and, hence, could be integrated into a Union. Accordingly, Matsya Union was inaugurated on 18 March 1948. The Maharaja of Dholpur, the oldest of the four rulers, was named Rajpramukh (Governor).
+                    At the time of formation itself, the understanding was that Matsya Union was a temporary arrangement as it was not large enough or financially self-
+                    
+                    supporting to continue being an independent Union. When the time came, it would have to join either Rajasthan or United Provinces.
+                    While the rulers and representatives of Alwar and Karauli unanimously favoured integration with Rajasthan, the preference was less clear in Bharatpur and Dholpur. Hence, a three-member committee was formed to ascertain public opinion in the latter two states through questionnaires and public meetings; majority opinion in both states favoured integration with Rajasthan. And so, on 15 May 1949, less than fourteen months after it was created, Matsya Union was dissolved and its four princely states joined the newly-formed Greater Rajasthan Union. 
+                        
+                </p>
+            </div>
+            <div class="image col-sm-4">
+                <img src="" alt="" >
+            </div>
+        </div>
+        <hr>
+        <div class="row custom-row">
+            <div class="col-sm-9 para">
+                <h3>
+                    Step 2: Rajasthan Union (March 1948—March 1949)
+
+                </h3>
+                <p>
+                    Almost parallelly, the idea of a state of Rajasthan began to take shape in the south-east of Rajputana. Ten princely states considered merging to form a Union. An alternative to merge them with the proposed state of Madhya Bharat was also mooted, but then it was decided that ‘the natural affinity of these states was more with Rajputana’.
+                    Udaipur (also known as Mewar), which was the biggest of the ten, suggested that all the states should merge into Udaipur. However, this idea of a larger state swallowing smaller states, and therefore also their identity and existence, ran counter to the idea of integration that the Union was trying to achieve. As a result, the nine smaller states decided to go ahead and form the Union themselves, leaving Udaipur out.
+                    On 25 March 1948, the Rajasthan Union was inaugurated. The Maharao of Kotah, Bhim Singh II, was designated as the Rajpramukh. He had been exploring the possibility of a Union since 1946, when he had convened a conference with neighbouring states.<br>
+                    The Maharana of Udaipur officially decided to join the Rajasthan Union three days after its inauguration. As a result, a new covenant to reconstitute the Union had to replace the existing agreement. After discussions with the other nine states, it was decided that the Maharana of Udaipur, Bhupal
+                    
+                    Singh Bahadur, would become the Rajpramukh for life, while the Maharao of Kotah would be elected as the Senior Uprajpramukh (Senior Deputy Governor). The capital, which was currently at Kotah, would be moved to Udaipur. However, the legislature would hold at least one session every year in Kotah, and one commissioner’s administrative division would be in Kotah. A number of institutions would remain or be located in Kotah, including the Forest School, the Police Training College and the Aeronautical College, as well as any other institutions ‘which could conveniently be at Kotah’
+                    This second Rajasthan Union was inaugurated by Prime Minister Jawaharlal Nehru on 18 April 1948.
+                      
+                </p>
+
+            </div>
+            <div class="col-sm-3 image">
+                <img src="" alt="">
+            </div>
+                
+        </div>
+        <hr>
+        <div class="row custom-row">
+            <div class="col-sm-9 para">
+                <h3>
+                    Step 3: Greater Rajasthan (March 1949 onwards)
+
+                </h3>
+                <p>
+                    While all the smaller states had merged to form Matsya Union in the east and Rajasthan Union in the south-east, the four largest states that comprised most of Rajputana still remained independent. These were Jaipur, Jodhpur, Bikaner and Jaisalmer.
+                    The latter three all shared a national border with Pakistan. V.P. Menon, secretary of the States Ministry, suggested integrating these three states into a centrally administered area under a chief commissioner. If Kutch State (currently in northern Gujarat) was also included in this scheme, then all of the central and southern border with Pakistan would be under the direct control of the Government of India. However, this idea did not have many backers and Menon gave it up. The alternative was to merge the four states of Jaipur, Jodhpur, Bikaner and Jaisalmer individually into the newly- formed Rajasthan Union. This solution found favour with Sardar Vallabhbhai Patel, the head of the States Ministry. 
+                    Discussions began in January 1949. In principle, the four states agreed immediately to the integration. This allowed Sardar Patel to announce the impending reality of Greater Rajasthan on 14 January. Then, the parties settled down to discuss the details of the integration.
+                    <br>
+                    
+                    The Maharana of Udaipur, Bhupal Singh Bahadur, expressed his desire to be Rajpramukh of the new Union. He was the Rajpramukh of the previous Union and the senior most among all the rulers at sixty-four years of age.
+                    However, considering his declining health, it was instead decided to create an honorary position for him of Maharajpramukh (Great Governor) that would be outside the general administrative set-up.
+                    Jaipur was picked as the capital of the new Union and the Maharaja of Jaipur, Sawai Man Singh II, was selected as Rajpramukh. He was thirty-six years old. The rulers of Jodhpur and Kotah would be the Senior Uprajpramukhs and the rulers of Bundi and Dungarpur would be the Junior Uprajpramukhs.
+                    Greater Rajasthan was inaugurated by Sardar Vallabhbhai Patel on 30 March 1949. This date is still celebrated as ‘Rajasthan Day’ every year.
+                    On 15 May 1949, Matsya Union—which had been the first step in the creation of a single unified Rajasthan—merged with Greater Rajasthan and ceased to exist.
+                    
+                </p>
+
+            </div>
+            <div class="col-sm-3 image">
+                <img src="" alt="">
+            </div>                
+        </div>
+        <hr>
+        <div class="row custom-row">
+            <div class="col-sm-9 para">
+                <h3>
+                    1956: Minor Changes
+
+                </h3>
+                <p>
+                    On 1 November 1956, the States Reorganisation Act resulted in a few minor changes to the state of Rajasthan. First, the States Reorganisation Commission (SRC) rejected a latent idea of splitting the state up into three parts—Western Rajasthan (or Maru Pradesh), Eastern Rajasthan and Southern Rajasthan. Their reasoning was that such a move would financially weaken the units, especially the largely desert border region of Maru Pradesh, and it would run counter to the ‘substantial measure of agreement in 1948 and 1949 in support of the mergers’
+                    Ajmer was a small Part C state that existed independently in central Rajasthan. Given its linguistic, cultural and geographical links with Rajasthan and the absence of any discernible reason for Ajmer to continue being an independent state, it was integrated into Rajasthan as a district.
+                    
+                    In 1950, the Abu Road taluk of Sirohi district had been sliced and included in Bombay State. However, Rajasthan maintained their claim on the taluk, citing both local feeling and that Rajasthani was the mother tongue of 65 per cent of the local population. Even the Government of India had reopened this question and reconsidered their decision in 1952. Hence, in 1956, the Abu Road taluk was re-integrated with Sirohi district and Rajasthan State.<br> 
+                    The enclave of Sunel was received from Madhya Pradesh while the enclave of Sironj was given to Madhya Pradesh due to ease of geography and administration.
+                    Today, Rajasthan is the largest state in India by area, covering over 10 per cent of the country.
+                    
+                    
+                </p>
+
+            </div>
+            <div class="col-sm-3 image">
+                <img src="" alt="">
+            </div>
+                
+        </div>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

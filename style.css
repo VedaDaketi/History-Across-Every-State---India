@@ -1,0 +1,84 @@
+/* ----- Style.css ----- */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.custom-dropdown-menu {
+    width: 1000px; /* Set your desired width */
+    max-height: 310px; /* Set your desired max height */
+    overflow-y: auto; /* Enable vertical scrolling if needed */
+}
+.navbar-nav .nav-link {
+    font-size: 20px;
+}
+.navbar-nav .nav-item {
+    margin-right: 30px;
+}
+
+.navbar-brand img {
+    max-height: 90px; 
+}
+.title{
+    max-width: 15cm;
+}
+
+.title h1{
+    padding-top:30px;
+    font-family: 'Protest Strike', sans-serif;
+    font-size: 60px;
+}
+
+.intro{
+    text-align: justify;
+    text-decoration: solid;
+    font-family: Helvetica, Sans-Serif;
+    font-size:20px;
+    height:100% ;
+}
+
+#IND-Map{
+    padding-top:30px;
+    height: 625px; 
+}
+
+svg path{
+    fill:#ccc ;
+    stroke: hsl(142, 100%, 2%);
+    stroke-width: 0.5;
+    cursor:pointer;
+}
+svg path:hover{
+    fill: purple;
+    stroke: red;
+    stroke-width: 3px;
+    transition: fill 0.4s;
+} 
+
+#info-dialog {
+    display: none;
+    position: fixed;
+    background: #fff;
+    color: #333;
+    font-family: 'Arial', sans-serif;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+    transition: opacity 0.3s;
+    max-width: 300px;
+}
+
+#info-dialog h3 {
+    margin-top: 0;
+    font-size: 16px;
+    color: #ed7f0a;
+}
+
+#info-dialog p {
+    font-size: 12px;
+    line-height: 1.4;
+    margin-bottom: 10px;
+}

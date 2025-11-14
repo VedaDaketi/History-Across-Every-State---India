@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Protest+Strike&display=swap" rel="stylesheet">
+    <style>
+        .custom-dropdown-menu {
+            width: 1000px; 
+            max-height: 310px;
+            overflow-y: auto; 
+        }
+        .navbar-nav .nav-link {
+            font-size: 20px;
+        }
+        .navbar-nav .nav-item {
+            margin-right: 30px;
+        }
+        .ind-1947{
+            height: 450px;
+        }
+        .image img{
+            padding-top:100px;
+            height: 100%;
+            width : 100%;
+        }
+        .title h1{
+            padding-top:30px;
+            padding-bottom: 30px;
+            font-family: 'Protest Strike', sans-serif;
+            font-size: 60px;
+        }
+        .para h3{
+            font-family: 'Protest Strike', sans-serif;
+            padding-bottom: 10px;
+        }
+        .para p{
+            text-align: justify;
+            font-size: large;         
+        }
+        .custom-row{
+            align-items: start;
+        }
+    </style>
+    <title></title>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="img/Logo.png" alt="Logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="introduction.html">Intro</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link active dropdown-toggle"  id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            States
+                        </a>
+                        <ul class="dropdown-menu custom-dropdown-menu" aria-labelledby="navbarDropdown">
+                            <div class="row">
+                                <div class="col">
+                                    <li><a class="dropdown-item" href="Andhra Pradesh.html">Andhra Pradesh</a></li>
+                                    <li><a class="dropdown-item" href="Arunachal Pradesh.html">Arunachal Pradesh</a></li>
+                                    <li><a class="dropdown-item" href="Assam.html">Assam</a></li>
+                                    <li><a class="dropdown-item" href="Bihar.html">Bihar</a></li>
+                                    <li><a class="dropdown-item" href="Chhattisgrah.html">Chhattisgarh</a></li>
+                                    <li><a class="dropdown-item" href="Goa.html">Goa</a></li>
+                                    <li><a class="dropdown-item" href="Gujarat.html">Gujarat</a></li>
+                                    <li><a class="dropdown-item" href="Haryana.html">Haryana</a></li>
+                                    <li><a class="dropdown-item" href="Himachal Pradesh.html">Himachal Pradesh</a></li>
+                                </div>
+                                <div class="col">
+                                    <li><a class="dropdown-item" href="Jharkhand.html">Jharkhand</a></li>
+                                    <li><a class="dropdown-item" href="Karnataka.html">Karnataka</a></li>
+                                    <li><a class="dropdown-item" href="Kerala.html">Kerala</a></li>
+                                    <li><a class="dropdown-item" href="Madhya Pradesh.html">Madhya Pradesh</a></li>
+                                    <li><a class="dropdown-item" href="Maharashtra.Html">Maharashtra</a></li>
+                                    <li><a class="dropdown-item" href="Manipur.html">Manipur</a></li>
+                                    <li><a class="dropdown-item" href="Meghalaya.html">Meghalaya</a></li>
+                                    <li><a class="dropdown-item" href="Mizoram.html">Mizoram</a></li>
+                                    <li><a class="dropdown-item" href="Nagaland.html">Nagaland</a></li>
+                                </div>
+                                <div class="col">
+                                    <li><a class="dropdown-item" href="Orissa.html">Odisha</a></li>
+                                    <li><a class="dropdown-item" href="Punjab.html">Punjab</a></li>
+                                    <li><a class="dropdown-item" href="Rajasthan.html">Rajasthan</a></li>
+                                    <li><a class="dropdown-item" href="Sikkim.html">Sikkim</a></li>
+                                    <li><a class="dropdown-item" href="Tamil Nadu.html">Tamil Nadu</a></li>
+                                    <li><a class="dropdown-item" href="Telangana.html">Telangana</a></li>
+                                    <li><a class="dropdown-item" href="Tripura.html">Tripura</a></li>
+                                    <li><a class="dropdown-item" href="Uttar Pradesh.html">Uttar Pradesh</a></li>
+                                    <li><a class="dropdown-item" href="Uttarakhand.html">Uttarakhand</a></li>
+                                </div>
+                                <div class="col">
+                                    <li><a class="dropdown-item" href="West Bengal.html">West Bengal</a></li>
+                                    <li><a class="dropdown-item" href="">Andaman and Nicobar Islands</a></li>
+                                    <li><a class="dropdown-item" href="Chandigrah.html">Chandigarh</a></li>
+                                    <li><a class="dropdown-item" href="">Dadra and Nagar Haveli and Daman and Diu</a></li>
+                                    <li><a class="dropdown-item" href="Delhi.html">Delhi</a></li>
+                                    <li><a class="dropdown-item" href="Jammu and Kashmir.html">Jammu & Kashmir</a></li>
+                                    <li><a class="dropdown-item" href="Ladakh.html">Ladakh</a></li>
+                                    <li><a class="dropdown-item" href="Lakshadweep.html">Lakshadweep</a></li>
+                                    <li><a class="dropdown-item" href="Puducherry.html">Puducherry</a></li>
+                                </div>
+                            </div>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="row title">
+            <h1>Formation of Arunachal Pradesh</h1>
+        </div>
+        <div class="row custom-row">
+            <div class="col-sm-9 para">
+                <h3> 1947–54 North East Frontier Tract (NEFT):</h3>
+                    <p>
+                        In 1947, the present state of Arunachal Pradesh constituted the North East Frontier Tract (NEFT) of Assam. The entire region had been labelled as an ‘excluded area’ by the British, placed directly under the care of the Governor of Assam. In 1945, the British Governor passed a regulation to officially recognize the traditional tribal village councils as the authorities to self-govern and administer justice in NEFT. After Independence, the government of Assam took over the administration of NEFT. The Governor, Sir Muhammad Saleh Akbar Hydari, would now act on the advice of Chief Minister Gopinath Bordoloi of the Indian National Congress (INC). 
+                        <br>
+                        Internationally, NEFT shared three borders—with Bhutan, Myanmar (partially undefined), and the Tibet Autonomous Region of China (now known as the McMahon Line). Internally, the region constituted numerous frontier tracts, which were further split into administrative units. The western Balipara Frontier Tract contained two administrative units, Sela and Subansiri. The northern Sadiya Frontier Tract was split into two districts in
+ 
+                        1948, Abor Hills and Mishmi Hills. To its south lay the Lakhimpur Frontier Tract and furthest east lay the Tirap Frontier Tract.
+                        <br>
+                        The constituent assembly of India set up a subcommittee—headed by Gopinath Bordoloi, the Premier of Assam—to study the ‘excluded and partially excluded areas’ that were outside of direct purview by the British. The Bordoloi Committee recommended merging the Lakhimpur Frontier Tract and parts of the Tirap Frontier Tract with the regularly administered areas of Assam. The reasoning was that these areas were not different in any way from the surrounding plains and possessed none of the characteristics of the hill areas. Accordingly, these as well as other areas from the Balipara and Sadiya Frontier Tracts were transferred to the Assam plains and removed from the Sixth Schedule of the Indian Constitution.
+                        This brought the boundaries of the tracts ‘almost to the foot of the hills’.
+                        When India adopted its Constitution on 26 January 1950, NEFT became ‘a separate politico-administrative entity’ although it was constitutionally still a part of Assam. Its administration was brought directly under the President of India with the Governor of Assam acting as his agent.
+
+                    </p>
+            </div>
+            <div class="col-sm-3">
+                <div class="image">
+                    <img src="img/arunachalp.jpg" alt="">
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="row custom-row">
+            <div class="col-sm-8 para">
+                <h3>1954–71: NEFA and Democratic Decentralization</h3>
+                <p>
+                    After Assam blocked a plan in 1953 to appoint a special commissioner to administer the area, a full-scale administration was inaugurated in 1954 with the North-East Frontier Areas (Administration) Regulation.6 NEFT was renamed as North-East Frontier Agency (NEFA). It comprised the administrative units—called ‘frontier divisions’—of the Balipara and Tirap Frontier Tracts, the Abor and Mishmi Hills Districts, and the Naga Tribal Area. The westernmost Balipara Frontier Tract was then split into two divisions—Kameng and Subansiri. Going east from there, Abor Hills District was renamed as Siang and Mishmi Hills District as Lohit. Going south from there, Tirap retained its name while the Naga Tribal Area was renamed as Tuensang. A deputy commissioner was in charge of each division. To give impetus to developmental activities, the Indian Frontier Administrative Service (IFAS) was created in 1956.
+                    <br>
+                    Meanwhile, in the Naga Hills District further south, Dr Imkongliba Ao of the Naga National Council (NNC) chaired a Naga People’s Convention at Kohima in August 1957. Advocating negotiation over the violence that had dominated proceedings for the past few years, the convention formally gave up the demand for Naga independence and instead asked for ‘a single administrative unit comprising the Naga Hills district of Assam and Tuensang Frontier Division of NEFA’.  Prime Minister Jawaharlal Nehru accepted this demand.
+                    <br>
+                    On 1 December 1957, the Naga Hills–Tuensang Area came into being as a new administrative unit in the state of Assam but under the direct control of the ministry of external affairs. The unit was also simultaneously separate from Assam as it was governed by the Governor of Assam acting on behalf of the President of India. 
+                    Although NEFA was under the ministry of external affairs due to its strategic borderland location, the policy was to strengthen and work with the traditional village councils. However, this changed with the Chinese aggression in this region in 1962.
+                    <br>
+                    In May 1964, the Governor of Assam, Vishnu Sahay, constituted a four- member committee to explore the feasibility of democratic decentralization in NEFA. This committee’s chairman was Daying Ering, a member of Parliament (MP) nominated from NEFA and also the parliamentary secretary in the ministry of external affairs. The committee submitted its report containing certain landmark recommendations in January 1965. 
+                    The most crucial recommendation of the Ering Committee was the establishment of four tiers of representative bodies in NEFA, modelled along the lines of the Panchayati Raj style of democratic decentralization recommended for the rest of India by the Balwant Rai Mehta Committee in 1957. The four tiers, which were organically linked with each other, were: 
+                    <ul>
+                        <li>Village: The existing tribal councils would continue to function as per the tribal customary laws and would be renamed ‘Gram Panchayats’.</li>
+                        <li>Circle: Called ‘Anchal Samiti’ and headed by a sub-divisional officer, these would undertake developmental activities.</li>
+                        <li>District: Called ‘Zilla Parishad’ and headed by the district’s deputy commissioner, these would be advisory bodies to the district administration.</li>
+                        <li>Territory: Called ‘Agency Council’, this would comprise NEFA MPs as members and be presided over by the Governor of Assam. This would take care of the budget and five-year plans for NEFA, and advise the Governor on the administration and development of NEFA.</li>
+                        </ul>
+                        In 1967, Parliament passed the North-East Frontier Agency Panchayati Raj Regulation, incorporating most of the Ering Committee recommendations. NEFA was also moved under the care of the ministry of home affairs. The regulation came into effect on 2 October 1968.
+                        In effect, the regulation helped integrate the isolated NEFA better with the rest of the country by introducing an integrated political system. It also contained ‘the nucleus of a separate state’, as the constitution of the Agency Council gave NEFA a territorial identity and a people’s forum for the first time. 
+
+                </p>
+            </div>
+            <div class="image col-sm-4">
+                <img src="img/North-East_Frontier_in_1954_Political_Map_of_India.jpg" alt="" >
+            </div>
+        </div>
+        <hr>
+        <div class="row custom-row">
+            <div class="col-sm-9 para">
+                <h3>
+                    1971: The Birth of Arunachal Pradesh
+                </h3>
+                <p>
+                    NEFA’s territorial identity was further strengthened on 30 December 1971 when Parliament passed the North-Eastern Areas (Reorganisation) Act.
+                    This Act reorganized Assam and created three new states—Meghalaya, Manipur and Tripura—and two new union territories—Mizoram and Arunachal Pradesh. On 21 January 1972, NEFA, formerly NEFT, began its new identity as the union territory of Arunachal Pradesh. 
+                    <br>
+                    The agency council was converted to a pradesh council, which itself was converted in 1975 to the legislative assembly of Arunachal Pradesh. This
+                    enabled Prem Khandu Thungan of the Janata Party to take office as the first chief minister of Arunachal Pradesh in August 1975.
+                    On 24 December 1986, Parliament passed the State of Arunachal Pradesh Act. The Act came into effect on 20 February 1987. Arunachal Pradesh was reconstituted from a union territory to a state. The incumbent chief minister, Gegong Apang of the INC, continued in office. 
+
+                </p>
+            </div>
+            <div class="col-sm-3 image">
+                <img src="img/arunachal.jpg" alt="">
+            </div>
+                
+        </div>
+    </div>
+
+        
+
+    
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

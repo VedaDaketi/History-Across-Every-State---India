@@ -1,0 +1,221 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Protest+Strike&display=swap" rel="stylesheet">
+    <style>
+        .custom-dropdown-menu {
+            width: 1000px; 
+            max-height: 310px;
+            overflow-y: auto; 
+        }
+        .navbar-nav .nav-link {
+            font-size: 20px;
+        }
+        .navbar-nav .nav-item {
+            margin-right: 30px;
+        }
+        .ind-1947{
+            height: 450px;
+        }
+        .image img{
+            padding-top:25px;
+            height: 100%;
+            width : 100%;
+        }
+        .title h1{
+            padding-top:30px;
+            padding-bottom: 30px;
+            font-family: 'Protest Strike', sans-serif;
+            font-size: 60px;
+        }
+        .para h3{
+            font-family: 'Protest Strike', sans-serif;
+            padding-bottom: 10px;
+        }
+        .para p{
+            text-align: justify;
+            font-size: large;         
+        }
+        .custom-row{
+            align-items: start;
+        }
+    </style>
+    <title></title>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="img/Logo.png" alt="Logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="introduction.html">Intro</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link active dropdown-toggle"  id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            States
+                        </a>
+                        <ul class="dropdown-menu custom-dropdown-menu" aria-labelledby="navbarDropdown">
+                            <div class="row">
+                                <div class="col">
+                                    <li><a class="dropdown-item" href="Andhra Pradesh.html">Andhra Pradesh</a></li>
+                                    <li><a class="dropdown-item" href="Arunachal Pradesh.html">Arunachal Pradesh</a></li>
+                                    <li><a class="dropdown-item" href="Assam.html">Assam</a></li>
+                                    <li><a class="dropdown-item" href="Bihar.html">Bihar</a></li>
+                                    <li><a class="dropdown-item" href="Chhattisgrah.html">Chhattisgarh</a></li>
+                                    <li><a class="dropdown-item" href="Goa.html">Goa</a></li>
+                                    <li><a class="dropdown-item" href="Gujarat.html">Gujarat</a></li>
+                                    <li><a class="dropdown-item" href="Haryana.html">Haryana</a></li>
+                                    <li><a class="dropdown-item" href="Himachal Pradesh.html">Himachal Pradesh</a></li>
+                                </div>
+                                <div class="col">
+                                    <li><a class="dropdown-item" href="Jharkhand.html">Jharkhand</a></li>
+                                    <li><a class="dropdown-item" href="Karnataka.html">Karnataka</a></li>
+                                    <li><a class="dropdown-item" href="Kerala.html">Kerala</a></li>
+                                    <li><a class="dropdown-item" href="Madhya Pradesh.html">Madhya Pradesh</a></li>
+                                    <li><a class="dropdown-item" href="Maharashtra.Html">Maharashtra</a></li>
+                                    <li><a class="dropdown-item" href="Manipur.html">Manipur</a></li>
+                                    <li><a class="dropdown-item" href="Meghalaya.html">Meghalaya</a></li>
+                                    <li><a class="dropdown-item" href="Mizoram.html">Mizoram</a></li>
+                                    <li><a class="dropdown-item" href="Nagaland.html">Nagaland</a></li>
+                                </div>
+                                <div class="col">
+                                    <li><a class="dropdown-item" href="Orissa.html">Odisha</a></li>
+                                    <li><a class="dropdown-item" href="Punjab.html">Punjab</a></li>
+                                    <li><a class="dropdown-item" href="Rajasthan.html">Rajasthan</a></li>
+                                    <li><a class="dropdown-item" href="Sikkim.html">Sikkim</a></li>
+                                    <li><a class="dropdown-item" href="Tamil Nadu.html">Tamil Nadu</a></li>
+                                    <li><a class="dropdown-item" href="Telangana.html">Telangana</a></li>
+                                    <li><a class="dropdown-item" href="Tripura.html">Tripura</a></li>
+                                    <li><a class="dropdown-item" href="Uttar Pradesh.html">Uttar Pradesh</a></li>
+                                    <li><a class="dropdown-item" href="Uttarakhand.html">Uttarakhand</a></li>
+                                </div>
+                                <div class="col">
+                                    <li><a class="dropdown-item" href="West Bengal.html">West Bengal</a></li>
+                                    <li><a class="dropdown-item" href="">Andaman and Nicobar Islands</a></li>
+                                    <li><a class="dropdown-item" href="Chandigrah.html">Chandigarh</a></li>
+                                    <li><a class="dropdown-item" href="">Dadra and Nagar Haveli and Daman and Diu</a></li>
+                                    <li><a class="dropdown-item" href="Delhi.html">Delhi</a></li>
+                                    <li><a class="dropdown-item" href="Jammu and Kashmir.html">Jammu & Kashmir</a></li>
+                                    <li><a class="dropdown-item" href="Ladakh.html">Ladakh</a></li>
+                                    <li><a class="dropdown-item" href="Lakshadweep.html">Lakshadweep</a></li>
+                                    <li><a class="dropdown-item" href="Puducherry.html">Puducherry</a></li>
+                                </div>
+                            </div>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="row title">
+            <h1>Formation of Uttar Pradesh</h1>
+        </div>
+        <div class="row custom-row">
+            <div class="col-sm-9 para">
+                <h3> ‘United Provinces’ to ‘Uttar Pradesh’: 1947–50
+                </h3>
+                    <p>
+                        The present state of Uttar Pradesh was almost entirely contained in the United Provinces, which had been among the largest provinces of British India until Independence. On 15 August 1947, the United Provinces transferred as it was to the Dominion of India.
+                      The United Provinces was already represented by an Indian—Govind Ballabh Pant. After the end of World War II, the new Labour Government in Britain, in its bid to transfer power to and enable self-governance in India, had ordered fresh elections to its provincial legislatures. The Indian National Congress (INC) won in the United Provinces and G.B. Pant became the Premier (equivalent to today’s chief minister) in August 1946. His government continued in power after Independence.
+                      In 1949, three princely states that were within the geographical orbit of the United Provinces were merged into the province. The largest was the Himalayan mountain kingdom of Tehri Garhwal, whose young king, Maharaja Manabendra Shah, had ascended the throne at the age of twenty-
+
+                        five after his father had abdicated his position just a year before Independence. The young Maharaja signed the Merger Agreement on 18 May 1949. On 1 August 1949, Tehri Garhwal joined the other mountain regions of Garhwal and Kumaon as a new district in the north-western corner of the United Provinces.<br> 
+                      The smallest was Benaras. The ruler, Maharaja Vibhuti Narayan Singh, was only nineteen years old when India gained independence. On 5 September 1949, as he signed the Merger Agreement, his only ask was that his position with regard to the religious ceremonies at Kashi be protected. On 15 October 1949, Benares became a new district in the south-eastern region of the United Provinces. 
+                     The richest of the three princely states was Rampur. The state was renowned for many things aside from its fabulous wealth, including the Rampur–Sahaswan gharana (school) of Hindustani classical music, its hounds and its cuisine. The ruler, Sir Raza Ali Khan Bahadur, requested that the state be placed temporarily under central administration. Hence, a chief commissioner took over the administration on behalf of the Government of India for five months from 1 July 1949. On 1 December 1949, with the agreement of the ruler, Rampur was merged into United Provinces, forming a district in the western section. 
+                      The debate to change the name of the state and choose a suitable name started immediately after Independence and went on for over two years. ‘United Provinces’ (referred to in its abbreviated form as ‘UP’) was argued to be a colonial remnant that the local people could not identify with, especially since it was being called by its translated form in Hindi (Samyukta Prant) and Urdu (Mumalik Mutahdda). However, the opposing view held that ‘United Provinces’ ought to continue as it reflected the unity of two cultures—Hindus and Muslims.<br> 
+                       Alternate names suggested by the members of the legislature included ‘Oudh’, ‘Hindustan’, ‘Hind’ and ‘Aryavarta’. Once the issue spilled out into the public domain, suggestions flowed in, giving the cabinet a longlist of over twenty names, including ‘Brahmadesh’, ‘Ram Krishna Prant’, and
+
+                      ‘Uttara Khand’. The paralysis of choice stalled any decision-making on the issue.5
+                       In October 1949, the constituent assembly was in the process of finalizing the draft Constitution. This re-energized the name debate in UP since the new Constitution had to feature the names of the provinces in the Union. This deadline helped in arriving at a consensus. An overwhelming majority of the members of the cabinet and the Provincial Congress Committee supported the name ‘Aryavarta’. The chief minister, Govind Ballabh Pant, duly conveyed this preference to the constituent assembly on 15 November 1949. 
+                          However, there was immediate pushback from not only the central leadership but also from other parts of the country. Rustom K. Sidhwa, a member of the constituent assembly from Central Provinces–Berar, declared that UP was attempting to ‘monopolize the name of India’ and cast itself as the ‘super-most province of India’. This included the other names in the shortlist as well—‘Hind’ and ‘Hindustan’.<br>
+                      To remove the pressure exerted by the incoming Constitution on the renaming of states, Dr B.R. Ambedkar—the chairman of the drafting committee of the Constitution of India as well as the first minister of law and justice—introduced a bill that empowered the Governor-General to alter the names of provinces. This bill was adopted by the constituent assembly on 25 November 1949. 
+                       Meanwhile, back in the United Provinces, another name was quickly agreed upon within the Government—‘Uttar Pradesh’. This name had the added advantage of keeping the initials of the State intact—‘UP’.
+                      On 24 January 1950, two days before India adopted its Constitution, the official name of the state was changed to Uttar Pradesh. This date is today celebrated as ‘UP Diwas’ (Uttar Pradesh Day).
+
+
+
+                       
+                    </p>
+            </div>
+            <div class="col-sm-3">
+                <div class="image">
+                    <img src="" alt="">
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="row custom-row">
+            <div class="col-sm-8 para">
+                <h3>The (Failed) Moves to Reshape Uttar Pradesh
+                </h3>
+                <p>
+                         
+
+                    In the new Republic of India, created from the unification of provinces and princely states, Uttar Pradesh emerged not only as a large state—covering about 9 per cent of India’s land area—but also as the most populous state— containing more than one-sixth of India’s population. UP had 50 per cent more people than the second-most populous state—its neighbour Bihar.
+                    Two divergent views emerged regarding UP’s size. Even the three members of the States Reorganisation Commission (SRC) were unable to agree on what ought to be done with Uttar Pradesh. Two opposing notes were written in their final report in 1955.
+                   K.M. Panikkar held the view that UP was so large and heavily populated in relation to the other states that it upset the balance of a successful federation, to the point where it was ‘likely to undermine the federal structure itself and thereby be a danger to the unity of the country’. UP’s outsized influence could be abused to form a powerful political bloc which would allow it to dominate the proceedings of both the Houses of Parliament and cause resentment amongst the other states.
+                    In addition to its external overbearance, it was argued that internally, too, the state had many points against it continuing as a single unbroken unit.
+                      There were stark differences between the geography and the people of the rugged Himalayan Garhwal and Kumaon in the north-west to the fertile central plains of the Gangetic Valley to the hilly Bundelkhand in the south. The western half of the central plains was seen as being very different from the eastern half, both economically and agriculturally. Moreover, UP languished near the bottom of various development indices, like literacy, per capita expenditure on social services and education, medical services, road transportation, and maintenance of law and order.<br>
+                   Indicating that the size of the state was probably detracting from UP’s ability to govern itself efficiently, K.M. Panikkar proposed to ‘reconstitute the overgrown state’ by partitioning it. The proposed separate state would largely consist of the divisions of Agra (the city was proposed as the capital), Jhansi, Meerut (minus Dehra Dun district) and Rohilkhand (minus Pilibhit district) and a few districts from the north-western region of today’s state of Madhya Pradesh.
+
+                  A demand for a separate state of Delhi also emerged, which included the Agra, Meerut and Rohilkhand Divisions of Western Uttar Pradesh in full, as well as adjoining regions from today’s Punjab, Haryana and Rajasthan. <br>
+                    Another suggestion was given in 1955 by Dr Ambedkar, then a Rajya Sabha member, as a way to counter the ‘consolidation of the north and Balkanisation of the south’ as well as ‘a safeguard to the minorities’. He advocated the trifurcation of Uttar Pradesh geographically along its western (with its capital at Meerut), central (capital at Kanpur), and eastern (capital at Allahabad) regions.
+                    The counter and, in some ways, the prevailing view overruled all these concerns as ‘overstated’. The mere size of Uttar Pradesh should not be the reason for the extreme measure of breaking it up. Arguments were made by members of the state’s legislative assembly in favour of the unbreakable cultural and religious integrity of the state that was the heart of India. The demand for a separate state quickly fell apart once Chief Minister G.B. Pant declared his personal support for ‘the soul of Aryavarta . . . (whose) culture and language envelop Bharat’. G.B. Pant also became the Union Home Minister in 1955 and oversaw the implementation of the States Reorganisation Act, 1956.
+                  And so, the Hindi heartland of Uttar Pradesh was kept intact.
+               
+                </p>
+            </div>
+            <div class="image col-sm-4">
+                <img src="" alt="" >
+            </div>
+        </div>
+        <hr>
+        <div class="row custom-row">
+            <div class="col-sm-9 para">
+                <h3>
+                    Uttar Pradesh and Uttarakhand, 2000 onwards
+
+                </h3>
+                <p>
+                    The demand for autonomy for the region of Uttarakhand (meaning ‘northern region’) in the Himalayan mountains was first made in 1937. It consisted largely of the princely state of Tehri Garhwal and the districts of Garhwal and Kumaon, both of which were a part of the United Provinces. This call was based not so much on language but more on identity—that the geography and the people of the mountains were culturally very different from the rest of UP.
+                    Given the hesitation during the 1956 reorganization to create states based on anything other than language, and especially so in the case of Uttar
+                    
+                    Pradesh, the demand for Uttarakhand went unheeded. In 1960, the UP state government reorganized the mountainous region into two Mandals (administrative areas)—Kumaon (the eastern half) and Uttarakhand (a.k.a. Garhwal, the western half).<br>
+                    The late 1960s and early 1970s saw the growing emergence of regional political parties and social movements in parts of north India and Uttar Pradesh that were built around grassroots issues like social justice and combating economic inequality. This movement helped kick-start a new socio-political conversation, especially in the Uttarakhand mountains, around the management of natural resources, the marginalization of peripheral regions, and the economic rights of local communities.
+                    From 1977–80, the Janata Party became the first non-Congress party to form the government at the Centre. Simultaneously, it also formed the government in Uttar Pradesh for the first time. The Janata Party had been vocal about the need to reorganize state boundaries so as to correct economic imbalances and enable administrative convenience, even calling for a second SRC. One of the states the Janata Party called for was Uttarakhand. 
+                    In 1979, a new political party called the Uttarakhand Kranti Dal (UKD) was established; its sole agenda was to campaign for statehood, which was also taken up later by the Uttarakhand Sangharsh Vahini (USV). Socio- political activities linked directly to the demand for statehood also increased.<br>
+                    The Bharatiya Janata Party (BJP) leadership—first local, then national— also passed resolutions for the statehood of ‘Uttaranchal’. Their reasoning was that they wanted a name that encompassed both parts of the region— the western ‘Uttarakhand’ and the eastern ‘Kumaon’ (which came from the word ‘Kurmanchal’). This was a period of intense political turbulence in the state of Uttar Pradesh when governments changed frequently. The BJP formed its first government in 1991 with Kalyan Singh as chief minister and passed the first resolution in the UP legislative assembly supporting statehood for Uttarakhand/Uttaranchal.
+                    
+                    In early 1994, the coalition state government of the Samajwadi Party (SP) and the Bahujan Samaj Party (BSP) appointed the Kaushik Committee to study the grievances of the people in the hills. The committee recommended that the eight mountain districts across Garhwal and Kumaon be made into the state of Uttarakhand. The capital could be the centrally accessible city of Gairsain. Almost parallelly, the government proposed a state-wide affirmative action policy of reserving 27 per cent seats in government jobs and higher education institutions for people from Other Backward Classes (OBCs). Garhwal and Kumaon protested that, since only approximately 2 per cent of their population could be categorized officially as OBC, locals from the mountains would probably be marginalized in universities in the region.<br>
+                    The state government responded aggressively, resulting in the eruption of violence across the region through the second half of 1994. This further consolidated the regional identity and transformed the agitation into a mass- based movement without one clear leadership. Student-led organizations played an active role. Local media helped further the spread of the agitation.
+                    In early 1996, the idea of granting Uttarakhand the status of union territory was floated. In his Republic Day address of January 1997, Prime Minister H.D. Deve Gowda of the United Front coalition promised statehood to Uttarakhand. In December 1998, when the BJP-led National Democratic Alliance (NDA) was in office at the Centre, a bill to create Uttarakhand was tabled in the Lok Sabha. After being reintroduced post- elections in 1999, it received presidential assent in August 2000.
+                    On 9 November 2000, through the Uttar Pradesh Reorganisation Act, the state of Uttaranchal (renamed as Uttarakhand in 2006) came into being comprising thirteen districts. This date is today observed as Uttarakhand Divas (Uttarakhand Day). Based on the results of the 1996 Uttar Pradesh elections, the BJP formed the first state government in Uttarakhand with Nityanand Swami as the first chief minister.
+                         
+                </p>
+
+            </div>
+            <div class="col-sm-3 image">
+                <img src="" alt="">
+            </div>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

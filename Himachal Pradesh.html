@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Protest+Strike&display=swap" rel="stylesheet">
+    <style>
+        .custom-dropdown-menu {
+            width: 1000px; 
+            max-height: 310px;
+            overflow-y: auto; 
+        }
+        .navbar-nav .nav-link {
+            font-size: 20px;
+        }
+        .navbar-nav .nav-item {
+            margin-right: 30px;
+        }
+        .ind-1947{
+            height: 450px;
+        }
+        .image img{
+            padding-top:100px;
+            height: 100%;
+            width : 100%;
+        }
+        .image figcaption{
+            text-align: center;
+            font-weight: bold;
+        }
+        .title h1{
+            padding-top:30px;
+            padding-bottom: 30px;
+            font-family: 'Protest Strike', sans-serif;
+            font-size: 60px;
+        }
+        .para h3{
+            font-family: 'Protest Strike', sans-serif;
+            padding-bottom: 10px;
+        }
+        .para p{
+            text-align: justify;
+            font-size: large;         
+        }
+        .para li{
+            text-align: justify;
+            font-size: large;         
+        }
+        .custom-row{
+            align-items: start;
+        }
+    </style>
+    <title></title>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="img/Logo.png" alt="Logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="introduction.html">Intro</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link active dropdown-toggle"  id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            States
+                        </a>
+                        <ul class="dropdown-menu custom-dropdown-menu" aria-labelledby="navbarDropdown">
+                            <div class="row">
+                                <div class="col">
+                                    <li><a class="dropdown-item" href="Andhra Pradesh.html">Andhra Pradesh</a></li>
+                                    <li><a class="dropdown-item" href="Arunachal Pradesh.html">Arunachal Pradesh</a></li>
+                                    <li><a class="dropdown-item" href="Assam.html">Assam</a></li>
+                                    <li><a class="dropdown-item" href="Bihar.html">Bihar</a></li>
+                                    <li><a class="dropdown-item" href="Chhattisgrah.html">Chhattisgarh</a></li>
+                                    <li><a class="dropdown-item" href="Goa.html">Goa</a></li>
+                                    <li><a class="dropdown-item" href="Gujarat.html">Gujarat</a></li>
+                                    <li><a class="dropdown-item" href="Haryana.html">Haryana</a></li>
+                                    <li><a class="dropdown-item" href="Himachal Pradesh.html">Himachal Pradesh</a></li>
+                                </div>
+                                <div class="col">
+                                    <li><a class="dropdown-item" href="Jharkhand.html">Jharkhand</a></li>
+                                    <li><a class="dropdown-item" href="Karnataka.html">Karnataka</a></li>
+                                    <li><a class="dropdown-item" href="Kerala.html">Kerala</a></li>
+                                    <li><a class="dropdown-item" href="Madhya Pradesh.html">Madhya Pradesh</a></li>
+                                    <li><a class="dropdown-item" href="Maharashtra.Html">Maharashtra</a></li>
+                                    <li><a class="dropdown-item" href="Manipur.html">Manipur</a></li>
+                                    <li><a class="dropdown-item" href="Meghalaya.html">Meghalaya</a></li>
+                                    <li><a class="dropdown-item" href="Mizoram.html">Mizoram</a></li>
+                                    <li><a class="dropdown-item" href="Nagaland.html">Nagaland</a></li>
+                                </div>
+                                <div class="col">
+                                    <li><a class="dropdown-item" href="Orissa.html">Odisha</a></li>
+                                    <li><a class="dropdown-item" href="Punjab.html">Punjab</a></li>
+                                    <li><a class="dropdown-item" href="Rajasthan.html">Rajasthan</a></li>
+                                    <li><a class="dropdown-item" href="Sikkim.html">Sikkim</a></li>
+                                    <li><a class="dropdown-item" href="Tamil Nadu.html">Tamil Nadu</a></li>
+                                    <li><a class="dropdown-item" href="Telangana.html">Telangana</a></li>
+                                    <li><a class="dropdown-item" href="Tripura.html">Tripura</a></li>
+                                    <li><a class="dropdown-item" href="Uttar Pradesh.html">Uttar Pradesh</a></li>
+                                    <li><a class="dropdown-item" href="Uttarakhand.html">Uttarakhand</a></li>
+                                </div>
+                                <div class="col">
+                                    <li><a class="dropdown-item" href="West Bengal.html">West Bengal</a></li>
+                                    <li><a class="dropdown-item" href="">Andaman and Nicobar Islands</a></li>
+                                    <li><a class="dropdown-item" href="Chandigrah.html">Chandigarh</a></li>
+                                    <li><a class="dropdown-item" href="">Dadra and Nagar Haveli and Daman and Diu</a></li>
+                                    <li><a class="dropdown-item" href="Delhi.html">Delhi</a></li>
+                                    <li><a class="dropdown-item" href="Jammu and Kashmir.html">Jammu & Kashmir</a></li>
+                                    <li><a class="dropdown-item" href="Ladakh.html">Ladakh</a></li>
+                                    <li><a class="dropdown-item" href="Lakshadweep.html">Lakshadweep</a></li>
+                                    <li><a class="dropdown-item" href="Puducherry.html">Puducherry</a></li>
+                                </div>
+                            </div>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="row title">
+            <h1>Formation of Himachal Pradesh</h1>
+        </div>
+        <div class="row custom-row">
+            <div class="col-sm-9 para">
+                <h3> 1947: A Confusion of Geographies (and Names)</h3>
+                    <p>
+                        When India gained independence in 1947, the present state of Himachal Pradesh existed in two parts. One, as the twenty-eight East Punjab Hill States (or the Shimla Hill States); two, as the hilly north-eastern part of East Punjab which sliced through the territories of the East Punjab Hill States, splitting them into two non-contiguous units. So, in a sense, it existed in three geographical parts. Well, four, actually, because the tiny princely state of Bilaspur was a separate administrative unit. It had previously been a part of the East Punjab Hill States, but had then been taken under the direct control of the Punjab States Agency before Independence. After Partition had cut through Punjab Province, Sikhs had migrated en masse into East Punjab, making them the majority community and Punjabi the majority language in the North-western districts for the first time. In the South-eastern districts, Hindus and Hindi formed the majority. Eight princely states also lay strewn across East Punjab and were known as the East Punjab States, of which Patiala was the largest.
+                    </p>
+            </div>
+            <div class="col-sm-3">
+                <div class="imag">
+                    <img src="img/himachal.jpg" alt="">
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="row custom-row">
+            <div class="col-sm-8 para">
+                <h3>1948: Himachal Pradesh is Born . . . and Nearly Dissolved</h3>
+                <p>
+                    In March 1948, a number of the rulers of the East Punjab Hill States signed agreements to cede authority, jurisdiction and governance to India. On 15 April 1948, the East Punjab Hill States were reborn as Himachal Pradesh.
+                    The only wish of the rulers had been for their territories to ‘be consolidated into one unit’, which the Government of India had agreed to. However, even though it was now one administrative unit, Himachal Pradesh continued to exist in two non-contiguous geographical areas separated by East Punjab. The geographical consolidation would take another eighteen years.
+                    The Government of India determined that Himachal Pradesh ought to be a centrally administered unit so as to exercise direct and strategic control, especially in matters of administration, resources and finances. Hence, it became a chief commissioner’s province.
+                    <br> 
+                    In August 1948, the ruler of Bilaspur, which was geographically contiguous with the southern part of Himachal Pradesh, also signed the agreement to accede to India. However, instead of merging Bilaspur with Himachal Pradesh, the States Ministry decided to retain Bilaspur as a separate centrally administered province so as to pay direct attention to the planning of the large Bhakra Dam over the Sutlej River. On 12 October 1948, the Raja of Bilaspur, Anand Chand, was appointed as chief commissioner of Bilaspur.
+                     
+                    In April 1948, Master Tara Singh, president of India’s second-oldest political party, the Shiromani Akali Dal (SAD) in East Punjab, made the first demand for a consolidated Punjabi Suba (Punjabi Province) comprising the North-western districts of East Punjab that had a Sikh and Punjabi majority. 
+                    <br>
+                    V.P. Menon, secretary of the States Ministry, saw four options.
+                    <ol>
+                    <li>Merge Himachal Pradesh, the East Punjab States and East Punjab, but without Patiala, which was already viable by itself. </li>
+                    <li>Merge Patiala and Himachal Pradesh into one unit and the East Punjab States and East Punjab into another unit. </li>
+                    <li>Bring just the East Punjab States together as a single union without Patiala or Himachal Pradesh. </li>
+                    <li>Integrate all the East Punjab States, including Patiala. </li>
+                    </ol>
+                </p>
+                <p>
+                    The States Ministry narrowed its options through a process of elimination. It was important to keep Himachal Pradesh as a centrally administered unit, both to develop it into a self-reliant unit and to not mix the residents of the hills and the plains into one administrative system. The immediate merger of the princely states with the province appeared impractical and mistimed.
+                    Hence, the States Ministry decided that East Punjab, Himachal Pradesh and the East Punjab States would be kept as three separate administrative units. The Patiala and East Punjab States Union (PEPSU for short) was created as ‘five disconnected bits’ encased entirely within the territory of East Punjab. It was inaugurated on 15 July 1948.
+                                        
+                </p>
+            </div>
+            <div class="image col-sm-4">
+                <figure>
+                <img src="img/V._P._Menon(mp.jpg" alt="" >
+                <figcaption>V.P. Menon, secretary of the States Ministry</figcaption>
+                </figure>
+            </div>
+        </div>
+        <hr>
+        <div class="row para">
+            
+                <h3>
+                    1950–56: A Part C State Constantly Gaining Privileges
+                </h3>
+                <p>
+                    In 1950, when the Constitution of India came into force, Himachal Pradesh was redesignated as a Part C state. It continued to be centrally administered with no change to its territorial boundaries. In September 1951, Parliament passed the Government of Part C States Act. This provided for a legislative assembly and council of ministers in Himachal Pradesh and Delhi. Elections were then held to the legislative assembly. The Indian National Congress (INC) won a majority of the seats and Yashwant Singh Parmar was appointed as the first chief minister of Himachal Pradesh. The position of lieutenant-governor replaced that of chief commissioner as the agent acting on behalf of the President. Major- General Kumar Shri Himmatsinhji Jadeja became the first lieutenant- governor. On 28 May 1954, the Union government passed the Himachal Pradesh and Bilaspur (New State) Act to merge the two centrally administered and contiguous Part C states. This did not affect the Union government’s authority over the regions or over the Bhakra-Nangal Project. The new integrated state came into being on 1 July 1954. 
+                </p>        
+            
+        </div>
+        <hr>
+        <div class="row custom-row">
+            <div class="col-sm-8 para">
+                <h3>
+                    1956: A Union Territory with Lost Privileges
+                </h3>
+                <p>
+                    Towards the end of 1953, spurred by the multiple calls for state reorganization across the country, the Union government announced the creation of the States Reorganisation Commission (SRC) which invited memoranda from the public, individually and collectively.
+                    The Punjab State Congress, Arya Samaj and Jana Sangh proposed Maha Punjab which would integrate Punjab, PEPSU and Himachal Pradesh (and Delhi in the latter two proposals). The SAD reiterated its demand for Punjabi Suba which would merge PEPSU with the Punjabi-speaking North- western districts of Punjab. Leaders from the Haryana region (the Hindi- speaking South-eastern districts of Punjab) also put forth a demand for a separate Haryana State.
+                    <br>
+                    In October 1955, the SRC released its report in which it dismissed the demands for Punjabi Suba and Haryana. The three members of the SRC, however, disagreed on how to proceed with Himachal Pradesh. Two members recommended integration with Punjab due to clear economic and
+                    administrative advantages and ‘the mutual benefit of the people of the plains and of the hills’. They dismissed the proposal for the formation of a larger hill unit consisting of the hill territories of Himachal Pradesh, Punjab, PEPSU and Uttar Pradesh as not forming an administratively viable unit. The proposed state would consist of Punjab, PEPSU and Himachal Pradesh, but without Delhi and any western districts of Uttar Pradesh.
+                    The Chairman of the SRC, S. Fazl Ali, took a different view. In a separate note, he recommended no change in Himachal Pradesh’s current status as a separate unit under the direct control of the Union government. Invoking the views of the late Sardar Vallabhbhai Patel, head of the erstwhile States Ministry that had created Himachal Pradesh, Fazl Ali felt that a merger with Punjab would be locally unpopular. The hill state still needed support for development which had to be provided by the Centre and not by Punjab. Further, Punjab already had three distinct regions with its own language and communal issues which didn’t exist in Himachal Pradesh.
+                    <br> 
+                    The SAD and the INC then agreed on a regional formula. PEPSU would be merged into Punjab, which would be a bilingual state demarcated into Punjabi- and Hindi-speaking regions. Haryana would not be created.
+                    Himachal Pradesh would continue to exist as before as two separate regions with no geographical boundary changes. 
+                    The SRC also recommended doing away with the existing classification of states. Regarding Part C states in general, it observed that the arrangement was ‘ad hoc . . . unsatisfactory and cannot be continued indefinitely’ , and that they ought to either be centrally administered or merged with adjoining states. Regarding Himachal Pradesh specifically, the States Reorganisation Bill determined that ‘while ultimately Himachal Pradesh has to form a part of the Punjab, it may for the present be continued as a centrally administered unit’.
+                    <br> 
+                    On 1 November 1956, all Part C states, including Himachal Pradesh, were redesignated as union territories. The position of chief minister was abolished. Instead, charge was handed over to Lieutenant-Governor Raja Bajrang Bahadur Singh as the agent acting on behalf of the President of
+                    India. Further, Parliament enacted the Territorial Councils Act which dissolved and replaced the legislative assembly in Himachal Pradesh with a territorial council. The council was meant to provide a measure of local
+                    self-government with powers over local affairs like education, public health and roads. 
+                    
+                </p>
+            </div>
+            <div class="image col-sm-4">
+                <figure>
+                <img src="img/himachal-1956.png" alt="" >
+                <figcaption>Himachal Pradesh in 1956</figcaption>
+                </figure>
+            </div>
+            
+        </div>
+        <hr>
+        <div class="row para">
+                <h3>
+                    1963: A First-class Union Territory
+                </h3>
+                <p>
+                    In 1961, the Centre constituted a committee headed by the Union Law Minister, Ashoke Kumar Sen, to study the administrative set-up in the union territories. In its June 1962 report, the committee recommended that ‘the largest possible measure of autonomy should be granted’ while retaining Union control over finance and general policy. While it suggested the introduction of panchayati raj as well as the transfer of more subjects to the territorial councils, the union territories demanded legislative bodies.
+                    In 1962, Goa, Daman & Diu and Pondicherry were integrated into India as union territories, and the State of Nagaland Act was passed. This inspired the Union government to go above and beyond the recommendations of the Ashoke Sen Committee. It passed the Constitution (Fourteenth Amendment) Act, 1962, and then the Government of Union Territories Act, 1963, which established legislative assemblies and councils of ministers and abolished territorial councils in five union territories—Manipur, Tripura, Himachal Pradesh, Goa and Pondicherry. A throwback to the pre- SRC Government of Part C States Act of 1951, this Act created two classes of union territories. While the President still retained regulation-making powers over the second class , the first class, consisting of these five union territories, were seen as being independent stand-alone entities. Their legislative assemblies had powers and responsibilities similar to the state legislative assemblies, including the ability to make laws on subjects in the Union and Concurrent lists. They even had separate consolidated and contingency funds. Yashwant Singh Parmar returned as chief minister of Himachal Pradesh. Statehood was now a distinct possibility.
+                </p>         
+                
+        </div>
+        <hr>
+        <div class="row">
+            <div class="col-sm-8 para">
+                <h3>
+                    1966: A Unified Territory
+                </h3>
+                <p>
+                    In March 1966, following a change in Congress leadership at the Centre and in Punjab as well as a war with Pakistan in September 1965 in which the Sikhs contributed immensely, the Union government appointed a Parliamentary Committee to look into reorganizing Punjab. The Committee reported that ‘an overwhelming majority’ now supported linguistic reorganization, noting also the rise in support in the Haryana region.
+                    <br>
+                    On 18 September 1966, the government passed the Punjab Reorganisation Act. Punjab was divided into four parts—two states and two union territories. The Punjabi-speaking North-western districts formed the new Punjabi Suba, the new state of Punjab. The Hindi-speaking districts in the South-eastern plains formed the new state of Haryana. The North- eastern hill districts of Punjab were integrated into Himachal Pradesh, thereby approximately doubling the union territory’s area and population. It also made Himachal Pradesh one contiguous unit—a geographically unified union territory for the first time in its history. The city of Chandigarh was reconstituted as a union territory and also named the joint capital of Punjab and Haryana. 
+                    All four new territories came into being from 1 November 1966.
+
+                </p>
+            </div>
+            <div class="imag col-sm-4 ">
+                <figure>
+                <img src="img/himachal-1966.jpg.png" alt="" >
+                <figcaption>Himachal Pradesh in 1966</figcaption>
+                </figure>
+            </div>
+        </div>            
+        <hr>
+        <div class="row para">
+                <h3>
+                    1971: Statehood
+                </h3>
+                <p>
+                    In 1965, before reorganization, the Pradesh Congress Committee of Himachal Pradesh had passed a resolution demanding statehood for the first time. In September 1966, while the Punjab Reorganisation Bill was being debated in Parliament, the lack of change in the status of Himachal Pradesh was raised. In July 1967, the Himachal Pradesh legislative assembly adopted a unanimous resolution asking for statehood as ‘a just demand of the Himachalis’.
+ 
+                    Eventually, on 25 December 1970, Parliament passed the State of Himachal Pradesh Act to grant statehood. On 25 January 1971, Himachal Pradesh’s status was changed from union territory to state. The position of lieutenant-governor was replaced by that of Governor  
+                </p>
+                
+        </div>
+    
+
+        
+
+    
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Protest+Strike&display=swap" rel="stylesheet">
+    <style>
+        .custom-dropdown-menu {
+            width: 1000px; 
+            max-height: 310px;
+            overflow-y: auto; 
+        }
+        .navbar-nav .nav-link {
+            font-size: 20px;
+        }
+        .navbar-nav .nav-item {
+            margin-right: 30px;
+        }
+        .ind-1947{
+            height: 450px;
+        }
+        .image img{
+            padding-top:25px;
+            height: 100%;
+            width : 100%;
+        }
+        .title h1{
+            padding-top:30px;
+            padding-bottom: 30px;
+            font-family: 'Protest Strike', sans-serif;
+            font-size: 60px;
+        }
+        .para h3{
+            font-family: 'Protest Strike', sans-serif;
+            padding-bottom: 10px;
+        }
+        .para p{
+            text-align: justify;
+            font-size: large;         
+        }
+        .custom-row{
+            align-items: start;
+        }
+    </style>
+    <title></title>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="img/Logo.png" alt="Logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="introduction.html">Intro</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link active dropdown-toggle"  id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            States
+                        </a>
+                        <ul class="dropdown-menu custom-dropdown-menu" aria-labelledby="navbarDropdown">
+                            <div class="row">
+                                <div class="col">
+                                    <li><a class="dropdown-item" href="Andhra Pradesh.html">Andhra Pradesh</a></li>
+                                    <li><a class="dropdown-item" href="Arunachal Pradesh.html">Arunachal Pradesh</a></li>
+                                    <li><a class="dropdown-item" href="Assam.html">Assam</a></li>
+                                    <li><a class="dropdown-item" href="Bihar.html">Bihar</a></li>
+                                    <li><a class="dropdown-item" href="Chhattisgrah.html">Chhattisgarh</a></li>
+                                    <li><a class="dropdown-item" href="Goa.html">Goa</a></li>
+                                    <li><a class="dropdown-item" href="Gujarat.html">Gujarat</a></li>
+                                    <li><a class="dropdown-item" href="Haryana.html">Haryana</a></li>
+                                    <li><a class="dropdown-item" href="Himachal Pradesh.html">Himachal Pradesh</a></li>
+                                </div>
+                                <div class="col">
+                                    <li><a class="dropdown-item" href="Jharkhand.html">Jharkhand</a></li>
+                                    <li><a class="dropdown-item" href="Karnataka.html">Karnataka</a></li>
+                                    <li><a class="dropdown-item" href="Kerala.html">Kerala</a></li>
+                                    <li><a class="dropdown-item" href="Madhya Pradesh.html">Madhya Pradesh</a></li>
+                                    <li><a class="dropdown-item" href="Maharashtra.Html">Maharashtra</a></li>
+                                    <li><a class="dropdown-item" href="Manipur.html">Manipur</a></li>
+                                    <li><a class="dropdown-item" href="Meghalaya.html">Meghalaya</a></li>
+                                    <li><a class="dropdown-item" href="Mizoram.html">Mizoram</a></li>
+                                    <li><a class="dropdown-item" href="Nagaland.html">Nagaland</a></li>
+                                </div>
+                                <div class="col">
+                                    <li><a class="dropdown-item" href="Orissa.html">Odisha</a></li>
+                                    <li><a class="dropdown-item" href="Punjab.html">Punjab</a></li>
+                                    <li><a class="dropdown-item" href="Rajasthan.html">Rajasthan</a></li>
+                                    <li><a class="dropdown-item" href="Sikkim.html">Sikkim</a></li>
+                                    <li><a class="dropdown-item" href="Tamil Nadu.html">Tamil Nadu</a></li>
+                                    <li><a class="dropdown-item" href="Telangana.html">Telangana</a></li>
+                                    <li><a class="dropdown-item" href="Tripura.html">Tripura</a></li>
+                                    <li><a class="dropdown-item" href="Uttar Pradesh.html">Uttar Pradesh</a></li>
+                                    <li><a class="dropdown-item" href="Uttarakhand.html">Uttarakhand</a></li>
+                                </div>
+                                <div class="col">
+                                    <li><a class="dropdown-item" href="West Bengal.html">West Bengal</a></li>
+                                    <li><a class="dropdown-item" href="">Andaman and Nicobar Islands</a></li>
+                                    <li><a class="dropdown-item" href="Chandigrah.html">Chandigarh</a></li>
+                                    <li><a class="dropdown-item" href="">Dadra and Nagar Haveli and Daman and Diu</a></li>
+                                    <li><a class="dropdown-item" href="Delhi.html">Delhi</a></li>
+                                    <li><a class="dropdown-item" href="Jammu and Kashmir.html">Jammu & Kashmir</a></li>
+                                    <li><a class="dropdown-item" href="Ladakh.html">Ladakh</a></li>
+                                    <li><a class="dropdown-item" href="Lakshadweep.html">Lakshadweep</a></li>
+                                    <li><a class="dropdown-item" href="Puducherry.html">Puducherry</a></li>
+                                </div>
+                            </div>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="row title">
+            <h1>Formation of DELHI</h1>
+        </div>
+        <div class="row custom-row">
+            <div class="col-sm-9 para">
+                <h3> Part C State with a Chief Minister</h3>
+                    <p>
+                        When India became independent in 1947, Delhi continued as the capital of India. The city was already being administered by a separate chief commissioner ever since it had become the capital of British India in 1912. Independent India continued this system of administration, with the chief commissioner being appointed by the President of India. When India adopted its Constitution on 26 January 1950, Delhi was classified as a centrally administered Part C state.
+                        In 1951, the Government of Part C States Act gave Delhi a council of ministers responsible to the local legislature to aid and advise the chief commissioner. This also gave Delhi its first chief minister, thirty-four-year- old Chaudhary Brahm Prakash Yadav of the Indian National Congress (INC). However, the Delhi Assembly’s legislative powers were limited. For instance, it had no powers over the police, municipal corporations, or land and buildings in its territory.
+                                            
+                    </p>
+            </div>
+            <div class="col-sm-3">
+                <div class="image">
+                    <img src="" alt="">
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="row custom-row">
+            <div class="col-sm-8 para">
+                <h3>Union Territory without a Chief Minister</h3>
+                <p>
+                    Towards the end of 1953, spurred by the multiple calls for state reorganization across the country, the Union government announced the creation of the States Reorganisation Commission (SRC). There were requests to create a Greater Delhi State as well as to integrate portions of Delhi into surrounding states. The SRC rejected both requests, noting the ‘peculiar diarchical structure’ of dual control that existed—central control of the national capital along with state-level autonomy. The SRC had already determined that the future for Part C states lay in either merging with a larger state or converting into a centrally administered unit. Since Delhi was both the national capital and a city, it required ‘a special dispensation’. Using the examples of the degrees of central control exercised by the governments of France and England over their capital cities of Paris and London, respectively, the SRC believed that national governments needed to be able to exercise effective control over their federal capitals. Even the memorandum submitted by the Delhi government did not dispute this point. On the related issue of demarcating New Delhi as the national capital from Old Delhi and placing both under separate administrations, the SRC deemed it unrealistic, observing that the two Delhis now constituted one integrated unit.<br> 
+                    In terms of the administrative pattern for Delhi, the SRC recommended replacing the popularly-elected state government with a municipal corporation. It considered municipal autonomy as the only solution for Delhi State, since it was ‘sound in principle and administratively workable in practice’. This abolished the Delhi legislature and the council of ministers as well as the position of chief minister. Delhi became a centrally administered union territory under the direct responsibility of the President of India. At the end of December 1957, Parliament passed the Delhi Municipal Corporation Act which created the body the following year. 
+                                       
+                </p>
+            </div>
+            <div class="image col-sm-4">
+                <img src="" alt="" >
+            </div>
+        </div>
+        <hr>
+        <div class="row custom-row">
+            <div class="col-sm-9 para">
+                <h3>
+                    In a Class by Itself with a Lieutenant Governor
+                </h3>
+                <p>
+                    In August 1962, after French and Portuguese India ceased to exist and their territories were transferred to the Indian Union, Parliament passed the Constitution (Fourteenth Amendment) Act, and then the Government of Union Territories Act, 1963. This created legislatures and councils of ministers in a number of union territories in a sort of throwback to the pre- SRC Government of Part C States Act of 1951. Significantly, it created two classes of union territories, depending on the level of autonomy they were given. Delhi was not included in either class and was considered to be ‘in a class by itself’. The Delhi Municipal Corporation passed a resolution protesting against Delhi’s exclusion.
+                    In June 1966, the Union government passed the Delhi Administration Act, which came into effect on 7 September 1966. The Act reconstituted the Municipal Corporation as the Metropolitan Council, marginally expanded its powers, and made minor tweaks to Delhi’s administrative set-up. The centrally appointed administrator was redesignated from chief commissioner to lieutenant governor. 
+                    
+                                   
+                </p>
+
+            </div>
+            <div class="col-sm-3 image">
+                <img src="" alt="">
+            </div>
+                
+        </div>
+        <hr>
+        <div class="row custom-row">
+            <div class="col-sm-9 para">
+                <h3>
+                    National Capital Territory with a Chief Minister
+ 
+                </h3>
+                <p>
+                    In February 1985, Parliament passed the National Capital Region Planning Board Act. This act imagined the development and evolution of policies for the national capital of Delhi as well as the surrounding districts from the neighbouring states. This cohesive region was designated as the National Capital Region (NCR). The planning board was chaired by the union minister for works and housing; its members included the lieutenant governor of Delhi and the chief ministers of Haryana, Rajasthan and Uttar Pradesh, among others. 
+                     The Union government was continually looking into the administrative set-up of Delhi to find ways to resolve underlying issues and streamline the process. In December 1987, the Union government appointed a committee
+
+                     to look into the matter in detail. The committee conducted a detailed inquiry and examination, which included a wide range of discussions, studies of national capital arrangements in other federal countries, and a perusal of debates in the constituent assembly and previous committees. It recommended continuing Delhi as a union territory with the lieutenant governor as administrator but also providing for a popular government in the form of an elected legislative assembly and a council of ministers.
+                       Following the Constitution (Sixty-Ninth Amendment) Act in December 1991 to give the National Capital Territory (NCT) of Delhi ‘a special status’ among the union territories, Parliament passed the Government of National Capital Territory of Delhi Act, 1991. Two years later, the Bharatiya Janata Party (BJP) won a majority in the 1993 legislative assembly elections and Madan Lal Khurana became the chief minister of Delhi. India’s NCT had elected a chief minister after thirty-seven years.
+
+
+                </p>
+
+            </div>
+            <div class="col-sm-3 image">
+                <img src="" alt="">
+            </div>                
+        </div>
+        <hr>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

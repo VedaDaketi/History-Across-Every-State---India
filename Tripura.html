@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Protest+Strike&display=swap" rel="stylesheet">
+    <style>
+        .custom-dropdown-menu {
+            width: 1000px; 
+            max-height: 310px;
+            overflow-y: auto; 
+        }
+        .navbar-nav .nav-link {
+            font-size: 20px;
+        }
+        .navbar-nav .nav-item {
+            margin-right: 30px;
+        }
+        .ind-1947{
+            height: 450px;
+        }
+        .image img{
+            padding-top:25px;
+            height: 100%;
+            width : 100%;
+        }
+        .title h1{
+            padding-top:30px;
+            padding-bottom: 30px;
+            font-family: 'Protest Strike', sans-serif;
+            font-size: 60px;
+        }
+        .para h3{
+            font-family: 'Protest Strike', sans-serif;
+            padding-bottom: 10px;
+        }
+        .para p{
+            text-align: justify;
+            font-size: large;         
+        }
+        .custom-row{
+            align-items: start;
+        }
+    </style>
+    <title></title>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="img/Logo.png" alt="Logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="introduction.html">Intro</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link active dropdown-toggle"  id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            States
+                        </a>
+                        <ul class="dropdown-menu custom-dropdown-menu" aria-labelledby="navbarDropdown">
+                            <div class="row">
+                                <div class="col">
+                                    <li><a class="dropdown-item" href="Andhra Pradesh.html">Andhra Pradesh</a></li>
+                                    <li><a class="dropdown-item" href="Arunachal Pradesh.html">Arunachal Pradesh</a></li>
+                                    <li><a class="dropdown-item" href="Assam.html">Assam</a></li>
+                                    <li><a class="dropdown-item" href="Bihar.html">Bihar</a></li>
+                                    <li><a class="dropdown-item" href="Chhattisgrah.html">Chhattisgarh</a></li>
+                                    <li><a class="dropdown-item" href="Goa.html">Goa</a></li>
+                                    <li><a class="dropdown-item" href="Gujarat.html">Gujarat</a></li>
+                                    <li><a class="dropdown-item" href="Haryana.html">Haryana</a></li>
+                                    <li><a class="dropdown-item" href="Himachal Pradesh.html">Himachal Pradesh</a></li>
+                                </div>
+                                <div class="col">
+                                    <li><a class="dropdown-item" href="Jharkhand.html">Jharkhand</a></li>
+                                    <li><a class="dropdown-item" href="Karnataka.html">Karnataka</a></li>
+                                    <li><a class="dropdown-item" href="Kerala.html">Kerala</a></li>
+                                    <li><a class="dropdown-item" href="Madhya Pradesh.html">Madhya Pradesh</a></li>
+                                    <li><a class="dropdown-item" href="Maharashtra.Html">Maharashtra</a></li>
+                                    <li><a class="dropdown-item" href="Manipur.html">Manipur</a></li>
+                                    <li><a class="dropdown-item" href="Meghalaya.html">Meghalaya</a></li>
+                                    <li><a class="dropdown-item" href="Mizoram.html">Mizoram</a></li>
+                                    <li><a class="dropdown-item" href="Nagaland.html">Nagaland</a></li>
+                                </div>
+                                <div class="col">
+                                    <li><a class="dropdown-item" href="Orissa.html">Odisha</a></li>
+                                    <li><a class="dropdown-item" href="Punjab.html">Punjab</a></li>
+                                    <li><a class="dropdown-item" href="Rajasthan.html">Rajasthan</a></li>
+                                    <li><a class="dropdown-item" href="Sikkim.html">Sikkim</a></li>
+                                    <li><a class="dropdown-item" href="Tamil Nadu.html">Tamil Nadu</a></li>
+                                    <li><a class="dropdown-item" href="Telangana.html">Telangana</a></li>
+                                    <li><a class="dropdown-item" href="Tripura.html">Tripura</a></li>
+                                    <li><a class="dropdown-item" href="Uttar Pradesh.html">Uttar Pradesh</a></li>
+                                    <li><a class="dropdown-item" href="Uttarakhand.html">Uttarakhand</a></li>
+                                </div>
+                                <div class="col">
+                                    <li><a class="dropdown-item" href="West Bengal.html">West Bengal</a></li>
+                                    <li><a class="dropdown-item" href="">Andaman and Nicobar Islands</a></li>
+                                    <li><a class="dropdown-item" href="Chandigrah.html">Chandigarh</a></li>
+                                    <li><a class="dropdown-item" href="">Dadra and Nagar Haveli and Daman and Diu</a></li>
+                                    <li><a class="dropdown-item" href="Delhi.html">Delhi</a></li>
+                                    <li><a class="dropdown-item" href="Jammu and Kashmir.html">Jammu & Kashmir</a></li>
+                                    <li><a class="dropdown-item" href="Ladakh.html">Ladakh</a></li>
+                                    <li><a class="dropdown-item" href="Lakshadweep.html">Lakshadweep</a></li>
+                                    <li><a class="dropdown-item" href="Puducherry.html">Puducherry</a></li>
+                                </div>
+                            </div>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="row title">
+            <h1>Formation of Tripura</h1>
+        </div>
+        <div class="row custom-row">
+            <div class="col-sm-9 para">
+                <h3> 1947–50: A Princely State that Merges with India
+                </h3>
+                    <p>
+                        At the time of Indian Independence, the princely state of Tripura became ‘virtually isolated’from the rest of India due to Partition. Surrounded on three sides by the newly-created East Pakistan (now Bangladesh), Tripura possessed no road or rail connections with neighbouring Assam. The ruler of Tripura, Maharaja Bir Bikram Kishore Manikya Debbarman Bahadur, had died just months before Independence. His son, Prince Kirit, was still a minor and was installed as a nominal ruler. The Maharaja’s widow, Maharani Kanchan Prabha Devi, became the Regent, overlooking administration and decision-making.
+                        A number of socio-political organizations were created by Bengali professionals, educated tribal youth, communists and liberals in Tripura in the years leading up to Independence, each pursuing a form of responsible government. <br>These included the Jana Mongal Samiti (JMS), Jana Shiskya Samiti (JSS), and Tripura Proja Mondal (TPM). In 1948, the Tripura Rajya Gana Mukti Parishad (TRGMP) was created with the backing of the tribal
+                        
+                        chiefs; they demanded that democracy replace monarchy, land reform, and an end to the severe police and military oppression. Meanwhile, Partition had led to a severe inflow of Bengali refugees from East Pakistan. An organization named Sengkrak headed by a member of the royal family, Durjoy Kishore Debbarman, led a movement to oust Bengalis and oppose the merging of Tripura with India. In response, the TRGMP launched a massive campaign. <br>
+                        On 9 September 1949, the Regent Maharani signed the Merger Agreement with the Government of India. Tripura became a central commissioner’s province from 15 October 1949, administered directly by the Union government. On 26 January 1950, when India adopted its Constitution, Tripura was classified as a Part C state and continued under direct central administration. In September 1951, Parliament passed the Government of Part C States Act which provided for the constitution of a council of advisers to assist the chief commissioner in Manipur. A lieutenant-governor later replaced the chief commissioner.
+                        
+                    </p>
+            </div>
+            <div class="col-sm-3">
+                <div class="image">
+                    <img src="" alt="">
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="row custom-row">
+            <div class="col-sm-8 para">
+                <h3>1956–71: A First-class Union Territory that Nearly Wasn’t</h3>
+                <p>
+                    In December 1953, the Union government set up the States Reorganisation Commission (SRC) which invited memoranda from the public, individually and collectively. One of the proposals put forth a Purbachal State comprising nearly every region around the Assam plains, including Tripura. In its 1955 report, the SRC rejected Purbachal as having neither the resources nor the stability to secure its international border on three sides.
+                    Given Tripura’s small size, the SRC also declared that the state ‘cannot obviously stand by itself’. It recommended merging Tripura into Assam so that the entire eastern section of the international border with East Pakistan could then be brought under the single control of the Assam Government.
+                    When the States Reorganisation Act was passed in August 1956, however, the government rejected any change in Tripura’s status. On 1 November 1956, when the Act came into force, all Part C states, including
+                    
+                    Tripura, were redesignated as union territories that continued to be centrally administered.<br>
+                    As a way to grant some autonomy, Parliament passed the Territorial Councils Act, 1956, which established territorial councils in Manipur, Tripura and Himachal Pradesh. These councils were given the power to oversee local affairs, such as education, public health, roads and animal husbandry. However, these arrangements were not considered adequate and demands for greater autonomy kept growing. So, in 1961, the Centre constituted a committee headed by the Union Law Minister, Ashoke Kumar Sen. In its June 1962 report, the committee recommended that ‘the largest possible measure of autonomy should be granted’, including the introduction of panchayati raj and the transfer of more subjects to the territorial councils. However, the union territories demanded the creation of legislative bodies.
+                    <br>In 1962, once French and Portuguese territories were integrated into India and the State of Nagaland Act was passed, the Union government decided to go above and beyond the recommendations of the Ashoke Sen Committee. It passed the Constitution (Fourteenth Amendment) Act, 1962, and then the Government of Union Territories Act, 1963, which established legislative assemblies and councils of ministers and abolished territorial councils in five union territories, including Tripura, that were considered as being independent standalone entities. These legislative assemblies had powers and responsibilities similar to the state legislative assemblies, including the ability to make laws on subjects in the Union and Concurrent lists. They even had separate consolidated and contingency funds. Tripura got its first chief minister in Sachindra Lal Singh of the Indian National Congress (INC). Statehood now became a possible future for Tripura.<br>
+                          
+                </p>
+            </div>
+            <div class="image col-sm-4">
+                <img src="" alt="" >
+            </div>
+        </div>
+        <hr>
+        <div class="row custom-row">
+            <div class="col-sm-9 para">
+                <h3>
+                    1972: Statehood
+                </h3>
+                <p>
+                    On 30 December 1971, Parliament passed the North-Eastern Areas (Reorganisation) Act, which brought into existence three new states—
+
+                    Meghalaya, Manipur, and Tripura—and two new union territories— Mizoram and Arunachal Pradesh. On 21 January 1972, the full-fledged state of Tripura was born.
+                       
+                </p>
+
+            </div>
+            <div class="col-sm-3 image">
+                <img src="" alt="">
+            </div>
+                
+        </div>
+        <hr>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Protest+Strike&display=swap" rel="stylesheet">
+    <style>
+        .custom-dropdown-menu {
+            width: 1000px; 
+            max-height: 310px;
+            overflow-y: auto; 
+        }
+        .navbar-nav .nav-link {
+            font-size: 20px;
+        }
+        .navbar-nav .nav-item {
+            margin-right: 30px;
+        }
+        .ind-1947{
+            height: 450px;
+        }
+        .ind-1947 img{
+            height: 100%;
+            width : 100%;
+        }
+        .title h1{
+            padding-top:30px;
+            padding-bottom: 30px;
+            font-family: 'Protest Strike', sans-serif;
+            font-size: 60px;
+        }
+        .para h3{
+            font-family: 'Protest Strike', sans-serif;
+            padding-bottom: 10px;
+        }
+        .para p{
+            text-align: justify;
+            font-size: large;         
+        }
+        .custom-row{
+            align-items: center;
+        }
+        body{
+            margin-bottom: 150px;
+        }
+    </style>
+    <title></title>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="img/Logo.png" alt="Logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="introduction.html">Intro</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle"  id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            States
+                        </a>
+                        <ul class="dropdown-menu custom-dropdown-menu" aria-labelledby="navbarDropdown">
+                            <div class="row">
+                                <div class="col">
+                                    <li><a class="dropdown-item" href="Andhra Pradesh.html">Andhra Pradesh</a></li>
+                                    <li><a class="dropdown-item" href="Arunachal Pradesh.html">Arunachal Pradesh</a></li>
+                                    <li><a class="dropdown-item" href="Assam.html">Assam</a></li>
+                                    <li><a class="dropdown-item" href="Bihar.html">Bihar</a></li>
+                                    <li><a class="dropdown-item" href="Chhattisgrah.html">Chhattisgarh</a></li>
+                                    <li><a class="dropdown-item" href="Goa.html">Goa</a></li>
+                                    <li><a class="dropdown-item" href="Gujarat.html">Gujarat</a></li>
+                                    <li><a class="dropdown-item" href="Haryana.html">Haryana</a></li>
+                                    <li><a class="dropdown-item" href="Himachal Pradesh.html">Himachal Pradesh</a></li>
+                                </div>
+                                <div class="col">
+                                    <li><a class="dropdown-item" href="Jharkhand.html">Jharkhand</a></li>
+                                    <li><a class="dropdown-item" href="Karnataka.html">Karnataka</a></li>
+                                    <li><a class="dropdown-item" href="Kerala.html">Kerala</a></li>
+                                    <li><a class="dropdown-item" href="Madhya Pradesh.html">Madhya Pradesh</a></li>
+                                    <li><a class="dropdown-item" href="Maharashtra.Html">Maharashtra</a></li>
+                                    <li><a class="dropdown-item" href="Manipur.html">Manipur</a></li>
+                                    <li><a class="dropdown-item" href="Meghalaya.html">Meghalaya</a></li>
+                                    <li><a class="dropdown-item" href="Mizoram.html">Mizoram</a></li>
+                                    <li><a class="dropdown-item" href="Nagaland.html">Nagaland</a></li>
+                                </div>
+                                <div class="col">
+                                    <li><a class="dropdown-item" href="Orissa.html">Odisha</a></li>
+                                    <li><a class="dropdown-item" href="Punjab.html">Punjab</a></li>
+                                    <li><a class="dropdown-item" href="Rajasthan.html">Rajasthan</a></li>
+                                    <li><a class="dropdown-item" href="Sikkim.html">Sikkim</a></li>
+                                    <li><a class="dropdown-item" href="Tamil Nadu.html">Tamil Nadu</a></li>
+                                    <li><a class="dropdown-item" href="Telangana.html">Telangana</a></li>
+                                    <li><a class="dropdown-item" href="Tripura.html">Tripura</a></li>
+                                    <li><a class="dropdown-item" href="Uttar Pradesh.html">Uttar Pradesh</a></li>
+                                    <li><a class="dropdown-item" href="Uttarakhand.html">Uttarakhand</a></li>
+                                </div>
+                                <div class="col">
+                                    <li><a class="dropdown-item" href="West Bengal.html">West Bengal</a></li>
+                                    <li><a class="dropdown-item" href="">Andaman and Nicobar Islands</a></li>
+                                    <li><a class="dropdown-item" href="Chandigrah.html">Chandigarh</a></li>
+                                    <li><a class="dropdown-item" href="">Dadra and Nagar Haveli and Daman and Diu</a></li>
+                                    <li><a class="dropdown-item" href="Delhi.html">Delhi</a></li>
+                                    <li><a class="dropdown-item" href="Jammu and Kashmir.html">Jammu & Kashmir</a></li>
+                                    <li><a class="dropdown-item" href="Ladakh.html">Ladakh</a></li>
+                                    <li><a class="dropdown-item" href="Lakshadweep.html">Lakshadweep</a></li>
+                                    <li><a class="dropdown-item" href="Puducherry.html">Puducherry</a></li>
+                                </div>
+                            </div>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="row title">
+            <h1>Introduction</h1>
+        </div>
+        <div class="row para">
+        <p>
+            Before India became independent, it had three types of areas. First were the Territories of British India, ruled by the British Government. Second were the Princely States, governed by local kings and princes. Third were the Colonial Territories of France and Portugal, under the control of the French and Portuguese governments. After gaining independence in 1947, a significant change occurred. The States Reorganization Commission in 1956 played a crucial role in this transformation. It aimed to create states based on languages, giving rise to the current 29 states. This process shows how India values its diverse cultures within a united framework.
+       
+        </p>
+        </div>
+        <hr>
+        <div class="row custom-row">
+            <div class="col-sm-8 para">
+                <h3>On 15 August 1947 :</h3>
+                <p>
+                    On 15 August 1947, not only did the British Crown partition India on both its western and eastern sides, they also left behind an internal mess that threatened to destroy the country from within. For starters, the outgoing British administration handed over only about 60 per cent of the country’s land to the new Indian government. The remaining 40 per cent of the country belonged to the rulers of 565 princely states. The British Empire had administered India with two systems running in parallel—a direct system in its provinces and a separate indirect system across the princely states. When British Paramountcy lapsed on 15 August 1947, only the administration of the provinces transferred to the new Indian government.
+                    The ruler of every princely state was offered three options: join India, join Pakistan, or remain independent.
+                </p>
+                <p>
+                    This was a massive problem for the new Indian administrators. Each of these rulers scattered across the land had to be convinced individually and collectively to merge with the new Union of India. The States Ministry headed by Sardar Vallabhbhai Patel and executed phenomenally by V.P. Menon visited every ruler and secured their signature on a Standstill Agreement and an Instrument of Accession in record time. They reimagined the landscape of the country, merging and integrating princely states with each other and with neighbouring provinces to create a complete coalesced whole. It was the first time India had been successfully integrated as one nation. At the same time, they recognized that these internal mergers were fluid and allowed for future reimaginings.
+                </p>
+            </div>
+            <div class="ind-1947 col-sm-4">
+                <img src="img/ind1.png" alt="India at the time of Independence, 1947" >
+            </div>
+        </div>
+        <hr>
+        <div class="row custom-row">
+                <div class="col-sm-9 para">
+                    <h3>
+                        Princely States in British India :
+                    </h3>
+                    <p>
+                        The early history of British expansion in India was characterized by the co-existence of two approaches towards the existing princely states. The first involved a policy of annexation, where the British sought to forcibly absorb the Indian princely states into the provinces constituting their Empire in India. Conversely, the second approach embraced indirect rule, where the British assumed suzerainty and paramountcy over princely states, conceding varying degrees of sovereignty and internal self-government. During the early 19th century, British policy tended towards annexation, but the Indian Rebellion of 1857 prompted a shift, revealing the challenges of absorption and the value of princely states as supporters. In 1858, annexation was formally renounced, leading to British relations with remaining princely states being based on subsidiary alliances, with paramountcy asserted while respecting and protecting them as allies. The exact relations varied widely, with some states enjoying internal self-government while others faced significant British control. In the 20th century, attempts were made to integrate the princely states more closely with British India, including the creation of the Chamber of Princes in 1921 and the transfer of supervision responsibility to the center in 1936. A federation scheme outlined in the Government of India Act 1935 aimed to unite princely states and British India but was abandoned due to the outbreak of World War II and princely reluctance. Consequently, in the 1940s, the relationship between the princely states and the crown remained governed by the principle of paramountcy and various treaties between the British crown and the states.
+                    </p>
+
+                </div>
+                <div class="col-sm-3">
+                    <img src="img/Princely_States.jpg" alt="state princes">
+                </div>
+
+        </div>
+        <hr>
+        <div class="row custom-row">
+            <div class="col-sm-8 para">
+                <h3>India After Adopting Consitution :</h3>
+                <p>
+                    On 26 January 1950, India adopted its Constitution and became a ‘Union of States’ with twenty-eight states. The Constitution mentioned each state by name as an integral part of this Union, and classified them into four categories based on administrative set-up.
+                    The Constitution of India is an incredibly flexible document, but it is equally firm as well. New states may be admitted and established in the Union, but no state has the power to secede or leave the Union. For this reason, the chief architect of the Indian Constitution, Dr Bhimrao Ramji Ambedkar, described the Union of India as ‘indestructible’.The states themselves, however, were entirely destructible. A state could be split into multiple new states. Or multiple states could be merged to form a new state. Or portions of multiple states could be merged to form a new state. The areas of states could be increased or decreased. State boundaries could be redrawn. States could be renamed. Every state in India has been altered in the above manner, many of them more than once.
+                </p>
+                 <p>
+                 Starting from the 1960s, states began to be reorganized on an individual or cluster basis. Gujarat and Maharashtra separated in 1960. India integrated Portuguese territories in 1961 and French territories in 1963 as union territories. Nagaland was created in 1963. In 1966, in one move, the states of Punjab and Haryana were created in the north along with the union territories of Chandigarh and Himachal Pradesh (which later gained statehood in 1971). In 1972, the North-east and Assam were reorganized, which brought into existence the states of Manipur, Meghalaya and Tripura as well as the union territories of Arunachal Pradesh and Mizoram. In 1975, India’s international borders expanded to include Sikkim. 1987 saw the transformation of the union territories of Arunachal Pradesh, Mizoram and Goa into states. In 2000, three states in central and north India split into six
+                    Uttar Pradesh and Uttarakhand, Madhya Pradesh and Chhattisgarh, and Bihar and Jharkhand. In 2014, Andhra Pradesh and Telangana separated. In 2019, the union territories of Jammu and Kashmir and Ladakh were created in place of the erstwhile state.
+                </p>
+            </div>
+            <div class="col-sm-4 ind-1947">
+                <img src="img/ind2.png" alt="India After Constitution">
+            </div>
+
+        
+
+    
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

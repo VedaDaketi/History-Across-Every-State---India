@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Protest+Strike&display=swap" rel="stylesheet">
+    <style>
+        .custom-dropdown-menu {
+            width: 1000px; 
+            max-height: 310px;
+            overflow-y: auto; 
+        }
+        .navbar-nav .nav-link {
+            font-size: 20px;
+        }
+        .navbar-nav .nav-item {
+            margin-right: 30px;
+        }
+        .ind-1947{
+            height: 450px;
+        }
+        .image img{
+            padding-top:25px;
+            height: 100%;
+            width : 100%;
+        }
+        .title h1{
+            padding-top:30px;
+            padding-bottom: 30px;
+            font-family: 'Protest Strike', sans-serif;
+            font-size: 60px;
+        }
+        .para h3{
+            font-family: 'Protest Strike', sans-serif;
+            padding-bottom: 10px;
+        }
+        .para p{
+            text-align: justify;
+            font-size: large;         
+        }
+        .custom-row{
+            align-items: start;
+        }
+    </style>
+    <title></title>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="img/Logo.png" alt="Logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="introduction.html">Intro</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link active dropdown-toggle"  id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            States
+                        </a>
+                        <ul class="dropdown-menu custom-dropdown-menu" aria-labelledby="navbarDropdown">
+                            <div class="row">
+                                <div class="col">
+                                    <li><a class="dropdown-item" href="Andhra Pradesh.html">Andhra Pradesh</a></li>
+                                    <li><a class="dropdown-item" href="Arunachal Pradesh.html">Arunachal Pradesh</a></li>
+                                    <li><a class="dropdown-item" href="Assam.html">Assam</a></li>
+                                    <li><a class="dropdown-item" href="Bihar.html">Bihar</a></li>
+                                    <li><a class="dropdown-item" href="Chhattisgrah.html">Chhattisgarh</a></li>
+                                    <li><a class="dropdown-item" href="Goa.html">Goa</a></li>
+                                    <li><a class="dropdown-item" href="Gujarat.html">Gujarat</a></li>
+                                    <li><a class="dropdown-item" href="Haryana.html">Haryana</a></li>
+                                    <li><a class="dropdown-item" href="Himachal Pradesh.html">Himachal Pradesh</a></li>
+                                </div>
+                                <div class="col">
+                                    <li><a class="dropdown-item" href="Jharkhand.html">Jharkhand</a></li>
+                                    <li><a class="dropdown-item" href="Karnataka.html">Karnataka</a></li>
+                                    <li><a class="dropdown-item" href="Kerala.html">Kerala</a></li>
+                                    <li><a class="dropdown-item" href="Madhya Pradesh.html">Madhya Pradesh</a></li>
+                                    <li><a class="dropdown-item" href="Maharashtra.Html">Maharashtra</a></li>
+                                    <li><a class="dropdown-item" href="Manipur.html">Manipur</a></li>
+                                    <li><a class="dropdown-item" href="Meghalaya.html">Meghalaya</a></li>
+                                    <li><a class="dropdown-item" href="Mizoram.html">Mizoram</a></li>
+                                    <li><a class="dropdown-item" href="Nagaland.html">Nagaland</a></li>
+                                </div>
+                                <div class="col">
+                                    <li><a class="dropdown-item" href="Orissa.html">Odisha</a></li>
+                                    <li><a class="dropdown-item" href="Punjab.html">Punjab</a></li>
+                                    <li><a class="dropdown-item" href="Rajasthan.html">Rajasthan</a></li>
+                                    <li><a class="dropdown-item" href="Sikkim.html">Sikkim</a></li>
+                                    <li><a class="dropdown-item" href="Tamil Nadu.html">Tamil Nadu</a></li>
+                                    <li><a class="dropdown-item" href="Telangana.html">Telangana</a></li>
+                                    <li><a class="dropdown-item" href="Tripura.html">Tripura</a></li>
+                                    <li><a class="dropdown-item" href="Uttar Pradesh.html">Uttar Pradesh</a></li>
+                                    <li><a class="dropdown-item" href="Uttarakhand.html">Uttarakhand</a></li>
+                                </div>
+                                <div class="col">
+                                    <li><a class="dropdown-item" href="West Bengal.html">West Bengal</a></li>
+                                    <li><a class="dropdown-item" href="">Andaman and Nicobar Islands</a></li>
+                                    <li><a class="dropdown-item" href="Chandigrah.html">Chandigarh</a></li>
+                                    <li><a class="dropdown-item" href="">Dadra and Nagar Haveli and Daman and Diu</a></li>
+                                    <li><a class="dropdown-item" href="Delhi.html">Delhi</a></li>
+                                    <li><a class="dropdown-item" href="Jammu and Kashmir.html">Jammu & Kashmir</a></li>
+                                    <li><a class="dropdown-item" href="Ladakh.html">Ladakh</a></li>
+                                    <li><a class="dropdown-item" href="Lakshadweep.html">Lakshadweep</a></li>
+                                    <li><a class="dropdown-item" href="Puducherry.html">Puducherry</a></li>
+                                </div>
+                            </div>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="row title">
+            <h1>Formation of ODISHA</h1>
+        </div>
+        <div class="row custom-row">
+            <div class="col-sm-9 para">
+                
+                    <p>
+                        Odisha was born on 1 April 1936, a date which is celebrated every year as ‘Utkala Dibasa’ (Odisha Day), making Odisha one of only two states in India to have a formation day pre-dating Independence. It was created as Orissa Province in 1936 following an elaborate enquiry by three separate committees spread over thirty years. It was also created on a linguistic basis, comprising an amalgamation of Odia-speaking districts from the existing Bihar and Orissa Province (42 per cent of land area and 66 per cent of population), Madras Province (53 per cent of land area and 31.7 per cent of population), and Central Provinces (5 per cent of land area and 2.3 per cent of population). 
+                        At the same time, in keeping with the British two-tiered system of administration, forty-two princely states in the region were grouped under the Eastern States Agency. This included twenty-six princely states of Orissa. 
+                        And so, at the time of Independence in 1947, Odisha existed in two parts
+                        —Orissa Province and a large part of the Eastern States Agency. Due to the provincial elections held in January 1946, Orissa Province already had a
+                         
+                        chief minister—Harekrushna Mahatab of the Indian National Congress (INC).
+                                             
+                    </p>
+            </div>
+            <div class="col-sm-3">
+                <div class="imag">
+                    <img src="img/odisha first cm.jpg" alt="">
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="row custom-row align-items-center">
+            <div class="col-sm-8 para">
+                <h3>Unifying Orissa</h3>
+                <p>
+                    In August 1947, the members of the Eastern States Agency made a play to form their own state. They joined together to form the Eastern States Union, headed by Maharaja Ramanuj Pratap Singh Deo, the ruler of the princely state of Korea (now also spelled as Koriya). However, two of the biggest states—Mayurbhanj and Bastar—along with some of the smaller states, refused to join. The Union was a motley of Odia-speaking states and Hindi- speaking states scattered across Orissa Province and Central Provinces. By November 1947, the States Ministry had decided that the Union government would not recognize the Eastern States Union due to linguistic and administrative irregularities. The Orissa princely states would be merged into Orissa Province, and the Chhattisgarh states into Central Provinces. 
+                    The States Ministry’s decision split the rulers of the Eastern States Union into opposing camps. At Cuttack in the middle of December 1947, Sardar Vallabhbhai Patel and V.P. Menon first met the rulers of the smaller class B and C states, and later of the larger class A states. They apprised them of the law and order unrest that simmered in their states, the people’s desire to have a responsible government which most states could not provide, and the possibility that the Union government would take over the states’ administration if the situation worsened. Within a day, all the rulers signed the agreement merging their Orissa states with Orissa Province. The following day, the rulers of the Chhattisgarh states signed a similar merger agreement. The Eastern States Union was dissolved. By the end of the month, the Orissa government was given the power to administer the states.<br> 
+                    In May 1948, two states—Seraikela and Kharsawan—were shifted from Orissa to Bihar as they were exclaves within Bihar. On 17 October 1948,
+                     
+                    the Maharaja of Mayurbhanj, who had independently attempted to run a responsible government and had failed, signed an Instrument of Merger with India. On 1 January 1949, the States Ministry merged Mayurbhanj with Orissa as it was ‘linguistically and culturally linked’. This completed the process of the creation of the state of Orissa.
+                                         
+                </p>
+            </div>
+            <div class="image col-sm-4">
+                <img src="img/orissa-district-map.jpg" alt="" >
+            </div>
+        </div>
+        <hr>
+        <div class="row para">
+                <h3>
+                    Orissa to Odisha
+                </h3>
+                <p>
+                    Odisha is the Odia spelling and pronunciation of the state. However, the state was known as Udisa in Hindi and Orissa in English. Similarly, the state language is Odia, while it was known as Udiya in Hindi and Oriya in English. In 2008, the state government passed a proposal to introduce a bill to standardize all the spellings and pronunciations to Odisha and Odia. 
+                    Eventually, in September 2011, Parliament passed the Orissa (Alteration of Name) Act at the Centre. From 1 November 2011, the official nomenclature became Odisha and Odia. 
+                                   
+                </p>
+                
+        </div>
+        
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

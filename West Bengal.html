@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Protest+Strike&display=swap" rel="stylesheet">
+    <style>
+        .custom-dropdown-menu {
+            width: 1000px; 
+            max-height: 310px;
+            overflow-y: auto; 
+        }
+        .navbar-nav .nav-link {
+            font-size: 20px;
+        }
+        .navbar-nav .nav-item {
+            margin-right: 30px;
+        }
+        .ind-1947{
+            height: 450px;
+        }
+        .image img{
+            padding-top:25px;
+            height: 100%;
+            width : 100%;
+        }
+        .title h1{
+            padding-top:30px;
+            padding-bottom: 30px;
+            font-family: 'Protest Strike', sans-serif;
+            font-size: 60px;
+        }
+        .para h3{
+            font-family: 'Protest Strike', sans-serif;
+            padding-bottom: 10px;
+        }
+        .para p{
+            text-align: justify;
+            font-size: large;         
+        }
+        .custom-row{
+            align-items: start;
+        }
+    </style>
+    <title></title>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="img/Logo.png" alt="Logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="introduction.html">Intro</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link active dropdown-toggle"  id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            States
+                        </a>
+                        <ul class="dropdown-menu custom-dropdown-menu" aria-labelledby="navbarDropdown">
+                            <div class="row">
+                                <div class="col">
+                                    <li><a class="dropdown-item" href="Andhra Pradesh.html">Andhra Pradesh</a></li>
+                                    <li><a class="dropdown-item" href="Arunachal Pradesh.html">Arunachal Pradesh</a></li>
+                                    <li><a class="dropdown-item" href="Assam.html">Assam</a></li>
+                                    <li><a class="dropdown-item" href="Bihar.html">Bihar</a></li>
+                                    <li><a class="dropdown-item" href="Chhattisgrah.html">Chhattisgarh</a></li>
+                                    <li><a class="dropdown-item" href="Goa.html">Goa</a></li>
+                                    <li><a class="dropdown-item" href="Gujarat.html">Gujarat</a></li>
+                                    <li><a class="dropdown-item" href="Haryana.html">Haryana</a></li>
+                                    <li><a class="dropdown-item" href="Himachal Pradesh.html">Himachal Pradesh</a></li>
+                                </div>
+                                <div class="col">
+                                    <li><a class="dropdown-item" href="Jharkhand.html">Jharkhand</a></li>
+                                    <li><a class="dropdown-item" href="Karnataka.html">Karnataka</a></li>
+                                    <li><a class="dropdown-item" href="Kerala.html">Kerala</a></li>
+                                    <li><a class="dropdown-item" href="Madhya Pradesh.html">Madhya Pradesh</a></li>
+                                    <li><a class="dropdown-item" href="Maharashtra.Html">Maharashtra</a></li>
+                                    <li><a class="dropdown-item" href="Manipur.html">Manipur</a></li>
+                                    <li><a class="dropdown-item" href="Meghalaya.html">Meghalaya</a></li>
+                                    <li><a class="dropdown-item" href="Mizoram.html">Mizoram</a></li>
+                                    <li><a class="dropdown-item" href="Nagaland.html">Nagaland</a></li>
+                                </div>
+                                <div class="col">
+                                    <li><a class="dropdown-item" href="Orissa.html">Odisha</a></li>
+                                    <li><a class="dropdown-item" href="Punjab.html">Punjab</a></li>
+                                    <li><a class="dropdown-item" href="Rajasthan.html">Rajasthan</a></li>
+                                    <li><a class="dropdown-item" href="Sikkim.html">Sikkim</a></li>
+                                    <li><a class="dropdown-item" href="Tamil Nadu.html">Tamil Nadu</a></li>
+                                    <li><a class="dropdown-item" href="Telangana.html">Telangana</a></li>
+                                    <li><a class="dropdown-item" href="Tripura.html">Tripura</a></li>
+                                    <li><a class="dropdown-item" href="Uttar Pradesh.html">Uttar Pradesh</a></li>
+                                    <li><a class="dropdown-item" href="Uttarakhand.html">Uttarakhand</a></li>
+                                </div>
+                                <div class="col">
+                                    <li><a class="dropdown-item" href="West Bengal.html">West Bengal</a></li>
+                                    <li><a class="dropdown-item" href="">Andaman and Nicobar Islands</a></li>
+                                    <li><a class="dropdown-item" href="Chandigrah.html">Chandigarh</a></li>
+                                    <li><a class="dropdown-item" href="">Dadra and Nagar Haveli and Daman and Diu</a></li>
+                                    <li><a class="dropdown-item" href="Delhi.html">Delhi</a></li>
+                                    <li><a class="dropdown-item" href="Jammu and Kashmir.html">Jammu & Kashmir</a></li>
+                                    <li><a class="dropdown-item" href="Ladakh.html">Ladakh</a></li>
+                                    <li><a class="dropdown-item" href="Lakshadweep.html">Lakshadweep</a></li>
+                                    <li><a class="dropdown-item" href="Puducherry.html">Puducherry</a></li>
+                                </div>
+                            </div>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="row title">
+            <h1>Formation of West Bengal</h1>
+        </div>
+        <div class="row custom-row">
+            <div class="col-sm-9 para">
+                <h3>1947–50: Cleavage of Country and State
+                </h3>
+                    <p>
+                        At Independence in 1947, Bengal Province was partitioned into west and east by the Radcliffe Line. East Bengal became a part of Pakistan while West Bengal transferred to the Dominion of India. East Bengal was renamed East Pakistan in 1955 and then Bangladesh when it gained independence in 1971. Meanwhile, West Bengal itself was split into two separate parts. The northern districts were separated from the rest of the state by Bihar and the future nation of Bangladesh.
+                       The princely state of Cooch Behar, nestled in the foothills of the Himalayas, sat at a crucial junction of three different administrative areas. To its north and west lay West Bengal, to its east, Assam, and to its south spread out the plains of East Bengal. The ruler, Maharaja Jagaddipendra Narayan Bhup Bahadur, signed the Merger Agreement with India on 30 August 1949. Given the uncertain border situation at the time and the geographical importance of Cooch Behar, the Government of India took over the administration through a chief commissioner on 12 September.
+
+                      However, just three months later, Sardar Vallabhbhai Patel, the minister of states, consulted the Premier of West Bengal and decided it was more advantageous to merge Cooch Behar with West Bengal. On 1 January 1950, Cooch Behar became a district in the north-eastern end of West Bengal. 
+
+                       
+                    </p>
+            </div>
+            <div class="col-sm-3">
+                <div class="image">
+                    <img src="" alt="">
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="row custom-row">
+            <div class="col-sm-8 para">
+                <h3>1956: Threading West Bengal</h3>
+                <p>
+                    The partition of India separated the northern portion of West Bengal from the rest of the state. Bihar and the future nation of Bangladesh stood in between West Bengal and its northern region. For nearly ten years, West Bengal remained the only Part A state that was not a contiguous geographical unit. In 1956, the States Reorganisation Commission (SRC) approached ‘one of the most difficult problems’it had faced and rectified it with a slight redrawing of state boundaries.
+                   In addition to existing in two parts, West Bengal had also lost many connectivity options like highways and bridges across rivers. Hence, West Bengal sought large regions of Bihar all the way up to the River Mahananda to not only ensure contiguity but also connectivity. However, after studying census records to understand the language and caste compositions of the disputed districts, the SRC concluded that there wasn’t much merit in many of West Bengal’s claims.
+                  Instead, the SRC proposed that two slim but ‘essential’tracts of land be transferred from Bihar to West Bengal. These were the portion of Kishanganj sub-division that lay to the east of River Mahananda and a portion of Gopalpur thana (with a special mention that the government of West Bengal retain control of the national highway here). This was done so as to physically integrate West Bengal’s northern districts with the rest of the state. Additionally, it gave control of this section of the India–Pakistan border (now India–Bangladesh border) entirely to West Bengal, which was a ‘convenient and desirable’ administrative advantage.<br>
+                    Where the SRC did see merit was in West Bengal’s claim to the district of Purulia further to the south. The SRC cited unmistakable evidence of
+
+                  Bengali influence in the district which had the largest concentration of Bengali-speakers outside West Bengal. Also, the Kangsabati River on which West Bengal was implementing a flood control and irrigation project rose in Purulia, making the district more valuable to West Bengal than Bihar. Hence, Purulia (minus the Chas thana) was transferred to West Bengal, becoming its westernmost district.
+                    
+                </p>
+            </div>
+            <div class="image col-sm-4">
+                <img src="" alt="" >
+            </div>
+        </div>
+        <hr>
+        <div class="row custom-row">
+            <div class="col-sm-9 para">
+                <h3>The 68-Year Exchange of Enclaves
+                    
+                </h3>
+                <p>
+                    Partition in 1947 created the unique situation of enclaveson the international border of India and the future Bangladesh, unparalleled across the world in ‘their complexity, number, political significance and social eccentricity’. A total of 225 enclaves pockmarked both sides of the border. Of these, 130 were Indian and 95 belonged to East Pakistan. Most of the enclaves situated in India lay within the district of Cooch Behar. These enclaves were around 250 years old, having come into existence due to political alliances and battles by landlords of the Cooch Behar kingdom with the Mughals. As a result, estates were fragmented into scattered plots that were detached from the parent estate. Called ‘chhit mohol’ in Bengali, they paid taxes to one state but were surrounded by the territory of the other state. When the British invaded Cooch Behar in 1772, they simply continued with this system of administration. The Maharaja continued to run Cooch Behar and the British maintained control over the Maharaja.<br>
+                    Neither government knew exactly how to resolve the situation of the enclaves. As a result, the enclave dwellers found themselves marooned and abandoned. They were not legally allowed to sell their own produce (especially jute, paddy and tobacco) or to cultivate land they owned outside the enclave. Only bare essentials were allowed from the mainland into the enclaves, such as oil, sugar, cloth, matches and medicines. They received no infrastructure benefits, such as schools, markets or medical facilities; there was no electricity, police stations or even drinking water. In 1952, when India and East Bengal/Pakistan agreed to introduce passports and visa
+                    
+                    controls, the enclave dwellers were given no option to legally acquire a passport from their mainland. These complications grew exponentially for enclaves that were situated within other enclaves. There even existed the world’s only third-order enclave—a piece of India within a piece of Bangladesh within a piece of India within the nation of Bangladesh.
+                    Discussions to exchange enclaves began around 1950 and the prime ministers of India and Pakistan agreed to the exchange in September 1958 with no additional compensation element. However, implementation stalled as debates arose in India about the unconstitutionality of the exchange, with an appeals case going up to the Supreme Court. Two wars with Pakistan followed in 1965 and 1971, the latter leading to the creation of the independent nation of Bangladesh. In 1974, the prime ministers of India and Bangladesh agreed to exchange the enclaves ‘as soon as possible’.<br>
+                    However, while Bangladesh ratified this agreement, India did not. Over the next forty years, enclave dwellers, their neighbouring nation, and their mainland fashioned compromises and ad hoc workaround solutions that were as varied as the number of enclaves.
+                    A 2011 Protocol was signed that would transfer ‘adverse possessions of land’ between the two countries. This, too, was not implemented. Finally, in June 2015, a Land Boundary Agreement (LBA), which included the lands of the 2011 Protocol, was agreed upon and ratified by both governments.
+                    India transferred 111 enclaves of a total size of 17,160 acres to Bangladesh, and received 51 enclaves adding up to 7,110 acres. This filled most of the holes that had dotted the border maps as the enclaves merged with the surrounding nation. The enclave dwellers were given a one-time choice of citizenship—they could join either country. 
+                    
+                    
+                               
+                </p>
+
+            </div>
+            <div class="col-sm-3 image">
+                <img src="" alt="">
+            </div>
+                
+        </div>
+        <hr>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

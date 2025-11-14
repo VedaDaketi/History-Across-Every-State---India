@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Protest+Strike&display=swap" rel="stylesheet">
+    <style>
+        .custom-dropdown-menu {
+            width: 1000px; 
+            max-height: 310px;
+            overflow-y: auto; 
+        }
+        .navbar-nav .nav-link {
+            font-size: 20px;
+        }
+        .navbar-nav .nav-item {
+            margin-right: 30px;
+        }
+        .ind-1947{
+            height: 450px;
+        }
+        .image img{
+            padding-top:25px;
+            height: 100%;
+            width : 100%;
+        }
+        .title h1{
+            padding-top:30px;
+            padding-bottom: 30px;
+            font-family: 'Protest Strike', sans-serif;
+            font-size: 60px;
+        }
+        .para h3{
+            font-family: 'Protest Strike', sans-serif;
+            padding-bottom: 10px;
+        }
+        .para p{
+            text-align: justify;
+            font-size: large;         
+        }
+        .custom-row{
+            align-items: start;
+        }
+    </style>
+    <title></title>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="img/Logo.png" alt="Logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="introduction.html">Intro</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link active dropdown-toggle"  id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            States
+                        </a>
+                        <ul class="dropdown-menu custom-dropdown-menu" aria-labelledby="navbarDropdown">
+                            <div class="row">
+                                <div class="col">
+                                    <li><a class="dropdown-item" href="Andhra Pradesh.html">Andhra Pradesh</a></li>
+                                    <li><a class="dropdown-item" href="Arunachal Pradesh.html">Arunachal Pradesh</a></li>
+                                    <li><a class="dropdown-item" href="Assam.html">Assam</a></li>
+                                    <li><a class="dropdown-item" href="Bihar.html">Bihar</a></li>
+                                    <li><a class="dropdown-item" href="Chhattisgrah.html">Chhattisgarh</a></li>
+                                    <li><a class="dropdown-item" href="Goa.html">Goa</a></li>
+                                    <li><a class="dropdown-item" href="Gujarat.html">Gujarat</a></li>
+                                    <li><a class="dropdown-item" href="Haryana.html">Haryana</a></li>
+                                    <li><a class="dropdown-item" href="Himachal Pradesh.html">Himachal Pradesh</a></li>
+                                </div>
+                                <div class="col">
+                                    <li><a class="dropdown-item" href="Jharkhand.html">Jharkhand</a></li>
+                                    <li><a class="dropdown-item" href="Karnataka.html">Karnataka</a></li>
+                                    <li><a class="dropdown-item" href="Kerala.html">Kerala</a></li>
+                                    <li><a class="dropdown-item" href="Madhya Pradesh.html">Madhya Pradesh</a></li>
+                                    <li><a class="dropdown-item" href="Maharashtra.Html">Maharashtra</a></li>
+                                    <li><a class="dropdown-item" href="Manipur.html">Manipur</a></li>
+                                    <li><a class="dropdown-item" href="Meghalaya.html">Meghalaya</a></li>
+                                    <li><a class="dropdown-item" href="Mizoram.html">Mizoram</a></li>
+                                    <li><a class="dropdown-item" href="Nagaland.html">Nagaland</a></li>
+                                </div>
+                                <div class="col">
+                                    <li><a class="dropdown-item" href="Orissa.html">Odisha</a></li>
+                                    <li><a class="dropdown-item" href="Punjab.html">Punjab</a></li>
+                                    <li><a class="dropdown-item" href="Rajasthan.html">Rajasthan</a></li>
+                                    <li><a class="dropdown-item" href="Sikkim.html">Sikkim</a></li>
+                                    <li><a class="dropdown-item" href="Tamil Nadu.html">Tamil Nadu</a></li>
+                                    <li><a class="dropdown-item" href="Telangana.html">Telangana</a></li>
+                                    <li><a class="dropdown-item" href="Tripura.html">Tripura</a></li>
+                                    <li><a class="dropdown-item" href="Uttar Pradesh.html">Uttar Pradesh</a></li>
+                                    <li><a class="dropdown-item" href="Uttarakhand.html">Uttarakhand</a></li>
+                                </div>
+                                <div class="col">
+                                    <li><a class="dropdown-item" href="West Bengal.html">West Bengal</a></li>
+                                    <li><a class="dropdown-item" href="">Andaman and Nicobar Islands</a></li>
+                                    <li><a class="dropdown-item" href="Chandigrah.html">Chandigarh</a></li>
+                                    <li><a class="dropdown-item" href="">Dadra and Nagar Haveli and Daman and Diu</a></li>
+                                    <li><a class="dropdown-item" href="Delhi.html">Delhi</a></li>
+                                    <li><a class="dropdown-item" href="Jammu and Kashmir.html">Jammu & Kashmir</a></li>
+                                    <li><a class="dropdown-item" href="Ladakh.html">Ladakh</a></li>
+                                    <li><a class="dropdown-item" href="Lakshadweep.html">Lakshadweep</a></li>
+                                    <li><a class="dropdown-item" href="Puducherry.html">Puducherry</a></li>
+                                </div>
+                            </div>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="row title">
+            <h1>Formation of Tamil Nadu</h1>
+        </div>
+        <div class="row custom-row">
+            <div class="col-sm-9 para">
+                <h3> Madras</h3>
+                    <p>
+                        Madras Province was one of British India’s three main Presidencies, along with Bombay and Calcutta. Madras Province (Madras State from 1950) covered such a large part of south India that it contained within its boundaries all the major language groups of south India.
+            
+                    </p>
+            </div>
+            <div class="col-sm-3">
+                <div class="image">
+                    <img src="" alt="">
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="row custom-row">
+            <div class="col-sm-8 para">
+                <h3>Telugu
+                </h3>
+                <p>
+                    Telugu was the linguistic majority in the northern districts of Madras State while Tamil was the linguistic majority in the southern districts starting from, and including, the city of Madras. This was a curious arrangement, for Telugu was the second-largest language spoken in independent India. According to the 1951 census, which combined Hindi, Urdu and Punjabi into the single-largest language, Telugu was spoken by 9.24 per cent of the Indian population while Tamil was fourth, after Marathi, spoken by 7.43 per cent of the population. Rarely does it transpire that a majority faction has to petition for its own space.
+
+                    The petition came in the form of Potti Sriramulu, a 51-year-old former sanitary engineer, railway-man, and an acolyte of Gandhi’s Sabarmati Ashram. After a lot of talking from both the pro- and anti-Andhra State factions but little discernible progress, Sriramulu began a fast-unto-death in Madras, a tactic he had used with little success for other causes in the past. Starting on 19 October 1952, his fast fast-tracked the demands for statehood by the Telugu population, adding a sense of emotional urgency to the protests.
+                   <br> The city of Madras fell on the linguistic border. The Tamils considered the city theirs, while the Telugus believed they could claim Madras since they had a significant demographic and economic presence in the city.
+                    However, the Tamils had the explicit support of both the Union and state government heads. In a report released in April 1949, the centrally constituted JVP Committee, named after its committee members Jawaharlal Nehru (Prime Minister), Vallabhbhai Patel (Deputy Prime Minister) and Pattabhi Sitaramayya (Congress president)—then possibly the three most powerful people in the country—stated ‘Andhra Province could be formed provided the Andhras give up their claim on the city of Madras’.<br>
+                    And so, Andhra lost its first capital city, Madras, even before the state came into being. But while the capital city might have been lost, the state was about to be won in a swift and decisive manner.
+                    Sriramulu’s death on 15 December 1952—on day fifty-eight of his fast— blew the lid off the anger and resentment simmering in the pro-Andhra camp. In the Andhra region, government offices were attacked, public transportation was set upon with a vengeance, and millions of rupees’ worth of public property was damaged.
+                    The terms of discussion of Andhra statehood had shifted irrevocably from the rational to the emotional. Nehru had wanted to settle the issue with ‘facts, not fasts’ but Sriramulu’s death-by-fasting not only changed the narrative, it wrested the decision from him and placed it firmly with the people.
+                    Two days after Sriramulu’s death, on 17 December 1952, Nehru gave in and announced that the state of Andhra would indeed become a reality. On
+                    
+                    1 October 1953, just under a year after Sriramulu began his history-making fast and just over four years after the declaration by the JVP Committee, the new Andhra State was inaugurated as a Part A state at its capital city of Kurnool. In attendance were both C. Rajagopalachari and Nehru, the latter as the chief guest.
+                          
+                </p>
+            </div>
+            <div class="image col-sm-4">
+                <img src="" alt="" >
+            </div>
+        </div>
+        <hr>
+        <div class="row custom-row">
+            <div class="col-sm-9 para">
+                <h3>
+                    Kannada and Tulu
+
+                </h3>
+                <p>
+                    The creation of Andhra State isolated the district of Bellary from the rest of Madras State. Bellary was not included in Andhra as it contained a Kannada-speaking majority. Hence, Bellary was integrated with Mysore State in 1953, along with the creation of Andhra State. 
+                    The separation of Andhra State from Madras State also led the Centre to set up the SRC to look into the matter of redrawing state boundaries. In its 1955 report, the SRC recommended transferring the Kollegal taluk of Coimbatore district and the western coastal region of South Canara to Mysore State.
+                        
+                </p>
+
+            </div>
+            <div class="col-sm-3 image">
+                <img src="" alt="">
+            </div>
+                
+        </div>
+        <hr>
+        <div class="row custom-row">
+            <div class="col-sm-9 para">
+                <h3>Malayalam
+                    
+                </h3>
+                <p>
+                    The coastal region of Malabar formed the ‘somewhat isolated’ western part of Madras State. Since Malabar shared much more with Travancore–Cochin State geographically, linguistically and commercially, the SRC recommended merging them to form a new state of Kerala. The Kasaragod taluk of South Canara was also transferred to Kerala while five Tamil- speaking taluks in the extreme south were transferred out to Madras State.
+
+                </p>
+
+            </div>
+            <div class="col-sm-3 image">
+                <img src="" alt="">
+            </div>                
+        </div>
+        <hr>
+        <div class="row custom-row">
+            <div class="col-sm-9 para">
+                <h3>
+                    1969: Madras State to Tamil Nadu
+
+                </h3>
+                <p>
+                    Soon after the redrawn Madras State came into being on 1 November 1956, a movement began to rename the state to Tamil Nadu. It was led chiefly by
+                    C.N. Annadurai, the leader of the Dravida Munnetra Kazhagam (DMK), which was in the opposition in the assembly. However, multiple motions to rename the state failed to secure a majority vote.
+                    In the 1967 assembly elections, the DMK won a resounding majority.
+                    This brought Annadurai as chief minister of Madras State. In July 1967, the legislative assembly and legislative council of Madras State unanimously passed a resolution demanding the change in nomenclature. It was forwarded to the Union government two months later. 
+                    In December 1968, Parliament passed the Madras State (Alteration of Name) Act. On 14 January 1969, Madras State was renamed as Tamil Nadu.
+                    
+                </p>
+
+            </div>
+            <div class="col-sm-3 image">
+                <img src="" alt="">
+            </div>
+                
+        </div>
+        <hr>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

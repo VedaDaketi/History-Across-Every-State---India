@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Protest+Strike&display=swap" rel="stylesheet">
+    <style>
+        .custom-dropdown-menu {
+            width: 1000px; 
+            max-height: 310px;
+            overflow-y: auto; 
+        }
+        .navbar-nav .nav-link {
+            font-size: 20px;
+        }
+        .navbar-nav .nav-item {
+            margin-right: 30px;
+        }
+        .ind-1947{
+            height: 450px;
+        }
+        .image img{
+            padding-top:25px;
+            height: 100%;
+            width : 100%;
+        }
+        .title h1{
+            padding-top:30px;
+            padding-bottom: 30px;
+            font-family: 'Protest Strike', sans-serif;
+            font-size: 60px;
+        }
+        .para h3{
+            font-family: 'Protest Strike', sans-serif;
+            padding-bottom: 10px;
+        }
+        .para p{
+            text-align: justify;
+            font-size: large;         
+        }
+        .custom-row{
+            align-items: start;
+        }
+    </style>
+    <title></title>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="img/Logo.png" alt="Logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="introduction.html">Intro</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link active dropdown-toggle"  id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            States
+                        </a>
+                        <ul class="dropdown-menu custom-dropdown-menu" aria-labelledby="navbarDropdown">
+                            <div class="row">
+                                <div class="col">
+                                    <li><a class="dropdown-item" href="Andhra Pradesh.html">Andhra Pradesh</a></li>
+                                    <li><a class="dropdown-item" href="Arunachal Pradesh.html">Arunachal Pradesh</a></li>
+                                    <li><a class="dropdown-item" href="Assam.html">Assam</a></li>
+                                    <li><a class="dropdown-item" href="Bihar.html">Bihar</a></li>
+                                    <li><a class="dropdown-item" href="Chhattisgrah.html">Chhattisgarh</a></li>
+                                    <li><a class="dropdown-item" href="Goa.html">Goa</a></li>
+                                    <li><a class="dropdown-item" href="Gujarat.html">Gujarat</a></li>
+                                    <li><a class="dropdown-item" href="Haryana.html">Haryana</a></li>
+                                    <li><a class="dropdown-item" href="Himachal Pradesh.html">Himachal Pradesh</a></li>
+                                </div>
+                                <div class="col">
+                                    <li><a class="dropdown-item" href="Jharkhand.html">Jharkhand</a></li>
+                                    <li><a class="dropdown-item" href="Karnataka.html">Karnataka</a></li>
+                                    <li><a class="dropdown-item" href="Kerala.html">Kerala</a></li>
+                                    <li><a class="dropdown-item" href="Madhya Pradesh.html">Madhya Pradesh</a></li>
+                                    <li><a class="dropdown-item" href="Maharashtra.Html">Maharashtra</a></li>
+                                    <li><a class="dropdown-item" href="Manipur.html">Manipur</a></li>
+                                    <li><a class="dropdown-item" href="Meghalaya.html">Meghalaya</a></li>
+                                    <li><a class="dropdown-item" href="Mizoram.html">Mizoram</a></li>
+                                    <li><a class="dropdown-item" href="Nagaland.html">Nagaland</a></li>
+                                </div>
+                                <div class="col">
+                                    <li><a class="dropdown-item" href="Orissa.html">Odisha</a></li>
+                                    <li><a class="dropdown-item" href="Punjab.html">Punjab</a></li>
+                                    <li><a class="dropdown-item" href="Rajasthan.html">Rajasthan</a></li>
+                                    <li><a class="dropdown-item" href="Sikkim.html">Sikkim</a></li>
+                                    <li><a class="dropdown-item" href="Tamil Nadu.html">Tamil Nadu</a></li>
+                                    <li><a class="dropdown-item" href="Telangana.html">Telangana</a></li>
+                                    <li><a class="dropdown-item" href="Tripura.html">Tripura</a></li>
+                                    <li><a class="dropdown-item" href="Uttar Pradesh.html">Uttar Pradesh</a></li>
+                                    <li><a class="dropdown-item" href="Uttarakhand.html">Uttarakhand</a></li>
+                                </div>
+                                <div class="col">
+                                    <li><a class="dropdown-item" href="West Bengal.html">West Bengal</a></li>
+                                    <li><a class="dropdown-item" href="">Andaman and Nicobar Islands</a></li>
+                                    <li><a class="dropdown-item" href="Chandigrah.html">Chandigarh</a></li>
+                                    <li><a class="dropdown-item" href="">Dadra and Nagar Haveli and Daman and Diu</a></li>
+                                    <li><a class="dropdown-item" href="Delhi.html">Delhi</a></li>
+                                    <li><a class="dropdown-item" href="Jammu and Kashmir.html">Jammu & Kashmir</a></li>
+                                    <li><a class="dropdown-item" href="Ladakh.html">Ladakh</a></li>
+                                    <li><a class="dropdown-item" href="Lakshadweep.html">Lakshadweep</a></li>
+                                    <li><a class="dropdown-item" href="Puducherry.html">Puducherry</a></li>
+                                </div>
+                            </div>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="row title">
+            <h1>Formation of Kerala</h1>
+        </div>
+        <div class="row custom-row">
+            <div class="col-sm-9 para">
+                <h3> The United State of Travancore–Cochin </h3>
+                    <p>
+                        The princely state of Travancore was the southernmost of the three. Even though it was ruled by the young Sree Chithira Thirunal Balarama Varma, it already had an elected legislature with limited powers. On 11 June 1947, Travancore’s chief minister, Dewan Sir C.P. Ramaswami Aiyar, announced that Travancore had decided to set itself up as an independent sovereign state. The secretary of the States Ministry, V.P. Menon, met Sir C.P. and impressed upon him the plan of accession on just three subjects without any other commitments. By the end of July, the Maharaja of Travancore had agreed to accept the Instrument of Accession and the Standstill Agreement.
+                        To the north of Travancore lay the princely state of Cochin ruled by the aged Kerala Varma Thampuran. Cochin already had had a legislative council with an elected majority since the mid-1920s. On the eve of Independence, the Maharaja transferred greater areas of the administration to elected representatives. He also called for the formation of an Aikya Keralam (Unified Kerala) by merging the three regions that shared a common culture and language—Travancore, Cochin and Malabar. <br>
+                        V.P. Menon felt similarly, noting that the people of Travancore and Cochin ‘are of the same stock, speak the same language, and have a common culture and tradition’. There were also geographical and commercial contiguities.
+                        However, Aikya Keralam was not an immediate possibility, given the Centre’s hesitance at the time in creating linguistic provinces. The Linguistic Provinces Commission—popularly known as the Dhar Commission after its chairman S.K. Dhar—set up in 1948 to explore the feasibility of reorganizing states linguistically, recommended postponing the matter for a few years. A follow-up JVP Committee—named after its members Prime Minister Jawaharlal Nehru, head of the States Ministry Vallabhbhai Patel and Congress president Pattabhi Sittaramaya—also cautioned against the ‘disintegrative effects of reorganisation’.
+                        The States Ministry favoured the more immediate practical policy of forming unions of states. Hence, V.P. Menon began a series of meetings with the Maharajas of Travancore and Cochin to iron out all the issues that stood in the way of merging the two states. Even though Travancore and Cochin had been among the first states to accede to India, their union was among the last to be created.<br>
+                        The United State of Travancore–Cochin was inaugurated by V.P. Menon himself on 1 July 1949. The Maharaja of Travancore (the bigger state in revenue and status) became the Rajpramukh (Governor) while the Maharaja of Cochin became the Uprajpramukh (Deputy Governor). The city of Trivandrum (now officially known as Thiruvananthapuram) in Travancore became the capital while the high court sat in the city of Cochin (now officially known as Kochi).
+                                              
+                    </p>
+            </div>
+            <div class="col-sm-3">
+                <div class="image">
+                    <img src="img/kerala.jpg" alt="">
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="row custom-row align-items-center">
+            <div class="col-sm-8 para">
+                <h3>1956: Aikya Kerala</h3>
+                <p>
+                    Responding to multiple calls from across the country to redraw state boundaries, the Union government set up the States Reorganisation Commission (SRC) in 1953 to examine the issue. At the end of 1955, the SRC released its report and most of its recommendations were passed in 1956 in the States Reorganisation Act. The SRC considered language as the key factor in determining additions and subtractions to Travancore–Cochin State.
+                    The coastal region of Malabar sat immediately north to Travancore– Cochin State but formed the ‘somewhat isolated’ western part of Madras State. Since it shared much more with Travancore–Cochin State geographically, linguistically and commercially, the SRC recommended merging it to form a new state of Kerala. The Kasaragod taluk of South Canara was also transferred in, while five Tamil-speaking taluks in the extreme south were transferred out to Madras State.
+                    The Amindivi island group, which today forms the northern part of the union territory of Lakshadweep, was administratively under South Canara. Meanwhile, the southern Laccadive island group was already a part of Malabar district. The SRC recommended putting both island groups under the administrative care of Kerala.<br> However, on considerations of security and development, the Union government decided to constitute the islands as a union territory under the direct care of the President of India who would act through an administrator. The jurisdiction of the Kerala High Court extended to the union territory, though.
+                    The new state of Kerala came into being on 1 November 1956. Although the state was under President’s rule at the time, the first assembly elections were held the following year. E.M.S. Namboodiripad of the Communist Party of India (CPI) was elected as the chief minister.
+                    
+                </p>
+            </div>
+            <div class="imag col-sm-4">
+                <img src="img/cp ramaswami aiyar(kerala.jpg" alt=""  >
+            </div>
+        </div>
+        
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

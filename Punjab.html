@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Protest+Strike&display=swap" rel="stylesheet">
+    <style>
+        .custom-dropdown-menu {
+            width: 1000px; 
+            max-height: 310px;
+            overflow-y: auto; 
+        }
+        .navbar-nav .nav-link {
+            font-size: 20px;
+        }
+        .navbar-nav .nav-item {
+            margin-right: 30px;
+        }
+        .ind-1947{
+            height: 450px;
+        }
+        .image img{
+            padding-top:25px;
+            height: 100%;
+            width : 100%;
+        }
+        .title h1{
+            padding-top:30px;
+            padding-bottom: 30px;
+            font-family: 'Protest Strike', sans-serif;
+            font-size: 60px;
+        }
+        .para h3{
+            font-family: 'Protest Strike', sans-serif;
+            padding-bottom: 10px;
+        }
+        .para p{
+            text-align: justify;
+            font-size: large;         
+        }
+        .custom-row{
+            align-items: start;
+        }
+    </style>
+    <title></title>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="img/Logo.png" alt="Logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="introduction.html">Intro</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link active dropdown-toggle"  id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            States
+                        </a>
+                        <ul class="dropdown-menu custom-dropdown-menu" aria-labelledby="navbarDropdown">
+                            <div class="row">
+                                <div class="col">
+                                    <li><a class="dropdown-item" href="Andhra Pradesh.html">Andhra Pradesh</a></li>
+                                    <li><a class="dropdown-item" href="Arunachal Pradesh.html">Arunachal Pradesh</a></li>
+                                    <li><a class="dropdown-item" href="Assam.html">Assam</a></li>
+                                    <li><a class="dropdown-item" href="Bihar.html">Bihar</a></li>
+                                    <li><a class="dropdown-item" href="Chhattisgrah.html">Chhattisgarh</a></li>
+                                    <li><a class="dropdown-item" href="Goa.html">Goa</a></li>
+                                    <li><a class="dropdown-item" href="Gujarat.html">Gujarat</a></li>
+                                    <li><a class="dropdown-item" href="Haryana.html">Haryana</a></li>
+                                    <li><a class="dropdown-item" href="Himachal Pradesh.html">Himachal Pradesh</a></li>
+                                </div>
+                                <div class="col">
+                                    <li><a class="dropdown-item" href="Jharkhand.html">Jharkhand</a></li>
+                                    <li><a class="dropdown-item" href="Karnataka.html">Karnataka</a></li>
+                                    <li><a class="dropdown-item" href="Kerala.html">Kerala</a></li>
+                                    <li><a class="dropdown-item" href="Madhya Pradesh.html">Madhya Pradesh</a></li>
+                                    <li><a class="dropdown-item" href="Maharashtra.Html">Maharashtra</a></li>
+                                    <li><a class="dropdown-item" href="Manipur.html">Manipur</a></li>
+                                    <li><a class="dropdown-item" href="Meghalaya.html">Meghalaya</a></li>
+                                    <li><a class="dropdown-item" href="Mizoram.html">Mizoram</a></li>
+                                    <li><a class="dropdown-item" href="Nagaland.html">Nagaland</a></li>
+                                </div>
+                                <div class="col">
+                                    <li><a class="dropdown-item" href="Orissa.html">Odisha</a></li>
+                                    <li><a class="dropdown-item" href="Punjab.html">Punjab</a></li>
+                                    <li><a class="dropdown-item" href="Rajasthan.html">Rajasthan</a></li>
+                                    <li><a class="dropdown-item" href="Sikkim.html">Sikkim</a></li>
+                                    <li><a class="dropdown-item" href="Tamil Nadu.html">Tamil Nadu</a></li>
+                                    <li><a class="dropdown-item" href="Telangana.html">Telangana</a></li>
+                                    <li><a class="dropdown-item" href="Tripura.html">Tripura</a></li>
+                                    <li><a class="dropdown-item" href="Uttar Pradesh.html">Uttar Pradesh</a></li>
+                                    <li><a class="dropdown-item" href="Uttarakhand.html">Uttarakhand</a></li>
+                                </div>
+                                <div class="col">
+                                    <li><a class="dropdown-item" href="West Bengal.html">West Bengal</a></li>
+                                    <li><a class="dropdown-item" href="">Andaman and Nicobar Islands</a></li>
+                                    <li><a class="dropdown-item" href="Chandigrah.html">Chandigarh</a></li>
+                                    <li><a class="dropdown-item" href="">Dadra and Nagar Haveli and Daman and Diu</a></li>
+                                    <li><a class="dropdown-item" href="Delhi.html">Delhi</a></li>
+                                    <li><a class="dropdown-item" href="Jammu and Kashmir.html">Jammu & Kashmir</a></li>
+                                    <li><a class="dropdown-item" href="Ladakh.html">Ladakh</a></li>
+                                    <li><a class="dropdown-item" href="Lakshadweep.html">Lakshadweep</a></li>
+                                    <li><a class="dropdown-item" href="Puducherry.html">Puducherry</a></li>
+                                </div>
+                            </div>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="row title">
+            <h1>Formation of PUNJAB</h1>
+        </div>
+        <div class="row custom-row">
+            <div class="col-sm-9 para">
+                <h3> 1947: Multiple Geographies, Communities and Names </h3>
+                    <p>
+                        Punjab Province had been the richest administrative province in British India. With Independence, the Radcliffe Line cut through Punjab Province. 62 per cent of the land formed Muslim-dominant West Punjab and became a part of Pakistan, while 38 per cent formed Hindu-dominant East Punjab and became a part of the Dominion of India. The Sikhs had been a numerical minority in undivided Punjab Province but had ‘virtually held the balance in the politics’of the region. Partition resulted in a large-scale migration of Sikhs into East Punjab, consolidating their community. As a result, three distinct geographical and demographical regions began to emerge in East Punjab post-Partition. State boundaries would be drawn and redrawn across these three regions over the following twenty years.
+                        In the North-western districts of East Punjab, Sikhs formed the majority for the first time. In the South-eastern districts, Hindus formed the majority. The hilly north-eastern part of East Punjab cut through the
+                         
+                        territories of thirty East Punjab Hill States (or the Shimla Hill States) and split them into two chunks.<br>
+                        Eight princely states in the region had been a part of the erstwhile Punjab States Agency under the British administration. These princely states were known as the East Punjab States and they lay strewn across East Punjab.
+                        Patiala was the largest, greater in area, population and revenue than all the rest of the East Punjab States put together. The States Ministry deemed Patiala as viable to stand on its own. 
+                        Finally, the tiny princely state of Bilaspur sat surrounded by both East Punjab and the East Punjab Hill States. It had previously been a part of the latter, but had then been taken under the direct control of Punjab States Agency before Independence. 
+                                            
+                    </p>
+            </div>
+            <div class="col-sm-3">
+                <div class="image">
+                    <img src="img/punjab-district-map.jpg" alt="">
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="row para">
+                <h3>1948: The First Movement</h3>
+                <p>
+                    In March 1948, the rulers of the East Punjab Hill States signed accession agreements with India citing only one request—that their territories ‘be consolidated into one unit’. On 15 April 1948, the East Punjab Hill States were consolidated into Himachal Pradesh, a chief commissioner’s province. Being a centrally administered unit allowed the Government of India to exercise direct and strategic control, especially in matters of administration, resources and finances. Himachal Pradesh was also non-contiguous as it continued to be separated by East Punjab.
+                    In August 1948, the ruler of Bilaspur also signed the agreement to accede to India. Bilaspur was retained under central administration in order to pay direct attention to the planning of the large Bhakra Dam over the River Sutlej. On 12 October 1948, the Raja of Bilaspur, Anand Chand, was appointed as chief commissioner. Bilaspur was eventually integrated into Himachal Pradesh in 1954 as the two regions were geographically contiguous.
+                    In April 1948, Master Tara Singh, the president of the Shiromani Akali Dal (SAD), made the first demand for a consolidated Punjabi Suba (Punjabi
+                     
+                    Province) comprising the North-western districts that had a Sikh and Punjabi majority. Founded in 1920, the SAD was the second-oldest political party in India after the Indian National Congress (INC). It was also the first state political party.<br>
+                    Contemplating the dilemma before the States Ministry, V.P. Menon, who was secretary of the States Ministry, said:
+                    ‘There were four alternatives before us. Firstly, we could amalgamate Himachal Pradesh and the East Punjab States with East Punjab, leaving out Patiala which had been declared a viable unit. Secondly, we could amalgamate Patiala together with Himachal Pradesh and the East Punjab States with the province. Thirdly, we could leave Himachal Pradesh and Patiala alone and amalgamate the States of Kapurthala, Nabha, Jind, Malerkotla and Faridkot into a single Union. Fourthly, we could integrate all the Punjab States, including Patiala, into one Union.’ 
+                    The States Ministry narrowed its options through a process of elimination. It was important to keep Himachal Pradesh as a centrally administered unit, both to develop it into a self-reliant unit and to not mix the residents of the hills and the plains into one administrative system.
+                    The immediate merger of the princely states with the province appeared impractical and mistimed. Partition and the resulting two-way migration had strained East Punjab; its administration needed to reorganize and stabilize and deal with more pressing issues like law and order and refugees rather than amalgamation of new territories. Hence, the States Ministry decided that East Punjab, Himachal Pradesh and East Punjab States would be kept as three separate administrative units.
+                    A Union of East Punjab States needed Patiala in order to be feasible. V.P. Menon met with the Maharaja of Patiala, Yadavindra Singh, and impressed upon him the merits of such a Union, including stability and the position of Patiala as well as the crucial aspiration of building Sikh politics, both in the Union and in the province.<br>
+                    The Union was called the Patiala and East Punjab States Union (PEPSU).
+                    It existed as ‘five disconnected bits’encased entirely within the territory of East Punjab. The Maharajas of Patiala and Kapurthala were appointed the Rajpramukh (Governor) and Uprajpramukh (Deputy Governor). The Union was inaugurated on 15 July 1948.
+                     
+                    However, efforts to build a ministry failed. The two major political parties in the region, the INC and the SAD, were both seen to represent communities—Hindus and Sikhs, respectively. Both parties wanted their candidate to be the Premier. The failure to reach a consensus twice resulted in the establishment of a caretaker government in PEPSU. Eventually, in early 1949, a ministry was established with members representing the various parties. Sardar Gyan Singh Rarewala, an independent politician, was accepted by all the parties to be the Premier.
+                    Further, a new capital had to be decided for Punjab. Lahore, the erstwhile chief administrative and cultural city of undivided Punjab, was now in Pakistan. In January 1948, Prime Minister Jawaharlal Nehru declared that there was the need for establishing new towns and cities considering the heavy inflow of refugees. In March 1948, the Union government officially decided to build the entirely new city of Chandigarh for the capital of Punjab.<br> 
+                                        
+                </p>
+        </div>
+        <hr>
+        <div class="row para">
+            
+                <h3>
+                    1949–56: The Second Movement
+                </h3>
+                <p>
+                    In October 1949, as a countermeasure to the Punjabi Suba demand put forth by the SAD, the majority INC in East Punjab presented what became known as the Sachar Formula (or the Sachar–Giani Formula). This was named after Bhim Sen Sachar, the East Punjab Premier, and Giani Kartar Singh, a SAD leader and a minister in the Sachar government. The Sachar Formula ‘devised by two Hindus and two Sikhs’sought to retain the bilingual character of East Punjab by dividing the province into Punjabi and Hindi zones where the dominant language would be the medium of instruction and the other language would be a compulsory subject.
+                    However, ‘by accident or design’, it sharpened the divide in the province along linguistic and communal lines.
+                    The Sachar Formula generated heated controversy. Bhim Sen Sachar lost his premiership. The SAD capitalized on the formula recommendations by demanding autonomous status for the Punjabi-speaking region, presenting it
+                     
+                    as a linguistic demand. The discord between the two communities reached such a fever pitch that Prime Minister Jawaharlal Nehru directed that no language be recorded in the 1951 census in Punjab State (renamed from East Punjab after India adopted its Constitution on 26 January 1950).
+                    Hence, the 1951 census showed ‘Hindi/Punjabi’ as a joint option. 
+                    In the 1952 legislative assembly elections, the INC romped home with a huge majority in Punjab. In PEPSU, however, no party gained a clear majority. Even though the INC was the single largest party, the SAD built a coalition called the United Democratic Front (UDF) with other parties and formed a non-Congress government in PEPSU in April 1952.<br>
+                    Between October and December 1952, SAD leaders Hukam Singh and Master Tara Singh proposed the creation of a Punjabi Suba by merging the Punjabi-speaking region of Punjab State with PEPSU. This would create a Punjabi- and Sikh-majority state. This proposal was bolstered both by the imposition of President’s rule in PEPSU in March 1953 and by the creation of Andhra State on a linguistic basis in October 1953.
+                    Meanwhile, on 21 September 1953, the capital of Punjab officially moved from Shimla to Chandigarh. 
+                    Towards the end of 1953, spurred by the multiple calls for state reorganization across the country, the Union government announced the creation of the States Reorganisation Commission (SRC) which invited memoranda from the public, individually and collectively. By May 1954, the SAD, the Congress, the Arya Samaj and the Jana Sangh had submitted separate memoranda for the reorganization of Punjab. The SAD reiterated its demand for Punjabi Suba, merging the Punjabi-speaking region with PEPSU and excluding much of the south-eastern region of Punjab known as Haryana. It built a linguistic argument that Punjabi was a distinct language recognized in the Indian Constitution with its own Gurmukhi script that was not derived from the Hindi Devanagari script. 
+                    On the other hand, the State Congress proposed Maha Punjab by integrating Punjab, PEPSU and Himachal Pradesh. The Arya Samaj and Jana Sangh went a step further by including Delhi as well in the proposed amalgamation.<br>  
+                    In October 1955, the SRC released its report. It decreed that there was no real language problem and there were no distinctive cultural zones in Punjab; that in the ‘battle of scripts’, the superstructure of Punjabi was a dialect of western Hindi, and therefore the line of demarcation between Punjabi and Hindi was ‘theoretical’ and ‘blurred’. The SRC felt that the creation of a unilingual state where Gurmukhi was imposed when Devanagari proved just as suitable for writing Punjabi may create more problems than it would solve. Noting also that the entire area would still be bilingual since Hindi would not be unimportant and would continue to exist and develop side-by-side with Punjabi, the SRC decided that it would be impossible to create a compact unilingual state, especially one which also lacked the general support of the people in the area. The SRC also dismissed the demand for Haryana. 
+                    The SRC did view PEPSU as very much a part of Punjab, physically and geographically. Given PEPSU’s extremely small size and lack of geographical contiguity, the SRC saw advantages of economy and efficiency of administration in merging it with Punjab. Patiala had to cede its capital city status to the newly planned under-construction city of Chandigarh.
+                    On the matter of Himachal Pradesh, the three members of the SRC disagreed on how to proceed. Two members recommended integration with Punjab due to clear economic and administrative advantages and ‘the mutual benefit of the people of the plains and of the hills’. They dismissed the proposal for the formation of a larger hill unit consisting of the hill territories of Himachal Pradesh, Punjab, PEPSU and Uttar Pradesh as not forming an administratively viable unit. Hence, in effect, they backed the proposal of Maha Punjab as the most satisfactory solution. The proposed state would consist of Punjab, PEPSU and Himachal Pradesh, but without Delhi and any western districts of Uttar Pradesh. The chairman of the SRC,
+                    S. Fazl Ali, however, recommended no change in Himachal Pradesh’s current status as he felt that a merger with Punjab would be locally unpopular. The hill state still needed support for development which had to be provided by the Centre and not by Punjab.<br>  
+                    Displeased with the report, the SAD led by Master Tara Singh arranged for a series of parleys with the Government of India starting in October 1955. More emphatically, in February 1956, the SAD called for a conference in Amritsar on the same days as the INC conference in the city. Over one lakh Sikhs assembled in a disciplined, peaceful and purposeful manner in a massive show of unity, solidarity and strength.
+                    Soon after, the two sides reached an agreement on a regional formula through sustained efforts by leaders including Giani Kartar Singh, Sardar Hukam Singh and Gian Singh Rarewala, among others. Punjab and PEPSU would be merged but not Himachal Pradesh. Punjab would be a bilingual state demarcated as per the Sachar Formula into Punjabi- and Hindi- speaking regions where the respective language would be the medium of instruction and the other language would be a compulsory subject. Two regional committees would be established in the state legislature having large powers in their respective regions. 
+                    On 1 November 1956, Punjab and PEPSU merged into one state of Punjab. Himachal Pradesh continued under direct central authority and became known as a union territory. The SAD and INC put aside their previous differences and began to work together. Their combined might returned a thumping majority in the 1957 legislative assembly elections in Punjab. The incumbent chief minister, Partap Singh Kairon of the INC, was reinstated.
+                              
+                </p>                
+        </div>
+        <hr>
+        <div class="row para">
+                <h3>
+                    1960–66: The Third Movement
+                </h3>
+                <p>
+                    The partnership between the SAD and the INC did not last long. The SAD was dissatisfied with both the working of the regional formula and the unwillingness of the INC state government to ‘enhance the status of the Punjabi language’. The SAD ended its partnership with the Congress and launched a renewed movement demanding Punjabi Suba in May 1960.
+                    At this point, an ideological split began to form in the SAD. Master Tara Singh’s approach had created apprehensions of an autonomous Sikh state.
+                     
+                    His lieutenant Sant Fateh Singh, however, was given direct access to Prime Minister Jawaharlal Nehru where he maintained that the demand for Punjabi Suba was ‘linguistic and only linguistic’and it didn’t matter whether Hindus or Sikhs were in the majority. He also used pressure tactics like embarking on a fast-unto-death and threatening self-immolation. This promotion emboldened Sant Fateh Singh to directly challenge the leadership of Master Tara Singh and form a separate Akali Dal in 1962.<br>
+                    Meanwhile, the demand for a separate Haryana state also strengthened.
+                    In April 1961, the Haryana Lok Samiti (Haryana People’s Society) was formed in association with the Arya Samaj to contest the upcoming general elections. Its campaign promoted Hindi and opposed the imposition of Punjabi as well as the economic discrimination of the region by the Punjab government. 
+                    In 1964, the Congress leadership underwent major changes at the state and the Centre. Prime Minister Jawaharlal Nehru died in May. Chief Minister Partap Singh Kairon was removed on corruption charges in June; he was assassinated in February the following year. The Punjab Congress splintered and ‘lacked the will or the leadership’26 to oppose the Punjabi Suba demand.
+                    In 1965, Sant Fateh Singh’s breakaway Akali Dal wrested control of the Shiromani Gurdwara Parbandhak Committee (SGPC, Supreme Gurdwara Management Committee), which has been described as ‘a government within the government’ and the ‘source of legitimacy and authority for the Sikh community’. Having received this mandate, Sant Fateh Singh engaged with the new Prime Minister Lal Bahadur Shastri of the INC on the demand for Punjabi Suba. In early September 1965, the Union government agreed to appoint a cabinet subcommittee to resolve the Punjabi Suba issue. This further galvanized leaders from the Haryana and hill regions to also demand for the reorganization of Punjab.<br>
+                    Later in September 1965, war broke out between India and Pakistan. The immense contribution of the Sikhs in this war proved to be the final incentive the government needed to concede the Punjabi Suba demand and solve the political unrest in Punjab. In March 1966, the government
+                     
+                    appointed a parliamentary committee to look into reorganizing Punjab. The committee reported that ‘an overwhelming majority’now supported linguistic reorganization, noting also the rise in support in the Haryana region.
+                    On 18 September 1966, the government passed the Punjab Reorganisation Act. Punjab was divided into four parts—two states and two union territories. The Hindi-speaking districts in the South-eastern plains formed the new state of Haryana. The North-eastern hill districts merged with the existing union territory of Himachal Pradesh. The Punjabi- speaking North-western districts formed the new Punjabi Suba, the new state of Punjab. The city of Chandigarh was reconstituted as a union territory; Chandigarh was also named the joint capital of Punjab and Haryana and would house the common high court for all three territories. 
+                    All four new territories came into being from 1 November 1966.
+                    
+                </p>            
+        </div>
+        
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

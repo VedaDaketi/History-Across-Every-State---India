@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Protest+Strike&display=swap" rel="stylesheet">
+    <style>
+        .custom-dropdown-menu {
+            width: 1000px; 
+            max-height: 310px;
+            overflow-y: auto; 
+        }
+        .navbar-nav .nav-link {
+            font-size: 20px;
+        }
+        .navbar-nav .nav-item {
+            margin-right: 30px;
+        }
+        .ind-1947{
+            height: 450px;
+        }
+        .image img{
+            padding-top:25px;
+            height: 100%;
+            width : 100%;
+        }
+        .title h1{
+            padding-top:30px;
+            padding-bottom: 30px;
+            font-family: 'Protest Strike', sans-serif;
+            font-size: 60px;
+        }
+        .para h3{
+            font-family: 'Protest Strike', sans-serif;
+            padding-bottom: 10px;
+        }
+        .para p{
+            text-align: justify;
+            font-size: large;         
+        }
+        .custom-row{
+            align-items: start;
+        }
+    </style>
+    <title></title>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="img/Logo.png" alt="Logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="introduction.html">Intro</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link active dropdown-toggle"  id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            States
+                        </a>
+                        <ul class="dropdown-menu custom-dropdown-menu" aria-labelledby="navbarDropdown">
+                            <div class="row">
+                                <div class="col">
+                                    <li><a class="dropdown-item" href="Andhra Pradesh.html">Andhra Pradesh</a></li>
+                                    <li><a class="dropdown-item" href="Arunachal Pradesh.html">Arunachal Pradesh</a></li>
+                                    <li><a class="dropdown-item" href="Assam.html">Assam</a></li>
+                                    <li><a class="dropdown-item" href="Bihar.html">Bihar</a></li>
+                                    <li><a class="dropdown-item" href="Chhattisgrah.html">Chhattisgarh</a></li>
+                                    <li><a class="dropdown-item" href="Goa.html">Goa</a></li>
+                                    <li><a class="dropdown-item" href="Gujarat.html">Gujarat</a></li>
+                                    <li><a class="dropdown-item" href="Haryana.html">Haryana</a></li>
+                                    <li><a class="dropdown-item" href="Himachal Pradesh.html">Himachal Pradesh</a></li>
+                                </div>
+                                <div class="col">
+                                    <li><a class="dropdown-item" href="Jharkhand.html">Jharkhand</a></li>
+                                    <li><a class="dropdown-item" href="Karnataka.html">Karnataka</a></li>
+                                    <li><a class="dropdown-item" href="Kerala.html">Kerala</a></li>
+                                    <li><a class="dropdown-item" href="Madhya Pradesh.html">Madhya Pradesh</a></li>
+                                    <li><a class="dropdown-item" href="Maharashtra.Html">Maharashtra</a></li>
+                                    <li><a class="dropdown-item" href="Manipur.html">Manipur</a></li>
+                                    <li><a class="dropdown-item" href="Meghalaya.html">Meghalaya</a></li>
+                                    <li><a class="dropdown-item" href="Mizoram.html">Mizoram</a></li>
+                                    <li><a class="dropdown-item" href="Nagaland.html">Nagaland</a></li>
+                                </div>
+                                <div class="col">
+                                    <li><a class="dropdown-item" href="Orissa.html">Odisha</a></li>
+                                    <li><a class="dropdown-item" href="Punjab.html">Punjab</a></li>
+                                    <li><a class="dropdown-item" href="Rajasthan.html">Rajasthan</a></li>
+                                    <li><a class="dropdown-item" href="Sikkim.html">Sikkim</a></li>
+                                    <li><a class="dropdown-item" href="Tamil Nadu.html">Tamil Nadu</a></li>
+                                    <li><a class="dropdown-item" href="Telangana.html">Telangana</a></li>
+                                    <li><a class="dropdown-item" href="Tripura.html">Tripura</a></li>
+                                    <li><a class="dropdown-item" href="Uttar Pradesh.html">Uttar Pradesh</a></li>
+                                    <li><a class="dropdown-item" href="Uttarakhand.html">Uttarakhand</a></li>
+                                </div>
+                                <div class="col">
+                                    <li><a class="dropdown-item" href="West Bengal.html">West Bengal</a></li>
+                                    <li><a class="dropdown-item" href="">Andaman and Nicobar Islands</a></li>
+                                    <li><a class="dropdown-item" href="Chandigrah.html">Chandigarh</a></li>
+                                    <li><a class="dropdown-item" href="">Dadra and Nagar Haveli and Daman and Diu</a></li>
+                                    <li><a class="dropdown-item" href="Delhi.html">Delhi</a></li>
+                                    <li><a class="dropdown-item" href="Jammu and Kashmir.html">Jammu & Kashmir</a></li>
+                                    <li><a class="dropdown-item" href="Ladakh.html">Ladakh</a></li>
+                                    <li><a class="dropdown-item" href="Lakshadweep.html">Lakshadweep</a></li>
+                                    <li><a class="dropdown-item" href="Puducherry.html">Puducherry</a></li>
+                                </div>
+                            </div>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="row title">
+            <h1>Formation of Madhya Pradesh</h1>
+        </div>
+        <div class="row custom-row align-items-center">
+            <div class="col-sm-9 para">
+                <h3> Phase I: Bringing Together Central India</h3>
+                    <p>
+                        In 1947, central India was an intertwined mesh of a number of princely states and British provinces. The States Ministry’s vision for the region was to ‘have as large an administrative unit’ as possible. Over the course of the next ten years, the region coalesced into Madhya Pradesh—the largest Indian state by area. As a first step to begin the process, the States Ministry created four administrative regions that would, in some cases, unite quarrelling neighbours                       
+                    </p>
+            </div>
+            <div class="col-sm-3">
+                <div class="image">
+                    <img src="img/madhya-pradesh.jpg" alt="">
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="row custom-row align-items-center">
+            <div class="col-sm-8 para">
+                <h3>Region 1: Central Provinces/Madhya Pradesh</h3>
+                <p>
+                    The foundation of the large administrative unit the States Ministry hoped to establish in central India lay in the British province called ‘Central Provinces and Berar’. Upon Indian Independence, all British provinces
+ 
+                    transferred directly to the Dominion of India, while the princely states had to be convinced. And so, Central Provinces and Berar transferred to India on 15 August 1947.
+                    To the east of the Central Provinces lay a smattering of fifteen minor princely states, known as the Chhattisgarh states. They were a part of the Eastern States Agency which consisted of forty-two princely states. In August 1947, the members of the Eastern States Agency came together to form the Eastern States Union. However, two of the biggest states— Mayurbhanj and Bastar—along with some of the smaller states, refused to join. By November 1947, the States Ministry had decided that the Union government would not recognize the Eastern States Union due to linguistic and administrative irregularities. The Orissa states would be merged into Orissa Province, and the Chhattisgarh states into Central Provinces and Berar.<br> 
+                    This decision drew mixed reactions from the rulers of the Eastern States Union. In the middle of December 1947, Sardar Vallabhbhai Patel and V.P. Menon met first the rulers of the Orissa states and then the Chhattisgarh states. They apprised them of the law and order unrest in their states and the people’s desire to have a responsible government. Within two days, all the rulers had signed the agreement. The fifteen Chhattisgarh states were merged into Central Provinces and Berar. 
+                    On 26 January 1950, when the Indian Constitution came into force, Central Provinces and Berar was renamed as Madhya Pradesh. Nagpur was its capital.
+                                         
+                </p>
+            </div>
+            <div class="image col-sm-4">
+                <img src="img/central provence.jpg" alt="" >
+            </div>
+        </div>
+        <hr>
+        <div class="row custom-row">
+            <div class="col-sm-9 para">
+                <h3>
+                    Region 2: Madhya Bharat
+                </h3>
+                <p>
+                    The first of the quarrelsome neighbours to be united were the important princely states of Gwalior and Indore, ruled by the Scindia and Holkar families, respectively. Both were highly ranked states under British rule, Gwalior being a twenty-one-gun salute state and Indore a nineteen-gun salute state. Both had managed their finances well enough to be self-
+ 
+                    sufficient, creating trusts and investment funds. The Maharaja of Gwalior, Sir George Jivaji Rao Scindia, was the first ruler among the five big states in India to agree to integration and to grant responsible government.
+                    Another twenty-three smaller princely states interspersed the large tracts of land that comprised Gwalior and Indore, producing an ‘extraordinary interlacing of jurisdictions’, ‘a veritable jumble’. Together, these twenty- five princely states geographically occupied the plateau of Malwa. The prevailing language across all states was Hindi, and culturally and economically, too, Malwa formed one compact unit—‘a homogeneous tract’.<br> 
+                    The scattered nature of the smaller princely states in the region made it impossible to integrate them into a cohesive, contiguous unit without involving the larger states of Gwalior and Indore. However, the States Ministry had already given an assurance that viable states that could stand independently would not be touched, and both Gwalior and Indore were viable states. Thus began a period of delicate diplomacy by the two stalwarts of the States Ministry—Sardar Vallabhbhai Patel and V.P. Menon.
+                    First, V.P. Menon met the Maharaja of Gwalior in February 1948 where he pitched the idea of a combined Union, including Gwalior and Indore.
+                    Although the suggestion shocked the Maharaja at first, he saw the merit in the idea once V.P. Menon pointed out to him how a Union that had Indore but not Gwalior could only be detrimental to Gwalior in the long run.
+                    Indore was in favour of joining the Union only if the capital was located at Indore. Menon organized a joint meeting with the two Maharajas, the first such after many years, where they accepted the proposed Union in principle.
+                    However, following this, both Gwalior and Indore had second thoughts as they were worried about their respective states losing their identities in the new Union. Hence, their counter pitch was to form two separate Unions. Since both Gwalior and Indore were already viable states, the smaller states could be integrated into one or the other, thereby creating two larger and stronger Unions, an arrangement that could be reviewed after ten years.
+                    <br> 
+                    Such an arrangement would have theoretically served the purpose of the States Ministry. However, the consequences of creating two Unions could have rippled through the country, with other similarly large states, such as Patiala, Bikaner and Udaipur, demanding Unions centred around themselves instead of integrating and merging into larger Unions.
+                    Moreover, one Union would result in better geographical integrity and administrative efficiency. Finally, the resistance to merging into one would be stronger after ten years of living separately. Hence, the States Ministry decided to push forward with creating a single Union.
+                    This created a stalemate as the two states vehemently opposed merging into one. To break the deadlock, V.P. Menon now arranged for the two Maharajas to meet with Sardar Patel. This worked like a charm and both states accepted his advice to merge into one Union.
+                    The new Union—the largest then created—was inaugurated by Prime Minister Jawaharlal Nehru on 28 May 1948. It was named ‘United State of Gwalior, Indore and Malwa (Madhya Bharat)’ in order to retain the identities of the two states. However, it was referred to primarily as ‘Madhya Bharat’ or ‘Malwa Union’. The Maharaja of Gwalior was made the Rajpramukh (Governor) and the Maharaja of Indore, Sir Yeshwant Rao Holkar, was made the Senior Uprajpramukh (Senior Deputy Governor).
+                    Gwalior would be the winter capital for six-and-a-half months and Indore the summer capital for five-and-a-half months of the year. 
+                                
+                </p>
+
+            </div>
+            <div class="col-sm-3 image">
+                <img src="img/Madhya Bharat.png" alt="">
+            </div>
+                
+        </div>
+        <hr>
+        <div class="row custom-row">
+            <div class="col-sm-9 para">
+                <h3>
+                    Region 3: Vindhya Pradesh
+                </h3>
+                <p>
+                    The second of the quarrelsome neighbours to be united were the thirty-five states of Bundelkhand and Baghelkhand. This was a region rich in agriculture and forest wealth but underdeveloped in terms of road and railway communications. Rewa was the largest, most populated, and most financially well-off state of Baghelkhand, so much so that it almost equalled all the Bundelkhand states put together. In fact, apart from Rewa, all the
+ 
+                    other states in the region were so small that even combining them all together would not have resulted in a viable Union. 
+                    The States Ministry explored the possibility of merging these small states with United Provinces and Central Provinces. However, both those Provinces were already very large and had recently integrated a number of underdeveloped regions themselves. Adding these states to either of those provinces would weaken their financial and administrative capabilities.
+                    This meant that the only feasible option left was to create a Union in the region that included Rewa. However, Rewa had already been declared a viable state and the States Ministry had promised on behalf of the Union government that ‘the principle of merger would not be applied to viable states’.<br>
+                    Rewa itself offered a solution to the States Ministry’s conundrum. In March 1948, the Maharaja of Rewa, the young Martand Singh, suggested to
+                    V.P. Menon a Union of the region built around Rewa. This proactive initiative released the States Ministry from their promise to Rewa as a viable state. However, it also resulted in Rewa dictating conditions for the merger.
+                    There were three parties in Rewa who influenced the terms of the merger
+                    —the young Maharaja, Martand Singh, the local leaders who led the discussions, and the deposed and exiled erstwhile Maharaja, Gulab Singh.
+                    Rewa put forth conditions of the merger that didn’t really exist in other parts of India. These included having the option to frame either a unitary or federal constitution, having the right to opt out of the proposed Union after its formation, and the creation of two separate ministries for Rewa and Bundelkhand. These were very generous concessions that added a sizable degree of uncertainty to the future of the Union. However, V.P. Menon believed it was more important to create the Union immediately and was confident that the States Ministry would be able to influence and control the future policy of the region. 
+                    The new Union was named Vindhya Pradesh and was inaugurated in April 1948. After the experiment of having two separate ministries failed, they were fused into one composite ministry in July 1948. However, due to
+                     
+                    corruption, nepotism and infighting, Sardar Patel advised the ministers to resign. In April 1949, a year after its formation, the regional commissioner took charge as the chief minister.<br> 
+                    An inquiry in September 1949 revealed a grave administrative and political situation in Vindhya Pradesh. The state was on the verge of bankruptcy and the regional feuds between Bundelkhand and Baghelkhand were ongoing.
+                    Sardar Patel, who had doubted the political future of Vindhya Pradesh from the start, demanded that the Union be dissolved and distributed between the two neighbouring states—United Provinces and Central Provinces. V.P. Menon felt it would be better to bring the region under direct central administration. Sardar Patel, however, did not believe Vindhya Pradesh had the ability to exist as a separate unit, and hence, his decision prevailed.
+                    The States Ministry drafted a new agreement to abrogate the original covenant with effect from 26 December 1949. The rulers had to sign it before the new Constitution came into effect on 26 January 1950 because that would complicate the legal proceedings for such a move. They eventually signed it after much back-and-forth and convincing.
+                    However, a further twist in the tale awaited. The Premiers of United Provinces and Central Provinces could not reach a mutual agreement regarding the distribution of Vindhya Pradesh among their regions. With the deadline fast approaching, the Government of India eventually decided to take over Vindhya Pradesh on 1 January 1950 as a centrally administered area.
+                     
+                </p>
+
+            </div>
+            <div class="col-sm-3 image">
+                <img src="img/vindhya pradesh.jpg   " alt="">
+            </div>                
+        </div>
+        <hr>
+        <div class="row custom-row">
+            <div class="col-sm-9 para">
+                <h3>
+                    Region 4: Bhopal State
+                </h3>
+                <p>
+                    The Nawab of Bhopal State, Sir Hamidullah Khan, acceded to the Indian Union at the time of Independence. In April 1948, in response to a growing demand within his state for responsible government, he constituted a ministry with popular leaders. However, there was also an agitation to
+ 
+                    merge Bhopal State with the newly-formed Madhya Bharat to its north and west. Finally, in January 1949, the nawab reached out to the States Ministry for advice.<br>
+                    The States Ministry held the opinion that Bhopal could not exist as a separate state and must merge with Madhya Bharat since it shared a common geographical, ethnic and cultural affinity with the states in the Malwa Union. Accordingly, the ministry resigned and a period of detailed discussions began between the nawab and V.P. Menon to determine the future of Bhopal State.
+                    Eventually, they postponed the merger with Madhya Bharat. Instead, on 1 June 1949, Bhopal State was taken over by the Government of India as a centrally administered area. In 1950, it was declared a Part C state, governed by a chief commissioner appointed by the President of India, with a commitment that it would remain so for a period of five years. 
+                    
+                </p>
+
+            </div>
+            <div class="col-sm-3 image">
+                <img src="img/Bhopal.png" alt="">
+            </div>
+                
+        </div>
+        <hr>
+        <div class="row custom-row">
+            <div class="col-sm-9 para">
+                <h3>
+                    Phase II: Bringing Together Madhya Pradesh (1956)
+                </h3>
+                <p>
+                    The integration of Madhya Pradesh began with the separation of the eight Marathi-speaking districts of the Vidarbha region in the south-west of the state. The origins of the Maha Vidarbha movement can be traced back to 1905. Vidarbha was mooted as an independent state in 1938 by a unanimous resolution passed by the Central Provinces Legislature. In its 1955 report, the States Reorganisation Commission (SRC) recommended that Vidarbha be created as a separate state. However, during implementation in 1956, the region was integrated into the behemoth of a bilingual Bombay State.
+                    The carving-out of the Marathi region led to a counter-demand for a consolidation of Hindi regions. Even though it noted that ‘the area has never been administered together’, the SRC studied the feasibility of such a proposal.<br>
+                    First, it considered the two centrally administered areas. Bhopal State was already being considered for merger from as early as 1951. Vindhya
+                     
+                    Pradesh’s dire political situation had barely improved. Both would benefit greatly from merging into a larger, richly-endowed state. 
+                    Then, the SRC looked at Madhya Bharat and found no strong reasons— developmentally, financially or administratively—to keep it separate. In fact, it felt that the ongoing rivalry between Gwalior and Indore would lessen considerably through the merger.<br> 
+                    On 1 November 1956, the newly-reconstituted state of Madhya Pradesh came into existence. It included Madhya Pradesh (without Vidarbha), Madhya Bharat, Vindhya Pradesh and Bhopal State. Since Nagpur had been lost with Vidarbha, Bhopal became the new capital of the state (even though the SRC had recommended the centrally-located city of Jabalpur).
+                    Madhya Pradesh was the second-largest state in India, after the mammoth Bombay State. When Bombay State split on 1 May 1960, Madhya Pradesh became the biggest state in India by area and remained so for the next forty years until it also split in 2000
+                    
+                </p>
+
+            </div>
+            <div class="col-sm-3 image">
+                <img src="img/MP-1956.jpg_large" alt="">
+            </div>
+                
+        </div>
+        <hr>
+        <div class="row custom-row">
+            <div class="col-sm-9 para">
+                <h3>
+                    Phase III: Separating Madhya Pradesh and Chhattisgarh (2000)
+                </h3>
+                <p>
+                    Statehood for Chhattisgarh was first proposed in 1948 by B.Y. Tamaskar, an opponent of the then-Premier of Central Provinces and Berar, Ravishankar Shukla. However, the proposal was neither seconded nor did it find mass appeal. Tamaskar then joined what would eventually become the Praja Socialist Party (PSP) in 1951, which became the first of many political parties to promote the idea of statehood.
+                    Khubchand Baghel, also of the PSP, set up first the Chhattisgarh Mahasabha in 1956 and then the Chhattisgarh Bhratr Sangh in 1967, and also led a number of movements and campaigns to highlight the idea of exploitation by outsiders. However, the demand for statehood continued to remain only an external pressure on the ruling Congress state government. 
+                    In both the 1977 and 1980 Lok Sabha elections, Chhattisgarhi statehood was a key issue, even securing Purushottam Kaushik of the PSP a cabinet berth in the first non-Congress Union government. From 1980 onwards, the
+                     
+                    movement gained new momentum. The new chief minister of Madhya Pradesh, Arjun Singh of the Indian National Congress (INC), established a development authority called the Chhattisgarh Vikas Pratikharan and built and named universities, dams and statues after famous individuals from the region. He gave cabinet positions to a number of Other Backward Classes (OBC), Scheduled Castes (SC) and Scheduled Tribes (ST) MLAs from Chhattisgarh and established a state backwards classes commission. This new generation of OBC leaders, supported by Arjun Singh, began to promote the idea of a Chhattisgarhi identity and Chhattisgarhi statehood.<br> 
+                    Chhattisgarh now became a central point for both leading political parties, the Bharatiya Janata Party (BJP) and the INC, and they set up all- party campaigns for the state’s creation. During the 1993 assembly elections, Chhattisgarhi statehood featured for the first time on the manifestos of both parties. In 1994, the new chief minister of Madhya Pradesh, Digvijay Singh of the INC, passed a resolution in favour of statehood in the legislative assembly. The BJP established an internal committee called the Chhattisgarh Nirman Samiti and built a case around development rather than social issues. The BJP’s National Executive approved the demand for Chhattisgarh for the first time and it was included in the party’s general election manifesto in 1996. In 1998, at an election rally, the BJP’s prime ministerial candidate Atal Bihari Vajpayee promised to create Chhattisgarh if the party won all eleven seats in the region (they won seven). 
+                    Finally, in August 2000, with the BJP in power at the Centre and the INC in power at the state, the Madhya Pradesh Reorganisation Act was passed. Chhattisgarh was born on 1 November 2000 comprising sixteen districts with its capital at Raipur. Based on the 1998 state elections, Ajit Jogi of the INC became the state’s first chief minister.
+                                   
+                </p>
+
+            </div>
+            <div class="col-sm-3 image">
+                <img src="img/mp-chh.jpg" alt="">
+            </div>                
+        </div>
+
+        
+    </div>      
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

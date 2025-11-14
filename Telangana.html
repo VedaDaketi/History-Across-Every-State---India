@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Protest+Strike&display=swap" rel="stylesheet">
+    <style>
+        .custom-dropdown-menu {
+            width: 1000px; 
+            max-height: 310px;
+            overflow-y: auto; 
+        }
+        .navbar-nav .nav-link {
+            font-size: 20px;
+        }
+        .navbar-nav .nav-item {
+            margin-right: 30px;
+        }
+        .ind-1947{
+            height: 450px;
+        }
+        .image img{
+            padding-top:25px;
+            height: 100%;
+            width : 100%;
+        }
+        .title h1{
+            padding-top:30px;
+            padding-bottom: 30px;
+            font-family: 'Protest Strike', sans-serif;
+            font-size: 60px;
+        }
+        .para h3{
+            font-family: 'Protest Strike', sans-serif;
+            padding-bottom: 10px;
+        }
+        .para p{
+            text-align: justify;
+            font-size: large;         
+        }
+        .custom-row{
+            align-items: start;
+        }
+        .para ul{
+            text-align: justify;
+            font-size: large; 
+        }
+    </style>
+    <title></title>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="img/Logo.png" alt="Logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="introduction.html">Intro</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link active dropdown-toggle"  id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            States
+                        </a>
+                        <ul class="dropdown-menu custom-dropdown-menu" aria-labelledby="navbarDropdown">
+                            <div class="row">
+                                <div class="col">
+                                    <li><a class="dropdown-item" href="Andhra Pradesh.html">Andhra Pradesh</a></li>
+                                    <li><a class="dropdown-item" href="Arunachal Pradesh.html">Arunachal Pradesh</a></li>
+                                    <li><a class="dropdown-item" href="Assam.html">Assam</a></li>
+                                    <li><a class="dropdown-item" href="Bihar.html">Bihar</a></li>
+                                    <li><a class="dropdown-item" href="Chhattisgrah.html">Chhattisgarh</a></li>
+                                    <li><a class="dropdown-item" href="Goa.html">Goa</a></li>
+                                    <li><a class="dropdown-item" href="Gujarat.html">Gujarat</a></li>
+                                    <li><a class="dropdown-item" href="Haryana.html">Haryana</a></li>
+                                    <li><a class="dropdown-item" href="Himachal Pradesh.html">Himachal Pradesh</a></li>
+                                </div>
+                                <div class="col">
+                                    <li><a class="dropdown-item" href="Jharkhand.html">Jharkhand</a></li>
+                                    <li><a class="dropdown-item" href="Karnataka.html">Karnataka</a></li>
+                                    <li><a class="dropdown-item" href="Kerala.html">Kerala</a></li>
+                                    <li><a class="dropdown-item" href="Madhya Pradesh.html">Madhya Pradesh</a></li>
+                                    <li><a class="dropdown-item" href="Maharashtra.Html">Maharashtra</a></li>
+                                    <li><a class="dropdown-item" href="Manipur.html">Manipur</a></li>
+                                    <li><a class="dropdown-item" href="Meghalaya.html">Meghalaya</a></li>
+                                    <li><a class="dropdown-item" href="Mizoram.html">Mizoram</a></li>
+                                    <li><a class="dropdown-item" href="Nagaland.html">Nagaland</a></li>
+                                </div>
+                                <div class="col">
+                                    <li><a class="dropdown-item" href="Orissa.html">Odisha</a></li>
+                                    <li><a class="dropdown-item" href="Punjab.html">Punjab</a></li>
+                                    <li><a class="dropdown-item" href="Rajasthan.html">Rajasthan</a></li>
+                                    <li><a class="dropdown-item" href="Sikkim.html">Sikkim</a></li>
+                                    <li><a class="dropdown-item" href="Tamil Nadu.html">Tamil Nadu</a></li>
+                                    <li><a class="dropdown-item" href="Telangana.html">Telangana</a></li>
+                                    <li><a class="dropdown-item" href="Tripura.html">Tripura</a></li>
+                                    <li><a class="dropdown-item" href="Uttar Pradesh.html">Uttar Pradesh</a></li>
+                                    <li><a class="dropdown-item" href="Uttarakhand.html">Uttarakhand</a></li>
+                                </div>
+                                <div class="col">
+                                    <li><a class="dropdown-item" href="West Bengal.html">West Bengal</a></li>
+                                    <li><a class="dropdown-item" href="">Andaman and Nicobar Islands</a></li>
+                                    <li><a class="dropdown-item" href="Chandigrah.html">Chandigarh</a></li>
+                                    <li><a class="dropdown-item" href="">Dadra and Nagar Haveli and Daman and Diu</a></li>
+                                    <li><a class="dropdown-item" href="Delhi.html">Delhi</a></li>
+                                    <li><a class="dropdown-item" href="Jammu and Kashmir.html">Jammu & Kashmir</a></li>
+                                    <li><a class="dropdown-item" href="Ladakh.html">Ladakh</a></li>
+                                    <li><a class="dropdown-item" href="Lakshadweep.html">Lakshadweep</a></li>
+                                    <li><a class="dropdown-item" href="Puducherry.html">Puducherry</a></li>
+                                </div>
+                            </div>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="row title">
+            <h1>Formation of Telangana</h1>
+        </div>
+        <div class="row custom-row">
+            <div class="col-sm-9 para">
+                <h3> I: Hyderabad State
+                </h3>
+                    <p>
+                        In 1947, Telangana formed the southern and south-eastern Telugu-dominant region of the princely state of Hyderabad. Ruled by the Nizam, Mir Osman Ali Khan, Hyderabad was among the largest and premier princely states in India, with its own coinage, currency and stamps. It sat squarely at the heart of the country as a melting pot of languages and religions. Urdu was spoken in the capital region, Marathi was spoken in the north, Kannada in the
+                        south-west, and Telugu in the south and south-east. The population was largely Hindu, but the government bodies, such as the legislative assembly, the civil services, the police and the army, had a Muslim-majority. 
+                        When the plan to partition India was announced on 3 June 1947, the Nizam of Hyderabad declared his intention to join neither dominion and to remain an independent sovereign dominion, a member of the British Commonwealth of Nations. <br> However, Governor-General Louis Mountbatten dashed this hope saying that Britain would not accept
+                        
+                        Hyderabad as an independent member of the Commonwealth and that it could join only as a part of India or Pakistan.
+                        The States Ministry, headed by Sardar Vallabhbhai Patel and executed by
+                        V.P. Menon, then began endless rounds of discussions with the delegation from Hyderabad regarding the state’s accession to India. The Hyderabad delegation was headed by Lieutenant-Colonel Muhammad Ahmed Said Khan (generally referred to as the Nawab of Chhatari), who was the president of the Nizam’s executive council. The States Ministry wanted Hyderabad to accede, like every other princely state, on the three subjects of external affairs, defence and communications, without any financial commitments. However, the Nizam was unwilling to compromise his sovereignty and even kept open the option of joining Pakistan.<br>
+                        With 15 August looming, the Nizam did not look any closer to signing the Instrument of Accession. Hence, an extension of two months was given to continue negotiations. Through multiple rounds of discussions, the Nizam and the Nawab made multiple demands, all of which were unacceptable to the States Ministry—a separate tripartite negotiating committee with Hyderabad, India and Pakistan; a conditional treaty with India that ensured that Hyderabad maintained a degree of say over its foreign policy, defence and communications; signing the Standstill Agreement without the Instrument of Accession; and renaming the Instrument of Accession as Articles of Association. They also rejected the idea of a referendum (public vote).
+                        Meanwhile, an external influence on the Nizam began to grow stronger. <br> Kasim Razvi was the leader of a Muslim communal organization called the Ittehad-ul-Muslimeen (supported by the Nizam). He also commanded a private militia called the Razakars. By late October 1947, negotiations between India and Hyderabad had reached a stalemate, and India had to urgently deal with the invasion in Kashmir. Kasim Razvi chose this moment to begin playing a more direct role in Hyderabad’s future. He influenced the Nizam to replace the Nawab and other members of the executive council with his choices, such as Mir Laik Ali, the former representative of Pakistan to the United Nations, and Nawab Moin Nawaz Jung, the brother-in-law of
+                        
+                        Laik Ali. The Hyderabad government began to reach out to Pakistan more often and tried to procure arms and ammunition from abroad. The dangers of communal violence in Hyderabad began to increase. Kasim Razvi now effectively ruled Hyderabad.<br>
+                        In order to gain some stability and make some progress in the negotiations with Hyderabad, India agreed to sign the Standstill Agreement without the Instrument of Accession. The Agreement was signed on 29 November 1947 and would remain in force for one year. Or as Prime Minister Jawaharlal Nehru remarked, ‘peace for one year’. 
+                        However, almost immediately, the Hyderabad government began to repeatedly violate the terms of the Standstill Agreement. It restricted the export of precious metals to India and declared Indian currency as not legal tender in the state. It had already advanced a loan to Pakistan and had appointed a public relations officer in Karachi with plans to install more agents in other foreign nations. The violent activities of the Razakars too began to increase in intensity, and the state forces were strengthened. 
+                        Through the first half of 1948, tensions rose through multiple rounds of failed discussions, unreasonable demands and broken promises. Leaders from the Razakars and the government in Hyderabad began to speak openly of large-scale communal violence and war with India, and even began border raids with Madras and Bombay Provinces. <br>India stationed troops around Hyderabad’s borders and began to prepare for military intervention. The Hyderabad government began to reach out to the United Nations and the United States of America to arbitrate. In the middle of June 1948, Mountbatten completed his term as Governor-General and left India for good, unable to resolve the Hyderabad crisis before leaving. Chakravarti Rajagopalachari replaced him as Governor-General.
+                        By the end of August and early September 1948, the law and order situation in Hyderabad and its borders had escalated to anarchy levels, with murder, rape, looting and train attacks becoming frighteningly regular. After endless demands by the Indian government—and dismissals by the Hyderabad government—to ban and disband the Razakars and bring the
+                        
+                        law and order situation under control, India decided to employ military force.<br>
+                        On 9 September, India officially launched Operation Polo, referred to more commonly as ‘police action’. On 13 September, Indian forces entered Hyderabad. On the evening of 17 September, the Hyderabad army surrendered and the cabinet resigned. Kasim Razvi was arrested on 19 September. The Indian government took over administration in Hyderabad but decided to carry it out in the name of the Nizam so as to maintain stability.
+                        When India adopted its Constitution on 26 January 1950, Hyderabad State was classified as a Part B state. The Nizam, Mir Osman Ali Khan, was appointed the Rajpramukh and M.K. Vellodi the first chief minister.
+                                         
+                    </p>
+            </div>
+            <div class="col-sm-3">
+                <div class="image">
+                    <img src="" alt="">
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="row custom-row">
+            <div class="col-sm-8 para">
+                <h3>II: Andhra Pradesh
+                </h3>
+                <p>
+                    In December 1953, the Indian government set up the States Reorganisation Commission (SRC) to look into the matter of redrawing state boundaries. In its September 1955 report, the SRC took cognisance of the growing demand to disintegrate Hyderabad State and merge it with its neighbouring states so that progress could reach the people of ‘an artificial political unit’ with an undemocratic tradition that needed to be liquidated. The SRC also deemed the arguments in favour of continuing Hyderabad State, such as its long history and the possibility of the state serving as a carrier of Hindi to the south, as weak. The SRC recommended the disintegration of Hyderabad State so as to help the stability of the other proposed units in south India.
+                    Hyderabad would be split into three parts on the basis of language. The northern Marathi-dominant Marathwada region would be integrated into the proposed bilingual Bombay State and the South-western Kannada-dominant districts would integrate into the proposed Mysore State. However, a question arose over the future of the Telugu-dominant Telangana region in the south and south-east. There was an existing demand from the newly created neighbouring Andhra State (also Telugu-dominant) for the creation
+                    
+                    of Vishalandhra, which would integrate Andhra State and Telangana. While integration could bring mutual benefits, developmentally and economically, there was the fear that the two regions were unequally placed in relation to each other. Moreover, it was argued that Andhra State was still in a period of transition, while Telangana could be a stable and viable state by itself.<br>
+                    Hence, the SRC rejected an immediate integration in favour of a wait- and-watch approach. It suggested first spinning Telangana off as a separate state (called the state of Hyderabad) for about five years until 1961. This would give both Andhra and Telangana enough time to stabilize their administrative machinery. Unification could be revisited after the general elections in 1961, at which point the Telangana legislature would have the provision to voluntarily vote themselves into Andhra State by a two-thirds majority. This decision had its supporters and detractors. Even Burgula Ramakrishna Rao, Hyderabad State’s first elected chief minister, wasn’t entirely in favour of a merger as he felt that the two regions had different cultural formations. 
+                    In February 1956, a ‘Gentlemen’s Agreement’ between Telangana and Andhra leaders promised equitable development and representation in Telangana, including a regional council. Hence, when the States Reorganisation Act was passed later that year, the government disregarded the SRC’s recommendation and merged Andhra State and Telangana into a single state called Andhra Pradesh. The new State came into being on 1 November 1956. Neelam Sanjiva Reddy of the Indian National Congress (INC) became the chief minister. Kurnool lost its capital city status and Hyderabad became the new capital city.
+                                  
+                </p>
+            </div>
+            <div class="image col-sm-4">
+                <img src="" alt="" >
+            </div>
+        </div>
+        <hr>
+        <div class="row custom-row">
+            <div class="col-sm-9 para">
+                <h3>
+                    III: Telangana, Part I
+                </h3>
+                <p>
+                    The Telangana region had in force long-standing domicile rules known as the ‘Mulki Rules’. Instituted in 1919 by the Nizam Mir Osman Ali Khan, Telangana’s ‘Mulki Rules’ were meant to protect the locals (Mulkis) in
+
+                    government job appointments. In order to be considered a Mulki, the following conditions had to be met. <ul>
+                    
+                    <li>one had to be born in Hyderabad State; or</li>
+                    <li>one had to have been a permanent resident for at least fifteen years in Hyderabad State and to have officially abandoned the idea of returning to the place of one’s residence by obtaining an affidavit to that effect on a prescribed form attested by a magistrate; or</li>
+                    <li>one’s father had to—at the moment of one’s birth—have completed fifteen years of employment in Government Service; or</li>
+                    <li>one could, if one were a woman, be married to a Mulki. </li></ul></p><p>
+                    
+                    In addition, eligible outsiders had to apply for the grant of a Mulki Certificate.<br>
+                    The first Mulki agitation had occurred in Hyderabad State in September 1952 over the large-scale recruitment of non-locals into positions meant for locals in the newly-formed Hyderabad State Government. 
+                    In January 1969, students from a number of colleges held demonstrations and burnt effigies of ministers to protest against the violation of the safeguards in the Gentlemen’s Agreement. Political leaders of Andhra Pradesh responded swiftly and unanimously, resolving to transfer ‘all non- Telangana employees holding posts reserved for Telangana domiciles’to the Andhra region, as well as to fully utilize all Telangana surpluses for development of the region during the following five years. 
+                    But the issue refused to die down quietly. A political party, the Telangana Praja Samithi (TPS), was founded to campaign for Telangana statehood.
+                    Pro-Telangana protests soon became violent, resulting in damaged public property, police firing and injuries. <br> The Mulki Rules were declared void by the Andhra Pradesh High Court but that decision was immediately stayed by a divisional bench of the same high court. The chief minister of Andhra Pradesh, Kasu Brahmananda Reddy, assured both camps that the Mulki Rules would remain in force for another five years with no extensions beyond that. 
+                    
+                    1 November 1971 marked the fifteenth anniversary of the merging of Telangana and Andhra State to create Andhra Pradesh. This meant that, under Mulki Rules, all the people who had migrated to Hyderabad at the time of the state’s creation in 1956 were now eligible to be officially considered as Mulkis. In late 1972, the Supreme Court upheld the Mulki Rules and Parliament passed the Mulki Rules Act in December 1972. <br>This                    kick-started a counter ‘Jai Andhra’ movement in the Andhra region demanding an Andhra State separate from Telangana. Ministers resigned from Chief Minister P.V. Narasimha Rao’s government in protest. Andhra Pradesh was placed under President’s rule in January 1973.
+                    In September 1973, Prime Minister Indira Gandhi released a six-point formula, which also later became the thirty-second amendment to the Constitution of India. Andhra Pradesh would be divided into six zones. 85 per cent of lower-level government jobs and seats in government colleges and universities were reserved for the local people from that particular zone, while the remaining 15 per cent of non-local jobs and seats were open to people from the remaining five zones. Through this zoning approach, the six-point formula rendered the continuance of the Mulki Rules unnecessary and the Mulki Rules (Repeal) Act was passed in December 1973.
+                    
+                            
+                </p>
+
+            </div>
+            <div class="col-sm-3 image">
+                <img src="" alt="">
+            </div>
+                
+        </div>
+        <hr>
+        <div class="row custom-row">
+            <div class="col-sm-9 para">
+                <h3>
+                    IV: Telangana, Part II
+
+                </h3>
+                <p>
+                    The Telangana movement picked up again in April 2001. Kalvakuntla Chandrashekar Rao (KCR) was the Deputy Speaker of the Andhra Pradesh Legislative Assembly and a member of the ruling Telugu Desam Party (TDP). He resigned from his post and the party to establish his own party, the Telangana Rashtra Samithi (TRS). The party’s single-point agenda was the creation of a separate state of Telangana with Hyderabad as its capital city.
+                    KCR’s individual political fortunes rose and he even earned a Union cabinet post. However, his party didn’t fare as well. In the 2009 assembly
+                    
+                    elections in Andhra Pradesh, TRS won only 8.4 per cent of the seats in the Telangana region. The incumbent chief minister of Andhra Pradesh, Y.S. Rajasekhara Reddy (YSR) of the INC, was re-elected. The Telangana sentiment appeared to have faded, the vote seemed to be against bifurcation.
+                    On 2 September 2009, however, the situation changed dramatically. Chief Minister YSR’s helicopter went missing in the remote Nallamala Forest. The wreckage and the bodies were discovered a day later. In the resulting political turmoil, KCR seized his opportunity.<br>
+                    On 29 November 2009, KCR started a fast-unto-death demanding Telangana State. The fast quickly gathered force with popular support extended by student organizations, employee unions and various other organizations. A mere ten days later, on 9 December, the Union Home Minister, P. Chidambaram, of the Congress-led coalition government at the Centre, announced that Telangana would become a reality.
+                    The actual bifurcation of Andhra Pradesh and Telangana came four-and- a-half years later on 2 June 2014. KCR became the first chief minister. The city of Hyderabad became the permanent capital of Telangana.
+                    
+                </p>
+
+            </div>
+            <div class="col-sm-3 image">
+                <img src="" alt="">
+            </div>                
+        </div>
+        <hr>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

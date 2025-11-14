@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Protest+Strike&display=swap" rel="stylesheet">
+    <style>
+        .custom-dropdown-menu {
+            width: 1000px; 
+            max-height: 310px;
+            overflow-y: auto; 
+        }
+        .navbar-nav .nav-link {
+            font-size: 20px;
+        }
+        .navbar-nav .nav-item {
+            margin-right: 30px;
+        }
+        .ind-1947{
+            height: 450px;
+        }
+        .image img{
+            padding-top:100px;
+            height: 100%;
+            width : 100%;
+        }
+        .title h1{
+            padding-top:30px;
+            padding-bottom: 30px;
+            font-family: 'Protest Strike', sans-serif;
+            font-size: 60px;
+        }
+        .para h3{
+            font-family: 'Protest Strike', sans-serif;
+            padding-bottom: 10px;
+        }
+        .para p{
+            text-align: justify;
+            font-size: large;         
+        }
+        .para figure{
+            text-align: center;
+        }
+        .custom-row{
+            align-items: start;
+        }
+    </style>
+    <title></title>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="img/Logo.png" alt="Logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="introduction.html">Intro</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link active dropdown-toggle"  id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            States
+                        </a>
+                        <ul class="dropdown-menu custom-dropdown-menu" aria-labelledby="navbarDropdown">
+                            <div class="row">
+                                <div class="col">
+                                    <li><a class="dropdown-item" href="Andhra Pradesh.html">Andhra Pradesh</a></li>
+                                    <li><a class="dropdown-item" href="Arunachal Pradesh.html">Arunachal Pradesh</a></li>
+                                    <li><a class="dropdown-item" href="Assam.html">Assam</a></li>
+                                    <li><a class="dropdown-item" href="Bihar.html">Bihar</a></li>
+                                    <li><a class="dropdown-item" href="Chhattisgrah.html">Chhattisgarh</a></li>
+                                    <li><a class="dropdown-item" href="Goa.html">Goa</a></li>
+                                    <li><a class="dropdown-item" href="Gujarat.html">Gujarat</a></li>
+                                    <li><a class="dropdown-item" href="Haryana.html">Haryana</a></li>
+                                    <li><a class="dropdown-item" href="Himachal Pradesh.html">Himachal Pradesh</a></li>
+                                </div>
+                                <div class="col">
+                                    <li><a class="dropdown-item" href="Jharkhand.html">Jharkhand</a></li>
+                                    <li><a class="dropdown-item" href="Karnataka.html">Karnataka</a></li>
+                                    <li><a class="dropdown-item" href="Kerala.html">Kerala</a></li>
+                                    <li><a class="dropdown-item" href="Madhya Pradesh.html">Madhya Pradesh</a></li>
+                                    <li><a class="dropdown-item" href="Maharashtra.Html">Maharashtra</a></li>
+                                    <li><a class="dropdown-item" href="Manipur.html">Manipur</a></li>
+                                    <li><a class="dropdown-item" href="Meghalaya.html">Meghalaya</a></li>
+                                    <li><a class="dropdown-item" href="Mizoram.html">Mizoram</a></li>
+                                    <li><a class="dropdown-item" href="Nagaland.html">Nagaland</a></li>
+                                </div>
+                                <div class="col">
+                                    <li><a class="dropdown-item" href="Orissa.html">Odisha</a></li>
+                                    <li><a class="dropdown-item" href="Punjab.html">Punjab</a></li>
+                                    <li><a class="dropdown-item" href="Rajasthan.html">Rajasthan</a></li>
+                                    <li><a class="dropdown-item" href="Sikkim.html">Sikkim</a></li>
+                                    <li><a class="dropdown-item" href="Tamil Nadu.html">Tamil Nadu</a></li>
+                                    <li><a class="dropdown-item" href="Telangana.html">Telangana</a></li>
+                                    <li><a class="dropdown-item" href="Tripura.html">Tripura</a></li>
+                                    <li><a class="dropdown-item" href="Uttar Pradesh.html">Uttar Pradesh</a></li>
+                                    <li><a class="dropdown-item" href="Uttarakhand.html">Uttarakhand</a></li>
+                                </div>
+                                <div class="col">
+                                    <li><a class="dropdown-item" href="West Bengal.html">West Bengal</a></li>
+                                    <li><a class="dropdown-item" href="">Andaman and Nicobar Islands</a></li>
+                                    <li><a class="dropdown-item" href="Chandigrah.html">Chandigarh</a></li>
+                                    <li><a class="dropdown-item" href="">Dadra and Nagar Haveli and Daman and Diu</a></li>
+                                    <li><a class="dropdown-item" href="Delhi.html">Delhi</a></li>
+                                    <li><a class="dropdown-item" href="Jammu and Kashmir.html">Jammu & Kashmir</a></li>
+                                    <li><a class="dropdown-item" href="Ladakh.html">Ladakh</a></li>
+                                    <li><a class="dropdown-item" href="Lakshadweep.html">Lakshadweep</a></li>
+                                    <li><a class="dropdown-item" href="Puducherry.html">Puducherry</a></li>
+                                </div>
+                            </div>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="row title">
+            <h1>Formation of Goa</h1>
+        </div>
+        <div class="row custom-row">
+            <div class="col-sm-9 para">
+                <h3> 1947–61: Diplomacy Precedes Action</h3>
+                    <p>
+                        ‘At the stroke of the midnight hour, when the world sleeps, India will awake to life and freedom.’ Except Goa. In 1947, when India achieved independence from the British, Goa was under the occupation of a different colonial power. The Portuguese had a few holdings strung out along the west coast of India—Goa (the largest), Dadra, Nagar Haveli, Daman and Diu. And so, at the stroke of the midnight hour on 15 August 1947, these five territories simply continued to be a part of Portuguese India and did not become a part of the Union of India.
+                        Portugal viewed Goa as the ‘Rome of the Orient’- implying a timeless, eternal rule but Indian nationalists viewed Portuguese India as a  temporary nuisance. Neither the local Goans nor the Government of India were all right with Portugal continuing this arrangement. Even before Independence, in June 1946, Dr Ram Manohar Lohia had led a disobedience movement and the Goan Political Conference had passed the ‘Quit Goa’ resolution. In June 1949, both the Goan People’s Party and the president of the Goan National Congress demanded the end to foreign rule and the establishment of democracy.5 The same month, India established a diplomatic office in Lisbon, the capital of Portugal, and began to negotiate the withdrawal of Portugal from its colonies in India.
+                        <br> 
+                        Portugal refused to even discuss the issue. In the view of its dictator, António de Oliveira Salazar, these were not ‘colonies’ but parts of metropolitan Portugal. Goa was ‘the expression of Portugal in India’. Goans were citizens of Portugal, represented in the Portuguese legislature and even in the cabinet. Moreover, when Portugal had gained control over these territories in the early 16th century, there was no ‘Republic of India’, just a number of kingdoms. Further, in June 1951, Portugal amended its Constitution to change the status of its overseas colonies—including those in India—to provinces. The question of transferring its territories to India simply did not arise. This didn’t go down well with India. In June 1953, it withdrew its diplomatic mission from Lisbon and instituted visa restrictions between Portuguese colonies and India.
+                        <br> 
+                        On 21 July 1954, a small party of Indian activists entered the Portuguese territory of Dadra and took over the administration. On 2 August, more activists entered and liberated Nagar Haveli without incident. Inspired by these developments, over a thousand satyagrahis attempted to cross into Goa and Daman on 15 August 1954 but were turned back at the border. A year later, on 15 August 1955, three thousand satyagrahis entered Goa, Daman and Diu in a similar attempt. This time, the Portuguese police and military met them with violence, resulting in deaths and injuries. 
+                        Condemning the Portuguese firing, Prime Minister Nehru immediately broke off diplomatic relations with Portugal. India closed its consulate in Goa, curtailed money order facilities, and instituted a travel and economic blockade against Goa, Daman and Diu.
+                        <br> 
+                        The issue now became internationalized. The Soviet Union and China backed India’s stand, while Great Britain and other countries of the North Atlantic Treaty Organization (NATO, of which Portugal was a member) alliance supported Portugal. While the United States tried to remain neutral on the matter, it indirectly agreed that Goa was Portugal’s province.16 This greatly disappointed Nehru. However, this did not bring about any change in the status of Portuguese territories in India.
+                        India tried a last-ditch effort to resolve the matter peacefully. In September 1960, it liberalized travel between Goa and India, and in April 1961, it removed the trade ban with Goa, Daman and Diu. Portugal did not reciprocate on both occasions.
+                        <br> 
+                        Through the second half of 1961, newly-independent post-colonial nations in Africa started applying greater pressure on India to resolve the Goa issue. At a seminar organized by the Indian Council for Africa in Delhi in October 1961, leaders of multiple African nations linked the immediate liberation of Goa as crucial to the success of ongoing independence movements in Africa. Criticized for having too passive and soft a policy on Goa, Nehru said, ‘We may even decide to send our armies.’ V.K. Krishna Menon, India’s defence minister and the head of India’s UN delegation, declared that India had not renounced ‘the use of force’ in Goa. After fourteen years of attempting to persuade Portugal through patience and non-violence, armed conflict was now a real prospect for India.
+                    </p>
+            </div>
+            <div class="col-sm-3">
+                <div class="image">
+                    <img src="img/goa.jpg" alt="">
+                    
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="row custom-row">
+            <div class="col-sm-8 para">
+                <h3>November–December 1961: Military Action</h3>
+                <p>
+                    By November 1961, the Portuguese had begun to reinforce their presence in Goa. Four thousand combat soldiers and two artillery units were stationed in Goa, and four frigates (small, fast military ships) patrolled Goa’s coast.
+                    They also had over a thousand police officers and border guards as well as five merchant ships and two transport aircraft. Roads leading into Goa were mined. 
+                    The trigger came towards the end of November when the Portuguese fired unprovoked at an Indian steamer ship from Anjadip, an island they held just south of Goa. This resulted in injuries and deaths of Indian
+                     
+                    fishermen. India immediately deployed a destroyer and a frigate to patrol the Karwar coast south of Goa.
+                    <br>
+                    On 1 December, India began a surveillance and reconnaissance exercise called Operation Chutney. Two frigates began to patrol the coast of Goa, and the Indian Navy mobilized sixteen ships, divided into four task groups. The Indian Air Force (IAF) began reconnaissance flights to lure any Portuguese fighter jets to reveal their positions. The Indian Army stationed troops around the borders of Goa, Daman and Diu. The army would lead Operation Vijay to liberate Goa, and the navy and the air force would support it.
+                    <br>
+                    Salazar attempted to garner international support, appealing to Great Britain and the United Nations Security Council and lodging protests through Brazil. Nehru postponed initiating military action twice after listening to the United States Ambassador, John Kenneth Galbraith, but it was just delaying the inevitable. On 10 December, Nehru declared that ‘continuance of Goa under Portuguese rule is an impossibility’ . The escalating situation alarmed the European civilians in Goa. They began to evacuate, aided by the Governor-General of Portuguese India, Manuel António Vassalo e Silva. 
+                    <br>
+                    The first move came on 17 December. A unit of Indian troops captured the town of Maulinguém in north-east Goa after a brief skirmish. The operation began at four a.m. in the predawn darkness of 18 December, coordinated across Goa, Daman and Diu. Troops entered from the north, east and south, all aiming for the capital city of Panjim. They captured town after town with little resistance from the Portuguese forces, who blew up bridges as they retreated. The IAF ran morning bombing raids to destroy the runway at Dabolim airport and radio facilities at Bambolim and Mormugao harbour. At noon, three Indian frigates stormed into Mormugao harbour to find a lone Portuguese frigate (the other three had sailed earlier to Portugal). In an exchange of fire lasting less than an hour, the Portuguese frigate was destroyed. 
+                    <br>
+                    Meanwhile, at Anjadip Island, the Portuguese falsely raised the white flag of surrender. They waited until the naval landing party approached the
+                    shore and then ambushed them with machine-gun fire. The Indian naval forces repelled the attack and won the island by the afternoon of 18 December, but suffered casualties.
+                    <br>
+                    By the evening of 18 December, the towns of Margao and Dabolim had also fallen, and Indian Army troops had advanced up to the Mandovi River across from Panjim. The following morning, Indian troops marched into Panjim and captured Fort Aguada.
+                    The Portuguese forces had been cornered into the town of Vasco da Gama, next to the Mormugao harbour. Salazar had ordered his troops to destroy Goa rather than surrender it to the Indians. However, the Governor- General Vassalo e Silva chose to not follow those orders. Instead, on the evening of 19 December, he offered to surrender. About three-and-a-half thousand Portuguese soldiers were taken prisoner. 
+                    Operation Vijay had concluded successfully. Goa, Daman and Diu had all been liberated. 451 years of Portuguese rule in India had ended.
+                    
+                </p>
+            </div>
+            <div class="image col-sm-4">
+                <figure>
+                <img src="img/operation-vijay-goa.jpg" alt="" >
+                <figcaption>Operation Vijay Goa 1961 - Attack on Goa by Indian Armed Forces</figcaption>
+            </figure>
+            </div>
+        </div>
+        <hr>
+        <div class="row para">
+                <h3>
+                    1961–87: Too Big for a Union Territory, Too Small for a State
+                </h3>
+                <p>
+                    On the morning of 20 December 1961, Goa awoke to life as a union territory of India.
+The Goa, Daman and Diu (Administration) Act, passed in March 1962 but valid retroactively from 20 December 1961, incorporated ‘Goa, Daman and Diu’ as the eighth union territory of India. All the three former Portuguese enclaves, 1400 km apart along the western coast, were combined into one union territory and granted representation in Parliament.
+On 8 June 1962, the military governor, who had taken over administration in the immediate aftermath of Operation Vijay, gave way to a civilian lieutenant-governor. On 13 May 1963, the Government of Union Territories Act came into effect in Goa, Daman and Diu. This gave the union territory a legislature consisting of thirty members and a council of ministers.
+<br> 
+However, Goa’s existence was threatened almost immediately. Goa was economically much more prosperous than the border areas of both its neighbouring states—Maharashtra in the north and Mysore State in the east and south. As a result, both of those significantly larger states eyed Goa as a potential target for absorption. Maharashtra had the upper hand as many Goan freedom fighters had been based out of Bombay City.
+Many Hindu Goans supported a merger as an effective means of promoting national integration. They denied that Goans were distinguishable from their neighbours, despite the ‘accident of history’ of 451 unbroken years of Portuguese rule and the fact that over a third of the Goan population at the time was Christian. At the other end of the spectrum, some Goans made a plea for independence before the United Nations, claiming distinctive historical, social and cultural patterns. 
+<br>
+In the election year of 1963, the Maharashtrawadi Gomantak Party (MGP)—led by Dayanand Bandodkar—was founded with the objective of ‘the integration of Goa into the state of Maharashtra’ . While 95 per cent of Goans spoke Konkani, Marathi was widely used among the Hindus of Goa, leading the MGP to declare that ‘the language of Goans is Marathi and Konkani is a dialect of Marathi’ . To protect their cultural identity and future, the Christian minority founded the United Goans Party (UGP), led by Dr Jack de Sequeira.
+<br>
+The third large party in the fray was India’s biggest political party at the time—the Indian National Congress (INC). The Congress found itself in an unenviable position. It couldn’t support the merger call with neighbouring states because Prime Minister Nehru had personally recognized Goa’s distinctive personality and had pledged to maintain its separate identity. At the same time, the INC also had to appease the powerful Congress state governments in Maharashtra and Mysore.
+With the INC caught in the middle, the MGP won sixteen of the thirty seats—an absolute majority—in the December 1963 assembly elections, while the UGP came in a close second with twelve. The INC won the seat in Daman and nothing in Goa, and an independent candidate won the seat in Diu. 
+The MGP and its leader—now chief minister of the union territory— Dayanand Bandodkar interpreted the resounding electoral victory as a public endorsement of its call to merge Goa with Maharashtra and intensified measures to bring it to fruition. The new government promoted Marathi as the language of government and education. It passed a resolution in the Goa Assembly demanding the merger of Goa with Maharashtra and Daman and Diu with Gujarat. Maharashtrian civil servants began to be appointed into Goa’s bureaucracy. 
+<br>
+Bandodkar’s heavy-handedness had an unintended consequence. The Catholic and Brahmin Hindu communities that opposed the merger joined forces and formed a non-party Council of Direct Action to stage satyagrahas, marches and strikes. By August 1966, these had begun to seriously disrupt daily life. The Union government, led by Indira Gandhi of the INC, was caught in the crossfire and unable to fully support or quell either motion. Eventually, in September 1966, it decided to settle the matter through a public vote. The people of Goa, Daman and Diu would decide the fate of Goa, Daman and Diu.
+<br>
+In December 1966, Parliament passed the Goa, Daman and Diu (Opinion Poll) Act to give legal standing to the poll. The Chief Election Commissioner would oversee the opinion poll and the results would be published in the official gazette. The Bandodkar government resigned and the territory was placed under President’s rule so as to facilitate the conduct of the poll. The opinion poll was scheduled to be held on 16 January 1967 and would offer only two options: ‘Merger’ (symbolized by a flower) or ‘Union Territory’ (symbolized by two leaves) . Both the pro-merger and anti-merger factions campaigned intensely in the month leading up to the vote.
+</p>
+<figure>
+ <img src="img/goa-ballot-paper.jpg" alt="goa-ballot-paper" style="width:400px" >
+ 	 <figcaption> The ballot paper for the 1967 opinion poll in Goa, Daman and Diu.</figcaption>
+</figure>
+<p>
+Nearly 82 per cent of the eligible voters in Goa cast their votes. The majority chose for Goa to remain a ‘Union Territory’ (two leaves symbol), which won by over 34,000 votes. The union territory of Goa, Daman and Diu continued to exist in the Union of India as a separate entity. 16 January is observed every year in Goa as ‘Asmitai Dis’ (Self-identity Day). 
+Portugal had refused to recognize India’s sovereignty over all five territories all along. In 1974, it underwent a revolution that overthrew the regime and brought about democratic reforms. On 31 December 1974, Portugal and India signed a treaty that recognized that Goa, Daman, Diu, Dadra and Nagar Haveli had ‘already become parts of India’ and that India had sovereign rights over them from the dates when they each became a part of India.
+<br>
+With the issues of integration and merger finally settled, politics in Goa went back to pre-referendum days. The MGP won the next four assembly elections and stayed in power for another twelve years. Dayanand Bandodkar died in office and was succeeded by his daughter, Shashikala Kakodkar, both as leader of the MGP and as chief minister of Goa.
+<br>
+The issue of Goa’s statehood cropped up occasionally through the 1970s, but the demand was never forceful or urgent enough, not even after it became an election promise by the winning parties in the 1977 (MGP) and 1980 (Congress [U]) elections. Goa seemed to be stuck in an in-between ground between union territory and state requirements. For instance, while states were required to have assemblies with a minimum of sixty delegates, Goa needed just thirty for its small geographical size. And yet, economically, Goa regularly outperformed states that were many times larger. Moreover, granting statehood to Goa could have an effect on the statehood demands of other union territories, such as Delhi and Pondicherry. 
+<br>
+Since linguistics had been the basis of the States Reorganisation Act of 1956, pro-state advocates in Goa tried to get Konkani recognized as a national language. However, the Konkan regions were scattered along the western coast and creating a Konkan state would mean extensive redrawing of the state borders of Kerala, Karnataka and Maharashtra. 
+<br>
+The momentum really kicked in only in July 1986 when Luizinho Faleiro, the sole Goa Congress MLA, moved a bill to make Konkani the official language of Goa. This bill garnered support across communal lines, forcing the ruling INC government to endorse it. The all-India Congress Committee drafted a bill making Konkani the official language while assuring equal protection to Marathi. This immediately set off violence between the pro-Marathi and pro-Konkani factions in Goa. Nevertheless, in February 1987, the Goa Assembly adopted the Official Languages Bill, making Konkani in Devanagari script the official language while keeping the use of Marathi. 
+<br>
+Curiously, this event propelled Goa along the path of statehood so rapidly that it became a state almost overnight. The INC at the Centre, seemingly inspired by granting statehood to both Arunachal Pradesh and Mizoram in February 1987, passed the Goa, Daman and Diu Reorganisation Act on 23 May 1987 to separate the state of Goa and the union territory of Daman and Diu. Small size? No problem! The Fifty-Sixth Amendment of the Constitution of India allowed the Goa Legislative Assembly to have forty members instead of the minimum sixty. And so, on 30 May 1987, Goa awoke to life as the twenty-fifth and smallest state of India.
+ 
+
+                </p>
+
+            </div>
+           
+                
+        </div>
+    </div>
+
+        
+
+    
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

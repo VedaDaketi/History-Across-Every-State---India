@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Protest+Strike&display=swap" rel="stylesheet">
+    <style>
+        .custom-dropdown-menu {
+            width: 1000px; 
+            max-height: 310px;
+            overflow-y: auto; 
+        }
+        .navbar-nav .nav-link {
+            font-size: 20px;
+        }
+        .navbar-nav .nav-item {
+            margin-right: 30px;
+        }
+        .ind-1947{
+            height: 450px;
+        }
+        .image img{
+            padding-top:90px;
+            height: 100%;
+            width : 100%;
+        }
+        .title h1{
+            padding-top:30px;
+            padding-bottom: 30px;
+            font-family: 'Protest Strike', sans-serif;
+            font-size: 60px;
+        }
+        .para h3{
+            font-family: 'Protest Strike', sans-serif;
+            padding-bottom: 10px;
+        }
+        .para h5{
+            font-family: 'Protest Strike', sans-serif;
+            padding-bottom: 5px;
+        }
+        .para p{
+            text-align: justify;
+            font-size: large;         
+        }
+        .para figure{
+            text-align: center;
+        }
+        .custom-row{
+            align-items: start;
+        }
+    </style>
+    <title></title>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="img/Logo.png" alt="Logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="introduction.html">Intro</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link active dropdown-toggle"  id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            States
+                        </a>
+                        <ul class="dropdown-menu custom-dropdown-menu" aria-labelledby="navbarDropdown">
+                            <div class="row">
+                                <div class="col">
+                                    <li><a class="dropdown-item" href="Andhra Pradesh.html">Andhra Pradesh</a></li>
+                                    <li><a class="dropdown-item" href="Arunachal Pradesh.html">Arunachal Pradesh</a></li>
+                                    <li><a class="dropdown-item" href="Assam.html">Assam</a></li>
+                                    <li><a class="dropdown-item" href="Bihar.html">Bihar</a></li>
+                                    <li><a class="dropdown-item" href="Chhattisgrah.html">Chhattisgarh</a></li>
+                                    <li><a class="dropdown-item" href="Goa.html">Goa</a></li>
+                                    <li><a class="dropdown-item" href="Gujarat.html">Gujarat</a></li>
+                                    <li><a class="dropdown-item" href="Haryana.html">Haryana</a></li>
+                                    <li><a class="dropdown-item" href="Himachal Pradesh.html">Himachal Pradesh</a></li>
+                                </div>
+                                <div class="col">
+                                    <li><a class="dropdown-item" href="Jharkhand.html">Jharkhand</a></li>
+                                    <li><a class="dropdown-item" href="Karnataka.html">Karnataka</a></li>
+                                    <li><a class="dropdown-item" href="Kerala.html">Kerala</a></li>
+                                    <li><a class="dropdown-item" href="Madhya Pradesh.html">Madhya Pradesh</a></li>
+                                    <li><a class="dropdown-item" href="Maharashtra.Html">Maharashtra</a></li>
+                                    <li><a class="dropdown-item" href="Manipur.html">Manipur</a></li>
+                                    <li><a class="dropdown-item" href="Meghalaya.html">Meghalaya</a></li>
+                                    <li><a class="dropdown-item" href="Mizoram.html">Mizoram</a></li>
+                                    <li><a class="dropdown-item" href="Nagaland.html">Nagaland</a></li>
+                                </div>
+                                <div class="col">
+                                    <li><a class="dropdown-item" href="Orissa.html">Odisha</a></li>
+                                    <li><a class="dropdown-item" href="Punjab.html">Punjab</a></li>
+                                    <li><a class="dropdown-item" href="Rajasthan.html">Rajasthan</a></li>
+                                    <li><a class="dropdown-item" href="Sikkim.html">Sikkim</a></li>
+                                    <li><a class="dropdown-item" href="Tamil Nadu.html">Tamil Nadu</a></li>
+                                    <li><a class="dropdown-item" href="Telangana.html">Telangana</a></li>
+                                    <li><a class="dropdown-item" href="Tripura.html">Tripura</a></li>
+                                    <li><a class="dropdown-item" href="Uttar Pradesh.html">Uttar Pradesh</a></li>
+                                    <li><a class="dropdown-item" href="Uttarakhand.html">Uttarakhand</a></li>
+                                </div>
+                                <div class="col">
+                                    <li><a class="dropdown-item" href="West Bengal.html">West Bengal</a></li>
+                                    <li><a class="dropdown-item" href="">Andaman and Nicobar Islands</a></li>
+                                    <li><a class="dropdown-item" href="Chandigrah.html">Chandigarh</a></li>
+                                    <li><a class="dropdown-item" href="">Dadra and Nagar Haveli and Daman and Diu</a></li>
+                                    <li><a class="dropdown-item" href="Delhi.html">Delhi</a></li>
+                                    <li><a class="dropdown-item" href="Jammu and Kashmir.html">Jammu & Kashmir</a></li>
+                                    <li><a class="dropdown-item" href="Ladakh.html">Ladakh</a></li>
+                                    <li><a class="dropdown-item" href="Lakshadweep.html">Lakshadweep</a></li>
+                                    <li><a class="dropdown-item" href="Puducherry.html">Puducherry</a></li>
+                                </div>
+                            </div>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="row title">
+            <h1>Formation of Gujarat</h1>
+        </div>
+        <div class="row para">
+            
+                <h3> Phase I: 1947–56: Small Pools Forming a Big Lake</h3>
+                <p>
+                At the time of Independence, Gujarat was home to about half of all the princely states in India, with many of them no larger than a city neighbourhood. Even the name of the British agency administering the Gujarat region was an amalgamation of all the various agencies that had operated in the region until as recently as 1937—‘The Baroda, Western India and Gujarat States Agency’.
+                The integration of Gujarat, like the integration of India, did not happen immediately or all at once. This slow process of coalescence happened across three roughly equal-sized regions in the south, the north and the east of Gujarat.
+                </p>
+        </div>
+        <div class="row custom-row">
+            <div class="col-sm-8 para">
+                <h5>The Southern Third: Saurashtra State, 1948–56:</h5>
+                <p>
+                    At the time of Independence, 222 princely states dotted the region of Saurashtra (interchangeably known as Kathiawar). Many of them had more than one ‘sovereign’ or ‘shareholder’, meaning these princely states were further fragmented into 449 units. A number of these states had pockets of territories that were scattered across and separated by other states, leading to a further fragmentation into 860 jurisdiction areas. 
+                    Sardar Patel, head of the States Ministry overseeing the integration of India, and his secretary, V.P. Menon, met the princely rulers and shareholders of Kathiawar in January 1948. They proposed the unification of all the princely states into the United State of Kathiawar, integrated with the Union of India. Sardar Patel emphasized that ‘little pools of water tend to become stagnant and useless, but . . . if they are joined together to form a big lake, the atmosphere is cooled and there is universal benefit’. 
+                    <br>
+                    The rulers of Kathiawar, of large and small states, willingly signed the Covenant with just a few days of discussion and debate. The United State of Kathiawar came into being in February 1948—the first region where such a large-scale consolidation exercise was carried out. It was renamed as the United State of Saurashtra in November 1948. Maharaja Jam Sahib of Navanagar was appointed the Rajpramukh (Governor).
+                    However, Junagadh—one of the three largest princely states in the Kathiawar region—didn’t sign into the United State of Kathiawar. On 15 August 1947, the Nawab of Junagadh, Muhammad Mahabat Khanji III— whose coat of arms had the word ‘Saurashtra’ inscribed on it—announced his desire to accede to Pakistan, despite having earlier publicly announced his intention to join the United State of Kathiawar. Junagadh was situated at the extreme south of Kathiawar and was not contiguous to Pakistan.
+                    Junagadh’s territories were also interspersed with other princely states of Kathiawar. The rulers of a couple of other smaller states too, like Manavadar and Mangrol, were considering acceding to Pakistan. 
+                    <br>
+                    This unforeseen decision of the Nawab of Junagadh resulted in rapid communication being exchanged by the governments of India, Pakistan and Junagadh. When no progress was made and the situation started
+                    jeopardizing the peace and tranquillity of the entire Kathiawar region, India moved troops into the princely states adjacent to Junagadh.
+                    In September 1947, an Arzee Hukumat (Provisional Government) was formed on behalf of the people of Junagadh, who, it was believed, overwhelmingly wanted to join the Indian Union. This government was led by Samaldas Gandhi, who was Mahatma Gandhi’s nephew. Traders began to refuse to risk any business with Junagadh. Revenues and food were hard to come by. The Nawab fled to Pakistan leaving his Dewan (chief minister) Shah Nawaz Bhutto in charge.
+                    <br>
+                    As the on-ground situation worsened through early November 1947, the Junagadh State Council decided it was necessary to have a ‘complete reorientation’ of the state policy and revisit the earlier decision to accede to Pakistan. The dewan accordingly opened negotiations with India ‘in order to avoid bloodshed, hardship, loss of life and property’ .
+                    When the representatives of the Indian government entered Junagadh to take over the administration, the dewan had already left for Pakistan. The Indian government conducted a plebiscite in February 1948 asking the people of Junagadh whether they wanted to join India or Pakistan. Similar referendums were held at the same time in five other areas, including Mangrol and Manavadar. The people of all the regions voted almost unanimously to join India. 
+                    On 20 February 1949, the administration of Junagadh as well as that of Mangrol and Manavadar were handed over to the government of the United State of Saurashtra, completing the unification of one of the most fragmented regions of the Indian Union, one that Prime Minister Jawaharlal Nehru called ‘a crazy patchwork of states’ .
+
+
+                </p>
+            </div>
+            <div class="image col-sm-4">
+                <figure>
+                <img src="img/SaurashtraKart.jpg" alt="" >
+                <figcaption></figcaption>
+            </figure>
+            </div>
+        </div>
+        <div class="row custom-row">
+            <div class="col-sm-8 para">
+                <h5>The Northern Third: Kutch State, 1948–56</h5>
+                <p>
+                    If Saurashtra was a crazy patchwork of states, Kutch was the very opposite. A large part of the Kutch region was a wide-open expanse of white salt flats and shallow wetlands that stayed under water for most of the year.
+                    The Kutch princely state acceded to India. The States Ministry debated merging it with Saurashtra or with the princely states of Rajasthan, but ultimately decided that direct Union government control was needed for Kutch’s geographic and economic requirements. Geographically, Kutch shared a border with Pakistan and formed an important link to the rest of Saurashtra. Given the prevailing turbulent situation in Junagadh, it was important to secure and stabilize Kutch. Economically, since the large harbour of Karachi had been allocated to Pakistan, there were plans to develop the Kandla port in Kutch along with railway lines and oil installations. Kutch became a Chief Commissioner’s province on 1 June 1948. 
+                    In January 1950, when the Constitution of India came into force, Kutch State became a Part C state. This classification ensured that its administration remained under the direct control of the Union government of India.
+                </p>
+            </div>
+            <div class="imag col-sm-4">
+                <figure>
+                <img src="img/kutch.jpg" alt="" style="width: 302px; height: 350px;">
+            </figure>
+            </div>
+        </div>
+        <div class="row custom-row">
+            <div class="col-sm-8 para">
+                <h5>The Eastern Third: Gujarat States (Bombay State), 1948–56</h5>
+                <p>
+                    The Eastern Gujarat region was its own patchwork of states. 144 princely states, estates, talukas and thanas were further subdivided into 289 shareholders, all of them slicing across and interspersing each other, collectively known as ‘Gujarat States’. 
+                    The States Ministry believed that the future of the Gujarat States lay in merging it with the state of Bombay. However, after witnessing the seamless unification of the Saurashtra patchwork, the rulers of the Gujarat States hoped they could arrive at a similar arrangement, and thereby retain their separate existence. For this, they needed the ruler of the largest among them to agree to this union. They needed Sir Pratap Singh Gaekwar, the Maharaja of Baroda.
+                    <br>
+                    Unfortunately, Sir Pratap Singh didn’t desire such a union. Instead, he desired to create and rule as an independent ally to India in Gujarat. When this was shot down by the States Ministry, he tried to create an independent
+                    state of Baroda. This was also declined by the ministry after studying its efficacy, including parameters like state of administration and revenues. Moreover, geographically, Baroda was split into multiple territories that were themselves surrounded by Bombay State. 
+                    In March 1948, nearly all the Gujarat States signed the agreement to merge with Bombay State. The few stragglers followed soon after. Only Baroda remained. But Baroda resisted.
+                    Right through 1948, there was a lot of communication between Sir Pratap Singh and the States Ministry, including worrying matters like the depletion of the state’s treasury by the Maharaja. Finally, in January 1949, the ministry’s efforts paid off as Sir Pratap Singh signed the merger agreement. Baroda was merged with Bombay State officially in May 1949, completing the integration of the Eastern Gujarat region. 
+
+                </p>
+            </div>
+            <div class="image col-sm-4">
+                <figure>
+                <img src="img/Gujarat States (Bombay State).jpg" alt="" >
+            </figure>
+            </div>
+
+        </div>
+        <hr>
+        <div class="row para">
+                <h3> Phase II: Bilingual Bombay State, 1956–60</h3>
+                    <p>
+                        Right from Independence, a unified state of Gujarat was always on the cards, comprising Saurashtra, Kutch and the Eastern Gujarat States, all of which currently belonged to three different states. The term ‘Mahagujarat’ had been coined in 1937 to refer to a unification of all the Gujarati-speaking areas. With the setting-up of the States Reorganisation Commission (SRC) in December 1953 to look into the matter of reorganizing states on a linguistic basis, it appeared that Mahagujarat could become a reality.
+                        However, the city of Greater Bombay presented a tough decision due to its demographics. Bombay had a sizable Gujarati population that had contributed significantly to building the economic might of the city. In the reorganization, Gujarat wanted Greater Bombay City.
+                        <br>
+                        The other linguistic group contesting for Bombay was the Marathis. Bombay not only had a larger Marathi population, the city geographically lay within Marathi-speaking areas and drew most of its resources from the Maharashtra hinterland. Maharashtra believed that Bombay rightfully belonged to them.The third option lay in spinning Bombay off as an independent city-state, belonging to the people of India rather than being hitched to any one state. This was also amenable to the Gujarati population as it would maintain the independence and cosmopolitan nature of the city and, more importantly, keep it out of Maharashtra.
+                        <br>
+                        The matter remained inconclusive and was left to the SRC to adjudicate upon. In its report in 1955, the SRC remarked about how previous linguistic commissions, namely, the Dhar Commission and the JVP Committee, had weighed in on the matter and had suggested constituting Bombay City into a separate unit. However, while it recognized Bombay’s special position, the SRC determined that it would be better to feed the interests of all rather than satisfying any one group. 
+                        The SRC recommended the creation of one large bilingual Bombay State that extended from the tips of Kutch and Saurashtra in the North-west, across the mainland of the Gujarat States, and all of present-day Maharashtra including Greater Bombay City. These recommendations went against the grain of the linguistic approach the SRC had taken for the rest of the country.
+                        <br>
+                        On 1 November 1956, the new bilingual Bombay State came into existence. It was by far the largest Indian state, covering over 5,00,000 sq. km. of land area—nearly one-sixth of all of India. If it had been a country, Bombay State would have been among the fifty largest countries by land area. 
+                        Suddenly, Gujarat, which had been on a straightforward course of coalescing and establishing its identity in the Indian Union, had been subsumed. The state that had once housed the smallest princely state in India now formed the northern half of the largest state in the country.
+                    </p>
+            
+        </div>
+        <hr>
+        <div class="row custom-row">
+            <div class="col-sm-8 para">
+                <h3>Phase III: Unilingual Gujarat State, 1960 onwards</h3>
+                <p>
+                    This solution failed to appease either linguistic group. Rather, it intensified their demands of unilingual bifurcation. The decision-making moved to the
+ 
+streets with the birth of two powerful movements in 1956: the Mahagujarat Andolan (Greater Gujarat Movement) led by Indulal Yagnik (popularly known as Indu Chacha), writer, film-maker and Independence activist, and the Samyukta Maharashtra Samiti (United Maharashtra Society) led by Keshavrao Jedhe, former Congress leader.
+<br>
+Finally, in December 1959, the Congress Working Committee passed a resolution recommending the bifurcation of Bombay State.16 On 1 May 1960, bilingual Bombay State was separated into the two new unilingual states of Maharashtra and Gujarat. Bombay City became the capital of Maharashtra, while Ahmedabad, the largest city in Gujarat, became its capital. However, the city of Gandhinagar was planned and built right next to Ahmedabad. In 1970, Gandhinagar was declared as the state capital of Gujarat.
+<br>
+The journey of the state of Gujarat was finally realized—from a crazy patchwork containing the maximum number of princely states and jurisdictions to one contiguous administrative unit; from once containing the smallest princely state in the country to becoming the fifth largest state and enjoying the longest coastline in the Indian Union.
+
+                </p>
+            </div>
+            <div class="imag col-sm-4">
+                <figure>
+                <img src="img/gujarat.jpg" alt="" style="width: 302px; height: 350px;" >
+            </figure>
+            </div>
+
+        </div>
+    </div>
+
+        
+
+    
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

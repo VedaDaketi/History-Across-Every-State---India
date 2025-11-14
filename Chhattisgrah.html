@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Protest+Strike&display=swap" rel="stylesheet">
+    <style>
+        .custom-dropdown-menu {
+            width: 1000px; 
+            max-height: 310px;
+            overflow-y: auto; 
+        }
+        .navbar-nav .nav-link {
+            font-size: 20px;
+        }
+        .navbar-nav .nav-item {
+            margin-right: 30px;
+        }
+        .ind-1947{
+            height: 450px;
+        }
+        .ind-1947 img{
+            height: 100%;
+            width : 100%;
+        }
+        .title h1{
+            padding-top:30px;
+            padding-bottom: 30px;
+            font-family: 'Protest Strike', sans-serif;
+            font-size: 60px;
+        }
+        .para h3{
+            font-family: 'Protest Strike', sans-serif;
+            padding-bottom: 10px;
+        }
+        .para p{
+            text-align: justify;
+            font-size: large;         
+        }
+        .custom-row{
+            align-items: center;
+        }
+        body{
+            margin-bottom: 150px;
+        }
+    </style>
+    <title></title>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="img/Logo.png" alt="Logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="introduction.html">Intro</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle"  id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            States
+                        </a>
+                        <ul class="dropdown-menu custom-dropdown-menu" aria-labelledby="navbarDropdown">
+                            <div class="row">
+                                <div class="col">
+                                    <li><a class="dropdown-item" href="Andhra Pradesh.html">Andhra Pradesh</a></li>
+                                    <li><a class="dropdown-item" href="Arunachal Pradesh.html">Arunachal Pradesh</a></li>
+                                    <li><a class="dropdown-item" href="Assam.html">Assam</a></li>
+                                    <li><a class="dropdown-item" href="Bihar.html">Bihar</a></li>
+                                    <li><a class="dropdown-item" href="Chhattisgrah.html">Chhattisgarh</a></li>
+                                    <li><a class="dropdown-item" href="Goa.html">Goa</a></li>
+                                    <li><a class="dropdown-item" href="Gujarat.html">Gujarat</a></li>
+                                    <li><a class="dropdown-item" href="Haryana.html">Haryana</a></li>
+                                    <li><a class="dropdown-item" href="Himachal Pradesh.html">Himachal Pradesh</a></li>
+                                </div>
+                                <div class="col">
+                                    <li><a class="dropdown-item" href="Jharkhand.html">Jharkhand</a></li>
+                                    <li><a class="dropdown-item" href="Karnataka.html">Karnataka</a></li>
+                                    <li><a class="dropdown-item" href="Kerala.html">Kerala</a></li>
+                                    <li><a class="dropdown-item" href="Madhya Pradesh.html">Madhya Pradesh</a></li>
+                                    <li><a class="dropdown-item" href="Maharashtra.Html">Maharashtra</a></li>
+                                    <li><a class="dropdown-item" href="Manipur.html">Manipur</a></li>
+                                    <li><a class="dropdown-item" href="Meghalaya.html">Meghalaya</a></li>
+                                    <li><a class="dropdown-item" href="Mizoram.html">Mizoram</a></li>
+                                    <li><a class="dropdown-item" href="Nagaland.html">Nagaland</a></li>
+                                </div>
+                                <div class="col">
+                                    <li><a class="dropdown-item" href="Orissa.html">Odisha</a></li>
+                                    <li><a class="dropdown-item" href="Punjab.html">Punjab</a></li>
+                                    <li><a class="dropdown-item" href="Rajasthan.html">Rajasthan</a></li>
+                                    <li><a class="dropdown-item" href="Sikkim.html">Sikkim</a></li>
+                                    <li><a class="dropdown-item" href="Tamil Nadu.html">Tamil Nadu</a></li>
+                                    <li><a class="dropdown-item" href="Telangana.html">Telangana</a></li>
+                                    <li><a class="dropdown-item" href="Tripura.html">Tripura</a></li>
+                                    <li><a class="dropdown-item" href="Uttar Pradesh.html">Uttar Pradesh</a></li>
+                                    <li><a class="dropdown-item" href="Uttarakhand.html">Uttarakhand</a></li>
+                                </div>
+                                <div class="col">
+                                    <li><a class="dropdown-item" href="West Bengal.html">West Bengal</a></li>
+                                    <li><a class="dropdown-item" href="">Andaman and Nicobar Islands</a></li>
+                                    <li><a class="dropdown-item" href="Chandigrah.html">Chandigarh</a></li>
+                                    <li><a class="dropdown-item" href="">Dadra and Nagar Haveli and Daman and Diu</a></li>
+                                    <li><a class="dropdown-item" href="Delhi.html">Delhi</a></li>
+                                    <li><a class="dropdown-item" href="Jammu and Kashmir.html">Jammu & Kashmir</a></li>
+                                    <li><a class="dropdown-item" href="Ladakh.html">Ladakh</a></li>
+                                    <li><a class="dropdown-item" href="Lakshadweep.html">Lakshadweep</a></li>
+                                    <li><a class="dropdown-item" href="Puducherry.html">Puducherry</a></li>
+                                </div>
+                            </div>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="row title">
+            <h1>Formation of Chhattisgarh</h1>
+        </div>
+        <div class="row para">
+            <p>
+                At the time of India’s independence, Chhattisgarh existed mostly in the form of fifteen minor princely states known as the Chhattisgarh states. They were a part of the Eastern States Agency which consisted of forty-two princely states. In August 1947, the members of the Eastern States Agency joined together to form the Eastern States Union—a motley of Odia- and Hindi-speaking states scattered across Orissa Province and Central Provinces. It was headed by Maharaja Ramanuj Pratap Singh Deo, the ruler of the princely state of Korea (now also spelled as Koriya).
+                <br>
+                However, two of the biggest states—Mayurbhanj and Bastar—along with some of the smaller states refused to join. Moreover, the Eastern States Union failed to gain recognition from the Union government due to linguistic and administrative irregularities. The States Ministry decided that the Orissa states would be merged into Orissa Province and the Chhattisgarh states into Central Provinces and Berar.
+                <br>
+                This decision split the rulers of the Eastern States Union into opposing camps. In the middle of December 1947, the head and the secretary of the States Ministry, Sardar Vallabhbhai Patel and V.P. Menon, respectively, first
+                 
+                met the Orissa states rulers and then the Chhattisgarh states rulers. They apprised them of the law and order unrest that simmered in their states, the people’s desire to have a responsible government which most states could not provide, and the possibility that the Union government would take over the states’ administration if the situation worsened. Within a day, the rulers of all the Orissa states had signed the agreement, and the rulers of the Chhattisgarh states signed the following day. The fifteen Chhattisgarh states were then merged into Central Provinces and Berar.
+                <br>
+                In 1948, B.Y. Tamaskar, an opponent of the then-Premier of Central Provinces and Berar, Ravishankar Shukla, proposed statehood for Chhattisgarh for the first time. However, the proposal was neither seconded nor did it find mass appeal. In 1951, Tamaskar joined what would eventually become the Praja Socialist Party (PSP), which became the first main political party to promote the idea of statehood.
+                <br>
+                In 1956, the larger state of Madhya Pradesh was formed by integrating the erstwhile Central Provinces and Berar, Madhya Bharat, Vindhya Pradesh and Bhopal State. The same year, Khubchand Baghel set up the Chhattisgarh Mahasabha, thereby becoming one of the foremost proponents of a separate Chhattisgarh. Baghel had also joined the PSP earlier in 1951. The Mahasabha furthered the idea of exploitation by outsiders through a number of movements and campaigns, including employment rights for locals and land rights for tribals.
+                <br>
+                In 1967, when Baghel felt that the movement against exploitation was weakening, he established the Chhattisgarh Bhratr Sangh to rejuvenate the movement. However, the demand for statehood remained only an external pressure on the ruling Congress state government. 
+                In 1977, Purushottam Kaushik from the PSP contested the elections on a pro-statehood platform. He defeated Vidya Charan Shukla, the son of the first chief minister, and became a cabinet minister in the first non-Congress central government. To contest the 1980 Lok Sabha elections, Pawan Diwan established the Prithak Chhattisgarh Party.
+                <br>
+                From 1980 onwards, the movement for a regional Chhattisgarhi identity and Chhattisgarhi statehood gained new momentum, thanks largely to the
+                new chief minister of Madhya Pradesh, Arjun Singh of the Indian National Congress (INC). He built and named universities, dams and statues after famous individuals from the region. He brought Pawan Diwan into the INC and established a development authority called the Chhattisgarh Vikas Pratikharan. He gave cabinet positions to a number of Other Backward Classes (OBC), Scheduled Castes (SC) and Scheduled Tribes (ST) MLAs from Chhattisgarh in his government, and established a state backwards classes commission. This new generation of OBC leaders, supported by Arjun Singh, not only began to promote the idea of statehood well into the early 1990s, but were at the forefront of the promotion of a Chhattisgarhi identity.
+                <br> 
+                In response, the Bharatiya Janata Party (BJP) intensified their efforts, both to represent OBCs as well as to support statehood for Chhattisgarh. In 1990, the BJP formed the government in Madhya Pradesh for the first time. Leaders from both the BJP and the INC set up all-party campaigns for the creation of Chhattisgarh. Ahead of the 1993 assembly elections, Chhattisgarhi statehood featured on the manifestos of both the INC and the BJP for the first time. In 1994, the new Madhya Pradesh Chief Minister, Digvijay Singh of the INC, passed a resolution in favour of statehood in the legislative assembly.
+                <br>
+                The BJP responded aggressively. They started to dominate the Chhattisgarh Rajya Nirman Manch (Chhattisgarh State Creation Committee), an all-party outfit set up just a few years earlier. In addition, they established a Chhattisgarh Nirman Samiti (Chhattisgarh Creation Committee) within the BJP and built the case for creation around development rather than social issues. The BJP’s National Executive approved the demand for Chhattisgarh for the first time and it was included in the party’s general election manifesto in 1996. In 1998, at an election rally, the BJP’s prime ministerial candidate, Atal Bihari Vajpayee, promised to create Chhattisgarh if the party won all eleven seats in the region (they won seven).
+                <br> 
+                Finally, in August 2000, with the BJP in power at the Centre and the INC in power at the state, the Madhya Pradesh Reorganisation Act was passed.
+                Chhattisgarh was born on 1 November 2000 comprising sixteen districts with its capital at Raipur. Based on the 1998 state elections, Ajit Jogi of the INC was invited to form the first government.
+                
+            </p>
+
+        </div>
+        <div class="col-sm-3">
+                <div class="image">
+                    <img src="img/chhattisgarh.jpg" alt="">
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="image">
+                    <img src="img/chhattis.jpg" alt="">
+                </div>
+            </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

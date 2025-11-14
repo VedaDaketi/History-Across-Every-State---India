@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Protest+Strike&display=swap" rel="stylesheet">
+    <style>
+        .custom-dropdown-menu {
+            width: 1000px; 
+            max-height: 310px;
+            overflow-y: auto; 
+        }
+        .navbar-nav .nav-link {
+            font-size: 20px;
+        }
+        .navbar-nav .nav-item {
+            margin-right: 30px;
+        }
+        .ind-1947{
+            height: 450px;
+        }
+        .image img{
+            padding-top:100px;
+            height: 100%;
+            width : 100%;
+        }
+        .title h1{
+            padding-top:30px;
+            padding-bottom: 30px;
+            font-family: 'Protest Strike', sans-serif;
+            font-size: 60px;
+        }
+        .para h3{
+            font-family: 'Protest Strike', sans-serif;
+            padding-bottom: 10px;
+        }
+        .para p{
+            text-align: justify;
+            font-size: large;         
+        }
+        .custom-row{
+            align-items: start;
+        }
+    </style>
+    <title></title>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="img/Logo.png" alt="Logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="introduction.html">Intro</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link active dropdown-toggle"  id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            States
+                        </a>
+                        <ul class="dropdown-menu custom-dropdown-menu" aria-labelledby="navbarDropdown">
+                            <div class="row">
+                                <div class="col">
+                                    <li><a class="dropdown-item" href="Andhra Pradesh.html">Andhra Pradesh</a></li>
+                                    <li><a class="dropdown-item" href="Arunachal Pradesh.html">Arunachal Pradesh</a></li>
+                                    <li><a class="dropdown-item" href="Assam.html">Assam</a></li>
+                                    <li><a class="dropdown-item" href="Bihar.html">Bihar</a></li>
+                                    <li><a class="dropdown-item" href="Chhattisgrah.html">Chhattisgarh</a></li>
+                                    <li><a class="dropdown-item" href="Goa.html">Goa</a></li>
+                                    <li><a class="dropdown-item" href="Gujarat.html">Gujarat</a></li>
+                                    <li><a class="dropdown-item" href="Haryana.html">Haryana</a></li>
+                                    <li><a class="dropdown-item" href="Himachal Pradesh.html">Himachal Pradesh</a></li>
+                                </div>
+                                <div class="col">
+                                    <li><a class="dropdown-item" href="Jharkhand.html">Jharkhand</a></li>
+                                    <li><a class="dropdown-item" href="Karnataka.html">Karnataka</a></li>
+                                    <li><a class="dropdown-item" href="Kerala.html">Kerala</a></li>
+                                    <li><a class="dropdown-item" href="Madhya Pradesh.html">Madhya Pradesh</a></li>
+                                    <li><a class="dropdown-item" href="Maharashtra.Html">Maharashtra</a></li>
+                                    <li><a class="dropdown-item" href="Manipur.html">Manipur</a></li>
+                                    <li><a class="dropdown-item" href="Meghalaya.html">Meghalaya</a></li>
+                                    <li><a class="dropdown-item" href="Mizoram.html">Mizoram</a></li>
+                                    <li><a class="dropdown-item" href="Nagaland.html">Nagaland</a></li>
+                                </div>
+                                <div class="col">
+                                    <li><a class="dropdown-item" href="Orissa.html">Odisha</a></li>
+                                    <li><a class="dropdown-item" href="Punjab.html">Punjab</a></li>
+                                    <li><a class="dropdown-item" href="Rajasthan.html">Rajasthan</a></li>
+                                    <li><a class="dropdown-item" href="Sikkim.html">Sikkim</a></li>
+                                    <li><a class="dropdown-item" href="Tamil Nadu.html">Tamil Nadu</a></li>
+                                    <li><a class="dropdown-item" href="Telangana.html">Telangana</a></li>
+                                    <li><a class="dropdown-item" href="Tripura.html">Tripura</a></li>
+                                    <li><a class="dropdown-item" href="Uttar Pradesh.html">Uttar Pradesh</a></li>
+                                    <li><a class="dropdown-item" href="Uttarakhand.html">Uttarakhand</a></li>
+                                </div>
+                                <div class="col">
+                                    <li><a class="dropdown-item" href="West Bengal.html">West Bengal</a></li>
+                                    <li><a class="dropdown-item" href="">Andaman and Nicobar Islands</a></li>
+                                    <li><a class="dropdown-item" href="Chandigrah.html">Chandigarh</a></li>
+                                    <li><a class="dropdown-item" href="">Dadra and Nagar Haveli and Daman and Diu</a></li>
+                                    <li><a class="dropdown-item" href="Delhi.html">Delhi</a></li>
+                                    <li><a class="dropdown-item" href="Jammu and Kashmir.html">Jammu & Kashmir</a></li>
+                                    <li><a class="dropdown-item" href="Ladakh.html">Ladakh</a></li>
+                                    <li><a class="dropdown-item" href="Lakshadweep.html">Lakshadweep</a></li>
+                                    <li><a class="dropdown-item" href="Puducherry.html">Puducherry</a></li>
+                                </div>
+                            </div>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="row title">
+            <h1>Formation of Andhra Pradesh</h1>
+        </div>
+        <div class="row custom-row">
+            <div class="col-sm-9 para">
+                <h3> Andhra state:</h3>
+                    <p>
+                    In 1947, present-day Andhra Pradesh formed the northern part of Madras Province, which was British India’s largest administrative subdivision in south India. Madras Province (Madras State from 1950) was so large that it contained within its boundaries all the major language groups of south India.
+                    <br>
+                    Linguistically, the northern districts were Telugu-dominant and the southern districts were Tamil-dominant while the city of Madras lay almost on the linguistic border. This was a curious situation, for Telugu was the second-largest language spoken in independent India. According to the 1951 census, which combined Hindi, Urdu and Punjabi into the single- largest language, Telugu was spoken by 9.24 per cent of the Indian population while Tamil was fourth, after Marathi, spoken by 7.43 per cent of the population. Rarely does it transpire that a majority faction has to petition for its own space.
+                    <br> 
+                    The demand for a separate Andhra Province was articulated first in 1913 with the creation of the Andhra Mahajana Sabha. However, tensions soon cropped up between the two regions within Andhra. Rayalaseema feared that they were unequally placed in relation to Coastal Andhra and that integration would result in greater advantages to Coastal Andhra. These fears were allayed when leaders from the two regions came to an agreement in November 1937 to ensure equitable development and representation in both regions. This was known as the Sri Bagh Pact, which also provided for separation of the high court and the capital city. 
+                    <br>
+                    Pre-Independence, the Indian National Congress (INC) had supported the formation of linguistic provinces. In 1927, the INC had opined that Andhra, Utkal, Sind and Karnataka could be constituted into separate provinces on the basis of the people speaking the same language and following the same tradition and culture. At its Calcutta session in 1937 and in its 1938 Wardha resolution, the INC had recommended the formation of Andhra and Karnataka and assured to undertake it as soon as they had the power to do so. 
+                    <br>
+                    However, after witnessing Partition, the Centre wasn’t keen to immediately create linguistic provinces. The Linguistic Provinces Commission—popularly known as the Dhar Commission after its chairman
+                    S.K. Dhar—was set up in 1948 to explore the feasibility of reorganizing states linguistically. It recommended postponing the matter for a few years. The following year, a JVP Committee—named after its members Prime Minister Jawaharlal Nehru, head of the States Ministry Sardar Vallabhbhai Patel, and Congress president Pattabhi Sittaramaya—was set up to study the issue. It cautioned against the ‘disintegrative effects of reorganisation’. Prime Minister Nehru further stated that the consolidation of India was paramount at the moment and ‘this would obviously be the wrong time’ to create linguistic provinces.
+                    <br>
+                    Potti Sriramulu, a fifty-one-year-old former sanitary engineer and railway-man, changed the course of events. Seeing much talk but little discernible progress on Andhra, Sriramulu began a fast-unto-death in Madras on 19 October 1952. His fast fast-tracked the demand for statehood by the Telugu population, adding a sense of emotional urgency to the demand.
+                    <br>
+                    Both language groups claimed the city of Madras as their own, believing they had a more significant demographic and economic presence in the city. The Tamils, however, held the advantage. In November 1949, the Congress Working Committee had said that Andhra State could only be formed without Madras. In December 1952, Nehru repeated this in a letter to Madras State Chief Minister C. Rajagopalachari. 
+                    <br>
+                    Sriramulu died on 15 December 1952 after fifty-eight days of fasting. His death blew the lid off the anger and resentment simmering in the pro- Andhra camp. In the Andhra region, government offices, public transportation and public property were attacked and damaged. Sriramulu’s death had shifted the terms of discussion of Andhra statehood irrevocably from the rational to the emotional. Nehru had wanted to settle the issue with ‘facts, not fasts’ but the narrative and the decision had both been wrested from him. Two days after Sriramulu’s death, on 17 December 1952, Nehru announced that Andhra State would indeed become a reality. 
+                    On 1 October 1953, the new Andhra State was inaugurated as a Part A state with its capital city at Kurnool. Tanguturi Prakasam of the INC was appointed as the first chief minister
+                   </p>
+            </div>
+            <div class="col-sm-3">
+                <div class="image">
+                    <img src="img/Andhra_State_(1953_-_1956).png" alt="">
+                    <img src="img/potti sreeramulu AP.jpg" alt="">
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="row custom-row">
+            <div class="col-sm-8 para">
+                <h3>Andhra Pradesh :</h3>
+                <p>
+                    The effect of Andhra’s birth was seismic. Less than three months after the state came into being, in December 1953, the Union government constituted a States Reorganisation Commission (SRC) to look into the matter of redrawing state boundaries across the country. Less than two years later, in September 1955, the SRC submitted its report. Based on this, the States Reorganisation Act was enacted the following year. It remains the single most extensive change in state boundaries since India’s independence.
+                    Rayalaseema and Coastal Andhra (which formed Andhra State) were not the only Telugu-dominant regions of India. Telugu was also dominant in the adjoining Telangana region, which formed the southern and south-eastern districts of the neighbouring Hyderabad State. Hence, a demand for the creation of Vishalandhra, which would integrate Andhra State and Telangana, was presented before the SRC.
+                    <br>
+                    The SRC noted the impressive arguments for Vishalandhra by detailing a number of mutual benefits in case of a merger, including developmental and economic ones. The SRC also noted the arguments against a merger, which largely rested on Telangana’s fears and apprehensions of losing its independent rights over the Rivers Krishna and Godavari and of being unequally placed in comparison with Andhra State. Further, it was argued that Telangana could be a stable and viable state by itself, while Andhra State was still transitioning from its separation from Madras State. Hence, the SRC advocated a wait-and-watch approach for integration. It suggested first spinning Telangana off as a separate state for about five years until 1961, at which point the Telangana legislature would have the provision to voluntarily vote themselves into Andhra State by a two-thirds majority.
+                    However, in February 1956, Telangana and Andhra leaders reached a ‘Gentlemen’s Agreement’ which promised equitable development and representation in Telangana, including the establishment of a regional council. As a result, when the States Reorganisation Act was passed later that year, the government merged Andhra State and Telangana into a single state called Andhra Pradesh. The new state came into being on 1 November 1956. Neelam Sanjiva Reddy of the INC became the chief minister.
+                    Kurnool lost its capital city status and Hyderabad became the new capital city.
+                </p>
+            </div>
+            <div class="image col-sm-4">
+                <img src="img/Andhra_Pradesh_districts_map.png" alt="" >
+            </div>
+        </div>
+        <hr>
+        <div class="row custom-row">
+            <div class="col-sm-9 para">
+                <h3>
+                    Separation of Andhra Pradesh and Telangana :
+                </h3>
+                <p>
+                    The Telangana region had ‘Mulki Rules’—domicile rules instituted in 1919 by the last Nizam of Hyderabad State, Mir Osman Ali Khan. The Mulki Rules were meant to protect the locals (Mulkis) in government job appointments. In order to be considered a Mulki, essentially, one had to have been born in Hyderabad State or lived there for at least fifteen years. Eligible outsiders had to apply for the grant of a Mulki Certificate. The first Mulki agitation had occurred in Hyderabad State in September 1952, four years after it had acceded to the Union of India, over the large-scale recruitment of non-locals in the newly-formed Hyderabad state government. In January 1969, students from a number of colleges held demonstrations and burnt effigies of ministers to protest against the violations of the safeguards in the Gentlemen’s Agreement. Political leaders of Andhra Pradesh responded swiftly and unanimously, resolving to transfer out ‘all non-Telangana employees holding posts reserved for Telangana domiciles’ and to develop Telangana over the next five years. But the protests soon became violent, resulting in damaged public property, police firing and injuries. The chief minister of Andhra Pradesh, Kasu Brahmananda Reddy, assured both camps that the Mulki Rules would remain in force for another five years with no extensions beyond that. <br> In late 1972, the Supreme Court upheld the Mulki Rules and Parliament passed the Mulki Rules Act in December 1972. This kick-started a counter ‘Jai Andhra’ movement in the Rayalaseema and Coastal Andhra districts that advocated the formation of an Andhra State separate from Telangana. Ministers resigned from Chief Minister P.V. Narasimha Rao’s government and Andhra Pradesh was placed under President’s rule in January 1973.
+                Tempers cooled on both sides after the Union government headed by Prime Minister Indira Gandhi released a six-point formula in September 1973, which also became the thirty-second amendment to the Constitution of India. This formula divided the state into six zones. 85 per cent of lower- level government jobs and seats in government colleges and universities were reserved for the local people from that particular zone, while the remaining 15 per cent of non-local jobs and seats were open to people from the remaining five zones. Through this zoning approach, the six-point formula rendered the continuance of the Mulki Rules unnecessary and the Mulki Rules (Repeal) Act was passed in December 1973.
+                <br>
+                The Telangana movement came back into focus in April 2001.Kalvakuntla Chandrashekar Rao (KCR) of the ruling Telugu Desam Party (TDP) resigned from the party to establish his own party, the Telangana Rashtra Samithi (TRS), with the single-point agenda of Telangana.While KCR’s individual political fortunes rose—even earning him a Union cabinet role—the TRS performed poorly in the 2009 Assembly elections in Andhra Pradesh, including in the Telangana region. The incumbent chief minister, Y.S. Rajasekhara Reddy (YSR) of the INC, was re-elected. The Telangana sentiment appeared to have faded; the vote seemed to be against bifurcation.
+                <br>
+                On 2 September 2009, the situation changed dramatically. Chief Minister YSR’s helicopter went missing in the remote Nallamala Forest. The wreckage and the bodies were discovered a day later. In the resulting political turmoil, KCR seized his opportunity.
+                On 29 November 2009, KCR started a fast-unto-death demanding Telangana State, which quickly gathered popular support. A mere ten days later, on 9 December, the Union Home Minister, P. Chidambaram, of the Congress-led coalition government at the Centre, announced that Telangana would become a reality.
+                <br>
+                The actual bifurcation of Andhra Pradesh and Telangana came four-and- a-half years later on 2 June 2014, with KCR as the first chief minister. The city of Hyderabad was to be the permanent capital of Telangana. Andhra Pradesh had lost another capital city, even though both states were allowed to use Hyderabad as a joint capital for a period of ten years.
+                <br>
+                Andhra Pradesh responded in July 2020 by creating not one or two, but three new capital cities. It built an entirely new city called Amaravati as the Legislative Capital. The largest city in Andhra Pradesh, Visakhapatnam, became the Executive Capital. Kurnool, the first capital of Andhra State from 1953–56, became the Judicial Capital. 
+
+                </p>
+
+            </div>
+            <div class="col-sm-3 image">
+                <img src="img/andhra-map-ezgif.com-webp-to-jpg-converter.jpg" alt="">
+            </div>
+                
+        </div>
+    </div>
+
+        
+
+    
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

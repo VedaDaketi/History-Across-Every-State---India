@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Protest+Strike&display=swap" rel="stylesheet">
+    <style>
+        .custom-dropdown-menu {
+            width: 1000px; 
+            max-height: 310px;
+            overflow-y: auto; 
+        }
+        .navbar-nav .nav-link {
+            font-size: 20px;
+        }
+        .navbar-nav .nav-item {
+            margin-right: 30px;
+        }
+        .ind-1947{
+            height: 450px;
+        }
+        .image img{
+            padding-top:25px;
+            height: 100%;
+            width : 100%;
+        }
+        .title h1{
+            padding-top:30px;
+            padding-bottom: 30px;
+            font-family: 'Protest Strike', sans-serif;
+            font-size: 60px;
+        }
+        .para h3{
+            font-family: 'Protest Strike', sans-serif;
+            padding-bottom: 10px;
+        }
+        .para p {
+            text-align: justify;
+            font-size: large;         
+        }
+        .para li{
+            font-size: large;
+            text-align: justify;
+        }
+        .custom-row{
+            align-items: start;
+        }
+    </style>
+    <title></title>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="img/Logo.png" alt="Logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="introduction.html">Intro</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link active dropdown-toggle"  id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            States
+                        </a>
+                        <ul class="dropdown-menu custom-dropdown-menu" aria-labelledby="navbarDropdown">
+                            <div class="row">
+                                <div class="col">
+                                    <li><a class="dropdown-item" href="Andhra Pradesh.html">Andhra Pradesh</a></li>
+                                    <li><a class="dropdown-item" href="Arunachal Pradesh.html">Arunachal Pradesh</a></li>
+                                    <li><a class="dropdown-item" href="Assam.html">Assam</a></li>
+                                    <li><a class="dropdown-item" href="Bihar.html">Bihar</a></li>
+                                    <li><a class="dropdown-item" href="Chhattisgrah.html">Chhattisgarh</a></li>
+                                    <li><a class="dropdown-item" href="Goa.html">Goa</a></li>
+                                    <li><a class="dropdown-item" href="Gujarat.html">Gujarat</a></li>
+                                    <li><a class="dropdown-item" href="Haryana.html">Haryana</a></li>
+                                    <li><a class="dropdown-item" href="Himachal Pradesh.html">Himachal Pradesh</a></li>
+                                </div>
+                                <div class="col">
+                                    <li><a class="dropdown-item" href="Jharkhand.html">Jharkhand</a></li>
+                                    <li><a class="dropdown-item" href="Karnataka.html">Karnataka</a></li>
+                                    <li><a class="dropdown-item" href="Kerala.html">Kerala</a></li>
+                                    <li><a class="dropdown-item" href="Madhya Pradesh.html">Madhya Pradesh</a></li>
+                                    <li><a class="dropdown-item" href="Maharashtra.Html">Maharashtra</a></li>
+                                    <li><a class="dropdown-item" href="Manipur.html">Manipur</a></li>
+                                    <li><a class="dropdown-item" href="Meghalaya.html">Meghalaya</a></li>
+                                    <li><a class="dropdown-item" href="Mizoram.html">Mizoram</a></li>
+                                    <li><a class="dropdown-item" href="Nagaland.html">Nagaland</a></li>
+                                </div>
+                                <div class="col">
+                                    <li><a class="dropdown-item" href="Orissa.html">Odisha</a></li>
+                                    <li><a class="dropdown-item" href="Punjab.html">Punjab</a></li>
+                                    <li><a class="dropdown-item" href="Rajasthan.html">Rajasthan</a></li>
+                                    <li><a class="dropdown-item" href="Sikkim.html">Sikkim</a></li>
+                                    <li><a class="dropdown-item" href="Tamil Nadu.html">Tamil Nadu</a></li>
+                                    <li><a class="dropdown-item" href="Telangana.html">Telangana</a></li>
+                                    <li><a class="dropdown-item" href="Tripura.html">Tripura</a></li>
+                                    <li><a class="dropdown-item" href="Uttar Pradesh.html">Uttar Pradesh</a></li>
+                                    <li><a class="dropdown-item" href="Uttarakhand.html">Uttarakhand</a></li>
+                                </div>
+                                <div class="col">
+                                    <li><a class="dropdown-item" href="West Bengal.html">West Bengal</a></li>
+                                    <li><a class="dropdown-item" href="">Andaman and Nicobar Islands</a></li>
+                                    <li><a class="dropdown-item" href="Chandigrah.html">Chandigarh</a></li>
+                                    <li><a class="dropdown-item" href="">Dadra and Nagar Haveli and Daman and Diu</a></li>
+                                    <li><a class="dropdown-item" href="Delhi.html">Delhi</a></li>
+                                    <li><a class="dropdown-item" href="Jammu and Kashmir.html">Jammu & Kashmir</a></li>
+                                    <li><a class="dropdown-item" href="Ladakh.html">Ladakh</a></li>
+                                    <li><a class="dropdown-item" href="Lakshadweep.html">Lakshadweep</a></li>
+                                    <li><a class="dropdown-item" href="Puducherry.html">Puducherry</a></li>
+                                </div>
+                            </div>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="row title">
+            <h1>Formation of MAHARASHTRA</h1>
+        </div>
+        <div class="row custom-row">
+            <div class="col-sm-9 para">
+                <h3> Avatar 1: Bombay Province/State, 1947–56 </h3>
+                    <p>
+                        Leading up to Independence in 1947, Bombay Province was one of British India’s three large administrative regions—the others being Bengal and Madras. Bombay Province was an assortment of British-administered regions and princely states, staying true to the British approach of running two administrative systems in India.
+                        Bombay Province started in the south bordering Mysore State and went north, around the Portuguese colony of Goa and through the heart of Bombay City. Then, it turned north-west and went across the princely states
+                         
+                        that littered the present state of Gujarat, crossed the Rann of Kutch, extended past Karachi and stretched out to the Upper Sind Frontier.<br>
+                        Independence in 1947, however, cut the north-western boundaries of Bombay Province, drawing the national borders around the Rann of Kutch. Bombay Province, with its capital at Bombay City, now had a strictly north–south orientation, hugging the western coast and dotted with princely states trying to determine their own future.
+                        Over the next three years, one major princely state—Baroda State—and numerous minor ones merged with Bombay Province. This led to the creation of Bombay State in January 1950 when the Indian Union was created. Its capital was Bombay City.
+                                            
+                    </p>
+            </div>
+            <div class="col-sm-3">
+                <div class="image">
+                    <img src="img/Bombay_in_India_(1951).png" alt="">
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="row para">
+                <h3>Avatar 2: Bilingual Bombay State, 1956–60</h3>
+                <p>
+                    Although Bombay State largely stretched down the coast, Marathi speakers spread deep into the hinterland. Movements to unify Marathi speakers into a single administrative unit had existed since 1918. The movement began to tangibilize with the formation of the Samyukta Maharashtra Parishad in 1946. <br>
+                    Four major regions were in contention for a united Maharashtra.           
+                    <li>Vidarbha (the South-western districts of Central Provinces</li>
+                    <li>Berar, which itself was known as Madhya Pradesh after 1950); </li>
+                    <li>Marathwada (the North-western districts of Hyderabad State); </li>
+                    <li>Greater Bombay City; and Bombay State. </li>
+                    
+                </p>
+                
+                <p>
+                    Vidarbha was first mooted as an independent state called Maha Vidarbha in 1938 through a unanimous resolution passed by the Central Provinces Legislature, though the origins of the movement can be traced back to 1905. However, in 1947, a week before Indian Independence, the Akola Pact was signed between the representatives of Bombay Province and those
+                    of Central Provinces and Berar. This pact was a step towards a unified Maharashtra. It envisaged both Bombay State and Vidarbha coexisting as ‘a loose federation of two sub-provinces’ with a common governor but separate executive, judiciary, legislature and council of ministers.
+                    In September 1953, three months before the States Reorganisation Commission (SRC) was constituted, the Nagpur Pact was signed between the representatives of three regions that represented contiguous Marathi- speaking districts—Bombay State, Vidarbha, and Marathwada. The Nagpur Pact proposed integrating the three regions to create a unified Marathi- speaking state, while also furthering the idea that the three regions would be treated as independent units for the purposes of development.<br>
+                    While the southern and eastern regions of the proposed unified Maharashtra State predominantly consisted of Marathi-speakers, the northern regions going up from Greater Bombay City included a heavy Gujarati presence. Through the 1950s, Greater Bombay was caught in a tug- of-war between the Marathis and the Gujaratis. The heavy cosmopolitan composition of the city and its robust financial strength made it highly desirable to both communities, while their history in the city added a deep emotive element to the tussle.
+                    <br>
+                    The Marathi argument pointed out that Greater Bombay lay surrounded by Marathi districts and depended for much of its resources on the Marathi hinterland which was now coalescing into Maharashtra. Hence, they believed it was but natural for Bombay City to be the capital of the new unified unilingual Maharashtra.
+                    The Gujaratis argued that not only was Bombay cosmopolitan but it was they—the Gujaratis—that had played possibly the largest role in developing the financial might the city boasted of. The unilingual approach could not be applied to the multilingual port city of Greater Bombay and it would strip the city of its very multifarious essence. They believed that a trifurcation was needed into the states of Maharashtra and Gujarat and the union territory of Greater Bombay—a city-state that belonged to India and its residents.
+                    <br> 
+                    The matter remained inconclusive and was left to the SRC to adjudicate upon. In its report in 1955, the SRC remarked about how previous linguistic commissions, namely, the Dhar Commission and the JVP Committee, had weighed in on the matter and had suggested that Bombay City should be constituted into a separate unit. However, while it recognized Bombay’s special position, the SRC determined that it would be better to feed the interests of all rather than satisfying any one group. 
+                    The SRC recommended the creation of one large bilingual Bombay State that extended from the tips of Kutch and Saurashtra in the north-west to the edges of Marathwada in the south-east. Vidarbha was not included. Instead, it was to be carved out as a separate Marathi-dominant state, given its potential for a balanced and prosperous economy and its ‘deep-rooted regional consciousness’ . These recommendations went against the grain of the linguistic approach the SRC had taken for the rest of the country.<br>
+                    When the States Reorganisation Act was implemented in 1956, the large bilingual Bombay State was created but the specific recommendation about separating Vidarbha was disregarded. Vidarbha was integrated into the unified bilingual Bombay State to form its eastern section. Marathwada formed the south-eastern section. The four southern districts of Bombay State which were Kannada-dominant were added to Mysore State, cutting the state off at the Goa border. Bombay City would be the capital of the new bilingual Bombay State.
+                    On 1 November 1956, the new bilingual Bombay State came into existence. It was by far the largest Indian state, covering over 5,00,000 sq. km. of land area—nearly one-sixth of all of India. If it had been a country, Bombay State would have been among the fifty largest countries by land area. 
+                                   
+                </p>
+        </div>
+        <hr>
+        <div class="row custom-row">
+            <div class="col-sm-9 para">
+                <h3>
+                    Avatar 3: Maharashtra, 1960 onwards
+                </h3>
+                <p>
+                    The first chief minister of this bilingual Bombay State was the young Marathi Congressman, Yashwantrao Chavan. He was handed the reins from
+ 
+                    the previous chief minister, the Gujarati Congressman, Morarji Desai, seventeen years his senior.
+                    The decision to create a bilingual Bombay State failed to satisfy or pacify either language group. Instead, it intensified demands for unilingual bifurcation. In 1956, two powerful movements came into being that would lead to the final avatars of Maharashtra and Gujarat. The Samyukta Maharashtra Samiti was led by Keshavrao Jedhe, former Congress leader.
+                    The Mahagujarat Andolan was led by Indulal Yagnik (popularly known as Indu Chacha), writer, film-maker and independence activist. The issue was debated heatedly in official buildings and on the streets. Demonstrations were large, meetings were mass, and protests were violent. Agitations and riots broke out often and invited an aggressive response from the police.<br>
+                    The 1957 elections for the Lok Sabha and the legislative assembly in Greater Bombay were touted as a referendum on bilingual Bombay State. The Congress wanted to continue the bilingual state, having brought it into existence. The Samyukta Maharashtra Samiti operated as a society with its core ideology of unilingual bifurcation bringing together multiple opposition political parties. Participation was enthusiastic, with voting numbers at nearly 66 per cent. The results were split down the middle. The Congress won twelve of the twenty-four seats (after losing a by-election) while the motley assembly of Samiti parties won the other twelve. The results were similar across the rest of Bombay State, with the Congress doing better in the Gujarat regions and the Samiti doing better in the Maharashtra regions.
+                    Quantitatively, the elections may not have delivered a clear result either for or against the unilingual bifurcation. However, ideologically, it certainly portended the direction the winds were blowing, one that the Congress could no longer ignore, despite forming the government in Bombay State.
+                    The chief minister of Bombay State, Y. B. Chavan, impressed on the Union government the futility of continuing with the bilingual experiment. Given the continuous and widespread violence in the state on this issue as well as its own suddenly precarious political position, the Congress
+                     
+                    Working Committee passed a resolution in December 1959 recommending the bifurcation of Bombay State.<br> 
+                    On 1 May 1960, bilingual Bombay State was separated into the two new unilingual states of Maharashtra and Gujarat. Bombay City became the capital of Maharashtra.
+                                 
+                </p>
+
+            </div>
+            <div class="col-sm-3 image">
+                <img src="img/madhya-pradesh.jpg" alt="">
+            </div>
+        </div>
+        
+
+        
+
+    </div>   
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

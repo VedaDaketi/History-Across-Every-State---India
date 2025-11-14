@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Protest+Strike&display=swap" rel="stylesheet">
+    <style>
+        .custom-dropdown-menu {
+            width: 1000px; 
+            max-height: 310px;
+            overflow-y: auto; 
+        }
+        .navbar-nav .nav-link {
+            font-size: 20px;
+        }
+        .navbar-nav .nav-item {
+            margin-right: 30px;
+        }
+        .ind-1947{
+            height: 450px;
+        }
+        .image img{
+            padding-top:25px;
+            height: 100%;
+            width : 100%;
+        }
+        .title h1{
+            padding-top:30px;
+            padding-bottom: 30px;
+            font-family: 'Protest Strike', sans-serif;
+            font-size: 60px;
+        }
+        .para h3{
+            font-family: 'Protest Strike', sans-serif;
+            padding-bottom: 10px;
+        }
+        .para p{
+            text-align: justify;
+            font-size: large;         
+        }
+        .custom-row{
+            align-items: start;
+        }
+    </style>
+    <title></title>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="img/Logo.png" alt="Logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="introduction.html">Intro</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link active dropdown-toggle"  id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            States
+                        </a>
+                        <ul class="dropdown-menu custom-dropdown-menu" aria-labelledby="navbarDropdown">
+                            <div class="row">
+                                <div class="col">
+                                    <li><a class="dropdown-item" href="Andhra Pradesh.html">Andhra Pradesh</a></li>
+                                    <li><a class="dropdown-item" href="Arunachal Pradesh.html">Arunachal Pradesh</a></li>
+                                    <li><a class="dropdown-item" href="Assam.html">Assam</a></li>
+                                    <li><a class="dropdown-item" href="Bihar.html">Bihar</a></li>
+                                    <li><a class="dropdown-item" href="Chhattisgrah.html">Chhattisgarh</a></li>
+                                    <li><a class="dropdown-item" href="Goa.html">Goa</a></li>
+                                    <li><a class="dropdown-item" href="Gujarat.html">Gujarat</a></li>
+                                    <li><a class="dropdown-item" href="Haryana.html">Haryana</a></li>
+                                    <li><a class="dropdown-item" href="Himachal Pradesh.html">Himachal Pradesh</a></li>
+                                </div>
+                                <div class="col">
+                                    <li><a class="dropdown-item" href="Jharkhand.html">Jharkhand</a></li>
+                                    <li><a class="dropdown-item" href="Karnataka.html">Karnataka</a></li>
+                                    <li><a class="dropdown-item" href="Kerala.html">Kerala</a></li>
+                                    <li><a class="dropdown-item" href="Madhya Pradesh.html">Madhya Pradesh</a></li>
+                                    <li><a class="dropdown-item" href="Maharashtra.Html">Maharashtra</a></li>
+                                    <li><a class="dropdown-item" href="Manipur.html">Manipur</a></li>
+                                    <li><a class="dropdown-item" href="Meghalaya.html">Meghalaya</a></li>
+                                    <li><a class="dropdown-item" href="Mizoram.html">Mizoram</a></li>
+                                    <li><a class="dropdown-item" href="Nagaland.html">Nagaland</a></li>
+                                </div>
+                                <div class="col">
+                                    <li><a class="dropdown-item" href="Orissa.html">Odisha</a></li>
+                                    <li><a class="dropdown-item" href="Punjab.html">Punjab</a></li>
+                                    <li><a class="dropdown-item" href="Rajasthan.html">Rajasthan</a></li>
+                                    <li><a class="dropdown-item" href="Sikkim.html">Sikkim</a></li>
+                                    <li><a class="dropdown-item" href="Tamil Nadu.html">Tamil Nadu</a></li>
+                                    <li><a class="dropdown-item" href="Telangana.html">Telangana</a></li>
+                                    <li><a class="dropdown-item" href="Tripura.html">Tripura</a></li>
+                                    <li><a class="dropdown-item" href="Uttar Pradesh.html">Uttar Pradesh</a></li>
+                                    <li><a class="dropdown-item" href="Uttarakhand.html">Uttarakhand</a></li>
+                                </div>
+                                <div class="col">
+                                    <li><a class="dropdown-item" href="West Bengal.html">West Bengal</a></li>
+                                    <li><a class="dropdown-item" href="">Andaman and Nicobar Islands</a></li>
+                                    <li><a class="dropdown-item" href="Chandigrah.html">Chandigarh</a></li>
+                                    <li><a class="dropdown-item" href="">Dadra and Nagar Haveli and Daman and Diu</a></li>
+                                    <li><a class="dropdown-item" href="Delhi.html">Delhi</a></li>
+                                    <li><a class="dropdown-item" href="Jammu and Kashmir.html">Jammu & Kashmir</a></li>
+                                    <li><a class="dropdown-item" href="Ladakh.html">Ladakh</a></li>
+                                    <li><a class="dropdown-item" href="Lakshadweep.html">Lakshadweep</a></li>
+                                    <li><a class="dropdown-item" href="Puducherry.html">Puducherry</a></li>
+                                </div>
+                            </div>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="row title">
+            <h1>Formation of Sikkim</h1>
+        </div>
+        <div class="row custom-row">
+            <div class="col-sm-9 para">
+                <h3> Different from Other Indian States
+                </h3>
+                    <p>
+                        As India’s Independence approached, a unique future was being debated for the princely state of Sikkim—whether to be included in the Union of India or not.
+                        The head of the States Department, Sardar Vallabhbhai Patel, and the constitutional adviser to the constituent assembly, B.N. Rau, wanted the Chogyal (king) of Sikkim, Tashi Namgyal, to sign the Instrument of Accession with India, like the other princely states were doing. After all, Sikkim was a member state of the Chamber of Princes and of the constituent assembly, and the States Ministry hence viewed Sikkim as an Indian state.
+                        However, Sikkim also had a unique past under British rule, as did Bhutan and Nepal, the other two monarchies that formed the mountainous buffer states between British India and China. The British had established a formal protectorate over Sikkim in the nineteenth century but continued to remain ambiguous about Sikkim’s status. It was not a feudatory native state like the
+                        
+                        other princely states in British India and its relations were conducted through the government’s external affairs department, but neither was it independent nor internally autonomous.<br> 
+                        As a result, when the time came for soon-to-be-independent India to determine its stand on Sikkim, the future prime minister of India, Jawaharlal Nehru, wanted to respect Sikkim’s unique status and treat it as a special case. During a constituent assembly meeting on 22 January 1947, Nehru remarked on the need of examining the special problems of Bhutan and Sikkim and noted the difference between the two princely states.
+                        Bhutan was, he observed, ‘an independent state under the protection of India’ while Sikkim was ‘an Indian state but different from others’. 
+                        On 3 June 1947, a meeting was held between representatives of the Indian States Ministry and ministry of external affairs and those of Sikkim and Bhutan. The Sikkim delegation was led by Maharaj Kumar Palden Thondup Namgyal, the son and heir-apparent of the Sikkim Chogyal Tashi Namgyal. Sikkim’s proposal was that it be placed on the same footing as Bhutan even though it had so far been treated as an Indian state. <br>V.P. Menon, the secretary of the States Ministry, offered Sikkim the regular Instrument of Accession where India would take over control of three subjects—defence, external affairs and communication—but he also specified that the choice of accession to India was up to Sikkim to make.
+                        Until this was finalized and concluded, Sikkim would have to sign a Standstill Agreement with India to maintain the status quo. This Standstill Agreement was signed on 27 February 1948 and contained eleven subjects, including internal infrastructure, external affairs and defence. 
+                        Sikkim had three major communities—Bhutia, Lepcha and Nepalese—in order of political and societal power, but not in terms of size. The Nepalese community formed three-fourths of the population and was about six times as large as either of the other two equally sized communities. This played out in a curious manner in the political landscape.<br>
+                        The Sikkim State Congress (SSC) was the largest political party and was led by Tashi Tshering, a Bhutia. The Praja Mandal was led by Kazi Lhendup Dorji Khangsarpa, a Lepcha, and the Praja Sudharak Samaj was
+                        
+                        led by Dhan Bahadur Chhetri, a Nepali. Both these parties soon merged into the SSC. On 5 December 1947, the three parties—the bulk of whose membership consisted of Nepalese—met in Gangtok and passed a resolution demanding a popular government (or an interim government until then), the abolition of landlordism, and accession to India. The smaller pro-Nepalese Sikkim Rajya Praja Sammelan (SRPS) went further, demanding an outright merger with India and the creation of a larger Nepalese state within India. Meanwhile, to counter the pro-democracy SSC, Maharaj Kumar Thondup set up his own party to pursue an independent Sikkim and oppose accession to India—the Sikkim National Party (SNP), whose membership was restricted to Bhutias and Lepchas.
+                        In late 1948, the SSC took out pro-democracy rallies and demonstrations.
+                        A delegation including Tashi Tshering and Kazi Dorji met Prime Minister Jawaharlal Nehru to draw his support for Sikkim’s accession. <br> However, Nehru suggested that Sikkim, like Bhutan and Nepal, should be allowed to ‘grow according to its own genius’. In early 1949, the SSC launched a state-wide ‘no-rent no-tax’ campaign against the exploitation of land cultivators in the form of discriminatory rents, which led to the arrests of its party workers. Thousands of SSC followers marched to the palace on 1 May 1949. Over the following days, the durbar (king’s court) sought the intervention of India’s resident political officer and promised to form an interim popular government with Tashi Tshering as the chief minister.
+                        However, less than a month later, the Maharaja dismissed the interim government. In its place, an Indian officer was appointed as diwan (chief minister) along with an advisory committee that contained representatives from both SSC and SNP.<br>
+                        On 5 December 1950, the Government of India and Maharaja Tashi Namgyal signed the Indo–Sikkim Treaty. Sikkim would be a protectorate of India with autonomy in internal affairs—‘a non-sovereign state attached to India’. India would be responsible for Sikkim’s defence, external affairs and strategic communications. India also secured exclusive rights for building infrastructure in Sikkim. Sikkimese travelling abroad would be treated as Indian protected persons holding Indian passports. Unrestricted
+                        
+                        free movement was allowed between India and Sikkim, and the Chief Justice of India would preside over disputes regarding this treaty. In terms of democratic reform, directly elected panchayats were established but not a representative government. In a follow-up explanatory letter again signed by both parties, the tenth and last clause gave India overriding powers in the event of a serious internal security threat. This clause would be invoked more than twenty years later.
+                                      
+                    </p>
+            </div>
+            <div class="col-sm-3">
+                <div class="image">
+                    <img src="" alt="">
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="row custom-row">
+            <div class="col-sm-8 para">
+                <h3>Strengthening the Chogyal’s position</h3>
+                <p>
+                    On 15 May 1951, Maharaj Kumar Thondup signed an agreement with SSC leaders that brought a ‘parity formula’ into force. The formula gave an equal number of seats in the state council (the assembly) to the Nepalese and Bhutia–Lepcha communities, even though the former was three times as large as the latter. Along with the power to nominate an additional five members, Maharaj Kumar Thondup could thus maintain control over the council free from the consequences of demographic spread or universal adult franchise.
+                    On 23 March 1953, the Chogyal Namgyal issued a royal proclamation that strengthened his powers and limited the councils’ functioning further. Some subjects were reserved for the Chogyal’s decision alone, like his constitutional position and treaty relations with India. His principal adviser, the diwan, also became the head of the executive council (the cabinet). In the first state council elections held in 1953, the SSC and SNP split the twelve seats, and Maharaj Kumar Thondup’s nominations tilted the balance in his favour.
+                    This political manoeuvring caused the SSC leadership to disagree and split. The SSC president Tashi Tshering wanted his six elected members to boycott the council and the parity formula. However, he was in the minority. The majority faction led by Kazi Dorji wanted to continue in the council without challenging the parity formula. As a result, the SSC
+                    
+                    replaced Tshering with Kazi Dorji as president and Kashiraj Pradhan as vice-president. Tashi Tshering died soon after on 9 May 1954.<br>
+                    The new leadership of the SSC again tried various methods to gain India’s support and introduce democratic reforms in Sikkim, ranging from establishing party-to-party relations with the Indian National Congress (INC) to asking that India’s five-year plans be applied to Sikkim as well to demanding full-fledged responsible government in place of the current diarchy to seeking the status of centrally administered area for Sikkim.
+                    However, all their efforts were rebuffed as India worked to support Chogyal Namgyal and his governance. The demand for accession to India faded.
+                    After the 1958 council elections, internal disagreements resulted in the ouster of the presidents of both the SSC and the SNP. The ousted presidents, Kazi Dorji and Sonam Tshering, along with dissidents from other parties, formed the Sikkim National Congress (SNC) in May 1960. They demanded democratic reforms afresh—a responsible government, a new constitution and universal adult franchise.
+                             
+                </p>
+            </div>
+            <div class="image col-sm-4">
+                <img src="" alt="" >
+            </div>
+        </div>
+        <hr>
+        <div class="row custom-row">
+            <div class="col-sm-9 para">
+                <h3>
+                    Like Monaco or Luxembourg?
+
+                </h3>
+                <p>
+                    The decade of the 1960s resulted in large shifts in the on-ground situation of and the relationship between India and Sikkim.
+                    In July 1961, in a bid to further strengthen his powers, Maharaj Kumar Thondup both passed the Sikkim Subjects Regulation and strengthened the Sikkim Guards. The regulation laid down stringent requirements for being recognized as a subject (citizen) of Sikkim, which adversely affected a large section of the Nepalese population. This drew strong reactions from the
+                    pro-reforms political parties in Sikkim.
+                    The 1962 council elections were postponed due to the war between India and China in October 1962. In March 1963, Maharaj Kumar Thondup married Hope Cooke, an American. This marriage catapulted Sikkim into international media attention for the rest of the decade. The reclusive Chogyal Tashi Namgyal died in December 1963. Maharaj Kumar Thondup,
+                    
+                    who had already been running the affairs of the state for much of the previous two decades, was crowned as the new Chogyal Palden Thondup Namgyal in April 1965. Meanwhile, Prime Minister Jawaharlal Nehru died in May 1964, India fought another war with Pakistan in mid-1965, and the second prime minister, Lal Bahadur Shastri, died in January 1966. Indira Gandhi became India’s new prime minister.<br>
+                    The new Chogyal Thondup leveraged this period of change and uncertainty to try and secure Sikkim’s independence. He had always sought to remove the word ‘protectorate’ from the 1950 Indo–Sikkim Treaty. Now, he began to desire a new treaty to be signed between two ‘sovereign’ states. He began projecting a separate identity for Sikkim in political, diplomatic and social circles in India and globally.
+                    Meanwhile, in India’s 1967 general elections, Indira Gandhi and the INC turned in their worst performance since Independence, barely winning a majority. Although she was still the prime minister, her position had weakened considerably. Skirmishes with Chinese troops took place in Sikkim in September and October 1967. Chogyal Thondup utilized this opportunity to assert his importance to India’s security and defence strategy, and India began to offer him allowances it had never done before.
+                    <br>For instance, Prime Minister Indira Gandhi received him and his family at the airport, a courtesy normally extended to visiting heads of state of friendly countries. Deputy Prime Minister Morarji Desai agreed to return the excise duty—a central government tax—levied on Sikkim, an indirect admission of Sikkim’s separate status. External Affairs Minister Dinesh Singh bantered with Chogyal Thondup on whether Sikkim was more like Monaco, a sovereign city-state that had observer status in the United Nations, or like Luxembourg, a landlocked independent country in Europe. By September 1970, a revised treaty had already been drafted by India’s foreign secretary which upgraded Sikkim’s status from ‘protectorate’ to ‘permanent associate’, changing the relationship from protection to more of a partnership between a major nation and a minor political territory.<br> 
+                    However, for the next two years, despite repeated efforts from India, Chogyal Thondup refused to accept the revised treaty, believing that
+                    
+                    ‘permanent association’ was one step shy of merger. Instead, encouraged by India’s support for Bhutan’s membership at the United Nations in 1971, he demanded the inclusion of phrases like ‘Sikkim in full sovereign rights’, ‘separate’, and ‘countries’, as well as references to the United Nations, all of which were unacceptable to India. He also let go of his India-appointed diwan (referred to by the Tibetan equivalent ‘sidlon’) and left the position vacant, desiring a Sikkimese to fill it.
+                    This proved to be a point when India’s policy towards Sikkim changed course. By the end of 1972, Prime Minister Indira Gandhi decided that India would no longer support Chogyal Thondup and would instead back the pro-democracy forces like Kazi Dorji. This policy shift ‘acted like a spark’ that dramatically and immediately altered the course of Sikkim’s future.
+                           
+                </p>
+
+            </div>
+            <div class="col-sm-3 image">
+                <img src="" alt="">
+            </div>
+                
+        </div>
+        <hr>
+        <div class="row custom-row">
+            <div class="col-sm-9 para">
+                <h3>
+                    1973–74: Chogyal Gives Way to Chief Minister
+
+                </h3>
+                <p>
+                    In the 1973 state council elections held in January and February, the pro- Chogyal parties won nine seats; with his additional nominations, their number swelled to fifteen in a twenty-four-member house. This strengthened his belief that independent status for Sikkim was now just a matter of time. However, the anti-Chogyal and pro-democracy forces now began to grow in strength and confidence, encouraged and supported clandestinely by Indian intelligence teams. The SNC and the Janata Congress allied with each other and formed a Joint Action Committee (JAC) by the end of March 1973 to demand democratic reforms, including a constitution, an independent judiciary, and a replacement to the Indo- Sikkim Treaty of 1950. Large-scale demonstrations against Chogyal Thondup were planned so as to coincide with his fiftieth birthday celebrations on 4 April 1973.
+                   Frustration had been building up among much of the Sikkimese population. Their socio-economic and political status was poor and three- quarters were even denied citizenship. Hence, when the pro-democracy
+
+                 parties began to take out anti-Chogyal speeches and rallies, they found an empathetic populace eager to participate in order to improve their living conditions. Demonstrators started arriving in Gangtok from the last week of March. Violent anti-Chogyal protests began to break out in parts of Sikkim. Chogyal Thondup tried last-minute appeasement tactics but it was too late. <br>On 4 April, thousands of protesters marched to the palace demanding reforms. Law and order broke down across Sikkim, resulting in the tenth clause of the 1950 Indo–Sikkim Treaty being invoked and giving India overriding powers. On 7 April, Chogyal Thondup handed over the maintenance of law and order to the resident India political officer, and on 8 April, he handed over administration of the government. On 9 April, Kazi Dorji called off the agitation. The SNC and Janata Congress also wound up the JAC and merged their parties to form the Sikkim Congress led by Kazi Dorji.
+                 A month later, on 8 May 1973, a tripartite agreement was signed between the Government of India, Chogyal Thondup, and the leaders of the Sikkim Congress and the SNP. It provided for elections (supervised by the chief election commissioner of India) to the state council (legislative assembly) on the basis of universal adult franchise. An Indian-appointed chief executive became the speaker of the assembly and a virtual chief minister, with the Indian government taking the final decision on any disputes. The legislative powers of the executive council (cabinet) were expanded significantly.
+                   Guided by officials from the Indian government, assembly elections were held across Sikkim in mid-April 1974, a year after the anti-Chogyal demonstrations. The pro-democracy Kazi-led Sikkim Congress swept the elections, winning thirty-one of thirty-two seats. Soon after, on 11 May, the new assembly passed a resolution requesting the Government of India to aid in the creation of a constitution, further strengthen the Indo-Sikkim relationship, and enable Sikkim’s participation in the political and economic institutions of India.<br>
+                  On 4 July 1974, in what was seen as ‘a significant milestone’ and ‘a red-letter day’ in the history of Sikkim, the Sikkim Assembly passed the
+
+                  Government of Sikkim Act, duly signed by Chogyal Thondup. This was immediately followed by the promulgation of a new constitution and the formation of a five-member cabinet with Kazi Dorji as the first popularly- elected chief minister of Sikkim. In the first week of September 1974, India’s Lok Sabha and Rajya Sabha passed the Constitution (Thirty-Fifth Amendment) Act which ‘associated’12 Sikkim with the Union of India and allowed for one member from the state to be elected to both Sabhas.
+
+                </p>
+
+            </div>
+            <div class="col-sm-3 image">
+                <img src="" alt="">
+            </div>                
+        </div>
+        <hr>
+        <div class="row custom-row">
+            <div class="col-sm-9 para">
+                <h3>1975: Merger and a New Great Experiment of Democracy
+
+                    
+                </h3>
+                <p>
+                    On 9 April 1975, the Sikkim Congress declared that ‘the people of Sikkim can realize their full rights only if Sikkim becomes a unit of the Union of India’. Chief Minister Kazi Dorji also sent a formal request to Prime Minister Indira Gandhi requesting the removal of Chogyal Thondup. The same day, the Indian Army disarmed the Sikkim Guards as a precautionary measure. The following day, at an emergency session of the Sikkim Assembly, two resolutions were unanimously passed—to abolish the institution of the Chogyal and to merge Sikkim with India. To gain public approval, a referendum (public vote) was held four days later on 14 April through a single question. Nearly two-thirds of eligible Sikkimese voted and an overwhelming 97 per cent of them favoured the abolition of the institution of the Chogyal and the merger of Sikkim with India. 
+                    Within a week, the minister of external affairs for India, Yashwantrao Balwantrao Chavan introduced the Constitution (Thirty-Sixth Amendment) Bill in the Indian Lok Sabha seeking to incorporate Sikkim as a state in the Union of India, calling it a ‘revolutionary political situation’. The bill was passed nearly unanimously in both Sabhas and the President of India, Fakhruddin Ali Ahmed, gave his assent. The Act came into effect on 16 May 1975 and Sikkim began what Prime Minister Indira Gandhi called its ‘new great experiment of democracy’as the twenty-second state of India.
+                    
+                </p>
+
+            </div>
+            <div class="col-sm-3 image">
+                <img src="" alt="">
+            </div>
+                
+        </div>
+        <hr>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+

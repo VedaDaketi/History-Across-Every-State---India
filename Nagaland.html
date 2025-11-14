@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Protest+Strike&display=swap" rel="stylesheet">
+    <style>
+        .custom-dropdown-menu {
+            width: 1000px; 
+            max-height: 310px;
+            overflow-y: auto; 
+        }
+        .navbar-nav .nav-link {
+            font-size: 20px;
+        }
+        .navbar-nav .nav-item {
+            margin-right: 30px;
+        }
+        .ind-1947{
+            height: 450px;
+        }
+        .image img{
+            padding-top:25px;
+            height: 100%;
+            width : 100%;
+        }
+        .title h1{
+            padding-top:30px;
+            padding-bottom: 30px;
+            font-family: 'Protest Strike', sans-serif;
+            font-size: 60px;
+        }
+        .para h3{
+            font-family: 'Protest Strike', sans-serif;
+            padding-bottom: 10px;
+        }
+        .para p{
+            text-align: justify;
+            font-size: large;         
+        }
+        .custom-row{
+            align-items: start;
+        }
+    </style>
+    <title></title>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="img/Logo.png" alt="Logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="introduction.html">Intro</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link active dropdown-toggle"  id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            States
+                        </a>
+                        <ul class="dropdown-menu custom-dropdown-menu" aria-labelledby="navbarDropdown">
+                            <div class="row">
+                                <div class="col">
+                                    <li><a class="dropdown-item" href="Andhra Pradesh.html">Andhra Pradesh</a></li>
+                                    <li><a class="dropdown-item" href="Arunachal Pradesh.html">Arunachal Pradesh</a></li>
+                                    <li><a class="dropdown-item" href="Assam.html">Assam</a></li>
+                                    <li><a class="dropdown-item" href="Bihar.html">Bihar</a></li>
+                                    <li><a class="dropdown-item" href="Chhattisgrah.html">Chhattisgarh</a></li>
+                                    <li><a class="dropdown-item" href="Goa.html">Goa</a></li>
+                                    <li><a class="dropdown-item" href="Gujarat.html">Gujarat</a></li>
+                                    <li><a class="dropdown-item" href="Haryana.html">Haryana</a></li>
+                                    <li><a class="dropdown-item" href="Himachal Pradesh.html">Himachal Pradesh</a></li>
+                                </div>
+                                <div class="col">
+                                    <li><a class="dropdown-item" href="Jharkhand.html">Jharkhand</a></li>
+                                    <li><a class="dropdown-item" href="Karnataka.html">Karnataka</a></li>
+                                    <li><a class="dropdown-item" href="Kerala.html">Kerala</a></li>
+                                    <li><a class="dropdown-item" href="Madhya Pradesh.html">Madhya Pradesh</a></li>
+                                    <li><a class="dropdown-item" href="Maharashtra.Html">Maharashtra</a></li>
+                                    <li><a class="dropdown-item" href="Manipur.html">Manipur</a></li>
+                                    <li><a class="dropdown-item" href="Meghalaya.html">Meghalaya</a></li>
+                                    <li><a class="dropdown-item" href="Mizoram.html">Mizoram</a></li>
+                                    <li><a class="dropdown-item" href="Nagaland.html">Nagaland</a></li>
+                                </div>
+                                <div class="col">
+                                    <li><a class="dropdown-item" href="Orissa.html">Odisha</a></li>
+                                    <li><a class="dropdown-item" href="Punjab.html">Punjab</a></li>
+                                    <li><a class="dropdown-item" href="Rajasthan.html">Rajasthan</a></li>
+                                    <li><a class="dropdown-item" href="Sikkim.html">Sikkim</a></li>
+                                    <li><a class="dropdown-item" href="Tamil Nadu.html">Tamil Nadu</a></li>
+                                    <li><a class="dropdown-item" href="Telangana.html">Telangana</a></li>
+                                    <li><a class="dropdown-item" href="Tripura.html">Tripura</a></li>
+                                    <li><a class="dropdown-item" href="Uttar Pradesh.html">Uttar Pradesh</a></li>
+                                    <li><a class="dropdown-item" href="Uttarakhand.html">Uttarakhand</a></li>
+                                </div>
+                                <div class="col">
+                                    <li><a class="dropdown-item" href="West Bengal.html">West Bengal</a></li>
+                                    <li><a class="dropdown-item" href="">Andaman and Nicobar Islands</a></li>
+                                    <li><a class="dropdown-item" href="Chandigrah.html">Chandigarh</a></li>
+                                    <li><a class="dropdown-item" href="">Dadra and Nagar Haveli and Daman and Diu</a></li>
+                                    <li><a class="dropdown-item" href="Delhi.html">Delhi</a></li>
+                                    <li><a class="dropdown-item" href="Jammu and Kashmir.html">Jammu & Kashmir</a></li>
+                                    <li><a class="dropdown-item" href="Ladakh.html">Ladakh</a></li>
+                                    <li><a class="dropdown-item" href="Lakshadweep.html">Lakshadweep</a></li>
+                                    <li><a class="dropdown-item" href="Puducherry.html">Puducherry</a></li>
+                                </div>
+                            </div>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="row title">
+            <h1>Formation of NAGALAND</h1>
+        </div>
+        <div class="row custom-row">
+            <div class="col-sm-9 para">
+                <h3> 1947–50: Independent or in India? </h3>
+                    <p>
+                        In 1947, as India was approaching Independence, the people of Nagaland were considering their own independence.
+                        The Naga Hills District had been demarcated as ‘Naga Hills Excluded Areas’ by the British in 1935, thereby excluding the territories from direct British purview. This was in part due to the memorandum put forth by the Naga Club, a motley crew of forty-two tribes banding together after World War I to protect their identities and to rehabilitate the war-devastated areas of Naga Hills.
+                        In the mid-1940s, the Naga Club transformed into the Naga National Council (NNC), a political organization with Imti Aliba Ao as its secretary. They first sought local autonomy and a separate electorate while being ‘constitutionally included in an autonomous Assam’ but quickly graduated to self-determination for the Nagas based on ethnic, social and religious distinctiveness. However, in August 1946, Jawaharlal Nehru, the future
+                         
+                        prime minister of India, wrote that the Naga territory was ‘much too small to stand by itself’.<br> 
+                        In May 1947, the NNC submitted another memorandum to the British government requesting an interim government of the Naga people in Naga Hills for ten years. This would give them full power over legislative, executive and judicial matters, while allowing a ‘Guardian Power’ to maintain a force in the hills for defence matters. In June, the Governor of Assam, Sir Akbar Hydari, representing the Government of India, signed a nine-point agreement with the NNC largely along similar lines. However, the two parties interpreted the last point about reviewing the situation after ten years differently. Some Naga leaders interpreted it to mean they could still opt out of India after ten years, while the Government of India determined that they could only explore options within the framework of the Union of India. Jaipal Singh Munda—a politician, tribal rights activist, Olympic gold-medallist and a member of the constituent assembly—told the assembly in July 1947 that there was ‘no question of secession’since the Naga Hills had always been part of India.
+                        On 14 August 1947, on the eve of India’s Independence, Zapu Phizo, an Angami leader, declared Nagaland an independent Christian republic, just as he had told Mahatma Gandhi he would a month earlier. The Government of India did not recognize this declaration. The constituent assembly had already set up an advisory committee on tribal areas, which in turn had set up a subcommittee with the chief minister of Assam, Gopinath Bordoloi, as its chairman. The Bordoloi Committee reported that the Naga Hills were on ‘a totally different footing’ and must be ‘treated separately from the rest’.<br> 
+                        As it turned out, the Hydari Agreement didn’t make it to ten years. Imti Aliba Ao quit politics for a posting in the Indian Frontier Administrative Service. Zapu Phizo wrested the post of president of the NNC in November 1949 and ‘decisively rejected’ the Hydari Agreement. The drafters of the Indian Constitution ‘simply ignored’the Hydari Agreement and created the Sixth Schedule based on the Bordoloi Committee’s recommendations.
+                        
+                    </p>
+            </div>
+            <div class="col-sm-3">
+                <div class="image">
+                    <img src="img/zapu phizo(nagaland.jpg" alt="">
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="row para">
+                <h3> 1950–56: A Violent Struggle for Naga Independence </h3>
+                <p>
+                    The Sixth Schedule constituted the Naga Hills as an autonomous district in Assam. It had its own district council with the power to legislate on a number of matters, including the usage of land, the management of forests and the inheritance of property, among others. However, compromises were said to have been made with the traditional institutions. 
+                    In response, the NNC conducted a plebiscite in 1951 and ‘claimed that
+                    99.9 per cent of Nagas had voted in favour of independence’. In 1952, the Nagas boycotted India’s first general elections. They began a non- cooperation movement and blocked the formation of the district council. The Assam Government then had to administer the Naga Hills directly.
+                    When the States Reorganisation Commission (SRC) was constituted in December 1953 to redraw India’s state borders, the NNC stood apart from all the other hill districts mentioned in Part A of the Sixth Schedule. While the hill districts put forth a demand for their unification, the NNC continued to seek ‘independence from Assam and India’. 
+                    In September 1955, the SRC released its report. It dismissed the demand of a separate hill state as well as that of a separate Nagaland. Citing the past violence in the Naga Hills district, as well as the recent relative peace, it recommended no change to the area’s status.<br>
+                    This did not go down well with the Nagas and violence escalated across the region. The government tried to quell it first by recruiting armed village guards and then by deploying the police. Eventually, it passed the Assam Disturbed Areas Act. The NNC split into two ‘irreconcilable’camps—the extremists (led by Zapu Phizo) pursuing Naga independence, and the moderates (led by T. Sakhrie) trying to find a Naga future within the Indian Constitution. In January 1956, Sakhrie was killed, allegedly by Phizo’s extremist faction, as a way to hamper peace negotiations. This led to a political and personal rivalry between the two clans that often turned violent and spanned generations.
+                    In March, Phizo declared Nagaland as ‘a people’s sovereign republic’. He founded the Federal Government of Nagaland with its own national flag
+                     
+                    and Constitution. The Union government finally called in the army. In order to break connections between the locals and the rebels in the forests, the Army resorted to the tactic of ‘grouping villages’. Before the end of the year, Phizo escaped to London via East Pakistan on a fake passport.<br> 
+                    
+                </p>
+        </div>
+        <hr>
+        <div class="row custom-row">
+            <div class="col-sm-9 para">
+                <h3>
+                    1957–63: A Negotiated Journey to Statehood
+                </h3>
+                <p>
+                    Phizo’s exit changed the flow of events. The moderates under the leadership of Dr Imkongliba Ao took control of the NNC and formed a reforming committee in February 1957. The committee was opposed to the method of violence, preferring a separate administrative unit keeping with the Naga tradition within the framework of the Indian Union. The Nagas participated in the general elections held in early 1957 and elected three members to the Assam Assembly.
+                    In August 1957, Dr Ao chaired a Naga People’s Convention at Kohima which was attended by thousands of people across all Naga tribes (except the underground extremists). Advocating negotiation over violence, the convention formally gave up the demand for Naga independence and instead asked for ‘a single administrative unit comprising of Naga Hills district of Assam and Tuensang Frontier Division of NEFA’ (North-East Frontier Agency). Tuensang (earlier known as Naga Tribal Area) lay just north of Naga Hills District. It was a ‘frontier division’—an administrative unit—of NEFA, which was constitutionally a part of Assam. A nine- member delegation led by Dr Ao presented this resolution to the Governor in Shillong and then the prime minister in New Delhi in September. This proved successful as Prime Minister Nehru accepted the delegation’s demands.
+                    On 1 December 1957, the Naga Hills–Tuensang Area came into being as a new administrative unit in the state of Assam but under the direct control of the ministry of external affairs. The unit was also simultaneously separate from Assam as it was governed by the Governor of Assam acting on behalf of the President of India.<br>  
+                    While the moderates considered the establishment of the separate Naga Hills–Tuensang Area as a victory and a first step towards statehood, the underground extremists saw it as a consolidation of the Indian government in the Naga Hills and ramped up the violence. To keep their momentum going, the moderate leaders organized a second Naga People’s Convention at Ungma in May 1958. This convention, again well-attended, set up a draft committee that formulated a sixteen-point proposal to enable the establishment of the state of Nagaland within the Indian Union. The third Naga People’s Convention at Mokokchung in October 1959 adopted this proposal. In July 1960, a fifteen-member delegation led by Dr Ao presented this proposal to Prime Minister Nehru, which he later accepted with slight modifications. The state of Nagaland would become a reality.
+                    A three-year transitional period was put into effect for ‘the regulation of Nagaland’ until its creation. An interim body was created consisting of forty-two members elected from Naga tribes, with Dr Imkongliba Ao as the Chairman. Five of these members were also appointed by the Governor to an advisory executive council with P. Shilu Ao as the chief executive councillor. These two bodies worked as the de facto legislature and cabinet.
+                    However, the underground extremist faction refused to recognize the sixteen-point accord and intensified their violent struggle. Dr Imkongliba Ao, chairman of the interim body, was assassinated in August 1961.
+                    Undeterred, the interim body elected T.N. Angami as the chairman and continued on the path of transition.<br>
+                    In September 1962, the Union government passed the State of Nagaland Act. The new state comprised the entire territory of the Naga Hills– Tuensang Area. It would have three districts—Kohima, Mokokchung and Tuensang. The Constitutional Amendment also included Section 371A that sought to protect the religious and social practices, customary laws, and land ownership of the Nagas. 
+                    The state of Nagaland officially came into being on 1 December 1963. P. Shilu Ao of the Naga Nationalist Organisation was the first chief minister
+                                       
+                </p>
+
+            </div>
+            <div class="col-sm-3 image">
+                <img src="img/nagaland-district-map.jpg" alt="">
+            </div>
+                
+        </div>
+        
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

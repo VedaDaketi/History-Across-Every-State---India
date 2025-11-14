@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Protest+Strike&display=swap" rel="stylesheet">
+    <style>
+        .custom-dropdown-menu {
+            width: 1000px; 
+            max-height: 310px;
+            overflow-y: auto; 
+        }
+        .navbar-nav .nav-link {
+            font-size: 20px;
+        }
+        .navbar-nav .nav-item {
+            margin-right: 30px;
+        }
+        .ind-1947{
+            height: 450px;
+        }
+        .image img{
+            padding-top:25px;
+            height: 100%;
+            width : 100%;
+        }
+        .title h1{
+            padding-top:30px;
+            padding-bottom: 30px;
+            font-family: 'Protest Strike', sans-serif;
+            font-size: 60px;
+        }
+        .para h3{
+            font-family: 'Protest Strike', sans-serif;
+            padding-bottom: 10px;
+        }
+        .para p{
+            text-align: justify;
+            font-size: large;         
+        }
+        .custom-row{
+            align-items: start;
+        }
+    </style>
+    <title></title>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="img/Logo.png" alt="Logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="introduction.html">Intro</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link active dropdown-toggle"  id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            States
+                        </a>
+                        <ul class="dropdown-menu custom-dropdown-menu" aria-labelledby="navbarDropdown">
+                            <div class="row">
+                                <div class="col">
+                                    <li><a class="dropdown-item" href="Andhra Pradesh.html">Andhra Pradesh</a></li>
+                                    <li><a class="dropdown-item" href="Arunachal Pradesh.html">Arunachal Pradesh</a></li>
+                                    <li><a class="dropdown-item" href="Assam.html">Assam</a></li>
+                                    <li><a class="dropdown-item" href="Bihar.html">Bihar</a></li>
+                                    <li><a class="dropdown-item" href="Chhattisgrah.html">Chhattisgarh</a></li>
+                                    <li><a class="dropdown-item" href="Goa.html">Goa</a></li>
+                                    <li><a class="dropdown-item" href="Gujarat.html">Gujarat</a></li>
+                                    <li><a class="dropdown-item" href="Haryana.html">Haryana</a></li>
+                                    <li><a class="dropdown-item" href="Himachal Pradesh.html">Himachal Pradesh</a></li>
+                                </div>
+                                <div class="col">
+                                    <li><a class="dropdown-item" href="Jharkhand.html">Jharkhand</a></li>
+                                    <li><a class="dropdown-item" href="Karnataka.html">Karnataka</a></li>
+                                    <li><a class="dropdown-item" href="Kerala.html">Kerala</a></li>
+                                    <li><a class="dropdown-item" href="Madhya Pradesh.html">Madhya Pradesh</a></li>
+                                    <li><a class="dropdown-item" href="Maharashtra.Html">Maharashtra</a></li>
+                                    <li><a class="dropdown-item" href="Manipur.html">Manipur</a></li>
+                                    <li><a class="dropdown-item" href="Meghalaya.html">Meghalaya</a></li>
+                                    <li><a class="dropdown-item" href="Mizoram.html">Mizoram</a></li>
+                                    <li><a class="dropdown-item" href="Nagaland.html">Nagaland</a></li>
+                                </div>
+                                <div class="col">
+                                    <li><a class="dropdown-item" href="Orissa.html">Odisha</a></li>
+                                    <li><a class="dropdown-item" href="Punjab.html">Punjab</a></li>
+                                    <li><a class="dropdown-item" href="Rajasthan.html">Rajasthan</a></li>
+                                    <li><a class="dropdown-item" href="Sikkim.html">Sikkim</a></li>
+                                    <li><a class="dropdown-item" href="Tamil Nadu.html">Tamil Nadu</a></li>
+                                    <li><a class="dropdown-item" href="Telangana.html">Telangana</a></li>
+                                    <li><a class="dropdown-item" href="Tripura.html">Tripura</a></li>
+                                    <li><a class="dropdown-item" href="Uttar Pradesh.html">Uttar Pradesh</a></li>
+                                    <li><a class="dropdown-item" href="Uttarakhand.html">Uttarakhand</a></li>
+                                </div>
+                                <div class="col">
+                                    <li><a class="dropdown-item" href="West Bengal.html">West Bengal</a></li>
+                                    <li><a class="dropdown-item" href="">Andaman and Nicobar Islands</a></li>
+                                    <li><a class="dropdown-item" href="Chandigrah.html">Chandigarh</a></li>
+                                    <li><a class="dropdown-item" href="">Dadra and Nagar Haveli and Daman and Diu</a></li>
+                                    <li><a class="dropdown-item" href="Delhi.html">Delhi</a></li>
+                                    <li><a class="dropdown-item" href="Jammu and Kashmir.html">Jammu & Kashmir</a></li>
+                                    <li><a class="dropdown-item" href="Ladakh.html">Ladakh</a></li>
+                                    <li><a class="dropdown-item" href="Lakshadweep.html">Lakshadweep</a></li>
+                                    <li><a class="dropdown-item" href="Puducherry.html">Puducherry</a></li>
+                                </div>
+                            </div>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="row title">
+            <h1>Formation of Meghalaya</h1>
+        </div>
+        <div class="row custom-row">
+            <div class="col-sm-9 para">
+                <h3> 1947–52: Autonomous Districts and the Sixth Schedule </h3>
+                    <p>
+                        Meghalaya’s push towards statehood came separately and collectively from all three of its regions—the Garo Hills, the Khasi Hills and the Jaintia Hills. All three regions shared a fundamental similarity of a matrilineal social system, helping them also bond emotionally on their distinct identity. At the time of Indian Independence, these regions formed the south-western part of Assam bordering Bangladesh.<br>
+                        The constituent assembly set up a subcommittee to report and recommend on the ‘excluded and partially excluded areas’—a term the British had used to denote areas that they had excluded from direct purview. The subcommittee was headed by Gopinath Bordoloi, the Premier of Assam, and was hence referred to as the Bordoloi Committee. The committee included a Khasi leader, Reverend James Joy Mohan Nichols- Roy, along with a plains tribal leader and a social worker. The team toured all the hill districts of Assam and ‘co-opted two members from the tribes’ in each of the districts. The Bordoloi Committee submitted its report in July
+                         
+                        1947. It recommended that all the Khasi people be brought under a common administration and suggested a federation to bridge the gap between the states—which enjoyed certain rights—and the British portions, where there was no statutory local body for local self-government.<br> 
+                        By December 1947, all the siems (chiefs) of the Khasi Hill States had signed the Instrument of Accession to India, which pleased Sardar Vallabhbhai Patel, the head of the States Ministry. The Khasi Siems and Jaintia Dolois (chiefs) demanded a joint federation and an Executive Council within Assam Province while also decreeing that the Assam Legislative Assembly would not have power to legislate on any subjects for Khasi–Jaintia Hills. Along the same lines, Garo National Union also demanded a Garo Hills Union and an executive council within Assam Province. 
+                        The constituent assembly considered it ‘desirable to preserve some of the tribal traditions and customs’. Hence, instead of merging them outright with Assam, the three regions were included in the Sixth Schedule of the Constitution of India, which provided for district-level autonomy through the constitution of district councils. Importantly, without the assent of the district councils, no act of the state legislature could apply to the autonomous districts, including on the use of land, management of forests, appointment of chiefs, marriage and social customs.<br>
+                        The Governor of Assam convened a durbar to prepare a Constitution for the Khasi States. Nichols-Roy, one of the people responsible for the Sixth Schedule, formed the Khasi–Jaintia Federated States National Conference. Opposing him and the Sixth Schedule was the Khasi States People’s Union which included, importantly, the siems, who demanded the incorporation of their rights. When the durbar met in July 1949, the siems emerged stronger numerically. As a result, no instrument of merger was signed with the Government of India, and the Constitution of India put the Khasi siemships within Assam.<br> 
+                        When India adopted its Constitution on 26 January 1950, the Khasi Hill States and the Jaintia Hill District were constituted into a separate autonomous district in Assam known as United Khasi–Jaintia Hill District.
+                         
+                        Shillong, then the capital of Assam, fell in this district. Garo Hills was also constituted as a separate autonomous district in Assam. District councils were first elected in the 1952 general elections. However, when the United Khasi–Jaintia District Council was inaugurated on 27 June 1952, it was met with ‘a big student and youth demonstration’.
+                                             
+                    </p>
+            </div>
+            <div class="col-sm-3">
+                <div class="image">
+                    <img src="img/JJM nichols roy(meghalaya.jpeg" alt="">
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="row para">
+            
+                <h3> 1952–60: The Demand for a Unified Hill State </h3>
+                <p>
+                    Meanwhile, the Khasi National Durbar—a social organization formed in the early 1920s—now moved to the political forefront. Once a ‘fortress of the siems’ but now ‘practically defunct’, the durbar was reorganized and revitalized. When Prime Minister Jawaharlal Nehru visited Shillong in October 1952, the durbar submitted a memorandum demanding, for the first time, the unification of all Assam hills under one administration. They also opposed the imposition of the Assamese language and demanded the full inclusion of Shillong in the United Khasi–Jaintia autonomous district. 
+                    In December 1953, the Union government set up the States Reorganisation Commission (SRC) and invited written memoranda from the public. Delegates from the autonomous districts—Garo Hills, United Khasi–Jaintia Hills, North Cachar Hills, Mikir Hills and Mizo Hills (renamed from Lushai Hills)—first convened a meeting at Shillong in June 1954 and then held an Assam Hills Tribal Leaders’ Conference at Tura in October 1954. They unanimously called for ‘a separate State for the Autonomous Districts of Assam’ as well as an amendment of the Sixth Schedule, which conferred no real autonomy.
+                    However, almost immediately after, differences began to crop up over which proposed amendments needed to be considered. The memorandum for the hill state was not signed by many tribal leaders and parties across the districts. As a result, the SRC declared in its September 1955 report that the demand for a hill state was ‘confined virtually to the Garo and Khasi and Jaintia Hills’and would be too expensive to create and maintain. It also
+                     
+                    refused to entertain any amendment to the Sixth Schedule and instead proposed constituting a separate body to study its working.<br> 
+                    At the end of October 1955, the hill leaders held another conference at Aijal where they created the Eastern India Tribal Union (EITU). However, the hill state movement began to splinter as internal political dynamics shifted and hardened. Some parties, including the Garo National Conference, refused to merge with the EITU as it was heavily backed by the siems, thereby confining it to the Khasi–Jaintia Hills. Other leaders changed parties. In the 1957 general elections, many alliances broke and parties like the Garo National Conference stood and won independently in their districts; the Indian National Congress (INC) fared poorly across the Autonomous Districts. Nichols-Roy died and two new organizations cropped up in the Garo Hills. The EITU itself split into two opposing factions. The Union’s president B.M. Pugh was expelled, but he had the backing of vice-president Captain Williamson Ampang Sangma, who was also the head of the Garo National Council and a cabinet minister in the Assam government. The other faction was headed by Theodore Cajee and backed by the Khasi National Durbar.<br>
+                    The faltering hill state movement was revitalized in April 1960 when the Assam Pradesh Congress Committee (APCC) demanded the official state language be Assamese—a language of the plains, not of the hills. The two EITU factions held separate conferences in April and June 1960 where they both opposed the imposition of Assamese. In July 1960, Captain Sangma called the first All-Party Hill Leaders’ Conference (APHLC), which was presided over by Pugh and was attended by parties across the spectrum, including the District Congress Committees. Their primary demand was not for a hill state but for the language bill to be dropped and for English to continue as the official language. In August, the APHLC issued an ultimatum to the Assam chief minister, Bimala Prasad Chaliha of the INC, after their second conference held in Shillong. In October, Captain Sangma protested by resigning his cabinet post in the Assam Government and the APHLC staged a demonstration in Shillong. However, on 24 October 1960, the Assam Assembly passed the language bill in a special sitting. At their
+                     
+                    third conference in Haflong in November, the APHLC declared that the immediate creation of a separate hill state was ‘the only solution’.
+                                 
+                </p>
+            
+        </div>
+        <hr>
+        <div class="row custom-row">
+            <div class="col-sm-9 para">
+                <h3>
+                    1960–66: Scottish Plan and Nehru Plan
+                </h3>
+                <p>
+                    In November 1960, Prime Minister Jawaharlal Nehru offered a ‘Scottish pattern’ of government to the Autonomous Districts modelled on the Committee for Scotland in the British House of Commons. The powers of the Districts would be increased to include, among others, a separate budget, a separate cabinet minister and deputy ministers in the Assam government, and final decision on legislative matters in the Assam Assembly. A commission to review the provisions of the Sixth Schedule would also be appointed.
+                    However, the APHLC rejected Nehru’s Scottish plan at its fourth session in April 1961 in Shillong. They also called for a boycott of the 1962 general elections. This once again split the hill state movement. The District Congress Committees did not agree with this response and they stayed away from the APHLC’s fifth session. Instead, in July 1961, along with
+                    B.M. Pugh, they held their own Assam Hills Peoples’ Conference (AHPC) where they agreed to both accept Nehru’s offer and contest the 1962 elections. This forced APHLC’s hand; at their sixth session at Aijal in October 1961, they too decided to contest the 1962 elections.
+                    The 1962 election results were cleanly split by geography. The Congress won in Mikir and North Cachar Hills, while the APHLC won in Garo, United Khasi–Jaintia, and Mizo Districts. When the APHLC tried to use this numerical strength to reiterate its old demand of a separate hill state, it was rejected again. Hence, they decided to withdraw from the assembly.
+                    However, nearly half its elected members refused to resign, damaging its reputation. Simultaneously, India went to war with China. The tide had turned.<br>
+                    Further discussions with Nehru were no longer held directly but through various interlocutors. The expanded powers initially offered to the districts
+                     
+                    were increasingly pulled back in what was referred to as the Nehru Plan. For instance, the whole cabinet could now initiate, consider and approve legislation related to the districts, while the districts’ views would only have special importance instead of being the final decision. Autonomy itself was now, as Nehru told an APHLC member of the Lok Sabha, ‘subject to a Commission being appointed to consider the whole thing’.
+                    In March 1965, the Pataskar Commission—appointed to study the autonomous demands of Assam’s hill districts—refrained from commenting on union territory or state status or the redrawing of boundaries. Instead, it recommended ‘no basic change’to the Sixth Schedule. The APHLC rejected the report and again demanded a separate hill state as well as a boycott of the 1967 general elections.
+                           
+                </p>
+
+            </div>
+            <div class="col-sm-3 image">
+                <img src="img/nehru.jpg" alt="">
+            </div>
+                
+        </div>
+        <hr>
+        <div class="row custom-row">
+            <div class="col-sm-9 para">
+                <h3>
+                    1966–72: An Extraordinary Experiment
+                </h3>
+                <p>
+                    Meanwhile, the Union government went through a drastic leadership change. Prime Minister Jawaharlal Nehru died in May 1964 and his successor Lal Bahadur Shastri died in January 1966. The new Prime Minister, Indira Gandhi, could not afford a boycott of the elections in a sensitive area of India. In January 1967, she met with Assam Chief Minister Chaliha and APHLC leaders and promised a plan that had never been seen before in India—to reorganize Assam as a federated state ‘comprising units of equal status not subordinate to one another’. In other words, to create an autonomous state within the state of Assam. Overjoyed, the APHLC representatives accepted the proposal. The Assam Congress led by Chief Minister Chaliha rejected it.
+                    In the 1967 elections, the APHLC won all the Assembly seats in the Garo and United Khasi–Jaintia Hills, establishing their leadership in the region.
+                    However, the Assam Congress, bolstered by support from Congress leaders in other states, refused to back down and rejected the federated states idea ‘in categorical terms’. In May 1968, all the elected APHLC members resigned their assembly seats. In September 1968, they started a non-violent
+                     
+                    satyagraha. Finally, all sides agreed to compromise—law and order would not be transferred to the new autonomous state.
+                    On 29 December 1969, Parliament passed the Assam Reorganisation (Meghalaya) Act. The autonomous state of Meghalaya would exist within Assam and comprise the districts of Garo Hills and United Khasi–Jaintia Hills. Meghalaya came into existence on 2 April 1970. Captain Williamson
+                    A. Sangma of the APHLC became Meghalaya’s first chief minister.<br> The creation of Meghalaya was historic and unprecedented because it
+                    established a new tier in India’s state structure. Autonomous states now existed alongside full-fledged states and union territories. Similar in structure to the autonomous republics of the former Union of Soviet Socialist Republics (USSR), Meghalaya was considered an ‘extraordinary experiment’. In practice, Meghalaya functioned almost as a full-fledged state. It had powers to make laws on sixty-one out of sixty-six subjects in the state list, and it contained autonomous district councils. Shillong became the capital of both Assam and Meghalaya.
+                    The new Meghalaya state government continued to push for full-fledged statehood, pausing only for India’s 1971 war with Pakistan, which resulted in the creation of Bangladesh. On 30 December 1971, Parliament passed the North-Eastern Areas (Reorganisation) Act, which brought into existence three new states—Meghalaya, Manipur and Tripura—and two new union territories—Mizoram and Arunachal Pradesh.<br> 
+                    On 21 January 1972, the full-fledged state of Meghalaya was born. Its creation was all the more remarkable because it had been achieved with little to no violence. In 1973, Assam shifted its capital to Dispur and Shillong remained the capital of Meghalaya.
+                    
+                </p>
+
+            </div>
+            <div class="col-sm-3 image">
+                <img src="img/meghalaya.jpg" alt="">
+            </div>                
+        </div>
+        
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

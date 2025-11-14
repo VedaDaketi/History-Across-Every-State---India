@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Protest+Strike&display=swap" rel="stylesheet">
+    <style>
+        .custom-dropdown-menu {
+            width: 1000px; 
+            max-height: 310px;
+            overflow-y: auto; 
+        }
+        .navbar-nav .nav-link {
+            font-size: 20px;
+        }
+        .navbar-nav .nav-item {
+            margin-right: 30px;
+        }
+        .ind-1947{
+            height: 450px;
+        }
+        .image img{
+            padding-top:25px;
+            height: 100%;
+            width : 100%;
+        }
+        .title h1{
+            padding-top:30px;
+            padding-bottom: 30px;
+            font-family: 'Protest Strike', sans-serif;
+            font-size: 60px;
+        }
+        .para h3{
+            font-family: 'Protest Strike', sans-serif;
+            padding-bottom: 10px;
+        }
+        .para p{
+            text-align: justify;
+            font-size: large;         
+        }
+        .custom-row{
+            align-items: start;
+        }
+        .para li{
+            text-align: justify;
+            font-size: large;
+        }
+    </style>
+    <title></title>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="img/Logo.png" alt="Logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="introduction.html">Intro</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link active dropdown-toggle"  id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            States
+                        </a>
+                        <ul class="dropdown-menu custom-dropdown-menu" aria-labelledby="navbarDropdown">
+                            <div class="row">
+                                <div class="col">
+                                    <li><a class="dropdown-item" href="Andhra Pradesh.html">Andhra Pradesh</a></li>
+                                    <li><a class="dropdown-item" href="Arunachal Pradesh.html">Arunachal Pradesh</a></li>
+                                    <li><a class="dropdown-item" href="Assam.html">Assam</a></li>
+                                    <li><a class="dropdown-item" href="Bihar.html">Bihar</a></li>
+                                    <li><a class="dropdown-item" href="Chhattisgrah.html">Chhattisgarh</a></li>
+                                    <li><a class="dropdown-item" href="Goa.html">Goa</a></li>
+                                    <li><a class="dropdown-item" href="Gujarat.html">Gujarat</a></li>
+                                    <li><a class="dropdown-item" href="Haryana.html">Haryana</a></li>
+                                    <li><a class="dropdown-item" href="Himachal Pradesh.html">Himachal Pradesh</a></li>
+                                </div>
+                                <div class="col">
+                                    <li><a class="dropdown-item" href="Jharkhand.html">Jharkhand</a></li>
+                                    <li><a class="dropdown-item" href="Karnataka.html">Karnataka</a></li>
+                                    <li><a class="dropdown-item" href="Kerala.html">Kerala</a></li>
+                                    <li><a class="dropdown-item" href="Madhya Pradesh.html">Madhya Pradesh</a></li>
+                                    <li><a class="dropdown-item" href="Maharashtra.Html">Maharashtra</a></li>
+                                    <li><a class="dropdown-item" href="Manipur.html">Manipur</a></li>
+                                    <li><a class="dropdown-item" href="Meghalaya.html">Meghalaya</a></li>
+                                    <li><a class="dropdown-item" href="Mizoram.html">Mizoram</a></li>
+                                    <li><a class="dropdown-item" href="Nagaland.html">Nagaland</a></li>
+                                </div>
+                                <div class="col">
+                                    <li><a class="dropdown-item" href="Orissa.html">Odisha</a></li>
+                                    <li><a class="dropdown-item" href="Punjab.html">Punjab</a></li>
+                                    <li><a class="dropdown-item" href="Rajasthan.html">Rajasthan</a></li>
+                                    <li><a class="dropdown-item" href="Sikkim.html">Sikkim</a></li>
+                                    <li><a class="dropdown-item" href="Tamil Nadu.html">Tamil Nadu</a></li>
+                                    <li><a class="dropdown-item" href="Telangana.html">Telangana</a></li>
+                                    <li><a class="dropdown-item" href="Tripura.html">Tripura</a></li>
+                                    <li><a class="dropdown-item" href="Uttar Pradesh.html">Uttar Pradesh</a></li>
+                                    <li><a class="dropdown-item" href="Uttarakhand.html">Uttarakhand</a></li>
+                                </div>
+                                <div class="col">
+                                    <li><a class="dropdown-item" href="West Bengal.html">West Bengal</a></li>
+                                    <li><a class="dropdown-item" href="">Andaman and Nicobar Islands</a></li>
+                                    <li><a class="dropdown-item" href="Chandigrah.html">Chandigarh</a></li>
+                                    <li><a class="dropdown-item" href="">Dadra and Nagar Haveli and Daman and Diu</a></li>
+                                    <li><a class="dropdown-item" href="Delhi.html">Delhi</a></li>
+                                    <li><a class="dropdown-item" href="Jammu and Kashmir.html">Jammu & Kashmir</a></li>
+                                    <li><a class="dropdown-item" href="Ladakh.html">Ladakh</a></li>
+                                    <li><a class="dropdown-item" href="Lakshadweep.html">Lakshadweep</a></li>
+                                    <li><a class="dropdown-item" href="Puducherry.html">Puducherry</a></li>
+                                </div>
+                            </div>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="row title">
+            <h1>Formation of Ladakh</h1>
+        </div>
+        <div class="row custom-row">
+            <div class="col-sm-9 para">
+                <h3> Early Demands for Autonomy
+                </h3>
+                    <p>
+                        Modern political demands for Ladakhi autonomy and separation of Ladakh from Jammu and Kashmir began around the same time as Indian Independence and Kashmir’s accession to India. In 1947, the Ladakh Buddhist Association (LBA) made three proposals to Maharaja Hari Singh, the ruler of Jammu and Kashmir, for the future of Ladakh:<ul>
+
+                            <li>The Maharaja rules Ladakh directly; or</li>
+                            <li>Ladakh merges with the Hindu majority parts of Jammu and forms a separate province; or</li>
+                            <li>Ladakh merges with East Punjab. </li></ul>
+                    </p>
+                    <p>        
+                            In May 1949, prior to Prime Minister Jawaharlal Nehru’s visit to Ladakh, the LBA made its first official demand for regional autonomy and for Ladakh’s right to self-determination. In its memorandum to the prime minister, the LBA declared Ladakh as ‘a separate nation by all the tests— race, language, religion, culture’ and reiterated its previous three proposals.
+                            
+                            It also specified that it had presented the first two proposals as a formality, and what it really wanted for Ladakh was a separation from Kashmir and a ‘direct merger with India’. The LBA’s definition of Ladakh was Buddhist and differentiated along religious lines from ‘the people of Baltistan including Skardu and parts of Kargil tehsils predominantly populated by Muslims . . . nor by the people of Gilgit’. Although Nehru was sympathetic, he refused to make any specific arrangement for Ladakh, given the situation at the time in Jammu and Kashmir.<br>
+                            A second delegation also made a pitch to Nehru in May 1949. This delegation was led by the 19th Kushok Bakula Rinpoche, Thupstan Chognor, who was the head of the Gelugpa branch of Tibetan Buddhism in Ladakh. It protested the Kashmir-dominated administration of Ladakh and argued that, with Indian Independence and the Lapse of Paramountcy, ‘Ladakh was free to choose its own destiny’. It demanded a direct merger with India, failing which it hinted at a possible reunification with Tibet.
+                            When Nehru did visit Ladakh in July 1949 along with Jammu and Kashmir Prime Minister Sheikh Abdullah, they appointed Kushok Bakula Rinpoche as the district president of the Jammu and Kashmir National Conference (JKNC), of which Sheikh Abdullah was the president.
+                            However, in 1953, during a budget session, Bakula Rinpoche attacked and condemned the Jammu and Kashmir state government, demanding that the Centre protect Ladakh since ‘Ladakh is not communal, but the state is’.
+                            While his speech received widespread national media coverage, it failed to secure any discernible action from the Union government, whose hands were tied by the larger issue of the disputed status of Jammu and Kashmir.
+                                                      
+                    </p>
+            </div>
+            <div class="col-sm-3">
+                <div class="image">
+                    <img src="" alt="">
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="row custom-row">
+            <div class="col-sm-8 para">
+                <h3>Jammu and Kashmir’s Constitutional Journey
+                </h3>
+                <p>
+                    From May to October 1949, four members, including Sheikh Abdullah of the JKNC, which led the interim government in Jammu and Kashmir, represented the state in India’s constituent assembly that debated and drafted India’s Constitution. In June 1949, Maharaja Hari Singh handed
+
+                    over the reins of his princely state to his eighteen-year-old son, Karan Singh. India completed drafting its Constitution by October 1949 and formally adopted it on 26 January 1950. Jammu and Kashmir was included as a Part B state.
+                    Article 370 was included in the Constitution of India as a way to preserve Jammu and Kashmir’s autonomy. The President of India, in concurrence with the constituent assembly of Jammu and Kashmir, could alter Article
+                    370. The constituent assembly would draft the state Constitution and also decide if the state should accede to India beyond the three subjects in the Instrument of Accession. The operational head of the administration— Sheikh Abdullah—was called the prime minister while the nominal constitutional head of the state—Maharaja Karan Singh—was called the Sadar-e-Riyasat.<br> 
+                    In July 1952, government officials of India (led by Nehru) and Jammu and Kashmir (led by Sheikh Abdullah) announced the Delhi Agreement. Jammu and Kashmir was a constituent unit like any other. Kashmiris would hold full Indian citizenship. Only ‘permanent residents’ as defined by an existing state law would be allowed to purchase land and immovable property in Kashmir. The Sadar-e-Riyasat would be recognized by and hold office ‘during the pleasure of the President’of India. The President also held emergency powers but only if requested by the state assembly.
+                    On 14 May 1954, the Indian President Rajendra Prasad issued a Presidential Order under Article 370 that ratified the modifications agreed upon in the Delhi Agreement. Called the Constitution (Application to Jammu and Kashmir) Order, 1954, it became the basis for the functioning of the relationship between India and Jammu and Kashmir. It extended many parts of the Indian Constitution to the state of Jammu and Kashmir, including fundamental rights and the powers of the Indian Union’s legislative, executive and judicial organs, as well as relations on finance, trade and commerce. It also added Article 35A to the Indian Constitution defining the ‘permanent residents’ of Jammu and Kashmir. <br>
+                    On 17 November 1956, Jammu and Kashmir adopted the State Constitution, which came into force on 26 January 1957. It declared up
+                    
+                    front that, ‘The State of Jammu and Kashmir is and shall be an integral part of the Union of India’. Article 370 became the tunnel—rather than a wall or a mountain—that connected Jammu and Kashmir to India, according to Union Home Minister Gulzari Lal Nanda. Prime Minister Nehru viewed Article 370 as a transitional provisional arrangement rather than a permanent part of the Constitution and felt it was being eroded by later amendments to the State Constitution. 
+                                          
+                </p>
+            </div>
+            <div class="image col-sm-4">
+                <img src="" alt="" >
+            </div>
+        </div>
+        <hr>
+        <div class="row custom-row">
+            <div class="col-sm-9 para">
+                <h3>Ladakhi Autonomy
+
+                    
+                </h3>
+                <p>
+                    In the 1960s, a younger, more radical movement for Ladakhi autonomy began to emerge. This culminated in a communal agitation in mid-1969 with a number of political demands, including Scheduled Tribes status for Ladakhis and union territory status for Ladakh to protect its identity. However, except for minor concessions like giving a cabinet post to Sonam Wangyal, a close colleague of Bakula Rinpoche, these larger demands remained unmet.
+                  In July 1979, Ladakh was split into two districts—Kargil and Leh. Kargil was a Muslim-majority district, while Leh became a Buddhist-majority district. 
+                    In July 1989, following a clash between Muslims and Buddhists, the LBA alleged that Ladakh had always been treated as a colony and Ladakhis were being neglected—socially, politically and economically—as ‘third- rate citizens of J&K State’. It launched a movement called the Ladakh People’s Movement for Union Territory Status (LPMUTS). The violent insurgency that exploded in the neighbouring Kashmir Valley in 1989 allowed the LBA to position itself as patriotic and non-communal while simultaneously imposing a ‘social boycott’ of Muslims, banning all Buddhists from interacting with Muslims.<br> 
+                  The Union government finally began to make concessions. On 8 October 1989, nearly the entire population of Ladakh was declared as members of eight Scheduled Tribes. Three weeks later, on 29 October, the LBA, the
+
+                     Ladakh Muslim Association (LMA), the Jammu and Kashmir state government, and the Union government met regarding the issue of Ladakhi autonomy. Union territory status was not possible just yet due to the fear that it could further fuel the insurrection in the Kashmir Valley. Instead, the parties agreed to constitute an Autonomous Hill Development Council (AHDC) in Leh and Kargil as an interim measure.
+                       Three years passed and no council was established. The LBA lifted its social boycott of Muslims and joined forces with the LMA to form a coordination committee, consisting of Sunni, Shia, Christian and Buddhist representatives. On 8 September 1992, the coordination committee delivered an ultimatum to the government to establish the AHDC within five weeks, failing which agitations would resume.
+                     A year later, in October 1993, the Union government met with LBA and LMA representatives and resolved the details of the AHDC Act, short of ‘a few minor issues, such as the name for the council’. However, in January 1994, rumours swirled that the draft bill had dropped the word ‘autonomous’. In June 1994, the coordination committee threatened to relaunch the agitation but was pacified by Rajesh Pilot, the minister of state for internal security. The AHDC was rumoured to be imminent through the rest of the year.<br>
+                      Finally, fearing that the Union government might shelve the AHDC plan permanently, the coordination committee relaunched the agitation with a ‘ferocity of public sentiment’in early March 1995. This finally galvanized the Union government into action. Two months later, on 8 May 1995, the Ladakh Autonomous Hill Development Councils Bill was passed and the Act came into effect on 1 June. Leh got its first AHDC in early September 1995. Kargil blocked the creation of the council in its district and only allowed it in July 2003.
+                     Leh viewed the AHDC as an interim measure rather than a final solution. In 2002, all the political parties in Leh unanimously dissolved themselves and joined together to form the Ladakh Union Territory Front (LUTF) to continue to press for union territory status.
+                  
+                </p>
+
+            </div>
+            <div class="col-sm-3 image">
+                <img src="" alt="">
+            </div>
+                
+        </div>
+        <hr>
+        <div class="row custom-row">
+            <div class="col-sm-9 para">
+                <h3>2019: Abrogation and Reorganization
+                </h3>
+                <p>
+                    On 19 June 2018, the chief minister of Jammu and Kashmir, Mehbooba Mufti of the People’s Democratic Party (PDP), resigned. The Bharatiya Janata Party (BJP) had withdrawn its support from the coalition government, reducing it to a minority. The following day, the President of India, Ram Nath Kovind, approved the imposition of Governor’s rule in the state and Governor Narinder Nath Vohra took over the administration.
+                    Governor Vohra then retired on 23 August and President Kovind appointed Satya Pal Malik as the new Governor of Jammu and Kashmir. On 21 November, Governor Malik dissolved the legislative assembly ‘citing horse-trading and lack of stability to form a government’.
+                    As per Article 92 of the State Constitution, Governor’s rule could be in force for only six months. On 19 December, just before his rule expired, Governor Malik recommended the imposition of President’s rule in the state, which President Kovind gave his assent to.<br>
+                    In the May 2019 Lok Sabha elections in India, the BJP won an absolute majority and returned to form the Union government.
+                    On 5 August 2019, President Kovind passed a Presidential Order with the concurrence of the government of the state of Jammu and Kashmir. Called the Constitution (Application to Jammu and Kashmir) Order, 2019 and effective immediately, it ‘superseded’the Presidential Order of 14 May 1954. This order applied all the provisions of the Indian Constitution to Jammu and Kashmir, thereby rendering the State Constitution of November 1956 inoperative. It effectively integrated the state of Jammu and Kashmir fully with India and brought it on an equal footing with the other units of the Indian Union. A further Presidential notification then removed the tunnel of Article 370 and abrogated Article 35A. The ‘permanent residents’ were later redefined as the ‘domiciles’ of Jammu and Kashmir.<br>
+                    The Union government immediately followed this Presidential Order with the Jammu and Kashmir Reorganisation Bill, 2019. The bill proposed
+                    
+                    to reorganize the state of Jammu and Kashmir into two union territories— Jammu and Kashmir, and Ladakh. The Governor of the state would now become the lieutenant governor for both the union territories. Jammu and Kashmir would have a legislative assembly; the provisions of Article 239A that applied to Puducherry would apply to Jammu and Kashmir as well.
+                    Ladakh would not have a legislative assembly and would be administered directly by the President acting through the lieutenant governor. 
+                    Both the Houses of Parliament passed the Bill with a majority vote in two days and President Kovind gave his assent to the Act on 9 August. The Jammu and Kashmir Reorganisation Act came into effect on 31 October 2019 and resulted in two new union territories in place of one state.
+                       
+                </p>
+
+            </div>
+            <div class="col-sm-3 image">
+                <img src="" alt="">
+            </div>                
+        </div>
+        <hr>
+        
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

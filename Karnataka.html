@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Protest+Strike&display=swap" rel="stylesheet">
+    <style>
+        .custom-dropdown-menu {
+            width: 1000px; 
+            max-height: 310px;
+            overflow-y: auto; 
+        }
+        .navbar-nav .nav-link {
+            font-size: 20px;
+        }
+        .navbar-nav .nav-item {
+            margin-right: 30px;
+        }
+        .ind-1947{
+            height: 450px;
+        }
+        .image img{
+            padding-top:25px;
+            height: 100%;
+            width : 100%;
+        }
+        .title h1{
+            padding-top:30px;
+            padding-bottom: 30px;
+            font-family: 'Protest Strike', sans-serif;
+            font-size: 60px;
+        }
+        .para h3{
+            font-family: 'Protest Strike', sans-serif;
+            padding-bottom: 10px;
+        }
+        .para p{
+            text-align: justify;
+            font-size: large;         
+        }
+        .custom-row{
+            align-items: start;
+        }
+        .para ul{
+            text-align:justify;
+            font-size:large;
+        }
+    </style>
+    <title></title>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="img/Logo.png" alt="Logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="introduction.html">Intro</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link active dropdown-toggle"  id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            States
+                        </a>
+                        <ul class="dropdown-menu custom-dropdown-menu" aria-labelledby="navbarDropdown">
+                            <div class="row">
+                                <div class="col">
+                                    <li><a class="dropdown-item" href="Andhra Pradesh.html">Andhra Pradesh</a></li>
+                                    <li><a class="dropdown-item" href="Arunachal Pradesh.html">Arunachal Pradesh</a></li>
+                                    <li><a class="dropdown-item" href="Assam.html">Assam</a></li>
+                                    <li><a class="dropdown-item" href="Bihar.html">Bihar</a></li>
+                                    <li><a class="dropdown-item" href="Chhattisgrah.html">Chhattisgarh</a></li>
+                                    <li><a class="dropdown-item" href="Goa.html">Goa</a></li>
+                                    <li><a class="dropdown-item" href="Gujarat.html">Gujarat</a></li>
+                                    <li><a class="dropdown-item" href="Haryana.html">Haryana</a></li>
+                                    <li><a class="dropdown-item" href="Himachal Pradesh.html">Himachal Pradesh</a></li>
+                                </div>
+                                <div class="col">
+                                    <li><a class="dropdown-item" href="Jharkhand.html">Jharkhand</a></li>
+                                    <li><a class="dropdown-item" href="Karnataka.html">Karnataka</a></li>
+                                    <li><a class="dropdown-item" href="Kerala.html">Kerala</a></li>
+                                    <li><a class="dropdown-item" href="Madhya Pradesh.html">Madhya Pradesh</a></li>
+                                    <li><a class="dropdown-item" href="Maharashtra.Html">Maharashtra</a></li>
+                                    <li><a class="dropdown-item" href="Manipur.html">Manipur</a></li>
+                                    <li><a class="dropdown-item" href="Meghalaya.html">Meghalaya</a></li>
+                                    <li><a class="dropdown-item" href="Mizoram.html">Mizoram</a></li>
+                                    <li><a class="dropdown-item" href="Nagaland.html">Nagaland</a></li>
+                                </div>
+                                <div class="col">
+                                    <li><a class="dropdown-item" href="Orissa.html">Odisha</a></li>
+                                    <li><a class="dropdown-item" href="Punjab.html">Punjab</a></li>
+                                    <li><a class="dropdown-item" href="Rajasthan.html">Rajasthan</a></li>
+                                    <li><a class="dropdown-item" href="Sikkim.html">Sikkim</a></li>
+                                    <li><a class="dropdown-item" href="Tamil Nadu.html">Tamil Nadu</a></li>
+                                    <li><a class="dropdown-item" href="Telangana.html">Telangana</a></li>
+                                    <li><a class="dropdown-item" href="Tripura.html">Tripura</a></li>
+                                    <li><a class="dropdown-item" href="Uttar Pradesh.html">Uttar Pradesh</a></li>
+                                    <li><a class="dropdown-item" href="Uttarakhand.html">Uttarakhand</a></li>
+                                </div>
+                                <div class="col">
+                                    <li><a class="dropdown-item" href="West Bengal.html">West Bengal</a></li>
+                                    <li><a class="dropdown-item" href="">Andaman and Nicobar Islands</a></li>
+                                    <li><a class="dropdown-item" href="Chandigrah.html">Chandigarh</a></li>
+                                    <li><a class="dropdown-item" href="">Dadra and Nagar Haveli and Daman and Diu</a></li>
+                                    <li><a class="dropdown-item" href="Delhi.html">Delhi</a></li>
+                                    <li><a class="dropdown-item" href="Jammu and Kashmir.html">Jammu & Kashmir</a></li>
+                                    <li><a class="dropdown-item" href="Ladakh.html">Ladakh</a></li>
+                                    <li><a class="dropdown-item" href="Lakshadweep.html">Lakshadweep</a></li>
+                                    <li><a class="dropdown-item" href="Puducherry.html">Puducherry</a></li>
+                                </div>
+                            </div>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="row title">
+            <h1>Formation of Karnataka</h1>
+        </div>
+        <div class="row custom-row">
+            <div class="col-sm-9 para">
+                <h3> The Jigsaw Puzzle of Karnataka</h3>
+                    <p>
+                        The different pieces that form the state of Karnataka came together physically over a period of nearly ten years. 150 years of divisive British administration policies in the region had scattered Kannada speakers over a wide number of different administrative regions—up to twenty, by some estimates. At the time of Independence in 1947, the five largest and most influential administrations that held Kannada speakers were (in no particular order):
+                        <ul>
+                            <li> Mysore State (Kannada-dominant);</li>
+                            <li>Hyderabad State (Urdu- and Telugu-dominant); </li>
+                            <li>Madras Presidency (Tamil- and Telugu-dominant); </li>
+                            <li>Bombay Presidency (Marathi-dominant); </li>
+                            <li>Coorg (Kodava- and Kannada-dominant). </li> 
+                        </ul></p>
+                      <p>  However, while they had been physically separated, the singular thread of Kannada continued to bind them together. In 1920, the Ekikarana Movement, whose objective was the unification of all the Kannada- speaking regions, passed a resolution calling for the same. In the same year, the Indian National Congress (INC)—then the largest and most influential representative of the Indian people—accepted the linguistic redistribution of provinces as ‘a clear political objective’ at its session in Nagpur. In 1927, the INC expressed the opinion that Andhra, Utkal, Sind and Karnataka could be constituted into separate provinces on the basis of the people speaking the same language and following the same traditions and culture. At its Calcutta session in 1937 and in its 1938 Wardha resolution, the INC recommended the formation of Andhra and Karnataka and assured to undertake it as soon as they had the power to do so. The linguistic and cultural basis for constituting administrative provinces was included in the Congress election manifesto of 1945–46. 
+                        
+                    </p>
+            </div>
+            <div class="col-sm-3">
+                <div class="image">
+                    <img src="img/karnataka.jpg" alt="">
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="row custom-row">
+            <div class="col-sm-8 para">
+                <h3>Piece 1/6: The Princely State of Mysore, 1947 (Nine Districts)</h3>
+                <p>
+                    IThe most urgent matter at hand for the newly-birthed Union of India was to ensure accession and allegiance of all the princely states, since they had all been given the option to decide their own fate—to join India, to join Pakistan, or to remain independent.
+                    The princely state of Mysore was one of the first to accede to integrate with the Union of India. The then-Maharaja, Jayachamarajendra Wodeyar, twenty-eight years old at the time of Independence, signed in quick succession and with no fuss the Instrument of Accession and the Standstill Agreement. The constituent assembly set up to frame a constitution for the state recommended adopting the Indian Constitution. The region was renamed Mysore State and was classified as a Part B state. Maharaja Jayachamarajendra Wodeyar was appointed Rajpramukh (Governor).
+                    The first physical piece of Karnataka had been placed on the map, containing nine districts. Now, the other pieces needed to be attached to form a unified Karnataka. However, a problem arose. Mysore State no longer desired unification with the less-prosperous districts to its north.
+                    
+                </p>
+            </div>
+            <div class="image col-sm-4">
+                <img src="img/mysore.jpg" alt="" >
+            </div>
+        </div>
+        <hr>
+        <div class="row para">
+                <h3>
+                    Piece 2/6: Bellary, 1953 (One District)
+                </h3>
+                <p>
+                    The intellectual epicentres of the Ekikarana Movement were almost entirely in the arid districts situated in Bombay State and Hyderabad State, while the economic wealth rested in Mysore State in the south. Moreover, the two regions were split across religious lines, with Vokkaligas forming the majority in Mysore State and Lingayats forming the majority in the regions outside Mysore State. Hence, to avoid straining its resources and diluting its wealth and political influence, Mysore State advocated creating a separate Kannada State by combining all the northern districts, essentially creating two Karnatakas.
+                    <br>
+                    The unification of Karnataka was further hampered by the new position of the INC post-Independence. Prime Minister Jawaharlal Nehru maintained that ‘this would obviously be the wrong time’7 to form linguistic provinces, as desirable as they may be, since consolidation of the country was more important. In its December 1948 report, the Linguistic Provinces Commission, also known as the Dhar Commission, recommended against a linguistic reorganization. The JVP Committee set up to study the recommendations of the Dhar Commission also rejected a linguistic redrawing of the borders in April 1949. This committee carried considerable weight as its members were possibly the three most powerful people in the country then—Jawaharlal Nehru (Prime Minister of India), Vallabhbhai Patel (Deputy Prime Minister of India) and Pattabhi Sitaramayya (Congress President).<br>
+                    The 1951 election manifesto of the Congress declared that the wishes of the people concerned would play a major role in the decision to reorganize states, but so would non-linguistic factors, like economic, administrative and financial. The reticence of Mysore State in integrating with the districts to its north stalled the proposal for the formation of a larger unified Karnataka State.
+                     
+                    To the east of Mysore State, the Telugu population of Madras Presidency began to demand a separate state for themselves. Their protests succeeded and on 1 October 1953, the new Andhra State was created out of the eleven northern districts of Madras State. As a result of the creation of Andhra State, nearly the entire district of Bellary, which had been a part of Madras State, was integrated with Mysore State. This gave Mysore State its tenth district as well as a state border with Hyderabad State.
+                    The creation of Andhra State rippled across the country and led the government to set up a States Reorganisation Commission (SRC) a mere two months later to look into redrawing state boundaries for the entire country. The SRC published its report towards the end of 1955 with recommendations for every state.<br>
+                    Regarding Mysore State (or what the SRC called ‘Karnataka’), it viewed the opposition to unification as recent and tentative. Deeming that the majority were in favour of unification, it suggested the creation of a single unified Karnataka State. On the basis of this report, the States Reorganisation Act was passed and came into force on 1 November 1956, giving Mysore State its remaining jigsaw pieces from four different administrative regions. 1 November is also celebrated as Rajyotsava Day (State Festival Day) across the state to celebrate its formation.
+                    
+                </p>
+                
+        </div>
+        <hr>
+        <div class="row para">
+            
+                <h3>
+                    Piece 3/6: Bombay Karnataka, 1956 (Four Districts)
+                </h3>
+                <p>
+                    The four districts of the Bombay–Karnataka region to be integrated were Belgaum, Bijapur, Dharwar and North Canara. These districts were some of the intellectual epicentres that had birthed and sustained the Ekikarana Movement, which had been instrumental in the birth of a unified Karnataka. Now, they formed the northern districts of Mysore State. The district of North Canara also gave the previously landlocked Mysore State its northern coastline
+
+                </p>
+
+                          
+        </div>
+        <hr>
+        <div class="row custom-row">
+            <div class="col-sm-9 para">
+                <h3>
+                    Piece 4/6: Hyderabad Karnataka, 1956 (Three Districts)
+                </h3>
+                <p>
+                    When the States Reorganisation Act was enacted, the shape of nearly every state changed. Some got larger, some smaller, and some states ceased to exist entirely. Hyderabad State fell in the last category. It was apportioned into three sections and attached to neighbouring states. The Telugu- dominant southern districts went to Andhra State, the Marathi-dominant western districts went to Bombay State, and the three Kannada-dominant South-western districts of Raichur, Gulbarga and Bidar integrated with Mysore State. In addition to celebrating Rajyotsava Day on 1 November, these districts also celebrate Liberation Day on 17 September every year to commemorate the date in 1948 when Hyderabad State was integrated into the Union of India. On the seventy-second Liberation Day in 2019, the name of the Hyderabad–Karnataka region was officially changed to Kalyana Karnataka. 
+                </p>
+
+            </div>
+            <div class="col-sm-3 image">
+                <img src="img/Mysore_1956.jpg" alt="">
+            </div>
+                
+        </div>
+        <hr>
+        <div class="row para">
+                <h3>
+                    Piece 5/6: South Canara, 1956 (One District)
+                </h3>
+                <p>
+                    Madras State, which had already given Bellary to Mysore State in 1953, now also gave up South Canara district and a taluk of Coimbatore district. This gave Mysore State its southern coastline and took it from being a landlocked state to having the seventh-longest coastline in the country.
+                </p>
+
+            
+                
+        </div>
+        <hr>
+        <div class="row  para">
+           
+                <h3>
+                    Piece 6/6: Coorg, 1956 (One District)
+                </h3>
+                <p>
+                    At the time of Independence in 1947, Coorg was a province. It continued as Coorg Province in the Union of India until 1950, when it became Coorg State in the Republic of India. It was given the status of a Part C state, meaning it would be centrally administered by the President of India through a chief commissioner appointed as an acting agent.
+ 
+                    The SRC grappled with the issue of Part C states as a whole, a set-up that they found unsatisfactory. Most Part C states were very small in size. While this gave them an advantage in running a more personal and nimble administration, that was outweighed by concerns of personal fiefdoms and heavier-than-required economic costs. In fact, the SRC felt that Coorg was the only Part C state that had been able to independently carry on ‘a reasonable system of administration without central assistance’.<br>
+                    Further, most Part C states had a cultural, linguistic and economic link with an adjoining larger state. This was the case with Coorg as well. It was smaller and more lightly populated than many districts. Kannada-speaking people formed 35 per cent of its population, larger than even Kodava- speakers at 29 per cent (which was considered by some authorities to be a dialect of Kannada). Culturally, Coorg was seen by the SRC to have more links with Karnataka than with Kerala (who had also put forward a claim on Coorg). Geographically, Coorg formed a part of Malnad which belonged essentially to Karnataka, in the view of the SRC. Moreover, the 1948 Dhar Commission had also suggested that a unified Karnataka State would help solve the problem of Coorg’s ‘difficult and isolated existence’.<br>
+                    And so, Coorg was integrated into Mysore State. To respect the distinct identity of its people, Coorg was demarcated as a separate district
+                    
+                </p>
+
+            
+                
+        </div>
+        <hr>
+        <div class="row custom-row">
+            <div class="col-sm-9 para">
+                <h3>
+                    Naming Karnataka, 1973
+                </h3>
+                <p>
+                    Even though the state had been unified and the jigsaw puzzle completed, its official name was still Mysore State, named after the first piece of the jigsaw puzzle. After the States Reorganisation Act, 1956, the area of the state and the number of districts it contained had doubled. The name ‘Mysore State’ didn’t resonate as much with the newer districts. Moreover, the northern districts had been instrumental in founding and propagating the Karnataka Ekikarana Movement.
+                    And so, on 1 November 1973, the eighteenth Karnataka Rajyotsava Day, Chief Minister Devaraj Urs renamed Mysore State as Karnataka.  
+
+                </p>
+
+            </div>
+            <div class="col-sm-3 imag ">
+                <img src="img/devaraj urs(karnatak.jpg" alt="" >
+            </div>
+                
+        </div>
+        <hr>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

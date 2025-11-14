@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Protest+Strike&display=swap" rel="stylesheet">
+    <style>
+        .custom-dropdown-menu {
+            width: 1000px; 
+            max-height: 310px;
+            overflow-y: auto; 
+        }
+        .navbar-nav .nav-link {
+            font-size: 20px;
+        }
+        .navbar-nav .nav-item {
+            margin-right: 30px;
+        }
+        .ind-1947{
+            height: 450px;
+        }
+        .image img{
+            padding-top:25px;
+            height: 100%;
+            width : 100%;
+        }
+        .title h1{
+            padding-top:30px;
+            padding-bottom: 30px;
+            font-family: 'Protest Strike', sans-serif;
+            font-size: 60px;
+        }
+        .para h3{
+            font-family: 'Protest Strike', sans-serif;
+            padding-bottom: 10px;
+        }
+        .para p{
+            text-align: justify;
+            font-size: large;         
+        }
+        .custom-row{
+            align-items: start;
+        }
+    </style>
+    <title></title>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="img/Logo.png" alt="Logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="introduction.html">Intro</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link active dropdown-toggle"  id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            States
+                        </a>
+                        <ul class="dropdown-menu custom-dropdown-menu" aria-labelledby="navbarDropdown">
+                            <div class="row">
+                                <div class="col">
+                                    <li><a class="dropdown-item" href="Andhra Pradesh.html">Andhra Pradesh</a></li>
+                                    <li><a class="dropdown-item" href="Arunachal Pradesh.html">Arunachal Pradesh</a></li>
+                                    <li><a class="dropdown-item" href="Assam.html">Assam</a></li>
+                                    <li><a class="dropdown-item" href="Bihar.html">Bihar</a></li>
+                                    <li><a class="dropdown-item" href="Chhattisgrah.html">Chhattisgarh</a></li>
+                                    <li><a class="dropdown-item" href="Goa.html">Goa</a></li>
+                                    <li><a class="dropdown-item" href="Gujarat.html">Gujarat</a></li>
+                                    <li><a class="dropdown-item" href="Haryana.html">Haryana</a></li>
+                                    <li><a class="dropdown-item" href="Himachal Pradesh.html">Himachal Pradesh</a></li>
+                                </div>
+                                <div class="col">
+                                    <li><a class="dropdown-item" href="Jharkhand.html">Jharkhand</a></li>
+                                    <li><a class="dropdown-item" href="Karnataka.html">Karnataka</a></li>
+                                    <li><a class="dropdown-item" href="Kerala.html">Kerala</a></li>
+                                    <li><a class="dropdown-item" href="Madhya Pradesh.html">Madhya Pradesh</a></li>
+                                    <li><a class="dropdown-item" href="Maharashtra.Html">Maharashtra</a></li>
+                                    <li><a class="dropdown-item" href="Manipur.html">Manipur</a></li>
+                                    <li><a class="dropdown-item" href="Meghalaya.html">Meghalaya</a></li>
+                                    <li><a class="dropdown-item" href="Mizoram.html">Mizoram</a></li>
+                                    <li><a class="dropdown-item" href="Nagaland.html">Nagaland</a></li>
+                                </div>
+                                <div class="col">
+                                    <li><a class="dropdown-item" href="Orissa.html">Odisha</a></li>
+                                    <li><a class="dropdown-item" href="Punjab.html">Punjab</a></li>
+                                    <li><a class="dropdown-item" href="Rajasthan.html">Rajasthan</a></li>
+                                    <li><a class="dropdown-item" href="Sikkim.html">Sikkim</a></li>
+                                    <li><a class="dropdown-item" href="Tamil Nadu.html">Tamil Nadu</a></li>
+                                    <li><a class="dropdown-item" href="Telangana.html">Telangana</a></li>
+                                    <li><a class="dropdown-item" href="Tripura.html">Tripura</a></li>
+                                    <li><a class="dropdown-item" href="Uttar Pradesh.html">Uttar Pradesh</a></li>
+                                    <li><a class="dropdown-item" href="Uttarakhand.html">Uttarakhand</a></li>
+                                </div>
+                                <div class="col">
+                                    <li><a class="dropdown-item" href="West Bengal.html">West Bengal</a></li>
+                                    <li><a class="dropdown-item" href="">Andaman and Nicobar Islands</a></li>
+                                    <li><a class="dropdown-item" href="Chandigrah.html">Chandigarh</a></li>
+                                    <li><a class="dropdown-item" href="">Dadra and Nagar Haveli and Daman and Diu</a></li>
+                                    <li><a class="dropdown-item" href="Delhi.html">Delhi</a></li>
+                                    <li><a class="dropdown-item" href="Jammu and Kashmir.html">Jammu & Kashmir</a></li>
+                                    <li><a class="dropdown-item" href="Ladakh.html">Ladakh</a></li>
+                                    <li><a class="dropdown-item" href="Lakshadweep.html">Lakshadweep</a></li>
+                                    <li><a class="dropdown-item" href="Puducherry.html">Puducherry</a></li>
+                                </div>
+                            </div>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="row title">
+            <h1>Formation of Jammu and Kashmir</h1>
+        </div>
+        <div class="row custom-row">
+            <div class="col-sm-9 para">
+                <h3> 1947: Acceding to the Indian Union
+                </h3>
+                    <p>
+                        As Indian Independence approached, the ruler of the princely state of Kashmir (also known as Jammu and Kashmir), Maharaja Hari Singh of the Dogra dynasty, was wracked by indecision. He could not decide between the three options that lay before him: accede to India, accede to Pakistan, or declare Kashmir as a separate independent nation. Through the fateful months of June to October 1947, the Hindu Maharaja who ruled over a predominantly Muslim population in one of the largest princely states in British India decided to hope ‘for the best, while continuing to do nothing’.
+                        When the Partition of India was decided upon and accepted in early June 1947, Kashmir sat at the crossroads of the future countries of India and Pakistan. In early July, Cyril Radcliffe, a British lawyer, was shipped to India and asked to draw the boundary line between India and Pakistan. He was given five weeks. His boundary line, published in August, cut through Punjab, Rajasthan and Gujarat in the west, and Bengal, Assam and Tripura
+                        
+                        in the east. Radcliffe did not have to consider the boundaries of Kashmir as its ruler would determine its future.
+                        Except, Maharaja Hari Singh didn’t. And then his future was determined for him.<br>
+                        The princely state of Kashmir contained four natural geographic regions: Jammu in the south, Kashmir Valley and the city of Srinagar in the centre, the mountainous Gilgit–Baltistan in the north and north-west, and the plateau of Ladakh in the east. Its religious composition, too, was divided by region. The north and west was predominantly Muslim, the south was more Hindu and Sikh, and the east was largely Buddhist and Muslim. Kashmir also sat gingerly at the confluence of four international regions: Tibet to the east, China to the north-east, Afghanistan to the north and Pakistan to the west.
+                        The political situation within Kashmir in 1947 was volatile, but the Maharaja ‘grievously misjudged’ it, according to his son (and later member of the Lok Sabha), Karan Singh. A popular movement for representative government was spearheaded by the Jammu and Kashmir National Conference (JKNC, previously known as Jammu and Kashmir Muslim Conference) led by Sheikh Abdullah. However, the movement itself was divided along multiple lines—for instance, between the Hindus, Muslims, Sikhs and Buddhists, or between the Kashmiri Muslims, Jammu Muslims and Punjabi Muslims. <br>Moreover, Sheikh Abdullah and a number of JKNC leaders had been in prison since the autumn of 1946 for demanding the Dogra monarchy to ‘Quit Kashmir’.
+                        Kashmir’s mountainous geography in its north-west flowed into Pakistan.
+                        Its infrastructure at the time, its road and river communications and transportation of forest resources like timber—which constituted a considerable portion of the state’s revenue—were almost entirely with Pakistan, while there was just a single road that connected Kashmir to India.3 Pakistan’s Governor-General Muhammad Ali Jinnah even declared that ‘Kashmir will fall into our laps like ripe fruit’. On the other hand, Sheikh Abdullah enjoyed a close personal friendship with the Indian Prime Minister Jawaharlal Nehru and even ‘appeared to be publicly pro-India’.
+                        <br>
+                        
+                        Maharaja Hari Singh, meanwhile, was neither a friend of Nehru’s nor a believer in the idea of an Islamic state; he wanted to protect his own power.
+                        In the third week of June 1947, the Viceroy and Governor-General of India, Louis Mountbatten, went to Kashmir to meet the Maharaja. Over the course of four days and multiple meetings, Mountbatten insisted that accession to either side, and not independence, was the future for Kashmir. Both Pakistan and India were equally viable and available options to the Maharaja—Mountbatten said he had ‘firm assurance on this’from States Minister Sardar Vallabhbhai Patel himself—but he would have to choose a side before 15 August to avoid trouble. However, Maharaja Hari Singh evaded making a decision on the matter and even feigned a stomach ailment so he could cancel his last meeting with Mountbatten.
+                        The Maharaja’s ‘notorious vacillations’irritated Sardar Patel. <br>In a letter to the Maharaja on 3 July 1947, Sardar Patel assured him that the interests of Kashmir lay in ‘joining the Indian Union without delay’and that Kashmir’s past history and tradition demanded it. ‘All India looks up to you and expects you to take this decision,’ he wrote.
+                        The Indian Prime Minister Jawaharlal Nehru had an emotional attachment to Kashmir; it ‘meant more to him at the time than anything else’. In the weeks leading up to Independence, Nehru considered going to Kashmir himself to take matters into his own hands. This alarmed top Indian government officials, including Viceroy Louis Mountbatten, who felt that a visit to Kashmir then by the prime minister—who was ‘under very great strain’—could only produce ‘a most explosive situation’. Eventually, Nehru was convinced to stay in Delhi and Mahatma Gandhi went to Kashmir in his stead.<br>
+                        On 12 August 1947, with Independence and Partition at the doorstep, the Maharaja negotiated and signed a Standstill Agreement with Pakistan. India didn’t sign a Standstill Agreement, though. According to the secretary of the States Ministry, V.P. Menon, Kashmir had ‘its own peculiar problems’and India wanted to examine the implications of signing the agreement.
+                        Moreover, India’s hands were already full and Menon had simply no time to
+                        
+                        think of Kashmir. Three days later, three independent nations stood where there had been none—India, Pakistan and Kashmir.
+                        Almost immediately, Pakistan began breaching the Standstill Agreement it had signed with Kashmir in an attempt to force its accession. Pakistan cut off the supply of food, petrol and other essential commodities, and stopped the railway service from Sialkot to Jammu. Travellers could no longer freely move between Pakistan and Kashmir. The 700 km-long border between the two nations saw an increased number of hit-and-run raids, forcing Maharaja Hari Singh to stretch out his troops and thin out his defences. Pakistan applied diplomatic pressure too, sending a representative to Srinagar to gain Kashmir’s accession.
+                        <br>In August 1947, the Muslims in the Poonch region of western Jammu started an uprising against the Maharaja. The Poonch Muslims had been living ‘under a system of dual oppression’of Maharaja Hari Singh and the Raja of Poonch. The Dogra army retaliated to the uprising violently, and simmering discontent erupted into full-scale revolt. Local leaders organized the Poonch Muslims into the Azad Army with two objectives: to free Poonch from Dogra rule, and to merge Poonch with Pakistan (with which it shared a border).<br>
+                        Towards the end of September 1947, Nehru believed that Pakistan’s strategy was to infiltrate Kashmir and ‘take some big action’ once the onset of winter isolated it. Sheikh Abdullah was released from prison in an effort to arrive at an agreement between him and the Maharaja, but he continued to demand freedom from the Dogra monarchy before accession to either country. India believed that a plebiscite was a logical solution to Kashmir’s troubles. However, as everyone was soon to find out, the situation on-ground had advanced much too far.
+                        On 22 October 1947, thousands of tribal raiders from Pakistan’s North- west Frontier Province swept into Kashmir in an all-out invasion. This was notoriously difficult terrain to defend; for some eight hundred years, invaders had entered India through this north-western geographical gate. The raiders also came well-equipped with about three hundred lorries, along with mortars, artillery and Mark V mines. India would later discover that
+                        
+                        the General Tariq who masterminded the operation and led the raiders was in reality Major-General Akbar Khan of the Pakistan Army.
+                        The north-western and western frontiers of Kashmir were easily breached. The Muslim soldiers in Kashmir’s state forces deserted and switched sides; they joined the raiders. Large parts of the border areas of Mirpur and Poonch were already under the control of the pro-Pakistan Azad Army, who then went on to declare the formation of the Provisional Azad Government. The raiding forces rode into Uri on their way to Baramulla and Srinagar. On 24 October, they took over the Mohara Power Station and cut the electricity to Srinagar. The raiders announced that they would celebrate Id on 26 October at the Srinagar mosque.<br>
+                        Maharaja Hari Singh sent a desperate appeal for help—arms, ammunition and troops—to the Indian government, which it received on the evening of 24 October. The Defence Committee of India met on the morning of 25 October and decided they needed more information. The secretary of the States Ministry V.P. Menon flew to Srinagar immediately to study and report on the situation. He landed in a deserted Srinagar where vigilantes patrolled street corners and the state police were entirely absent. At the palace, he found the Maharaja in a helpless panic who pleaded for the Government of India to come to the rescue of Kashmir. Srinagar would not be able to hold out for more than two days.
+                        V.P. Menon made quick decisions and took decisive action. He persuaded the Maharaja that flight was the only recourse available to him at that moment. Late that very night, he put the Maharaja and his family and their valuable possessions on a royal convoy driving south to Jammu and to relative safety. It wasn’t a moment too soon, for as Menon returned to the guesthouse and prepared to sleep, he received a phone call in the predawn darkness. Raiders had infiltrated Srinagar, ran the rumours. He had to leave immediately.
+                        The airfield was crowded this time, with everybody trying to leave the city. At first light on 26 October, V.P. Menon’s flight took off and brought him back to Delhi and straight into a Defence Committee meeting. Menon had been unable to collect his thoughts on the flight just a little while earlier
+                        
+                        but was now clear on his position—India must help the Kashmir government. Pakistan was attempting to repeat history by invading from the north. The invasion posed a grave threat to the integrity of India. ‘Srinagar today, Delhi tomorrow,’ said Menon. India had to emphasize to the invaders that this could not be permitted.<br>
+                        Viceroy Louis Mountbatten was firm in his opinion that for India to help Kashmir, Kashmir must first become a part of Indian territory. Maharaja Hari Singh would have to sign an Instrument of Accession with India before any military aid could be sent. This could, however, be a provisional accession conditional to a plebiscite being held after the raiders were driven out and law and order was restored.
+                        V.P. Menon flew to Jammu that very day carrying the Instrument of Accession. Maharaja Hari Singh, despondent and believing that he had lost Kashmir, was ready to accede at once. He signed the Instrument of Accession with India—on the same terms as the rulers of every other princely state that had acceded to India—and handed over control to the Indian government over the three subjects mentioned in the document: communications, external affairs and defence. The Maharaja also wrote a letter to Mountbatten to state that he was immediately setting up an interim government headed by Sheikh Abdullah.
+                        On 26 October 1947, the princely state of Jammu and Kashmir acceded to become a part of Indian territory. India’s military retaliation against the invasion of Kashmir began the very next day.
+                                              
+                    </p>
+            </div>
+            <div class="col-sm-3">
+                <div class="image">
+                    <img src="" alt="">
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="row custom-row">
+            <div class="col-sm-8 para">
+                <h3>A Fluid Constitutional Journey
+                </h3>
+                <p>
+                    The Instrument of Accession that every ruler signed specified that the document did not ‘commit . . . in any way’their princely state to accept any future constitution of India. However, when the Indian Constitution was drawn up, every single ruler accepted it and, in the process, gave up the autonomy of their state in order to fully integrate into India.
+
+                    Except Maharaja Hari Singh of Jammu and Kashmir. The autonomy of his state was important to him. It was also important to Sheikh Abdullah, who now led the interim government, albeit in a different way.
+                    On the eve of 1948, India formally complained to the United Nations about Pakistan’s involvement in Jammu and Kashmir, thereby internationalizing the dispute. On 5 March 1948, the Maharaja issued a proclamation that the state would have its own Constitution drafted by its own constituent assembly. Jammu and Kashmir negotiated the terms of its membership with the Union of India, making it the only state to do so.
+                    From May to October 1949, four members of the JKNC, including Sheikh Abdullah, represented Jammu and Kashmir in India’s constituent assembly that debated and drafted India’s Constitution. Meanwhile, in June 1949, Maharaja Hari Singh handed over the reins of his princely state to his eighteen-year-old son, Karan Singh. India completed drafting its Constitution by October 1949 and formally adopted it on 26 January 1950. Jammu and Kashmir was included as a Part B state.<br>
+                    The Constitution of India carried the result of the negotiations in the form of Article 370, which preserved Jammu and Kashmir’s autonomy. The state would have its own Constitution drafted by its own constituent assembly, as well as its own flag. This constituent assembly could also decide if the state should accede to India beyond the three subjects in the Instrument of Accession. The President of India, in concurrence with the constituent assembly of Jammu and Kashmir, could alter Article 370. The operational head of the administration—Sheikh Abdullah—was called the prime minister while the nominal constitutional head of the state—Maharaja Karan Singh—was called the Sadar-e-Riyasat. 
+                    However, the main opposition party in Jammu and Kashmir, the Praja Parishad, protested and called for complete integration with India with the slogan ‘Ek Vidhan, Ek Pradhan, Ek Nishan’ (One Constitution, One Head of State, One Flag). Led mostly by officials from the Maharaja’s former administration and recently dispossessed Hindu landlords, the Praja Parishad was present mainly in the Hindu-dominated Jammu region and would later merge with the national Bharatiya Jana Sangh party.
+                    
+                    In May 1951, Maharaja Karan Singh convened a constituent assembly with sovereign powers for Jammu and Kashmir. All its members were to be elected on the basis of universal adult franchise. Prior to the constituent assembly elections, the nomination papers of nearly half the Praja Parishad candidates were rejected because of irregularities. Subsequently, the Praja Parishad boycotted the ‘completely rigged election’ and withdrew all its candidates. The JKNC won all the seats to the body unopposed.<br>
+                    The constituent assembly came into being from October 1951. In his opening speech, Sheikh Abdullah expounded on the advantages and disadvantages of the three options that lay before Jammu and Kashmir: accession to India, accession to Pakistan, or becoming an ‘eastern Switzerland’ aloof from, but with friendly relations with both countries. In his speech, Sheikh Abdullah went on to reject independence as ‘impractical’ and accession to Pakistan as ‘immoral’. Jammu and Kashmir would join India, but on its own terms.
+                    In May 1952, after India’s first general elections, Jammu and Kashmir sent ten appointed representatives to the Indian Houses of Parliament—six to the Lok Sabha and four to the Rajya Sabha.
+                    In June 1952, the Jammu and Kashmir constituent assembly unanimously adopted the interim report of the Basic Principles Committee which recommended that the state be wholly democratic with a head of state (Sadar-e-Riyasat) elected every five years instead of a hereditary or dynastic succession. Indian Prime Minister Jawaharlal Nehru noted that along with this decision to depose the Maharaja—whom the President of India recognized as being equal to the Rajpramukh (Governor) of the State
+                    —the constituent assembly must also ‘reaffirm’ Jammu and Kashmir’s accession to India. Nehru then raised wider questions regarding the position of Jammu and Kashmir and its citizens in the Indian Union, and stressed that Kashmir’s relationship with India ‘must be fully clarified’before finalizing their Constitution.<br>
+                    Meanwhile, internally, the state was starting to splinter. Hindu-dominant Jammu began to mistrust and resent the dominance of and exclusion by the Muslim-dominant JKNC based in Kashmir. Buddhist- and Muslim-
+                    
+                    dominant Ladakh regarded the state government as being discriminatory against Ladakhi interests and raised demands for greater autonomy for itself from the state government. Moreover, the JKNC National Conference itself was split into pro-India and pro-independence factions, with Sheikh Abdullah himself courting both options and beginning to favour the latter.
+                    This led to the Delhi Agreement in July 1952 between government officials of India (led by Nehru) and Jammu and Kashmir (led by Sheikh Abdullah). Jammu and Kashmir was a constituent unit like any other. Kashmiris would hold full Indian citizenship. Only ‘permanent residents’ as defined by an existing state law would be allowed to purchase land and immovable property in Kashmir. <br> The Sadar-e-Riyasat would be recognized by and hold office ‘during the pleasure of the President’ of India. The President also held emergency powers but only if requested by the state assembly.
+                    On 8 August 1953, as Sheikh Abdullah grew more vocally in favour of independence, the Sadar-e-Riyasat, Karan Singh, cited ‘serious differences’ in the cabinet and dismissed him and dissolved the council of ministers. Sheikh Abdullah’s deputy, Bakshi Ghulam Mohammad, was appointed as the new prime minister of Jammu and Kashmir.
+                    On 14 May 1954, Indian President Rajendra Prasad issued a Presidential Order under Article 370 that ratified the modifications agreed upon in the Delhi Agreement. Called the Constitution (Application to Jammu and Kashmir) Order, 1954, it became the basis for the functioning of the relationship between India and Jammu and Kashmir. It extended many parts of the Indian Constitution to the state of Jammu and Kashmir, including fundamental rights and the powers of the Indian Union’s legislative, executive and judicial organs, as well as relations on finance, trade and commerce. It also added Article 35A to the Indian Constitution defining the ‘permanent residents’ of Jammu and Kashmir.<br> 
+                    On 17 November 1956, Jammu and Kashmir adopted the State Constitution and the constituent assembly dissolved itself, its work done. The State Constitution, which came into force on 26 January 1957, declared up front that, ‘The State of Jammu and Kashmir is and shall be an integral
+                    
+                    part of the Union of India’. Article 370 became the tunnel—rather than a wall or a mountain—that connected Jammu and Kashmir to India, according to Union Home Minister Gulzari Lal Nanda. Prime Minister Nehru viewed Article 370 as a transitional provisional arrangement rather than a permanent part of the Constitution and felt it was being eroded by later amendments to the State Constitution. 
+                    On 10 April 1965, the Jammu and Kashmir state legislature enacted the Constitution of Jammu and Kashmir (Sixth Amendment) Act to rename the positions of Sadar-e-Riyasat and prime minister as Governor and chief minister, respectively. In the 1967 Indian Lok Sabha elections, Jammu and Kashmir participated directly for the first time, voting for and electing six members of Parliament.
+                                       
+                </p>
+            </div>
+            <div class="image col-sm-4">
+                <img src="" alt="" >
+            </div>
+        </div>
+        <hr>
+        <div class="row custom-row">
+            <div class="col-sm-9 para">
+                <h3>
+                    2019: Abrogation and Reorganization
+
+                </h3>
+                <p>
+                    On 19 June 2018, the Jammu and Kashmir state government—a coalition between the People’s Democratic Party (PDP) and the Bharatiya Janata Party (BJP)—was reduced to a minority after the BJP withdrew its support. Chief Minister Mehbooba Mufti resigned. The following day, the President of India, Ram Nath Kovind, approved the imposition of Governor’s rule in Jammu and Kashmir. Accordingly, Governor Narinder Nath Vohra took over the administration of the state. He then retired on 23 August and President Kovind appointed Satya Pal Malik as the new Governor of Jammu and Kashmir. On 21 November, Governor Malik dissolved the legislative assembly ‘citing horse-trading and lack of stability to form a government’.
+                    According to Article 92 of the State Constitution, Governor’s rule would expire after six months. On 19 December, just before his rule expired, Governor Malik recommended the imposition of President’s rule in the state, which President Kovind gave his assent to.
+                    <br> In the May 2019 Lok Sabha elections in India, the BJP won an absolute majority and returned to form the Union government.
+                    
+                    On 5 August 2019, President Kovind passed a Presidential Order with the concurrence of the government of the state of Jammu and Kashmir. Called the Constitution (Application to Jammu and Kashmir) Order, 2019 and effective immediately, it ‘superseded’ the Presidential Order of 14 May 1954. This order applied all the provisions of the Indian Constitution to Jammu and Kashmir, thereby rendering the State Constitution of November 1956 inoperative. It effectively integrated the state of Jammu and Kashmir fully with India and brought it on an equal footing with the other units of the Indian Union. A further Presidential notification then removed the tunnel of Article 370 and abrogated Article 35A. The ‘permanent residents’ were later redefined as the ‘domiciles’ of Jammu and Kashmir.<br>
+                    The Union government immediately followed this Presidential Order with the Jammu and Kashmir Reorganisation Bill, 2019. The bill proposed to reorganize the state of Jammu and Kashmir into two union territories— Jammu and Kashmir, and Ladakh. The Governor of the state would now become the lieutenant governor for both the union territories. Jammu and Kashmir would have a legislative assembly; the provisions of Article 239A that applied to Puducherry would apply to Jammu and Kashmir as well.
+                    Ladakh would not have a legislative assembly and would be administered directly by the President acting through the lieutenant governor. 
+                    Both the Houses of Parliament passed the bill with a majority vote in two days and President Kovind gave his assent to the Act on 9 August. The Jammu and Kashmir Reorganisation Act came into effect on 31 October 2019 and resulted in two new union territories in the place of one state.
+                                   
+                </p>
+
+            </div>
+            <div class="col-sm-3 image">
+                <img src="" alt="">
+            </div>
+                
+        </div>
+        <hr>
+       
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

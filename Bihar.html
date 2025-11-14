@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Protest+Strike&display=swap" rel="stylesheet">
+    <style>
+        .custom-dropdown-menu {
+            width: 1000px; 
+            max-height: 310px;
+            overflow-y: auto; 
+        }
+        .navbar-nav .nav-link {
+            font-size: 20px;
+        }
+        .navbar-nav .nav-item {
+            margin-right: 30px;
+        }
+        .ind-1947{
+            height: 450px;
+        }
+        .ind-1947 img{
+            height: 100%;
+            width : 100%;
+        }
+        .title h1{
+            padding-top:30px;
+            padding-bottom: 30px;
+            font-family: 'Protest Strike', sans-serif;
+            font-size: 60px;
+        }
+        .para h3{
+            font-family: 'Protest Strike', sans-serif;
+            padding-bottom: 10px;
+        }
+        .para p{
+            text-align: justify;
+            font-size: large;         
+        }
+        .custom-row{
+            align-items: center;
+        }
+        body{
+            margin-bottom: 150px;
+        }
+    </style>
+    <title></title>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="img/Logo.png" alt="Logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="introduction.html">Intro</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle"  id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            States
+                        </a>
+                        <ul class="dropdown-menu custom-dropdown-menu" aria-labelledby="navbarDropdown">
+                            <div class="row">
+                                <div class="col">
+                                    <li><a class="dropdown-item" href="Andhra Pradesh.html">Andhra Pradesh</a></li>
+                                    <li><a class="dropdown-item" href="Arunachal Pradesh.html">Arunachal Pradesh</a></li>
+                                    <li><a class="dropdown-item" href="Assam.html">Assam</a></li>
+                                    <li><a class="dropdown-item" href="Bihar.html">Bihar</a></li>
+                                    <li><a class="dropdown-item" href="Chhattisgrah.html">Chhattisgarh</a></li>
+                                    <li><a class="dropdown-item" href="Goa.html">Goa</a></li>
+                                    <li><a class="dropdown-item" href="Gujarat.html">Gujarat</a></li>
+                                    <li><a class="dropdown-item" href="Haryana.html">Haryana</a></li>
+                                    <li><a class="dropdown-item" href="Himachal Pradesh.html">Himachal Pradesh</a></li>
+                                </div>
+                                <div class="col">
+                                    <li><a class="dropdown-item" href="Jharkhand.html">Jharkhand</a></li>
+                                    <li><a class="dropdown-item" href="Karnataka.html">Karnataka</a></li>
+                                    <li><a class="dropdown-item" href="Kerala.html">Kerala</a></li>
+                                    <li><a class="dropdown-item" href="Madhya Pradesh.html">Madhya Pradesh</a></li>
+                                    <li><a class="dropdown-item" href="Maharashtra.Html">Maharashtra</a></li>
+                                    <li><a class="dropdown-item" href="Manipur.html">Manipur</a></li>
+                                    <li><a class="dropdown-item" href="Meghalaya.html">Meghalaya</a></li>
+                                    <li><a class="dropdown-item" href="Mizoram.html">Mizoram</a></li>
+                                    <li><a class="dropdown-item" href="Nagaland.html">Nagaland</a></li>
+                                </div>
+                                <div class="col">
+                                    <li><a class="dropdown-item" href="Orissa.html">Odisha</a></li>
+                                    <li><a class="dropdown-item" href="Punjab.html">Punjab</a></li>
+                                    <li><a class="dropdown-item" href="Rajasthan.html">Rajasthan</a></li>
+                                    <li><a class="dropdown-item" href="Sikkim.html">Sikkim</a></li>
+                                    <li><a class="dropdown-item" href="Tamil Nadu.html">Tamil Nadu</a></li>
+                                    <li><a class="dropdown-item" href="Telangana.html">Telangana</a></li>
+                                    <li><a class="dropdown-item" href="Tripura.html">Tripura</a></li>
+                                    <li><a class="dropdown-item" href="Uttar Pradesh.html">Uttar Pradesh</a></li>
+                                    <li><a class="dropdown-item" href="Uttarakhand.html">Uttarakhand</a></li>
+                                </div>
+                                <div class="col">
+                                    <li><a class="dropdown-item" href="West Bengal.html">West Bengal</a></li>
+                                    <li><a class="dropdown-item" href="">Andaman and Nicobar Islands</a></li>
+                                    <li><a class="dropdown-item" href="Chandigrah.html">Chandigarh</a></li>
+                                    <li><a class="dropdown-item" href="">Dadra and Nagar Haveli and Daman and Diu</a></li>
+                                    <li><a class="dropdown-item" href="Delhi.html">Delhi</a></li>
+                                    <li><a class="dropdown-item" href="Jammu and Kashmir.html">Jammu & Kashmir</a></li>
+                                    <li><a class="dropdown-item" href="Ladakh.html">Ladakh</a></li>
+                                    <li><a class="dropdown-item" href="Lakshadweep.html">Lakshadweep</a></li>
+                                    <li><a class="dropdown-item" href="Puducherry.html">Puducherry</a></li>
+                                </div>
+                            </div>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="row title">
+            <h1>Formation of Bihar</h1>
+        </div>
+        <hr>
+        <div class="row custom-row">
+            <div class="col-sm-8 para">
+                <p>
+                    On 22 March 1912, British India created possibly the earliest state of modern India—Bihar and Orissa Province. 22 March is today celebrated as ‘Bihar Diwas’ (Bihar Day). Orissa was later separated into its own province on 1 April 1936, which it celebrates as ‘Odisha Day’.
+                    <br>
+                    Bihar conducted elections in 1937 and 1946 as per the Government of India Act 1935, resulting in the Indian National Congress (INC) taking office and forming the government and legislative assembly.After India’s Independence on 15 August 1947 and its creation as a Republic on 26 January 1950, Bihar Province became Bihar State and continued with the same boundaries as before. A few minor princely states that fell within its boundaries merged into Bihar.
+                    <br>
+                    In 1953, when the States Reorganisation Commission (SRC) was constituted to look into the matter of redrawing state boundaries, Bihar and its neighbouring states put forth a number of claims regarding border adjustments, mostly on the east and south. These included the long-standing demand for the separation of the southern districts as the state of Jharkhand,
+                     
+                    and a number of claims and counterclaims with West Bengal on border districts.
+                    <br>
+                    In its 1955 report, the SRC dismissed all claims but one—the transfer of the Purulia district from Bihar to West Bengal. It did this for linguistic as well as developmental reasons. Purulia had the largest concentration of Bengali-speaking people outside West Bengal. Also, the river Kangsabati (Kasai) in the district was important to the implementation of a flood control and irrigation project in West Bengal.
+                    
+                </p>
+            </div>
+            <div class="ind-1947 col-sm-4">
+                <img src="img/bihar.jpg" alt="" >
+            </div>
+        </div>
+        <hr>
+        <div class="row para">
+             <h3>
+            Bihar and Jharkhand :
+            </h3>
+            <p>
+                The idea of a separate state of Jharkhand as an adivasi state had been floated as early as the 1920s. In the late 1930s, various adivasi organizations came together to form the Adivasi Mahasabha, led by the politician and tribal rights activist Jaipal Singh Munda. After Independence, the Adivasi Mahasabha forwarded the demand for the state of Jharkhand. In November 1948, the constituent assembly suggested ‘urgency of action’ from the state and Union governments on this issue.
+                In the 1951–52 elections, the Adivasi Mahasabha (renamed the Jharkhand Party) won thirty-two seats in the Bihar Assembly, making it the second-largest and main opposition party in the assembly to the INC. This electoral verdict appeared to lend credence to the Jharkhand demand.
+                <br>
+                However, in its 1955 report, the SRC rejected the proposal on multiple grounds. The Jharkhand Party had not won a clear majority in the Chota Nagpur division and the Santhal Parganas in south Bihar. Tribals were not only a minority, making up only one-third of the total population, they were also spread across several language groups. Further, the industrial balance the region provided, due to its wealth of coal, minerals, steel and thermal power, only added to the volume of opposition to division from outside south Bihar. In lieu of statehood, the SRC recommended a special development board.  
+                <br>
+                After the Jharkhand Party merged with the INC, the Jharkhand Mukti Morcha (JMM) led the campaign for statehood through the 1970s and 80s. The JMM also pursued a wider agenda of social and economic activism, such as the ‘dhan katao andolan’ (cut down paddy movement) to reclaim tribal land and the ‘jungle katao andolan’ (cut down the forest movement) to protest against state forestry policies. These activities helped develop the consciousness of a political Jharkhand as a precursor to a territorial Jharkhand.
+                <br> 
+                In 1977, Bihar got a new chief minister, Karpoori Thakur of the Janata Party. Nationally, the Janata Party was vocal about the need to reorganize state boundaries, but in Bihar, the new chief minister was opposed to the idea of Jharkhand. As a result, a rebel faction of politicians in Bihar set up a ‘Sangharsh Samiti’ (Struggle Committee) and passed a resolution in September 1977 calling for the establishment of Jharkhand. 
+                <br>
+                In 1980, the INC returned to power in Bihar and at the Centre. The Congress began to co-opt some of the JMM’s platforms, and even agreed to a seat-sharing arrangement with its founder Shibu Soren, which led to a formal split in the JMM by the end of 1984. Rajiv Gandhi of the INC became India’s new prime minister. Congress politicians from the Jharkhand region demanded union territory status as a first step towards eventual statehood. 
+                <br>
+                In June 1986, a more radical student wing of the JMM was established— the All Jharkhand Students Union (AJSU) led by Surya Singh Besra, a Santal adivasi. The following month, local activists established the Jharkhand Coordination Committee (JCC) to put Jharkhandi identity at the centre of the statehood conversation. A revivalist movement for recognizing Jharkhand as a cultural region emerged. Economics mixed with identity.11
+                By the late 1980s, the Bharatiya Janata Party (BJP) began to support the demand for Jharkhand statehood. However, they proposed the name Vananchal, after the ‘van’ (forests) and their dwellers in the region.12 As a result, non-adivasi sections of society also began to support the demand for statehood.
+                <br>
+                The JCC then revived an older demand of Greater Jharkhand, which included twenty-one districts spread across Bihar, Madhya Pradesh, Orissa and West Bengal. Along with the AJSU, they pushed for statehood more aggressively, utilizing more direct-action methods like mass rallies, economic blockades and general strikes.13 This forced the INC Union government to meet with the leaders of the movement. In August 1989, the Union government agreed to establish the Committee on Jharkhand Matters (COJM) comprising representatives from Jharkhand, Bihar and the Centre. However, this was interrupted by the Lok Sabha elections later that year, which resulted in a new National Front coalition Union government, led by the Janata Dal and supported by the BJP. The eventual COJM report in 1990 recommended an elected Jharkhand General Council rather than a state as a way to achieve regional autonomy. This proposal was rejected by the members of the movement.
+                <br>
+                The National Front coalition soon fell and the INC then formed the government at the Centre. This did not suit the Janata Dal government in Bihar led by Lalu Prasad Yadav. As BJP leaders in Bihar began to demand the creation of Jharkhand more vociferously, the Congress government first demanded the withdrawal of their former ally, the JMM, from the state government. This split the JMM once again. In 1994, the Bihar state government agreed to establish a Jharkhand Autonomous Area Council (JAAC). 
+                <br>
+                In 1997, Lalu Prasad Yadav created a new political party called the Rashtriya Janata Dal (RJD) and his wife Rabri Devi took over as chief minister of Bihar. As a short-term tactical move to garner support from MLAs from the region, the RJD introduced a resolution supporting the creation of Jharkhand. 
+                <br>
+                In 1998, the BJP, led by Atal Bihari Vajpayee, headed a National Democratic Alliance (NDA) coalition government at the Centre. During its election campaign, the NDA had pledged the creation of Jharkhand as well as the imposition of President’s rule in Bihar. In September 1998, claiming a conspiracy to divide Bihar, the RJD withdrew its previous year’s resolution to create Jharkhand and rejected the Bihar Reorganisation Bill. 
+                <br>
+                The BJP’s influence grew significantly, and BJP politicians in north Bihar now began to actively support separation, arguing that the creation of Jharkhand would benefit industrial and agricultural development in north Bihar. In December 1998, a bill to create Jharkhand was tabled in the Lok Sabha. Despite a sudden general election in 1999, the BJP returned to form a more secure coalition government at the Centre. In the Bihar assembly elections in February 2000, the RJD was re-elected with the support of the INC, who were also allied with the JMM in the Jharkhand region. This ensured that progress would be made towards the creation of the state of Jharkhand. In April 2000, the Bihar Reorganisation Bill was formally signed in the Bihar Legislative Assembly. The bill contained an amendment that would name the new state ‘Jharkhand’ and not ‘Vananchal’.
+                <br>
+                In August 2000, the Bihar Reorganisation Act was passed by both the Lok Sabha and Rajya Sabha at the Centre and received Presidential assent. On 15 November 2000, the state of Jharkhand was born. It comprised eighteen districts from the southern region of the erstwhile Bihar State.
+                Based on the results of the February 2000 Bihar elections, the BJP formed the first state government in Jharkhand with Babulal Marandi as the first chief minister.
+
+            </p>
+
+        </div>
+        
+        
+
+    
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

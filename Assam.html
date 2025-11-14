@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Protest+Strike&display=swap" rel="stylesheet">
+    <style>
+        .custom-dropdown-menu {
+            width: 1000px; 
+            max-height: 310px;
+            overflow-y: auto; 
+        }
+        .navbar-nav .nav-link {
+            font-size: 20px;
+        }
+        .navbar-nav .nav-item {
+            margin-right: 30px;
+        }
+        .ind-1947{
+            height: 450px;
+        }
+        .image img{
+            padding-top:100px;
+            height: 100%;
+            width : 100%;
+        }
+        .title h1{
+            padding-top:30px;
+            padding-bottom: 30px;
+            font-family: 'Protest Strike', sans-serif;
+            font-size: 60px;
+        }
+        .para h3{
+            font-family: 'Protest Strike', sans-serif;
+            padding-bottom: 10px;
+        }
+        .para p{
+            text-align: justify;
+            font-size: large;         
+        }
+        .custom-row{
+            align-items: start;
+        }
+    </style>
+    <title></title>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="img/Logo.png" alt="Logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="introduction.html">Intro</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link active dropdown-toggle"  id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            States
+                        </a>
+                        <ul class="dropdown-menu custom-dropdown-menu" aria-labelledby="navbarDropdown">
+                            <div class="row">
+                                <div class="col">
+                                    <li><a class="dropdown-item" href="Andhra Pradesh.html">Andhra Pradesh</a></li>
+                                    <li><a class="dropdown-item" href="Arunachal Pradesh.html">Arunachal Pradesh</a></li>
+                                    <li><a class="dropdown-item" href="Assam.html">Assam</a></li>
+                                    <li><a class="dropdown-item" href="Bihar.html">Bihar</a></li>
+                                    <li><a class="dropdown-item" href="Chhattisgrah.html">Chhattisgarh</a></li>
+                                    <li><a class="dropdown-item" href="Goa.html">Goa</a></li>
+                                    <li><a class="dropdown-item" href="Gujarat.html">Gujarat</a></li>
+                                    <li><a class="dropdown-item" href="Haryana.html">Haryana</a></li>
+                                    <li><a class="dropdown-item" href="Himachal Pradesh.html">Himachal Pradesh</a></li>
+                                </div>
+                                <div class="col">
+                                    <li><a class="dropdown-item" href="Jharkhand.html">Jharkhand</a></li>
+                                    <li><a class="dropdown-item" href="Karnataka.html">Karnataka</a></li>
+                                    <li><a class="dropdown-item" href="Kerala.html">Kerala</a></li>
+                                    <li><a class="dropdown-item" href="Madhya Pradesh.html">Madhya Pradesh</a></li>
+                                    <li><a class="dropdown-item" href="Maharashtra.Html">Maharashtra</a></li>
+                                    <li><a class="dropdown-item" href="Manipur.html">Manipur</a></li>
+                                    <li><a class="dropdown-item" href="Meghalaya.html">Meghalaya</a></li>
+                                    <li><a class="dropdown-item" href="Mizoram.html">Mizoram</a></li>
+                                    <li><a class="dropdown-item" href="Nagaland.html">Nagaland</a></li>
+                                </div>
+                                <div class="col">
+                                    <li><a class="dropdown-item" href="Orissa.html">Odisha</a></li>
+                                    <li><a class="dropdown-item" href="Punjab.html">Punjab</a></li>
+                                    <li><a class="dropdown-item" href="Rajasthan.html">Rajasthan</a></li>
+                                    <li><a class="dropdown-item" href="Sikkim.html">Sikkim</a></li>
+                                    <li><a class="dropdown-item" href="Tamil Nadu.html">Tamil Nadu</a></li>
+                                    <li><a class="dropdown-item" href="Telangana.html">Telangana</a></li>
+                                    <li><a class="dropdown-item" href="Tripura.html">Tripura</a></li>
+                                    <li><a class="dropdown-item" href="Uttar Pradesh.html">Uttar Pradesh</a></li>
+                                    <li><a class="dropdown-item" href="Uttarakhand.html">Uttarakhand</a></li>
+                                </div>
+                                <div class="col">
+                                    <li><a class="dropdown-item" href="West Bengal.html">West Bengal</a></li>
+                                    <li><a class="dropdown-item" href="">Andaman and Nicobar Islands</a></li>
+                                    <li><a class="dropdown-item" href="Chandigrah.html">Chandigarh</a></li>
+                                    <li><a class="dropdown-item" href="">Dadra and Nagar Haveli and Daman and Diu</a></li>
+                                    <li><a class="dropdown-item" href="Delhi.html">Delhi</a></li>
+                                    <li><a class="dropdown-item" href="Jammu and Kashmir.html">Jammu & Kashmir</a></li>
+                                    <li><a class="dropdown-item" href="Ladakh.html">Ladakh</a></li>
+                                    <li><a class="dropdown-item" href="Lakshadweep.html">Lakshadweep</a></li>
+                                    <li><a class="dropdown-item" href="Puducherry.html">Puducherry</a></li>
+                                </div>
+                            </div>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="row title">
+            <h1>Formation of Assam</h1>
+        </div>
+        <div class="row custom-row">
+            <div class="col-sm-9 para">
+                <h3> Autonomous Districts within Assam</h3>
+                    <p>
+                        A large part of the outer hilly reaches of Assam had been demarcated as ‘excluded and partially excluded areas’ by the British, removing them from direct purview. In addition, they had isolated the inhabitants of these areas through the Inner Line Regulation, which required outsiders to acquire permits to enter. As India approached Independence, the constituent assembly set up a subcommittee to report and recommend on these areas.
+                        The Committee—headed by Gopinath Bordoloi, the Premier of Assam, and hence referred to as the Bordoloi Committee—submitted its report in July
+                         
+                        1947 after touring all the hill districts of Assam. Its suggestions included a federation to bridge the gap between the states—which enjoyed certain rights—and the British portions, where there was no statutory local body for local self-government.
+                        <br> 
+                        The Bordoloi Committee report led to the inclusion of the Sixth Schedule in the Indian Constitution in 1949, which created autonomous districts around Assam, each with its own district council that would have the power to legislate on the usage of land, management of forests, establishment of town councils and inheritance of property, among others. Importantly, without the assent of the district councils, no act of the state legislature could apply to the autonomous districts. In Assam’s south-eastern border region, two autonomous districts were created—Garo Hills District and United Khasi–Jaintia Hills District. In the middle of Assam, two more autonomous districts were created—North Cachar Hills District and Mikir Hills District. In Assam’s deep south, Lushai Hills District (later renamed Mizo District) was created.
+                        <br>
+                        The north-eastern extremities of Assam that bordered Bhutan, Myanmar and Tibet were known as the North East Frontier Tract (NEFT). The region constituted numerous frontier tracts, which were further split into administrative units. The Bordoloi Committee felt that certain areas from the various frontier tracts were more like the plains they abutted and less like the hill areas they belonged to. Hence, in its report, the committee recommended merging certain areas from the various frontier tracts with the plains of Assam, thereby ending the boundaries of the frontier tracts almost at the foot of the hills. When India adopted its Constitution on 26 January 1950, NEFT became ‘a separate politico-administrative entity’3 although it was constitutionally still a part of Assam. Its administration was brought directly under the President of India with the Governor of Assam acting as his agent.
+                        <br>
+                        On Assam’s eastern edge, Naga Hills District was created. However, the Naga National Council (NNC), a local political organization, sought self- determination for the Nagas based on ethnic, social and religious distinctiveness. In 1951, it conducted a plebiscite (a public opinion poll)
+                         
+                        and ‘claimed that 99.9 per cent of Nagas had voted in favour of independence’. When India’s first general elections rolled around in 1952, the Nagas completely boycotted it and began a non-cooperation movement. As a result, the Naga Hills District Council could not be formed and the area had to be administered directly by the Assam government.
+                        <br>
+                        In 1954, NEFT was renamed as North-East Frontier Agency (NEFA) and a full-scale administration was inaugurated with the North-East Frontier Areas (Administration) Regulation. The administrative units were called ‘frontier divisions’. To give impetus to developmental activities, the Indian Frontier Administrative Service (IFAS) was created two years later.
+                        
+                    </p>
+            </div>
+            <div class="col-sm-3">
+                <div class="image">
+                    <img src="img/Assam_in_1950s.png" alt="">
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="row custom-row">
+            <div class="col-sm-8 para">
+                <h3>The SRC Report and the Response</h3>
+                <p>
+                    Responding to multiple calls from across the country to redraw state boundaries, the Union government set up the States Reorganisation Commission (SRC) in December 1953 and invited written memoranda from the public. Delegates from the autonomous districts—Garo Hills, United Khasi–Jaintia Hills, North Cachar Hills, Mikir Hills and Mizo Hills— convened an Assam Hills Tribal Leaders’ Conference at Tura in October 1954. The hill leaders called for a separate state for the autonomous districts of Assam as well as an amendment of the Sixth Schedule as it conferred no real autonomy. The NNC did not join this demand for unification as it continued to seek ‘independence from Assam and India’.
+                    <br> 
+                    In its report released in late 1955, the SRC dismissed the claims both for a separate hill state and a separate Nagaland. It viewed the demand of a hill state as ‘partly a hang-over’ from the British isolationist policy of Inner Line Regulation and that continuing such a complete segregation would further accentuate these distinctions and hamper their development. As a result of the internal differences among the hill leaders, the SRC found the demand for a hill state to be confined virtually to the Garo and Khasi and Jaintia Hills and too expensive to create and maintain.9 For the Naga Hills, it cited the past violence as well as the recent relative peace and
+                     
+                    recommended no change to the area’s status. Finally, it refused to entertain any amendment to the Sixth Schedule and instead proposed constituting a separate body to study its working.
+                    <br> 
+                    The hill leaders responded by creating the Eastern India Tribal Union (EITU). However, some leaders refused to merge their parties with the EITU as it was heavily backed by the siems (Khasi chiefs), thereby confining it to the Khasi–Jaintia Hills.
+                    Meanwhile, violence escalated in the Naga Hills District. After failing to quell it, the government eventually passed the Assam Disturbed Areas Act. The NNC split into two ‘irreconcilable’ camps—the extremists led by Zapu Phizo pursuing Naga independence, and the moderates led by T. Sakhrie trying to find a Naga future within the Indian Constitution. In January 1956, Sakhrie was killed, allegedly by Phizo’s extremist faction, to try and disrupt peaceful negotiations. 
+                    <br>
+                    In March 1956, Phizo founded the Federal Government of Nagaland with a national flag and a constitution that declared Nagaland as ‘a people’s sovereign republic’. The Union government finally called in the army which resorted to the tactic of ‘grouping villages’ to break connections between the locals and the rebels fighting from the dense forests. Phizo soon escaped to London via East Pakistan on a fake passport. This allowed the moderates (now led by Dr Imkongliba Ao) to take control of the NNC. They formed a reforming committee in February 1957 which was opposed to the method of violence and would seek a separate administrative unit in keeping with the Naga tradition within the framework of the Indian Union. 
+                    <br>
+                    In the 1957 general elections, three NNC members were elected to the Assam Assembly. However, many alliances broke and parties like the Mizo Union (MU) split. The Indian National Congress (INC) fared poorly across the autonomous districts. As a result, the chief minister of Assam, Bimala Prasad Chaliha of the INC, formed an alliance with the EITU by inviting its vice-president Captain Sangma to join his cabinet. This upset the MU—the leading political party in the Mizo Hills District—who felt that their consistent support to the Congress had received an ‘inadequate reward’.
+                    
+                </p>
+            </div>
+            <div class="image col-sm-4">
+                <img src="img/Assam_1950.png" alt="" >
+            </div>
+        </div>
+        <hr>
+        <div class="row para">
+                <h3>
+                    Becoming Nagaland
+                </h3>
+                <p>
+                    In August 1957, Dr Ao of the NNC chaired a Naga People’s Convention at Kohima, where he advocated negotiation over violence. In lieu of Naga independence, he instead asked for ‘a single administrative unit comprising of Naga Hills district of Assam and Tuensang Frontier Division of NEFA’. Tuensang had earlier been known as Naga Tribal Area. Prime Minister Jawaharlal Nehru accepted this demand when it was presented to him.
+                    <br>
+                    On 1 December 1957, the Naga Hills–Tuensang Area came into being as a new administrative unit in the state of Assam but under the direct control of the ministry of external affairs. The unit was also simultaneously separate from Assam as it was governed by the Governor of Assam acting on behalf of the President of India. 
+                    <br>
+                    A second Naga People’s Convention in May 1958 set up a draft committee that formulated a sixteen-point proposal to enable the establishment of Nagaland State within the Indian Union. The third Naga People’s Convention in October 1959 adopted the proposal. Prime Minister Jawaharlal Nehru later accepted this proposal with slight modifications. The state of Nagaland would become a reality following a three-year transitional period. An interim body was created consisting of forty-two members elected from Naga tribes, with Dr Imkongliba Ao as the chairman.
+
+                </p>        
+                
+        </div>
+        <hr>
+        <div class="row custom-row">
+            <div class="col-sm-9 para">
+                <h3>
+                    A Famine and the Imposition of Assamese
+                </h3>
+                <p>
+                    In the Mizo Hills, the periodic and deadly mautam famine—caused by a rat infestation corresponding to the flowering of bamboo trees—spread in 1959. As arguments over the distribution of the famine relief work escalated between Chief Minister Chaliha and the MU, Laldenga—a clerk in the district council—formed a Mizo National Famine Front in 1960 to coordinate famine relief efforts. 
+
+                    <br>
+                    In April 1960, the Assam Pradesh Congress Committee (APCC) demanded the immediate introduction of Assamese as the official state language, despite it being spoken by only 57 per cent of the population who lived nearly entirely in the plains. Less than 1 per cent of the people in the hills spoke Assamese. This demand revitalized the faltering hill state movement.
+                    <br>
+                    The EITU had split into two opposing factions, but they both opposed the imposition of Assamese. Captain Sangma called two All-Party Hill Leaders’ Conferences (APHLC)—attended by parties across the spectrum, including even the District Congress Committees—where they issued an ultimatum to Chief Minister Chaliha to drop the language bill and to continue with English as the official language. Captain Sangma even resigned from his cabinet post in the Assam government. However, in a special sitting on 24 October 1960, the Assam Assembly passed the language bill. The APHLC demanded the immediate creation of a separate hill state as ‘the only solution’.
+                    <br>
+                    In November 1960, Prime Minister Jawaharlal Nehru offered to increase the powers of the autonomous districts to include, among others, a separate budget, a separate cabinet minister and deputy ministers in the Assam government. Since it was modelled on the Committee for Scotland in the British House of Commons, this offer was known as the Scottish Plan.
+                    However, the APHLC rejected this plan in April 1961 and called for a boycott of the 1962 general elections. The District Congress Committees did not agree. Instead, they held their own Assam Hills Peoples’ Conference (AHPC) in July 1961 where they agreed to both accept Nehru’s offer and contest the 1962 elections. This not only split the hill state movement again; it also forced the APHLC to contest the elections. At the same time, Laldenga converted the Mizo National Famine Front into a political party called the Mizo National Front (MNF).
+                    <br>
+                    The 1962 election results could be mapped geographically. The Congress won in Mikir and North Cachar Hills, and the APHLC triumphed in Garo, United Khasi–Jaintia, and Mizo districts. The APHLC believed it could use this electoral victory to reiterate its old demand of a separate hill state.
+                    When that was rejected again, they decided to withdraw from the Assembly. However, nearly half its elected members refused to resign, thereby damaging its reputation. In September 1962, the Union government passed the State of Nagaland Act. The state of Nagaland officially came into being on 1 December 1963 and comprised the entire territory of the Naga Hills–Tuensang Area.
+                    
+                </p>
+            </div>
+            <div class="col-sm-3 image">
+                <img src="img/Assam_1960..png" alt="">
+            </div>
+            
+        </div>
+        <hr>
+        <div class="row para">
+                <h3>
+                    Towards Greater Autonomy amidst Violence and Committees
+                </h3>
+                <p>
+                    The Chinese aggression in the region in October and November 1962 changed the flow of events. The hill state demand dissipated and parties split and realigned themselves. The expanded powers initially offered to the districts were increasingly pulled back in what was referred to as the Nehru Plan. Autonomy itself was now ‘subject to a Commission being appointed to consider the whole thing’ .
+                    <br>
+                    In May 1964, the Governor of Assam, Vishnu Sahay, constituted a committee led by Daying Ering, a member of Parliament (MP) nominated from NEFA to explore the feasibility of democratic decentralization in NEFA. The committee submitted its report containing certain landmark recommendations in January 1965, including the establishment of four organically-linked tiers of representative bodies in NEFA. Modelled along the lines of panchayati raj, these four tiers were Village (Gram Panchayats), Circle (Aanchal Samiti), District (Zilla Parishad), and Territory (Agency Council). 
+                    Parliament passed the North-East Frontier Agency Panchayati Raj Regulation two years later, which incorporated most of the Ering Committee recommendations. This helped integrate the isolated NEFA better with the rest of the country by moving it under the care of the ministry of home affairs and introducing an integrated political system. It also gave NEFA a territorial identity and a people’s forum28 —‘the nucleus of a separate state’ .
+                     
+                    <br>
+                    In March 1965, the Pataskar Commission was appointed to study the administrative set-up of the hill districts of Assam, with the objective of ‘conferring full measure of autonomy’ while still preserving the unity of Assam. In its report, the Pataskar Commission refrained from commenting on the matter of conferring union territory or state status to any of the hill districts or of redrawing its boundaries. It did, however, recommend ‘no basic change’ to the Sixth Schedule. The APHLC rejected the report and again demanded a separate hill state as well as a boycott of the 1967 general elections.
+                    <br>
+                    On the night of 28 February 1966, the MNF and its associated Mizo National Army (MNA) launched Operation Jericho. They attacked army posts and government buildings, took over communications and control of the district and declared Mizoram independent. On 2 March, the Union government declared the district a disturbed area under the Armed Forces Special Powers Act (AFSPA) 1958 and sent in the army and the air force. Laldenga fled. In 1967, the Union government launched Operation Security, also known by the army as Operation Accomplishment, which involved forcibly grouping villages into smaller concentrations. 
+                    
+                </p>         
+                
+        </div>
+        <hr>
+        <div class="row para">
+           
+                <h3>
+                    Breaking an Impossible Deadlock
+                </h3>
+                <p>
+                    Prime Minister Indira Gandhi could not afford a boycott of the elections in a sensitive area of India. In January 1967, she met with Assam Chief Minister Chaliha and APHLC leaders and promised to reorganize Assam as a federated state ‘comprising units of equal status not subordinate to one another’ . While the overjoyed APHLC representatives accepted the proposal, the Assam Congress led by Chief Minister Chaliha rejected it, influenced by opposition dissent and public criticism.
+                    <br>
+                    In the 1967 elections, the APHLC won all the assembly seats in the Garo and United Khasi–Jaintia Hills, establishing their leadership in the region. However, the Assam Congress continued to reject the federated state idea.35 Similar demands began to appear in other parts of Assam too. The Home Minister, Yashwantrao Balwantrao Chavan, put together a subcommittee headed by Asoka Mehta, the Union Minister for Planning, but the APHLC leaders boycotted it. In May 1968, all the elected APHLC members resigned their assembly seats. In September 1968, they started a non-violent satyagraha.Finally, faced with an impossible deadlock, all sides agreed to reach a common middle ground. The compromise was worked around the subject of law and order—it would not be transferred to the new autonomous state within the state of Assam.
+                    <br>
+                    On 29 December 1969, Parliament passed the Assam Reorganisation (Meghalaya) Act. The autonomous state of Meghalaya would exist within Assam and comprise the districts of Garo Hills and United Khasi–Jaintia Hills. The districts of Mikir Hills and North Cachar Hills were given the option to join the new state, but they voted overwhelmingly to stay in Assam. Meghalaya came into existence on 2 April 1970.36 Shillong became the capital of both Assam and Meghalaya.
+
+                </p>
+                
+        </div>
+        <hr>
+        <div class="row custom-row">
+            <div class="col-sm-9 para">
+                <h3>
+                    Completing the Reorganization of Assam
+                </h3>
+                <p>
+                    In Mizo Hills District, a coalition executive council led by the MU came to power in the district council in 1971 and passed a resolution demanding a separate state of Mizoram within India as well as the unification of all Mizo-inhabited areas. The Government of India offered to make Mizo Hills District a union territory, putting it under direct central authority. The district council welcomed it, but the Assam Congress refused to accept it ‘even as a stepping stone’37 and requested Prime Minister Indira Gandhi to continue the status quo. She refused.
+                    <br>
+                    The Union government reorganized Assam immediately after the 1971 Indo–Pakistan war that created Bangladesh. On 30 December 1971, Parliament passed the North-Eastern Areas (Reorganisation) Act, which came into effect on 21 January 1972. Meghalaya became a full-fledged state and Shillong became its capital the following year when Assam made
+                    Dispur its capital. Mizo Hills District became a centrally administered union territory called Mizoram, with C. Chhunga of the MU as its first chief minister. NEFA became a union territory called Arunachal Pradesh.
+                    The reorganization of Assam was complete.
+                    
+                </p>
+            </div>
+            <div class="col-sm-3 image">
+                <img src="img/assam.jpg" alt="">
+            </div>
+                
+        </div>
+    
+
+        
+
+    
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
